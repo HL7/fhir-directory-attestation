@@ -1,0 +1,24 @@
+{
+  "package-id": "hl7.fhir.us.fhir-directory-attestation",
+  "title": "ONC FAST National Healthcare Directory",
+  "canonical": "http://hl7.org/fhir/us/fhir-directory-attestation",
+  "list": [
+    {
+      "version": "current",
+      "desc": "Continuous Integration Build (latest in version control)",
+      "path": "http://build.fhir.org/ig/HL7/fhir-directory-attestation/",
+      "status": "ci-build",
+      "current": true
+    },
+    {
+      "version": "0.1.0",     
+      "date": "2021-10-13",
+      "desc": "National Directory",
+      "path": "http://hl7.org/fhir/fhir-directory-attestation",
+      "status": "Draft",
+      "sequence": "STU 1",
+      "fhirversion": "4.0.0"
+    }
+  ],
+  "category": "Administration"
+}

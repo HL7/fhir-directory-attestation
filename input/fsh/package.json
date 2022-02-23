@@ -1,0 +1,29 @@
+{
+ "name": "hl7.fhir.us.hl7-national-directory-attestation",
+ "version" : "0.1.0",  
+ "canonical" : "http://hl7.org/fhir/us/hl7-NatlDirValidate",
+ "url" : "http://hl7.org/fhir/us/hl7-NatlDirValidate",
+ "title" : "DaVinci PDEX Plan Net",
+ "description": "Davinci PDEX Plan Net -- FSH version",
+ "releaselabel": "CI build",
+ "dependencies": {
+    "hl7.fhir.r4.core": "4.0.1",
+    "hl7.fhir.us.core": "3.1.0"
+ },
+ "keywords": [
+   "National Directory",
+   "Attestation", 
+   "Validatation",
+   "hl7"
+ ],
+ "language": "en",
+ "author": "HL7 Patient Administration Working Group",
+ "maintainers": [
+   {
+     "name": "HL7 Patient Administration Working Group",
+     "url": "http://www.hl7.org/Special/committees/pa/index.cfm",
+     "email": "pa@lists.HL7.org"
+   }
+ ],
+ "license": "CC0-1.0"
+}
