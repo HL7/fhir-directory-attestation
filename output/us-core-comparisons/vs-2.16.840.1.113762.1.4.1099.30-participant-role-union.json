@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "013f42ac-3425-42da-9119-5dcca96ced0d-5",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/013f42ac-3425-42da-9119-5dcca96ced0d-5",
+  "name" : "UnionCare Team Member FunctionAndParticipantRoles",
+  "title" : "Union of null And Participant Roles",
+  "status" : "active",
+  "date" : "2022-02-14T12:56:37-05:00",
+  "compose" : {
+    "include" : [{
+      "valueSet" : ["http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.10267"]
+    },
+    {
+      "valueSet" : ["http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1099.27"]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "125676002"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "223366009"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "394730007"
+      }]
+    }]
+  }
+}
