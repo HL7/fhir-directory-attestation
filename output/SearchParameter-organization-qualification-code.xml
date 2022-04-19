@@ -32,7 +32,7 @@
   <code value="qualification-code"/>
   <base value="Organization"/>
   <type value="token"/>
-  <expression value="Organization.extension(&#39;http://hl7.org/fhir/uv/vhdir/StructureDefinition/qualification&#39;).extension(&#39;code&#39;)"/>
+  <expression value="Organization.extension('http://hl7.org/fhir/uv/vhdir/StructureDefinition/qualification').extension('code')"/>
   <multipleOr value="true"/>
   <multipleAnd value="true"/>
   <modifier value="text"/>

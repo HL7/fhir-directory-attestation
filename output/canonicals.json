@@ -487,21 +487,21 @@
     "type": "ImplementationGuide",
     "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation",
     "version": "0.0.1",
-    "name": "ONCFASTNationalDirectory"
+    "name": "ONCFASTNationalDirectoryAttestationandValidation"
   },
   {
     "id": "NatlDir-Restriction",
     "type": "StructureDefinition",
     "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDir-Restriction",
     "version": "0.0.1",
-    "name": "NatlDirRestriction"
+    "name": "NatlDirAttestRestriction"
   },
   {
     "id": "NatlDir-Validation",
     "type": "StructureDefinition",
     "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDir-Validation",
     "version": "0.0.1",
-    "name": "NatlDirValidation"
+    "name": "NatlDirAttestValidation"
   },
   {
     "id": "NatlDirAttest-CareTeam",
@@ -574,32 +574,11 @@
     "name": "NatlDirAttestPractitionerRole"
   },
   {
-    "id": "NatlDirAttest-verifyRequest",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-verifyRequest",
-    "version": "0.0.1",
-    "name": "VerificationRequest"
-  },
-  {
     "id": "NatlDirEx-restriction",
     "type": "StructureDefinition",
     "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirEx-restriction",
     "version": "0.0.1",
-    "name": "NatlDirExRestriction"
-  },
-  {
-    "id": "natlDirAtt-usage-restriction",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/natlDirAtt-usage-restriction",
-    "version": "0.0.1",
-    "name": "NatlDirAttUsageRestriction"
-  },
-  {
-    "id": "usage-restriction",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/usage-restriction",
-    "version": "0.0.1",
-    "name": "UsageRestriction"
+    "name": "NatlDirAttestUsageRestriction"
   },
   {
     "id": "ConsentVS",

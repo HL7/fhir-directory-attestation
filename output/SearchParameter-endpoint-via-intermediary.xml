@@ -32,7 +32,7 @@
   <code value="via-intermediary"/>
   <base value="Endpoint"/>
   <type value="reference"/>
-  <expression value="Endpoint.contact.extension(&#39;http://hl7.org/fhir/uv/vhdir/StructureDefinition/contactpoint-viaintermediary&#39;)"/>
+  <expression value="Endpoint.contact.extension('http://hl7.org/fhir/uv/vhdir/StructureDefinition/contactpoint-viaintermediary')"/>
   <target value="PractitionerRole"/>
   <target value="Organization"/>
   <target value="OrganizationAffiliation"/>

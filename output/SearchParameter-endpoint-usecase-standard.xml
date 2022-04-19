@@ -32,7 +32,7 @@
   <code value="usecase-standard"/>
   <base value="Endpoint"/>
   <type value="uri"/>
-  <expression value="Endpoint.extension(&#39;http://hl7.org/fhir/uv/vhdir/StructureDefinition/endpoint-usecase&#39;).extension(&#39;standard&#39;)"/>
+  <expression value="Endpoint.extension('http://hl7.org/fhir/uv/vhdir/StructureDefinition/endpoint-usecase').extension('standard')"/>
   <multipleOr value="true"/>
   <multipleAnd value="true"/>
   <modifier value="below"/>

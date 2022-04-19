@@ -32,7 +32,7 @@
   <code value="accessibility"/>
   <base value="Location"/>
   <type value="token"/>
-  <expression value="Location.extension(&#39;http://hl7.org/fhir/uv/vhdir/StructureDefinition/accessibility&#39;)"/>
+  <expression value="Location.extension('http://hl7.org/fhir/uv/vhdir/StructureDefinition/accessibility')"/>
   <multipleOr value="true"/>
   <multipleAnd value="true"/>
   <modifier value="text"/>

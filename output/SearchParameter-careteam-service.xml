@@ -32,7 +32,7 @@
   <code value="service"/>
   <base value="CareTeam"/>
   <type value="reference"/>
-  <expression value="CareTeam.extension(&#39;http://hl7.org/fhir/uv/vhdir/StructureDefinition/healthcareservice-reference&#39;)"/>
+  <expression value="CareTeam.extension('http://hl7.org/fhir/uv/vhdir/StructureDefinition/healthcareservice-reference')"/>
   <target value="HealthcareService"/>
   <multipleOr value="true"/>
   <multipleAnd value="true"/>

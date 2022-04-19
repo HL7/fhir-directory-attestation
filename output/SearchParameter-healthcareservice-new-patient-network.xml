@@ -32,7 +32,7 @@
   <code value="new-patient-network"/>
   <base value="HealthcareService"/>
   <type value="reference"/>
-  <expression value="HealthcareService.extension(&#39;http://hl7.org/fhir/uv/vhdir/StructureDefinition/newpatients&#39;).extension(&#39;network&#39;)"/>
+  <expression value="HealthcareService.extension('http://hl7.org/fhir/uv/vhdir/StructureDefinition/newpatients').extension('network')"/>
   <target value="Organization"/>
   <multipleOr value="true"/>
   <multipleAnd value="true"/>

@@ -3,14 +3,14 @@
   "id": "hl7.fhir.us.fhir-directory-attestation",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ONCFASTNationalDirectory</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation</pre><div><p>National Directory</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ONCFASTNationalDirectoryAttestationandValidation</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation</pre><div><p>National Directory - Attestation and Validation</p>\n</div></div>"
   },
   "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation",
   "version": "0.0.1",
-  "name": "ONCFASTNationalDirectory",
-  "title": "National Directory",
+  "name": "ONCFASTNationalDirectoryAttestationandValidation",
+  "title": "National Directory - Attestation and Validation",
   "status": "active",
-  "date": "2022-02-14T12:56:11-05:00",
+  "date": "2022-04-19T13:14:50-04:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -27,7 +27,7 @@
       ]
     }
   ],
-  "description": "National Directory",
+  "description": "National Directory - Attestation and Validation",
   "jurisdiction": [
     {
       "coding": [
@@ -51,8 +51,8 @@
       "version": "4.0.0"
     },
     {
-      "id": "nationalDirectoryExchange",
-      "uri": "http://hl7.org/fhir/us/fhir-directory-exchange",
+      "id": "nationalDirectoryAttestation",
+      "uri": "http://hl7.org/fhir/us/fhir-directory-attestation",
       "packageId": "hl7.fhir.us.fhir-directory-exchange",
       "version": "current"
     }
@@ -318,6 +318,45 @@
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "fmm-definition"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "propagate-status"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "excludelogbinaryformat"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
       }
     ],
     "resource": [
@@ -469,9 +508,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/NatlDirEx-restriction"
+          "reference": "StructureDefinition/NatlDir-Restriction"
         },
-        "name": " NatlDirEx Restriction",
+        "name": "NatlDir Restriction",
         "description": "Restriction on use/release of exchanged information",
         "exampleBoolean": false
       },
@@ -483,9 +522,9 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/NatlDir-Restriction"
+          "reference": "StructureDefinition/NatlDirEx-restriction"
         },
-        "name": "NatlDir Restriction",
+        "name": " NatlDirEx Restriction",
         "description": "Restriction on use/release of exchanged information",
         "exampleBoolean": false
       },
@@ -501,48 +540,6 @@
         },
         "name": "NatlDir Validation",
         "description": "Describes validation requirements, source(s), status and dates for one or more elements",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/NatlDirAttest-verifyRequest"
-        },
-        "name": "National Directory Attestation and Validation -Verification Request",
-        "description": "Defines the basic constraints and extensions on the VerificationRequest resource for use in a National Healthcare Directory",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/natlDirAtt-usage-restriction"
-        },
-        "name": "NatlDirExr Usage Restriction",
-        "description": "The FHIR specification contains a security meta tag which can be used to inform systems of the sensitivity of resources, as well as by access control mechanisms to ensure content isn't exposed that shouldn't be.\nThis mechanism only goes to the resource level, this reference to a usage-restriction (consent) extends this further into the resource, and can be applied to any element, and may apply to all properties beneath the element (e.g. If applied to an identifier on a practitioner, then all the properties of the identifier should not be exposed unless it is understood)\nThis will be expected to be used as a modifier extension.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/usage-restriction"
-        },
-        "name": "NatlDirExr Usage Restriction",
-        "description": "The FHIR specification contains a security meta tag which can be used to inform systems of the sensitivity of resources, as well as by access control mechanisms to ensure content isn't exposed that shouldn't be.\nThis mechanism only goes to the resource level, this reference to a usage-restriction (consent) extends this further into the resource, and can be applied to any element, and may apply to all properties beneath the element (e.g. If applied to an identifier on a practitioner, then all the properties of the identifier should not be exposed unless it is understood)\nThis will be expected to be used as a modifier extension.",
         "exampleBoolean": false
       },
       {

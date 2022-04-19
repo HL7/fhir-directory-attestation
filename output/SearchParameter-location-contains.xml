@@ -32,7 +32,7 @@
   <code value="contains"/>
   <base value="Location"/>
   <type value="special"/>
-  <expression value="Location.extension(&#39;http://hl7.org/fhir/StructureDefinition/location-boundary-geojson&#39;)"/>
+  <expression value="Location.extension('http://hl7.org/fhir/StructureDefinition/location-boundary-geojson')"/>
   <multipleOr value="true"/>
   <multipleAnd value="true"/>
 </SearchParameter>

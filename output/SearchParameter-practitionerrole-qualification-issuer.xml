@@ -32,7 +32,7 @@
   <code value="qualification-issuer"/>
   <base value="PractitionerRole"/>
   <type value="reference"/>
-  <expression value="PractitionerRole.extension(&#39;http://hl7.org/fhir/uv/vhdir/StructureDefinition/qualification&#39;).extension(&#39;issuer&#39;)"/>
+  <expression value="PractitionerRole.extension('http://hl7.org/fhir/uv/vhdir/StructureDefinition/qualification').extension('issuer')"/>
   <target value="Organization"/>
   <multipleOr value="true"/>
   <multipleAnd value="true"/>

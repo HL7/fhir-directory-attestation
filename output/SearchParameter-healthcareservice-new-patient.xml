@@ -32,6 +32,6 @@
   <code value="new-patient"/>
   <base value="HealthcareService"/>
   <type value="token"/>
-  <expression value="HealthcareService.extension(&#39;http://hl7.org/fhir/uv/vhdir/StructureDefinition/newpatients&#39;).extension(&#39;acceptingPatients&#39;)"/>
+  <expression value="HealthcareService.extension('http://hl7.org/fhir/uv/vhdir/StructureDefinition/newpatients').extension('acceptingPatients')"/>
   <multipleAnd value="true"/>
 </SearchParameter>

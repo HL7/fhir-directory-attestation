@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "NatlDirAttestPractitioner"];
   fhir:StructureDefinition.title [ fhir:value "National Directory Attestation and Validation Practitioner"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-02-14T12:56:11-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-04-19T13:14:50-04:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Administration Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -732,16 +732,17 @@
        fhir:index 15;
        fhir:Element.id [ fhir:value "Practitioner.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.extension" ];
-       fhir:ElementDefinition.short [ fhir:value "Additional content defined by implementations" ];
-       fhir:ElementDefinition.definition [ fhir:value "May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ];
-       fhir:ElementDefinition.comment [ fhir:value "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ];
-       fhir:ElementDefinition.alias [
-         fhir:value "extensions";
-         fhir:index 0
-       ], [
-         fhir:value "user content";
-         fhir:index 1
+       fhir:ElementDefinition.slicing [
+         fhir:ElementDefinition.slicing.discriminator [
+           fhir:index 0;
+           fhir:ElementDefinition.slicing.discriminator.type [ fhir:value "value" ];
+           fhir:ElementDefinition.slicing.discriminator.path [ fhir:value "url" ]
+         ];
+         fhir:ElementDefinition.slicing.ordered [ fhir:value "false"^^xsd:boolean ];
+         fhir:ElementDefinition.slicing.rules [ fhir:value "open" ]
        ];
+       fhir:ElementDefinition.short [ fhir:value "Extension" ];
+       fhir:ElementDefinition.definition [ fhir:value "An Extension" ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [
@@ -777,14 +778,111 @@
          ]
        ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
-       fhir:ElementDefinition.mapping [
-         fhir:index 0;
-         fhir:ElementDefinition.mapping.identity [ fhir:value "rim" ];
-         fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
-       ]
+       fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 16;
+       fhir:Element.id [ fhir:value "Practitioner.extension:rating" ];
+       fhir:ElementDefinition.path [ fhir:value "Practitioner.extension" ];
+       fhir:ElementDefinition.sliceName [ fhir:value "rating" ];
+       fhir:ElementDefinition.short [ fhir:value "Rating" ];
+       fhir:ElementDefinition.definition [ fhir:value "Rating" ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "*" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "DomainResource.extension" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
+         fhir:ElementDefinition.type.profile [
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/rating";
+           fhir:index 0;
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/rating>
+         ]
+       ];
+       fhir:ElementDefinition.condition [
+         fhir:value "ele-1";
+         fhir:index 0
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 17;
+       fhir:Element.id [ fhir:value "Practitioner.extension:qualification" ];
+       fhir:ElementDefinition.path [ fhir:value "Practitioner.extension" ];
+       fhir:ElementDefinition.sliceName [ fhir:value "qualification" ];
+       fhir:ElementDefinition.short [ fhir:value "Qualification" ];
+       fhir:ElementDefinition.definition [ fhir:value "An extension to add qualifications for an organization (e.g. accreditation) or practitionerRole (e.g. registered to prescribe controlled substances)." ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "*" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "DomainResource.extension" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
+         fhir:ElementDefinition.type.profile [
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification";
+           fhir:index 0;
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification>
+         ]
+       ];
+       fhir:ElementDefinition.condition [
+         fhir:value "ele-1";
+         fhir:index 0
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
        fhir:Element.id [ fhir:value "Practitioner.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored" ];
@@ -841,7 +939,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 17;
+       fhir:index 19;
        fhir:Element.id [ fhir:value "Practitioner.identifier" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.identifier" ];
        fhir:ElementDefinition.slicing [
@@ -900,7 +998,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./Identifiers" ]
        ]
      ], [
-       fhir:index 18;
+       fhir:index 20;
        fhir:Element.id [ fhir:value "Practitioner.identifier.id" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.identifier.id" ];
        fhir:ElementDefinition.representation [
@@ -933,7 +1031,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 19;
+       fhir:index 21;
        fhir:Element.id [ fhir:value "Practitioner.identifier.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.identifier.extension" ];
        fhir:ElementDefinition.slicing [
@@ -997,7 +1095,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 20;
+       fhir:index 22;
        fhir:Element.id [ fhir:value "Practitioner.identifier.use" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.identifier.use" ];
        fhir:ElementDefinition.short [ fhir:value "usual | official | temp | secondary | old (If known)" ];
@@ -1053,7 +1151,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Role.code or implied by context" ]
        ]
      ], [
-       fhir:index 21;
+       fhir:index 23;
        fhir:Element.id [ fhir:value "Practitioner.identifier.type" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.identifier.type" ];
        fhir:ElementDefinition.short [ fhir:value "Description of identifier" ];
@@ -1083,7 +1181,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -1113,7 +1210,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "Role.code or implied by context" ]
        ]
      ], [
-       fhir:index 22;
+       fhir:index 24;
        fhir:Element.id [ fhir:value "Practitioner.identifier.system" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.identifier.system" ];
        fhir:ElementDefinition.short [ fhir:value "The namespace for the identifier value" ];
@@ -1165,7 +1262,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./IdentifierType" ]
        ]
      ], [
-       fhir:index 23;
+       fhir:index 25;
        fhir:Element.id [ fhir:value "Practitioner.identifier.value" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.identifier.value" ];
        fhir:ElementDefinition.short [ fhir:value "The value that is unique" ];
@@ -1216,7 +1313,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./Value" ]
        ]
      ], [
-       fhir:index 24;
+       fhir:index 26;
        fhir:Element.id [ fhir:value "Practitioner.identifier.period" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.identifier.period" ];
        fhir:ElementDefinition.short [ fhir:value "Time period when id is/was valid for use" ];
@@ -1260,7 +1357,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./StartDate and ./EndDate" ]
        ]
      ], [
-       fhir:index 25;
+       fhir:index 27;
        fhir:Element.id [ fhir:value "Practitioner.identifier.assigner" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.identifier.assigner" ];
        fhir:ElementDefinition.short [ fhir:value "Organization that issued id (may be just text)" ];
@@ -1294,6 +1391,7 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
+       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1310,7 +1408,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./IdentifierIssuingAuthority" ]
        ]
      ], [
-       fhir:index 26;
+       fhir:index 28;
        fhir:Element.id [ fhir:value "Practitioner.identifier:NPI" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.identifier" ];
        fhir:ElementDefinition.sliceName [ fhir:value "NPI" ];
@@ -1364,7 +1462,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./Identifiers" ]
        ]
      ], [
-       fhir:index 27;
+       fhir:index 29;
        fhir:Element.id [ fhir:value "Practitioner.active" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.active" ];
        fhir:ElementDefinition.short [ fhir:value "Whether this practitioner's record is in active use" ];
@@ -1396,7 +1494,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1409,7 +1506,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./statusCode" ]
        ]
      ], [
-       fhir:index 28;
+       fhir:index 30;
        fhir:Element.id [ fhir:value "Practitioner.name" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.name" ];
        fhir:ElementDefinition.short [ fhir:value "The name(s) associated with the practitioner" ];
@@ -1456,7 +1553,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./PreferredName (GivenNames, FamilyName, TitleCode)" ]
        ]
      ], [
-       fhir:index 29;
+       fhir:index 31;
        fhir:Element.id [ fhir:value "Practitioner.name.id" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.name.id" ];
        fhir:ElementDefinition.representation [
@@ -1489,7 +1586,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 30;
+       fhir:index 32;
        fhir:Element.id [ fhir:value "Practitioner.name.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.name.extension" ];
        fhir:ElementDefinition.slicing [
@@ -1553,7 +1650,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 31;
+       fhir:index 33;
        fhir:Element.id [ fhir:value "Practitioner.name.use" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.name.use" ];
        fhir:ElementDefinition.short [ fhir:value "usual | official | temp | nickname | anonymous | old | maiden" ];
@@ -1613,7 +1710,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./NamePurpose" ]
        ]
      ], [
-       fhir:index 32;
+       fhir:index 34;
        fhir:Element.id [ fhir:value "Practitioner.name.text" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.name.text" ];
        fhir:ElementDefinition.short [ fhir:value "Text representation of the full name" ];
@@ -1656,7 +1753,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./formatted" ]
        ]
      ], [
-       fhir:index 33;
+       fhir:index 35;
        fhir:Element.id [ fhir:value "Practitioner.name.family" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.name.family" ];
        fhir:ElementDefinition.short [ fhir:value "Family name (often called 'Surname')" ];
@@ -1706,7 +1803,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./FamilyName" ]
        ]
      ], [
-       fhir:index 34;
+       fhir:index 36;
        fhir:Element.id [ fhir:value "Practitioner.name.given" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.name.given" ];
        fhir:ElementDefinition.short [ fhir:value "Given names (not always 'first'). Includes middle names" ];
@@ -1743,7 +1840,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1760,7 +1856,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./GivenNames" ]
        ]
      ], [
-       fhir:index 35;
+       fhir:index 37;
        fhir:Element.id [ fhir:value "Practitioner.name.prefix" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.name.prefix" ];
        fhir:ElementDefinition.short [ fhir:value "Parts that come before the name" ];
@@ -1805,7 +1901,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./TitleCode" ]
        ]
      ], [
-       fhir:index 36;
+       fhir:index 38;
        fhir:Element.id [ fhir:value "Practitioner.name.suffix" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.name.suffix" ];
        fhir:ElementDefinition.short [ fhir:value "Parts that come after the name" ];
@@ -1846,7 +1942,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./part[partType = SFX]" ]
        ]
      ], [
-       fhir:index 37;
+       fhir:index 39;
        fhir:Element.id [ fhir:value "Practitioner.name.period" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.name.period" ];
        fhir:ElementDefinition.short [ fhir:value "Time period when name was/is in use" ];
@@ -1891,7 +1987,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./StartDate and ./EndDate" ]
        ]
      ], [
-       fhir:index 38;
+       fhir:index 40;
        fhir:Element.id [ fhir:value "Practitioner.telecom" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.telecom" ];
        fhir:ElementDefinition.short [ fhir:value "A contact detail for the practitioner (that apply to all roles)" ];
@@ -1921,7 +2017,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1938,7 +2033,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./ContactPoints" ]
        ]
      ], [
-       fhir:index 39;
+       fhir:index 41;
        fhir:Element.id [ fhir:value "Practitioner.telecom.id" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.telecom.id" ];
        fhir:ElementDefinition.representation [
@@ -1971,7 +2066,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 40;
+       fhir:index 42;
        fhir:Element.id [ fhir:value "Practitioner.telecom.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.telecom.extension" ];
        fhir:ElementDefinition.slicing [
@@ -2035,7 +2130,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 41;
+       fhir:index 43;
        fhir:Element.id [ fhir:value "Practitioner.telecom.extension:contactpoint-availabletime" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.telecom.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "contactpoint-availabletime" ];
@@ -2052,9 +2147,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/contactpoint-availabletime";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/contactpoint-availabletime";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/contactpoint-availabletime>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/contactpoint-availabletime>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -2083,12 +2178,12 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 42;
+       fhir:index 44;
        fhir:Element.id [ fhir:value "Practitioner.telecom.extension:via-intermediary" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.telecom.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "via-intermediary" ];
        fhir:ElementDefinition.short [ fhir:value "Via Intermediary" ];
-       fhir:ElementDefinition.definition [ fhir:value "A reference to an alternative point of contact (NatlDir-PractitionerRole, NatlDir-Organization, NatlDir-OrganizationAffiliation, or NatlDir-Location) for this organization" ];
+       fhir:ElementDefinition.definition [ fhir:value "A reference to an alternative point of contact (NatlDirEndpointQry-PractitionerRole, NatlDirEndpointQry-Organization, NatlDirEndpointQry-OrganizationAffiliation, or NatlDirEndpointQry-Location) for this organization" ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [
@@ -2100,9 +2195,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/via-intermediary";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/via-intermediary";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/via-intermediary>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/via-intermediary>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -2131,7 +2226,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 43;
+       fhir:index 45;
        fhir:Element.id [ fhir:value "Practitioner.telecom.system" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.telecom.system" ];
        fhir:ElementDefinition.short [ fhir:value "phone | fax | email | pager | url | sms | other" ];
@@ -2192,7 +2287,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./ContactPointType" ]
        ]
      ], [
-       fhir:index 44;
+       fhir:index 46;
        fhir:Element.id [ fhir:value "Practitioner.telecom.value" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.telecom.value" ];
        fhir:ElementDefinition.short [ fhir:value "The actual contact point details" ];
@@ -2238,7 +2333,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./Value" ]
        ]
      ], [
-       fhir:index 45;
+       fhir:index 47;
        fhir:Element.id [ fhir:value "Practitioner.telecom.use" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.telecom.use" ];
        fhir:ElementDefinition.short [ fhir:value "home | work | temp | old | mobile - purpose of this contact point" ];
@@ -2298,7 +2393,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./ContactPointPurpose" ]
        ]
      ], [
-       fhir:index 46;
+       fhir:index 48;
        fhir:Element.id [ fhir:value "Practitioner.telecom.rank" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.telecom.rank" ];
        fhir:ElementDefinition.short [ fhir:value "Specify preferred order of use (1 = highest)" ];
@@ -2339,7 +2434,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 47;
+       fhir:index 49;
        fhir:Element.id [ fhir:value "Practitioner.telecom.period" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.telecom.period" ];
        fhir:ElementDefinition.short [ fhir:value "Time period when the contact point was/is in use" ];
@@ -2383,7 +2478,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./StartDate and ./EndDate" ]
        ]
      ], [
-       fhir:index 48;
+       fhir:index 50;
        fhir:Element.id [ fhir:value "Practitioner.address" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address" ];
        fhir:ElementDefinition.short [ fhir:value "Address(es) of the practitioner that are not role specific (typically home address)" ];
@@ -2413,7 +2508,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -2430,7 +2524,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./Addresses" ]
        ]
      ], [
-       fhir:index 49;
+       fhir:index 51;
        fhir:Element.id [ fhir:value "Practitioner.address.id" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address.id" ];
        fhir:ElementDefinition.representation [
@@ -2463,7 +2557,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 50;
+       fhir:index 52;
        fhir:Element.id [ fhir:value "Practitioner.address.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address.extension" ];
        fhir:ElementDefinition.slicing [
@@ -2527,7 +2621,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 51;
+       fhir:index 53;
        fhir:Element.id [ fhir:value "Practitioner.address.extension:geolocation" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "geolocation" ];
@@ -2573,11 +2667,10 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 52;
+       fhir:index 54;
        fhir:Element.id [ fhir:value "Practitioner.address.use" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address.use" ];
        fhir:ElementDefinition.short [ fhir:value "home | work | temp | old | billing - purpose of this address" ];
@@ -2642,7 +2735,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./AddressPurpose" ]
        ]
      ], [
-       fhir:index 53;
+       fhir:index 55;
        fhir:Element.id [ fhir:value "Practitioner.address.type" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address.type" ];
        fhir:ElementDefinition.short [ fhir:value "postal | physical | both" ];
@@ -2705,7 +2798,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "address type parameter" ]
        ]
      ], [
-       fhir:index 54;
+       fhir:index 56;
        fhir:Element.id [ fhir:value "Practitioner.address.text" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address.text" ];
        fhir:ElementDefinition.short [ fhir:value "Text representation of the address" ];
@@ -2756,7 +2849,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "address label parameter" ]
        ]
      ], [
-       fhir:index 55;
+       fhir:index 57;
        fhir:Element.id [ fhir:value "Practitioner.address.line" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address.line" ];
        fhir:ElementDefinition.short [ fhir:value "Street name, number, direction & P.O. Box etc." ];
@@ -2810,7 +2903,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./StreetAddress (newline delimitted)" ]
        ]
      ], [
-       fhir:index 56;
+       fhir:index 58;
        fhir:Element.id [ fhir:value "Practitioner.address.city" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address.city" ];
        fhir:ElementDefinition.short [ fhir:value "Name of city, town etc." ];
@@ -2867,7 +2960,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./Jurisdiction" ]
        ]
      ], [
-       fhir:index 57;
+       fhir:index 59;
        fhir:Element.id [ fhir:value "Practitioner.address.district" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address.district" ];
        fhir:ElementDefinition.short [ fhir:value "District name (aka county)" ];
@@ -2917,7 +3010,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "AD.part[parttype = CNT | CPA]" ]
        ]
      ], [
-       fhir:index 58;
+       fhir:index 60;
        fhir:Element.id [ fhir:value "Practitioner.address.state" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address.state" ];
        fhir:ElementDefinition.short [ fhir:value "Sub-unit of country (abbreviations ok)" ];
@@ -2972,7 +3065,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./Region" ]
        ]
      ], [
-       fhir:index 59;
+       fhir:index 61;
        fhir:Element.id [ fhir:value "Practitioner.address.postalCode" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address.postalCode" ];
        fhir:ElementDefinition.short [ fhir:value "Postal code for area" ];
@@ -3029,7 +3122,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./PostalIdentificationCode" ]
        ]
      ], [
-       fhir:index 60;
+       fhir:index 62;
        fhir:Element.id [ fhir:value "Practitioner.address.country" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address.country" ];
        fhir:ElementDefinition.short [ fhir:value "Country (e.g. can be ISO 3166 2 or 3 letter code)" ];
@@ -3078,7 +3171,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./Country" ]
        ]
      ], [
-       fhir:index 61;
+       fhir:index 63;
        fhir:Element.id [ fhir:value "Practitioner.address.period" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.address.period" ];
        fhir:ElementDefinition.short [ fhir:value "Time period when address was/is in use" ];
@@ -3131,7 +3224,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./StartDate and ./EndDate" ]
        ]
      ], [
-       fhir:index 62;
+       fhir:index 64;
        fhir:Element.id [ fhir:value "Practitioner.gender" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.gender" ];
        fhir:ElementDefinition.short [ fhir:value "male | female | other | unknown" ];
@@ -3193,7 +3286,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./GenderCode" ]
        ]
      ], [
-       fhir:index 63;
+       fhir:index 65;
        fhir:Element.id [ fhir:value "Practitioner.birthDate" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.birthDate" ];
        fhir:ElementDefinition.short [ fhir:value "The date  on which the practitioner was born" ];
@@ -3238,7 +3331,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "(not represented in ServD)" ]
        ]
      ], [
-       fhir:index 64;
+       fhir:index 66;
        fhir:Element.id [ fhir:value "Practitioner.photo" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.photo" ];
        fhir:ElementDefinition.short [ fhir:value "Image of the person" ];
@@ -3279,7 +3372,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./ImageURI (only supports the URI reference)" ]
        ]
      ], [
-       fhir:index 65;
+       fhir:index 67;
        fhir:Element.id [ fhir:value "Practitioner.qualification" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.qualification" ];
        fhir:ElementDefinition.short [ fhir:value "Certification, licenses, or training pertaining to the provision of care" ];
@@ -3324,7 +3417,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./Qualifications" ]
        ]
      ], [
-       fhir:index 66;
+       fhir:index 68;
        fhir:Element.id [ fhir:value "Practitioner.qualification.id" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.qualification.id" ];
        fhir:ElementDefinition.representation [
@@ -3357,7 +3450,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 67;
+       fhir:index 69;
        fhir:Element.id [ fhir:value "Practitioner.qualification.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.qualification.extension" ];
        fhir:ElementDefinition.slicing [
@@ -3408,7 +3501,7 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 68;
+       fhir:index 70;
        fhir:Element.id [ fhir:value "Practitioner.qualification.extension:practitioner-qualification" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.qualification.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "practitioner-qualification" ];
@@ -3425,9 +3518,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/practitioner-qualification";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/practitioner-qualification";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/practitioner-qualification>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/practitioner-qualification>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -3457,10 +3550,9 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 69;
+       fhir:index 71;
        fhir:Element.id [ fhir:value "Practitioner.qualification.modifierExtension" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.qualification.modifierExtension" ];
        fhir:ElementDefinition.short [ fhir:value "Extensions that cannot be ignored even if unrecognized" ];
@@ -3520,7 +3612,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "N/A" ]
        ]
      ], [
-       fhir:index 70;
+       fhir:index 72;
        fhir:Element.id [ fhir:value "Practitioner.qualification.identifier" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.qualification.identifier" ];
        fhir:ElementDefinition.short [ fhir:value "An identifier for this qualification for the practitioner" ];
@@ -3549,7 +3641,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -3558,7 +3649,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value ".playingEntity.playingRole[classCode=QUAL].id" ]
        ]
      ], [
-       fhir:index 71;
+       fhir:index 73;
        fhir:Element.id [ fhir:value "Practitioner.qualification.code" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.qualification.code" ];
        fhir:ElementDefinition.short [ fhir:value "Coded representation of the qualification" ];
@@ -3586,14 +3677,13 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "extensible" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/ValueSet/IndividualSpecialtyAndDegreeLicenseCertificateVS";
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/ValueSet/IndividualSpecialtyAndDegreeLicenseCertificateVS>
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/ValueSet/IndividualSpecialtyAndDegreeLicenseCertificateVS";
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/ValueSet/IndividualSpecialtyAndDegreeLicenseCertificateVS>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -3606,7 +3696,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./Qualifications.Value" ]
        ]
      ], [
-       fhir:index 72;
+       fhir:index 74;
        fhir:Element.id [ fhir:value "Practitioner.qualification.period" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.qualification.period" ];
        fhir:ElementDefinition.short [ fhir:value "Period during which the qualification is valid" ];
@@ -3635,7 +3725,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -3648,7 +3737,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./Qualifications.StartDate and ./Qualifications.EndDate" ]
        ]
      ], [
-       fhir:index 73;
+       fhir:index 75;
        fhir:Element.id [ fhir:value "Practitioner.qualification.issuer" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.qualification.issuer" ];
        fhir:ElementDefinition.short [ fhir:value "Organization that regulates and issues the qualification" ];
@@ -3690,7 +3779,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value ".playingEntity.playingRole[classCode=QUAL].scoper" ]
        ]
      ], [
-       fhir:index 74;
+       fhir:index 76;
        fhir:Element.id [ fhir:value "Practitioner.communication" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.communication" ];
        fhir:ElementDefinition.short [ fhir:value "A language the practitioner can use in patient communication" ];
@@ -3720,7 +3809,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -3761,7 +3849,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "./Languages.LanguageSpokenCode" ]
        ]
      ], [
-       fhir:index 75;
+       fhir:index 77;
        fhir:Element.id [ fhir:value "Practitioner.communication.id" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.communication.id" ];
        fhir:ElementDefinition.representation [
@@ -3794,7 +3882,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 76;
+       fhir:index 78;
        fhir:Element.id [ fhir:value "Practitioner.communication.extension" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.communication.extension" ];
        fhir:ElementDefinition.slicing [
@@ -3858,7 +3946,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "n/a" ]
        ]
      ], [
-       fhir:index 77;
+       fhir:index 79;
        fhir:Element.id [ fhir:value "Practitioner.communication.extension:communication-proficiency" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.communication.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "communication-proficiency" ];
@@ -3875,9 +3963,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/communication-proficiency";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/communication-proficiency";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/communication-proficiency>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/communication-proficiency>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -3903,11 +3991,10 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 78;
+       fhir:index 80;
        fhir:Element.id [ fhir:value "Practitioner.communication.coding" ];
        fhir:ElementDefinition.path [ fhir:value "Practitioner.communication.coding" ];
        fhir:ElementDefinition.short [ fhir:value "Code defined by a terminology system" ];
@@ -3953,7 +4040,7 @@
          fhir:ElementDefinition.mapping.map [ fhir:value "fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding" ]
        ]
      ], [
-       fhir:index 79;
+       fhir:index 81;
        fhir:Element.id [ fhir:value "Practitioner.communication.text" ];
        fhir:Element.extension [
          fhir:index 0;

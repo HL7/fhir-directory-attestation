@@ -32,7 +32,7 @@
   <code value="name"/>
   <base value="CareTeam"/>
   <type value="string"/>
-  <expression value="CareTeam.name|CareTeam.extension(&#39;http://hl7.org/fhir/uv/vhdir/StructureDefinition/careteam-alias&#39;)"/>
+  <expression value="CareTeam.name|CareTeam.extension('http://hl7.org/fhir/uv/vhdir/StructureDefinition/careteam-alias')"/>
   <multipleOr value="true"/>
   <multipleAnd value="true"/>
   <modifier value="exact"/>

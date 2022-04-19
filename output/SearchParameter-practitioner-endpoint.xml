@@ -32,7 +32,7 @@
   <code value="endpoint"/>
   <base value="Practitioner"/>
   <type value="reference"/>
-  <expression value="Practitioner.extension(&#39;http://hl7.org/fhir/uv/vhdir/StructureDefinition/endpoint-reference&#39;)"/>
+  <expression value="Practitioner.extension('http://hl7.org/fhir/uv/vhdir/StructureDefinition/endpoint-reference')"/>
   <target value="Endpoint"/>
   <multipleOr value="true"/>
   <multipleAnd value="true"/>

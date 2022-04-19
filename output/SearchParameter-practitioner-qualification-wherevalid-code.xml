@@ -32,7 +32,7 @@
   <code value="qualification-wherevalid-code"/>
   <base value="Practitioner"/>
   <type value="token"/>
-  <expression value="Practitioner.qualification.extension(&#39;http://hl7.org/fhir/uv/vhdir/StructureDefinition/practitioner-qualification&#39;).extension(&#39;whereValid&#39;).as(CodeableConcept)"/>
+  <expression value="Practitioner.qualification.extension('http://hl7.org/fhir/uv/vhdir/StructureDefinition/practitioner-qualification').extension('whereValid').as(CodeableConcept)"/>
   <multipleOr value="true"/>
   <multipleAnd value="true"/>
   <modifier value="text"/>

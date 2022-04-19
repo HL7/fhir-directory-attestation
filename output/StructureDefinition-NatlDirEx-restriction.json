@@ -17,7 +17,7 @@
   ],
   "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirEx-restriction",
   "version": "0.0.1",
-  "name": "NatlDirExRestriction",
+  "name": "NatlDirAttestUsageRestriction",
   "title": " NatlDirEx Restriction",
   "status": "active",
   "date": "2017-12-15T01:01:31.325+11:00",

@@ -32,7 +32,7 @@
   <code value="qualification-wherevalid-location"/>
   <base value="Practitioner"/>
   <type value="reference"/>
-  <expression value="Practitioner.qualification.extension(&#39;http://hl7.org/fhir/uv/vhdir/StructureDefinition/practitioner-qualification&#39;).extension(&#39;whereValid&#39;).as(Reference)"/>
+  <expression value="Practitioner.qualification.extension('http://hl7.org/fhir/uv/vhdir/StructureDefinition/practitioner-qualification').extension('whereValid').as(Reference)"/>
   <target value="Location"/>
   <multipleOr value="true"/>
   <multipleAnd value="true"/>

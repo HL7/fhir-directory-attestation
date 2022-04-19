@@ -32,7 +32,7 @@
   <code value="qualification-status"/>
   <base value="Organization"/>
   <type value="token"/>
-  <expression value="Organization.extension(&#39;http://hl7.org/fhir/uv/vhdir/StructureDefinition/qualification&#39;).extension(&#39;status&#39;)"/>
+  <expression value="Organization.extension('http://hl7.org/fhir/uv/vhdir/StructureDefinition/qualification').extension('status')"/>
   <multipleOr value="true"/>
   <multipleAnd value="true"/>
 </SearchParameter>
