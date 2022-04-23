@@ -66,8 +66,8 @@ INFORMATION: Organization/CancerClinic: Organization: Validate resource against 
 INFORMATION: Organization/ConnHIE: Organization: Validate resource against profile http://hl7.org/fhir/us/davinci-pdex-NatlDir/StructureDefinition/NatlDir-Organization
 INFORMATION: Organization/HamiltonClinic: Organization: Validate resource against profile http://hl7.org/fhir/us/davinci-pdex-NatlDir/StructureDefinition/NatlDir-Organization
 INFORMATION: Organization/HartfordOrthopedics: Organization: Validate resource against profile http://hl7.org/fhir/us/davinci-pdex-NatlDir/StructureDefinition/NatlDir-Organization
-INFORMATION: Organization/Hospital: Organization: Validate resource against profile http://hl7.org/fhir/us/davinci-pdex-NatlDir/StructureDefinition/NatlDir-Organization
-INFORMATION: Organization/PharmChain: Organization: Validate resource against profile http://hl7.org/fhir/us/davinci-pdex-NatlDir/StructureDefinition/NatlDir-Organization
+INFORMATION: Organization/o68Sau8tELE3GDnqR: Organization: Validate resource against profile http://hl7.org/fhir/us/davinci-pdex-NatlDir/StructureDefinition/NatlDir-Organization
+INFORMATION: Organization/o7C3dwiGT6Eatxkyb: Organization: Validate resource against profile http://hl7.org/fhir/us/davinci-pdex-NatlDir/StructureDefinition/NatlDir-Organization
 INFORMATION: OrganizationAffiliation/BurrClinicAffil: OrganizationAffiliation: Validate resource against profile http://hl7.org/fhir/us/davinci-pdex-NatlDir/StructureDefinition/NatlDir-OrganizationAffiliation
 INFORMATION: OrganizationAffiliation/ConnHIEAffil: OrganizationAffiliation: Validate resource against profile http://hl7.org/fhir/us/davinci-pdex-NatlDir/StructureDefinition/NatlDir-OrganizationAffiliation
 INFORMATION: OrganizationAffiliation/HamiltonClinicAffil: OrganizationAffiliation: Validate resource against profile http://hl7.org/fhir/us/davinci-pdex-NatlDir/StructureDefinition/NatlDir-OrganizationAffiliation

@@ -1,12 +1,12 @@
 
 CodeSystem: ConsentCS
-Title: "National Healthcare Directory Consent"
+Title: "NatDir Consent"
 Description:  "Codes for use in defining access levels for sharing subsets of constrained content (as an example)"
 * #protect "Protect" "The data (or subset of data) provided should be only made available to the people, or types of people explicitly declared in the consent."
 * ^caseSensitive = true
 
 CodeSystem: ConsentScopeCS
-Title: "National Healthcare Directory ConsentScopeCodes"
+Title: "NatDir ConsentScopeCodes"
 Description:  "This value set includes the four Consent scope codes."
 * #adr "Advanced Care Directive" "Actions to be taken if they are no longer able to make decisions for themselves."
 * #research "Research" "Consent to participate in research protocol and information sharing required."
@@ -82,7 +82,7 @@ Description: "Categories of virtual service delivery modalities."
 * ^caseSensitive = false
 
 CodeSystem:  EndpointConnectionTypeCS
-  Title: "Endpoint Connection Types (additional)"
+  Title: "Endpoint Connection Types"
   Description:  "Extension codes for http://terminology.hl7.org/CodeSystem/endpoint-connection-type"
 * #hl7-fhir-opn "HL7 FHIR Operation" "Interact with a FHIR server interface using FHIR's RESTful interface using an operation other than messaging. For details on its version/capabilities you should connect the value in Endpoint.address and retrieve the FHIR CapabilityStatement."
 * #rest-non-fhir "REST (not FHIR)" "Interact with a server using HTTP/REST but not FHIR.  Should be used for web portals."
@@ -227,7 +227,7 @@ Description: "A capability that an individual, group, or organization is acknowl
 
 CodeSystem:  LanguageProficiencyCS
 Title: "Language Proficiency"
-Description: "Codes for documenting spoken language proficiency based on the Interagency Language Roundtable scale of abilities to communicate in a language."
+Description: "Codes for documenting spoken language proficiency based on the Interagency Language Roundtable scale."
 * #00	"No proficiency"	"Unable to function in the spoken language."
 //* #06	"Memorized proficiency"	"Able to satisfy immediate needs using rehearsed utterances. Shows little real autonomy of expression, flexibility or spontaneity."
 * #10	"Elementary proficiency"	"Able to satisfy minimum courtesy requirements and maintain very simple face-to-face conversations on familiar topics. A native speaker must often use slowed speech, repetition, paraphrase, or a combination of these to be understood by this individual."

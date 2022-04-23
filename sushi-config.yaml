@@ -54,6 +54,6 @@ menu:
   Search Parameters   : searchparameters.html
   Capability Statement: 
     Conformance Requirements  : CapabilityStatement-NatlDirVal.html
-  Examples      : examples.html
+  # Examples      : examples.html
   Downloads     : downloads.html
-  
+  Artifacts: artifacts.html
