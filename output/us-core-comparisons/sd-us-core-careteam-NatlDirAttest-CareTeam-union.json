@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "caf3a87d-3423-4c75-a66a-d65b262ff648-2",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/caf3a87d-3423-4c75-a66a-d65b262ff648-2",
+  "id" : "3ad902c3-b216-49fa-8a5e-651ae98fda8e-2",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/3ad902c3-b216-49fa-8a5e-651ae98fda8e-2",
   "name" : "UnionUSCoreCareTeamAndNatlDirAttestCareTeam",
   "title" : "Union of US Core CareTeam Profile And NatDir Care Team",
   "status" : "active",
-  "date" : "2022-04-22T21:33:03-05:00",
+  "date" : "2022-04-24T12:39:22-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -933,7 +933,7 @@
       "binding" : {
         "strength" : "extensible",
         "description" : "left: Indicates specific responsibility of an individual within the care team, such as Primary physician, Team coordinator, Caregiver, etc.; right: Indicates specific responsibility of an individual within the care team, such as \"Primary physician\", \"Team coordinator\", \"Caregiver\", etc.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/caf3a87d-3423-4c75-a66a-d65b262ff648-5"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/3ad902c3-b216-49fa-8a5e-651ae98fda8e-5"
       },
       "mapping" : [{
         "identity" : "v2",

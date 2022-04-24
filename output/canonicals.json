@@ -483,6 +483,36 @@
     "name": "VirtualModalitiesCS"
   },
   {
+    "id": "FederatedQuery",
+    "type": "ExampleScenario",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/FederatedQuery",
+    "version": "0.0.1"
+  },
+  {
+    "id": "NewLocationAttestation",
+    "type": "ExampleScenario",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/NewLocationAttestation",
+    "version": "0.0.1"
+  },
+  {
+    "id": "UdapDynamicClientRegistration",
+    "type": "ExampleScenario",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/UdapDynamicClientRegistration",
+    "version": "0.0.1"
+  },
+  {
+    "id": "VerifyPractitionerCredentials",
+    "type": "ExampleScenario",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/VerifyPractitionerCredentials",
+    "version": "0.0.1"
+  },
+  {
+    "id": "WomensShelters",
+    "type": "ExampleScenario",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/WomensShelters",
+    "version": "0.0.1"
+  },
+  {
     "id": "hl7.fhir.us.fhir-directory-attestation",
     "type": "ImplementationGuide",
     "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation",
@@ -579,6 +609,41 @@
     "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirEx-restriction",
     "version": "0.0.1",
     "name": "NatlDirAttestUsageRestriction"
+  },
+  {
+    "id": "DynamicClientRegistration",
+    "type": "TestScript",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/DynamicClientRegistration",
+    "version": "0.0.1",
+    "name": "Dynamic Client Registration"
+  },
+  {
+    "id": "OrganizationCrud",
+    "type": "TestScript",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/OrganizationCrud",
+    "version": "0.0.1",
+    "name": "Organization CRUD"
+  },
+  {
+    "id": "ProviderQualificationVerification",
+    "type": "TestScript",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/ProviderQualificationVerification",
+    "version": "0.0.1",
+    "name": "Provider Qualification Verification"
+  },
+  {
+    "id": "RestrictedAccessToShelters",
+    "type": "TestScript",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/RestrictedAccessToShelters",
+    "version": "0.0.1",
+    "name": "Restricted Access to Shelters"
+  },
+  {
+    "id": "TrustedClientAttestation",
+    "type": "TestScript",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/TrustedClientAttestation",
+    "version": "0.0.1",
+    "name": "Trusted Client Attestation"
   },
   {
     "id": "ConsentVS",

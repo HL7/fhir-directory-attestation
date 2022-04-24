@@ -132,6 +132,46 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility": [
+      "Location"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/communication-proficiency": [
+      "Practitioner"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime": [
+      "Location.telecom",
+      "Organization.contact.telecom",
+      "Organization.telecom"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/delivery-method": [
+      "HealthcareService"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/endpoint-usecase": [
+      "Endpoint"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/location-reference": [
+      "Organization"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference": [
+      "PractitionerRole"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients": [
+      "HealthcareService",
+      "Location"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/org-description": [
+      "Organization"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification": [
+      "Practitioner.qualification"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/qualification": [
+      "PractitionerRole"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary": [
+      "HealthcareService.telecom",
+      "Organization.contact.telecom"
+    ],
     "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/accessibility": [
       "Location"
     ],

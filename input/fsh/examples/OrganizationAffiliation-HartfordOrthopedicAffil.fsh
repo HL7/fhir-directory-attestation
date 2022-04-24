@@ -1,0 +1,17 @@
+Instance: HartfordOrthopedicAffil
+InstanceOf: OrganizationAffiliation
+Title: "OrganizationAffiliation/oareedAzJMQsamimk"
+Description: "Hartford Orthopedic Provider Network"
+Usage: #example
+* id = "oareedAzJMQsamimk"
+* meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
+* meta.profile = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation"
+* language = #en-US
+* active = true
+* organization = Reference(Organization/o68Sau8tELE3GDnqR)
+* participatingOrganization = Reference(Organization/HartfordOrthopedics)
+* network = Reference(Organization/AcmeofCTStdNet)
+* code = http://hl7.org/fhir/organization-role#provider
+* location[0] = Reference(Location/HospLoc1)
+* location[+] = Reference(Location/HospLoc2)
+* healthcareService = Reference(HealthcareService/HartfordOrthopedicServices)

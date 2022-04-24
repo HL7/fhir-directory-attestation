@@ -10,7 +10,7 @@
   "name": "ONCFASTNationalDirectory",
   "title": "National Directory",
   "status": "active",
-  "date": "2022-04-22T21:32:28-05:00",
+  "date": "2022-04-24T12:38:40-05:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -835,6 +835,944 @@
         "name": "Virtual Modalities",
         "description": "Categories of virtual service delivery modalities.",
         "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/5cb4z5LvCufWTr472"
+        },
+        "name": "Organization/5cb4z5LvCufWTr472",
+        "description": "CT Department of Public Health",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/DPxE9d7Wtqjy9WEZx"
+        },
+        "name": "Organization/DPxE9d7Wtqjy9WEZx",
+        "description": "The Joint Commission on the Accreditation of Healthcare Organizations",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "TestScript"
+          }
+        ],
+        "reference": {
+          "reference": "TestScript/DynamicClientRegistration"
+        },
+        "name": "Dynamic Client Registration",
+        "description": "TestScript - Dynamic Client Registration",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ExampleScenario"
+          }
+        ],
+        "reference": {
+          "reference": "ExampleScenario/FederatedQuery"
+        },
+        "name": "Federated Endpoint Query",
+        "description": "Scenario - Federated Endpoint Query",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/GEQaW45BFAzMcfYx9"
+        },
+        "name": "Organization/GEQaW45BFAzMcfYx9",
+        "description": "Health and Human Services",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ExampleScenario"
+          }
+        ],
+        "reference": {
+          "reference": "ExampleScenario/NewLocationAttestation"
+        },
+        "name": "New Location Attestation",
+        "description": "Scenario - New Location Attestation",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "TestScript"
+          }
+        ],
+        "reference": {
+          "reference": "TestScript/OrganizationCrud"
+        },
+        "name": "Organization CRUDS",
+        "description": "TestScript - Organization create/read/update/delete/search",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "TestScript"
+          }
+        ],
+        "reference": {
+          "reference": "TestScript/ProviderQualificationVerification"
+        },
+        "name": "Provider Qualification Verification",
+        "description": "TestScript - Provider Qualification Verification",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/Pw7KqRFWWHrxKQW34"
+        },
+        "name": "Organization/Pw7KqRFWWHrxKQW34",
+        "description": "US Post Office",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "TestScript"
+          }
+        ],
+        "reference": {
+          "reference": "TestScript/RestrictedAccessToShelters"
+        },
+        "name": "Restricted Access to Shelters",
+        "description": "TestScript - Restricted Access to Shelters",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "TestScript"
+          }
+        ],
+        "reference": {
+          "reference": "TestScript/TrustedClientAttestation"
+        },
+        "name": "Trusted Client Attestation",
+        "description": "TestScript - Trusted Client Attestation",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ExampleScenario"
+          }
+        ],
+        "reference": {
+          "reference": "ExampleScenario/UdapDynamicClientRegistration"
+        },
+        "name": "Dynamic Client Registration",
+        "description": "Scenario - Dynamic Client Registration",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ExampleScenario"
+          }
+        ],
+        "reference": {
+          "reference": "ExampleScenario/VerifyPractitionerCredentials"
+        },
+        "name": "Verify Practitioner Credentials",
+        "description": "Scenario - Verify Practitioner Credentials",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ExampleScenario"
+          }
+        ],
+        "reference": {
+          "reference": "ExampleScenario/WomensShelters"
+        },
+        "name": "Protected Womens' Shelters",
+        "description": "Scenario - Restricted Womens' Shelter Access",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Endpoint"
+          }
+        ],
+        "reference": {
+          "reference": "Endpoint/etKzBJvzbeHDZi7Gd"
+        },
+        "name": "Endpoint/etKzBJvzbeHDZi7Gd",
+        "description": "Endpoint - Acme of Connecticut",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "HealthcareService"
+          }
+        ],
+        "reference": {
+          "reference": "HealthcareService/hs53YAqF9RbwE8K2n"
+        },
+        "name": "HealthcareService/hs53YAqF9RbwE8K2n",
+        "description": "HealthcareService - Pharmacy chain mail service",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "HealthcareService"
+          }
+        ],
+        "reference": {
+          "reference": "HealthcareService/hsEk35Ayonz755t6u"
+        },
+        "name": "HealthcareService/hsEk35Ayonz755t6u",
+        "description": "HealthcareService - Emergency Medical Services",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "HealthcareService"
+          }
+        ],
+        "reference": {
+          "reference": "HealthcareService/hsMPDyHBr9gABHb2n"
+        },
+        "name": "HealthcareService/hsMPDyHBr9gABHb2n",
+        "description": "HealthcareService - Family Medicine",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "HealthcareService"
+          }
+        ],
+        "reference": {
+          "reference": "HealthcareService/hsMgv7tiYyaGsijG9"
+        },
+        "name": "HealthcareService/hsMgv7tiYyaGsijG9",
+        "description": "HealthcareService - Pharmacy chain compounding pharmacy service",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "HealthcareService"
+          }
+        ],
+        "reference": {
+          "reference": "HealthcareService/hsZchHy4Z3ufZw3tP"
+        },
+        "name": "HealthcareService/hsZchHy4Z3ufZw3tP",
+        "description": "HealthcareService - Family Medicine Solo Practice",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "HealthcareService"
+          }
+        ],
+        "reference": {
+          "reference": "HealthcareService/hsn93H9RbKTSH57AY"
+        },
+        "name": "HealthcareService/hsn93H9RbKTSH57AY",
+        "description": "HealthcareService - Virtual telehealth visit with professional counselor",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "HealthcareService"
+          }
+        ],
+        "reference": {
+          "reference": "HealthcareService/hspFQ5Zbyc7hTzsAw"
+        },
+        "name": "HealthcareService/hspFQ5Zbyc7hTzsAw",
+        "description": "HealthcareService - Pharmacy chain retail service",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "HealthcareService"
+          }
+        ],
+        "reference": {
+          "reference": "HealthcareService/hspy9XZcsSMcY3DJc"
+        },
+        "name": "HealthcareService/hspy9XZcsSMcY3DJc",
+        "description": "HealthcareService - Family Medicine",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "HealthcareService"
+          }
+        ],
+        "reference": {
+          "reference": "HealthcareService/hstqm7dvng64GJYeA"
+        },
+        "name": "HealthcareService/hstqm7dvng64GJYeA",
+        "description": "HealthcareService - Hartford Orthopedics",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "HealthcareService"
+          }
+        ],
+        "reference": {
+          "reference": "HealthcareService/hsutdKbC5QCe7Xtfn"
+        },
+        "name": "HealthcareService/hsutdKbC5QCe7Xtfn",
+        "description": "HealthcareService - Medical Oncology",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "InsurancePlan"
+          }
+        ],
+        "reference": {
+          "reference": "InsurancePlan/ipHFxNkt6vAvN7qEG"
+        },
+        "name": "InsurancePlan/ipHFxNkt6vAvN7qEG",
+        "description": "Acme of Conneticut - Gold Plan",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "InsurancePlan"
+          }
+        ],
+        "reference": {
+          "reference": "InsurancePlan/ipHFxNktk8dvN7qEG"
+        },
+        "name": "InsurancePlan/ipHFxNktk8dvN7qEG",
+        "description": "Acme of Conneticut - Silver Plan",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "InsurancePlan"
+          }
+        ],
+        "reference": {
+          "reference": "InsurancePlan/ipZFESpMpTshnEMrD"
+        },
+        "name": "InsurancePlan/ipZFESpMpTshnEMrD",
+        "description": "Acme of Conneticut - Bronze Plan",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/kxdzMhGRoLTXdp5aE"
+        },
+        "name": "Organization/kxdzMhGRoLTXdp5aE",
+        "description": "Centers for Medicare and Medicaid Services",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/l3ParyXfseYrfcpJN"
+        },
+        "name": "Location/l3ParyXfseYrfcpJN",
+        "description": "State of Conneticut - Geographical Area",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/l4bjaZGQfeNfhAEpb"
+        },
+        "name": "Location/l4bjaZGQfeNfhAEpb",
+        "description": "456 Main Street, Anytown, CT, 00014",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/lDj6WzsPaCdZsCyrP"
+        },
+        "name": "Location/lDj6WzsPaCdZsCyrP",
+        "description": "123 Main Street, Anytown, CT, 00014",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/lMFvtQ9PuGhKCanxe"
+        },
+        "name": "Location/lMFvtQ9PuGhKCanxe",
+        "description": "123 Main Street, Anytown, CT, 00014",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/lNxvHyHMFya5Bym6r"
+        },
+        "name": "Location/lNxvHyHMFya5Bym6r",
+        "description": "123 Main Street, Anytown, CT, 00014",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/lWAKMdp4vCeNzcDJp"
+        },
+        "name": "Location/lWAKMdp4vCeNzcDJp",
+        "description": "345 Main Street, Nowheresville, CT, 00014",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/lYG8WxBHX4HRoewaM"
+        },
+        "name": "Location/lYG8WxBHX4HRoewaM",
+        "description": "456 Main Street, Somewhere, CT, 00014",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/lsH38uL5J3eYEQ5hJ"
+        },
+        "name": "Location/lsH38uL5J3eYEQ5hJ",
+        "description": "456 Main Street, Anytown, CT 00014",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Location"
+          }
+        ],
+        "reference": {
+          "reference": "Location/lyW5mPW2nf3DHC7h6"
+        },
+        "name": "Location/lyW5mPW2nf3DHC7h6",
+        "description": "444 Main Street, Rainbow, CT, 00014",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/m6AJtyEk6sSsHWLjt"
+        },
+        "name": "Organization/m6AJtyEk6sSsHWLjt",
+        "description": "St. Jame's Infirmary",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/o4XMGtrjTrN7mcctj"
+        },
+        "name": "Organization/o3XMGtrjTrN7mcctj",
+        "description": "ACME Preferred",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/o4aKCfZSaoxLrDPbA"
+        },
+        "name": "Organization/oGaKCfZSaoxLrDPbA",
+        "description": "ACME of Conneticut",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/o4gQrsHZfpYNoohzD"
+        },
+        "name": "Organization/opgQrsHZfpYNoohzD",
+        "description": "ACME Premium",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/o53FxH84isnGG8aqy"
+        },
+        "name": "Organization/o93FxH84isnGG8aqy",
+        "description": "Big Box, LLC",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/o5CXtWS6CWaH4J8c9"
+        },
+        "name": "Organization/oyCXtWS6CWaH4J8c9",
+        "description": "Connecticut Health Information Exchange (CHIE)",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/o5q79rZWvYNLtPK8D"
+        },
+        "name": "Organization/ooq79rZWvYNLtPK8D",
+        "description": "Burr Clinic",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/o5sZhrXrLK9pXDGKX"
+        },
+        "name": "Organization/onsZhrXrLK9pXDGKX",
+        "description": "Hamilton Clinic",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/o68Sau8tELE3GDnqR"
+        },
+        "name": "Organization/oJ8Sau8tELE3GDnqR",
+        "description": "Hartford General Hospital",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/o6eQQrm6h4TQwhbAa"
+        },
+        "name": "Organization/oJeQQrm6h4TQwhbAa",
+        "description": "Hartford Orthopedics",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/o7C3dwiGT6Eatxkyb"
+        },
+        "name": "Organization/obC3dwiGT6Eatxkyb",
+        "description": "GoodRx Pharmacy",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/o7tNYGTgKk5WLrwzh"
+        },
+        "name": "Organization/ostNYGTgKk5WLrwzh",
+        "description": "ACME Pharmacy",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/o9ZkiSX6abYLhWWGo"
+        },
+        "name": "Organization/o9ZkiSX6abYLhWWGo",
+        "description": "Fast Scan Radiology",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "OrganizationAffiliation"
+          }
+        ],
+        "reference": {
+          "reference": "OrganizationAffiliation/oa3oxC4yKJnB2E7on"
+        },
+        "name": "OrganizationAffiliation/oa3oxC4yKJnB2E7on",
+        "description": "Burr Clinic Outpatient Network",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "OrganizationAffiliation"
+          }
+        ],
+        "reference": {
+          "reference": "OrganizationAffiliation/oaGKaodXJgcsnAwr4"
+        },
+        "name": "OrganizationAffiliation/oaGKaodXJgcsnAwr4",
+        "description": "GoodRx Retail Pharmacy Network",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "OrganizationAffiliation"
+          }
+        ],
+        "reference": {
+          "reference": "OrganizationAffiliation/oaHDdxsHhAJ9dZFhL"
+        },
+        "name": "OrganizationAffiliation/oaHDdxsHhAJ9dZFhL",
+        "description": "GoodRx Compounding Pharmacy Network",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "OrganizationAffiliation"
+          }
+        ],
+        "reference": {
+          "reference": "OrganizationAffiliation/oaPTusDv4SHhKWHJG"
+        },
+        "name": "OrganizationAffiliation/oaPTusDv4SHhKWHJG",
+        "description": "GoodRx Mail Order Network",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "OrganizationAffiliation"
+          }
+        ],
+        "reference": {
+          "reference": "OrganizationAffiliation/oamEcy7YASttYnaxK"
+        },
+        "name": "OrganizationAffiliation/oamEcy7YASttYnaxK",
+        "description": "Connecticut HIE Network",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "OrganizationAffiliation"
+          }
+        ],
+        "reference": {
+          "reference": "OrganizationAffiliation/oaqirA9KjALpeDBjs"
+        },
+        "name": "OrganizationAffiliation/oaqirA9KjALpeDBjs",
+        "description": "Hamilton Clinic Outpatient Network",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "OrganizationAffiliation"
+          }
+        ],
+        "reference": {
+          "reference": "OrganizationAffiliation/oareedAzJMQsamimk"
+        },
+        "name": "OrganizationAffiliation/oareedAzJMQsamimk",
+        "description": "Hartford Orthopedic Provider Network",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/p6x5NWQPoKgyTKjAk"
+        },
+        "name": "Practitioner/p6x5NWQPoKgyTKjAk",
+        "description": "Practitioner - Han Solo",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/pBvMREMS3HpzyJgwa"
+        },
+        "name": "Practitioner/pBvMREMS3HpzyJgwa",
+        "description": "Practitioner - Counselor",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/pFhDpHhMzBsSvmLb9"
+        },
+        "name": "Practitioner/pFhDpHhMzBsSvmLb9",
+        "description": "Practitioner - Joe Smith",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/rALFxTbdo6nEq5za6"
+        },
+        "name": "PractitionerRole/rALFxTbdo6nEq5za6",
+        "description": "Role - Anonymous users not registered with the system",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/rCY6ePpLywTbfx3yp"
+        },
+        "name": "PractitionerRole/rCY6ePpLywTbfx3yp",
+        "description": "Role - Conselor or therapist",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/rDAkiyGndx8FT5jpj"
+        },
+        "name": "PractitionerRole/rDAkiyGndx8FT5jpj",
+        "description": "Role - Part time physician, part time smuggler",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/rGCrprwcPa3fj629w"
+        },
+        "name": "PractitionerRole/rGCrprwcPa3fj629w",
+        "description": "Role - Self defined role 3",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/rP5Wt9gxQwyL7M8fX"
+        },
+        "name": "PractitionerRole/rP5Wt9gxQwyL7M8fX",
+        "description": "Role - Self defined role 2",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "PractitionerRole"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/rtaTdfxSNTmqqnDeJ"
+        },
+        "name": "PractitionerRole/rtaTdfxSNTmqqnDeJ",
+        "description": "Role - Self defined role 1",
+        "exampleBoolean": true
       },
       {
         "extension": [

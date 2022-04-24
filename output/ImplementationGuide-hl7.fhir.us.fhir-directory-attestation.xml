@@ -11,7 +11,7 @@
   <name value="ONCFASTNationalDirectory"/>
   <title value="National Directory"/>
   <status value="active"/>
-  <date value="2022-04-22T21:32:28-05:00"/>
+  <date value="2022-04-24T12:38:40-05:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>
@@ -602,6 +602,743 @@
       <name value="Virtual Modalities"/>
       <description value="Categories of virtual service delivery modalities."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/5cb4z5LvCufWTr472"/>
+      </reference>
+      <name value="Organization/5cb4z5LvCufWTr472"/>
+      <description value="CT Department of Public Health"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/DPxE9d7Wtqjy9WEZx"/>
+      </reference>
+      <name value="Organization/DPxE9d7Wtqjy9WEZx"/>
+      <description value="The Joint Commission on the Accreditation of Healthcare Organizations"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="TestScript"/>
+      </extension>
+      <reference>
+        <reference value="TestScript/DynamicClientRegistration"/>
+      </reference>
+      <name value="Dynamic Client Registration"/>
+      <description value="TestScript - Dynamic Client Registration"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ExampleScenario"/>
+      </extension>
+      <reference>
+        <reference value="ExampleScenario/FederatedQuery"/>
+      </reference>
+      <name value="Federated Endpoint Query"/>
+      <description value="Scenario - Federated Endpoint Query"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/GEQaW45BFAzMcfYx9"/>
+      </reference>
+      <name value="Organization/GEQaW45BFAzMcfYx9"/>
+      <description value="Health and Human Services"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ExampleScenario"/>
+      </extension>
+      <reference>
+        <reference value="ExampleScenario/NewLocationAttestation"/>
+      </reference>
+      <name value="New Location Attestation"/>
+      <description value="Scenario - New Location Attestation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="TestScript"/>
+      </extension>
+      <reference>
+        <reference value="TestScript/OrganizationCrud"/>
+      </reference>
+      <name value="Organization CRUDS"/>
+      <description value="TestScript - Organization create/read/update/delete/search"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="TestScript"/>
+      </extension>
+      <reference>
+        <reference value="TestScript/ProviderQualificationVerification"/>
+      </reference>
+      <name value="Provider Qualification Verification"/>
+      <description value="TestScript - Provider Qualification Verification"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/Pw7KqRFWWHrxKQW34"/>
+      </reference>
+      <name value="Organization/Pw7KqRFWWHrxKQW34"/>
+      <description value="US Post Office"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="TestScript"/>
+      </extension>
+      <reference>
+        <reference value="TestScript/RestrictedAccessToShelters"/>
+      </reference>
+      <name value="Restricted Access to Shelters"/>
+      <description value="TestScript - Restricted Access to Shelters"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="TestScript"/>
+      </extension>
+      <reference>
+        <reference value="TestScript/TrustedClientAttestation"/>
+      </reference>
+      <name value="Trusted Client Attestation"/>
+      <description value="TestScript - Trusted Client Attestation"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ExampleScenario"/>
+      </extension>
+      <reference>
+        <reference value="ExampleScenario/UdapDynamicClientRegistration"/>
+      </reference>
+      <name value="Dynamic Client Registration"/>
+      <description value="Scenario - Dynamic Client Registration"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ExampleScenario"/>
+      </extension>
+      <reference>
+        <reference value="ExampleScenario/VerifyPractitionerCredentials"/>
+      </reference>
+      <name value="Verify Practitioner Credentials"/>
+      <description value="Scenario - Verify Practitioner Credentials"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ExampleScenario"/>
+      </extension>
+      <reference>
+        <reference value="ExampleScenario/WomensShelters"/>
+      </reference>
+      <name value="Protected Womens' Shelters"/>
+      <description value="Scenario - Restricted Womens' Shelter Access"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Endpoint"/>
+      </extension>
+      <reference>
+        <reference value="Endpoint/etKzBJvzbeHDZi7Gd"/>
+      </reference>
+      <name value="Endpoint/etKzBJvzbeHDZi7Gd"/>
+      <description value="Endpoint - Acme of Connecticut"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="HealthcareService"/>
+      </extension>
+      <reference>
+        <reference value="HealthcareService/hs53YAqF9RbwE8K2n"/>
+      </reference>
+      <name value="HealthcareService/hs53YAqF9RbwE8K2n"/>
+      <description value="HealthcareService - Pharmacy chain mail service"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="HealthcareService"/>
+      </extension>
+      <reference>
+        <reference value="HealthcareService/hsEk35Ayonz755t6u"/>
+      </reference>
+      <name value="HealthcareService/hsEk35Ayonz755t6u"/>
+      <description value="HealthcareService - Emergency Medical Services"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="HealthcareService"/>
+      </extension>
+      <reference>
+        <reference value="HealthcareService/hsMPDyHBr9gABHb2n"/>
+      </reference>
+      <name value="HealthcareService/hsMPDyHBr9gABHb2n"/>
+      <description value="HealthcareService - Family Medicine"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="HealthcareService"/>
+      </extension>
+      <reference>
+        <reference value="HealthcareService/hsMgv7tiYyaGsijG9"/>
+      </reference>
+      <name value="HealthcareService/hsMgv7tiYyaGsijG9"/>
+      <description value="HealthcareService - Pharmacy chain compounding pharmacy service"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="HealthcareService"/>
+      </extension>
+      <reference>
+        <reference value="HealthcareService/hsZchHy4Z3ufZw3tP"/>
+      </reference>
+      <name value="HealthcareService/hsZchHy4Z3ufZw3tP"/>
+      <description value="HealthcareService - Family Medicine Solo Practice"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="HealthcareService"/>
+      </extension>
+      <reference>
+        <reference value="HealthcareService/hsn93H9RbKTSH57AY"/>
+      </reference>
+      <name value="HealthcareService/hsn93H9RbKTSH57AY"/>
+      <description value="HealthcareService - Virtual telehealth visit with professional counselor"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="HealthcareService"/>
+      </extension>
+      <reference>
+        <reference value="HealthcareService/hspFQ5Zbyc7hTzsAw"/>
+      </reference>
+      <name value="HealthcareService/hspFQ5Zbyc7hTzsAw"/>
+      <description value="HealthcareService - Pharmacy chain retail service"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="HealthcareService"/>
+      </extension>
+      <reference>
+        <reference value="HealthcareService/hspy9XZcsSMcY3DJc"/>
+      </reference>
+      <name value="HealthcareService/hspy9XZcsSMcY3DJc"/>
+      <description value="HealthcareService - Family Medicine"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="HealthcareService"/>
+      </extension>
+      <reference>
+        <reference value="HealthcareService/hstqm7dvng64GJYeA"/>
+      </reference>
+      <name value="HealthcareService/hstqm7dvng64GJYeA"/>
+      <description value="HealthcareService - Hartford Orthopedics"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="HealthcareService"/>
+      </extension>
+      <reference>
+        <reference value="HealthcareService/hsutdKbC5QCe7Xtfn"/>
+      </reference>
+      <name value="HealthcareService/hsutdKbC5QCe7Xtfn"/>
+      <description value="HealthcareService - Medical Oncology"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="InsurancePlan"/>
+      </extension>
+      <reference>
+        <reference value="InsurancePlan/ipHFxNkt6vAvN7qEG"/>
+      </reference>
+      <name value="InsurancePlan/ipHFxNkt6vAvN7qEG"/>
+      <description value="Acme of Conneticut - Gold Plan"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="InsurancePlan"/>
+      </extension>
+      <reference>
+        <reference value="InsurancePlan/ipHFxNktk8dvN7qEG"/>
+      </reference>
+      <name value="InsurancePlan/ipHFxNktk8dvN7qEG"/>
+      <description value="Acme of Conneticut - Silver Plan"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="InsurancePlan"/>
+      </extension>
+      <reference>
+        <reference value="InsurancePlan/ipZFESpMpTshnEMrD"/>
+      </reference>
+      <name value="InsurancePlan/ipZFESpMpTshnEMrD"/>
+      <description value="Acme of Conneticut - Bronze Plan"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/kxdzMhGRoLTXdp5aE"/>
+      </reference>
+      <name value="Organization/kxdzMhGRoLTXdp5aE"/>
+      <description value="Centers for Medicare and Medicaid Services"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/l3ParyXfseYrfcpJN"/>
+      </reference>
+      <name value="Location/l3ParyXfseYrfcpJN"/>
+      <description value="State of Conneticut - Geographical Area"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/l4bjaZGQfeNfhAEpb"/>
+      </reference>
+      <name value="Location/l4bjaZGQfeNfhAEpb"/>
+      <description value="456 Main Street, Anytown, CT, 00014"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/lDj6WzsPaCdZsCyrP"/>
+      </reference>
+      <name value="Location/lDj6WzsPaCdZsCyrP"/>
+      <description value="123 Main Street, Anytown, CT, 00014"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/lMFvtQ9PuGhKCanxe"/>
+      </reference>
+      <name value="Location/lMFvtQ9PuGhKCanxe"/>
+      <description value="123 Main Street, Anytown, CT, 00014"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/lNxvHyHMFya5Bym6r"/>
+      </reference>
+      <name value="Location/lNxvHyHMFya5Bym6r"/>
+      <description value="123 Main Street, Anytown, CT, 00014"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/lWAKMdp4vCeNzcDJp"/>
+      </reference>
+      <name value="Location/lWAKMdp4vCeNzcDJp"/>
+      <description value="345 Main Street, Nowheresville, CT, 00014"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/lYG8WxBHX4HRoewaM"/>
+      </reference>
+      <name value="Location/lYG8WxBHX4HRoewaM"/>
+      <description value="456 Main Street, Somewhere, CT, 00014"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/lsH38uL5J3eYEQ5hJ"/>
+      </reference>
+      <name value="Location/lsH38uL5J3eYEQ5hJ"/>
+      <description value="456 Main Street, Anytown, CT 00014"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/lyW5mPW2nf3DHC7h6"/>
+      </reference>
+      <name value="Location/lyW5mPW2nf3DHC7h6"/>
+      <description value="444 Main Street, Rainbow, CT, 00014"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/m6AJtyEk6sSsHWLjt"/>
+      </reference>
+      <name value="Organization/m6AJtyEk6sSsHWLjt"/>
+      <description value="St. Jame's Infirmary"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/o4XMGtrjTrN7mcctj"/>
+      </reference>
+      <name value="Organization/o3XMGtrjTrN7mcctj"/>
+      <description value="ACME Preferred"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/o4aKCfZSaoxLrDPbA"/>
+      </reference>
+      <name value="Organization/oGaKCfZSaoxLrDPbA"/>
+      <description value="ACME of Conneticut"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/o4gQrsHZfpYNoohzD"/>
+      </reference>
+      <name value="Organization/opgQrsHZfpYNoohzD"/>
+      <description value="ACME Premium"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/o53FxH84isnGG8aqy"/>
+      </reference>
+      <name value="Organization/o93FxH84isnGG8aqy"/>
+      <description value="Big Box, LLC"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/o5CXtWS6CWaH4J8c9"/>
+      </reference>
+      <name value="Organization/oyCXtWS6CWaH4J8c9"/>
+      <description value="Connecticut Health Information Exchange (CHIE)"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/o5q79rZWvYNLtPK8D"/>
+      </reference>
+      <name value="Organization/ooq79rZWvYNLtPK8D"/>
+      <description value="Burr Clinic"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/o5sZhrXrLK9pXDGKX"/>
+      </reference>
+      <name value="Organization/onsZhrXrLK9pXDGKX"/>
+      <description value="Hamilton Clinic"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/o68Sau8tELE3GDnqR"/>
+      </reference>
+      <name value="Organization/oJ8Sau8tELE3GDnqR"/>
+      <description value="Hartford General Hospital"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/o6eQQrm6h4TQwhbAa"/>
+      </reference>
+      <name value="Organization/oJeQQrm6h4TQwhbAa"/>
+      <description value="Hartford Orthopedics"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/o7C3dwiGT6Eatxkyb"/>
+      </reference>
+      <name value="Organization/obC3dwiGT6Eatxkyb"/>
+      <description value="GoodRx Pharmacy"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/o7tNYGTgKk5WLrwzh"/>
+      </reference>
+      <name value="Organization/ostNYGTgKk5WLrwzh"/>
+      <description value="ACME Pharmacy"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/o9ZkiSX6abYLhWWGo"/>
+      </reference>
+      <name value="Organization/o9ZkiSX6abYLhWWGo"/>
+      <description value="Fast Scan Radiology"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="OrganizationAffiliation"/>
+      </extension>
+      <reference>
+        <reference value="OrganizationAffiliation/oa3oxC4yKJnB2E7on"/>
+      </reference>
+      <name value="OrganizationAffiliation/oa3oxC4yKJnB2E7on"/>
+      <description value="Burr Clinic Outpatient Network"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="OrganizationAffiliation"/>
+      </extension>
+      <reference>
+        <reference value="OrganizationAffiliation/oaGKaodXJgcsnAwr4"/>
+      </reference>
+      <name value="OrganizationAffiliation/oaGKaodXJgcsnAwr4"/>
+      <description value="GoodRx Retail Pharmacy Network"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="OrganizationAffiliation"/>
+      </extension>
+      <reference>
+        <reference value="OrganizationAffiliation/oaHDdxsHhAJ9dZFhL"/>
+      </reference>
+      <name value="OrganizationAffiliation/oaHDdxsHhAJ9dZFhL"/>
+      <description value="GoodRx Compounding Pharmacy Network"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="OrganizationAffiliation"/>
+      </extension>
+      <reference>
+        <reference value="OrganizationAffiliation/oaPTusDv4SHhKWHJG"/>
+      </reference>
+      <name value="OrganizationAffiliation/oaPTusDv4SHhKWHJG"/>
+      <description value="GoodRx Mail Order Network"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="OrganizationAffiliation"/>
+      </extension>
+      <reference>
+        <reference value="OrganizationAffiliation/oamEcy7YASttYnaxK"/>
+      </reference>
+      <name value="OrganizationAffiliation/oamEcy7YASttYnaxK"/>
+      <description value="Connecticut HIE Network"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="OrganizationAffiliation"/>
+      </extension>
+      <reference>
+        <reference value="OrganizationAffiliation/oaqirA9KjALpeDBjs"/>
+      </reference>
+      <name value="OrganizationAffiliation/oaqirA9KjALpeDBjs"/>
+      <description value="Hamilton Clinic Outpatient Network"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="OrganizationAffiliation"/>
+      </extension>
+      <reference>
+        <reference value="OrganizationAffiliation/oareedAzJMQsamimk"/>
+      </reference>
+      <name value="OrganizationAffiliation/oareedAzJMQsamimk"/>
+      <description value="Hartford Orthopedic Provider Network"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/p6x5NWQPoKgyTKjAk"/>
+      </reference>
+      <name value="Practitioner/p6x5NWQPoKgyTKjAk"/>
+      <description value="Practitioner - Han Solo"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/pBvMREMS3HpzyJgwa"/>
+      </reference>
+      <name value="Practitioner/pBvMREMS3HpzyJgwa"/>
+      <description value="Practitioner - Counselor"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/pFhDpHhMzBsSvmLb9"/>
+      </reference>
+      <name value="Practitioner/pFhDpHhMzBsSvmLb9"/>
+      <description value="Practitioner - Joe Smith"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/rALFxTbdo6nEq5za6"/>
+      </reference>
+      <name value="PractitionerRole/rALFxTbdo6nEq5za6"/>
+      <description value="Role - Anonymous users not registered with the system"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/rCY6ePpLywTbfx3yp"/>
+      </reference>
+      <name value="PractitionerRole/rCY6ePpLywTbfx3yp"/>
+      <description value="Role - Conselor or therapist"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/rDAkiyGndx8FT5jpj"/>
+      </reference>
+      <name value="PractitionerRole/rDAkiyGndx8FT5jpj"/>
+      <description value="Role - Part time physician, part time smuggler"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/rGCrprwcPa3fj629w"/>
+      </reference>
+      <name value="PractitionerRole/rGCrprwcPa3fj629w"/>
+      <description value="Role - Self defined role 3"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/rP5Wt9gxQwyL7M8fX"/>
+      </reference>
+      <name value="PractitionerRole/rP5Wt9gxQwyL7M8fX"/>
+      <description value="Role - Self defined role 2"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PractitionerRole"/>
+      </extension>
+      <reference>
+        <reference value="PractitionerRole/rtaTdfxSNTmqqnDeJ"/>
+      </reference>
+      <name value="PractitionerRole/rtaTdfxSNTmqqnDeJ"/>
+      <description value="Role - Self defined role 1"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
