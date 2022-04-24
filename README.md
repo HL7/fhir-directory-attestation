@@ -12,8 +12,6 @@ cd fhir-directory-attestation
 # create a new branch
 git checkout -b new-branch
 
-# make changes
-
 # commit changes
 git commit -a -m 'descriptive message'
 git push origin new-branch
@@ -21,4 +19,5 @@ git push origin new-branch
 
 The changes should be available at:  
 
-https://build.fhir.org/ig/HL7/fhir-directory-attestation
+https://build.fhir.org/ig/HL7/fhir-directory-attestation  
+
