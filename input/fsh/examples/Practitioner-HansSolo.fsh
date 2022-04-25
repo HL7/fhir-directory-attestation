@@ -1,4 +1,4 @@
-Instance: HansSolo
+Instance: PractitionerHansSolo
 InstanceOf: Practitioner
 Title: "Practitioner/p6x5NWQPoKgyTKjAk"
 Description: "Practitioner - Han Solo"

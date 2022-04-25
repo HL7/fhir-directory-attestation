@@ -1,10 +1,10 @@
 ﻿ONCFASTNationalDirectory : Validation Results
 =========================================
 
-err = 510, warn = 84, info = 21
+err = 517, warn = 85, info = 21
 IG Publisher Version: 1.1.115
-Generated Mon Apr 25 03:19:11 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.0.1 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
- Build Errors : 98 / 1 / 1
+Generated Mon Apr 25 04:34:59 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.0.1 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
+ Build Errors : 101 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.fhir-directory-attestation : 0 / 2 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-AcceptingPatientsCS : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-AccessibilityCS : 0 / 0 / 1
@@ -78,6 +78,7 @@ Generated Mon Apr 25 03:19:11 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oamEcy7YASttYnaxK : 5 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaqirA9KjALpeDBjs : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oareedAzJMQsamimk : 6 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitioner-fZzusFYr3PBYyRnot : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitioner-p6x5NWQPoKgyTKjAk : 11 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitioner-pBvMREMS3HpzyJgwa : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitioner-pFhDpHhMzBsSvmLb9 : 7 / 1 / 1
@@ -358,6 +359,9 @@ ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/outp
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/PractitionerRole-rtaTdfxSNTmqqnDeJ.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 612: The link 'Practitioner-JoeSmith.html' for "Practitioner/JoeSmith" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/PractitionerRole-rtaTdfxSNTmqqnDeJ.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1155: The link 'Location-HospLoc1.html' for "Location/HospLoc1" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/PractitionerRole-rtaTdfxSNTmqqnDeJ.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1242: The link 'HealthcareService-HospERService.html' for "HealthcareService/HospERService" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 7: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Organization-m6AJtyEk6sSsHWLjt.html' for "St. James" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 225: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Location-l4bjaZGQfeNfhAEpb.html' for "456 Main Street" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 382: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Practitioner-fZzusFYr3PBYyRnot.html' for "Dr. Allison Camron" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.us.fhir-directory-attestation.json ==
 WARNING: ImplementationGuide/hl7.fhir.us.fhir-directory-attestation: ImplementationGuide.definition.resource[11].name: value should not start or finish with whitespace ' NatlDirEx...Restriction'
 WARNING: ImplementationGuide/hl7.fhir.us.fhir-directory-attestation: ImplementationGuide.definition.resource[13].description: value should not start or finish with whitespace '	
@@ -868,6 +872,15 @@ ERROR: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.locati
 ERROR: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.location[1]: Unable to resolve resource 'Location/HospLoc2'
 ERROR: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.healthcareService[0]: Unable to resolve resource 'HealthcareService/HartfordOrthopedicServices'
 WARNING: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Practitioner-fZzusFYr3PBYyRnot.json ==
+ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner' does not resolve
+ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.qualification[0].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification is unknown, and not allowed here
+ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.qualification[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification' does not resolve
+ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.qualification[1].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification is unknown, and not allowed here
+ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.qualification[1].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification' does not resolve
+ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.qualification[2].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification is unknown, and not allowed here
+ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.qualification[2].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification' does not resolve
+WARNING: Practitioner/fZzusFYr3PBYyRnot: Practitioner.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Practitioner-p6x5NWQPoKgyTKjAk.json ==
 ERROR: Practitioner/p6x5NWQPoKgyTKjAk: Practitioner.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner' does not resolve
 ERROR: Practitioner/p6x5NWQPoKgyTKjAk: Practitioner.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/communication-proficiency is unknown, and not allowed here

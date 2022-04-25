@@ -11,7 +11,7 @@
   <name value="ONCFASTNationalDirectory"/>
   <title value="National Directory"/>
   <status value="active"/>
-  <date value="2022-04-25T03:17:22-05:00"/>
+  <date value="2022-04-25T04:33:18-05:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>
@@ -766,6 +766,17 @@
       </reference>
       <name value="Endpoint/etKzBJvzbeHDZi7Gd"/>
       <description value="Endpoint - Acme of Connecticut"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/fZzusFYr3PBYyRnot"/>
+      </reference>
+      <name value="Practitioner/fZzusFYr3PBYyRnot"/>
+      <description value="Practitioner - Allison Camron"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>

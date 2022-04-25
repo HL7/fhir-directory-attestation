@@ -10,7 +10,7 @@
   "name": "ONCFASTNationalDirectory",
   "title": "National Directory",
   "status": "active",
-  "date": "2022-04-25T03:17:22-05:00",
+  "date": "2022-04-25T04:33:18-05:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -1044,6 +1044,20 @@
         },
         "name": "Endpoint/etKzBJvzbeHDZi7Gd",
         "description": "Endpoint - Acme of Connecticut",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/fZzusFYr3PBYyRnot"
+        },
+        "name": "Practitioner/fZzusFYr3PBYyRnot",
+        "description": "Practitioner - Allison Camron",
         "exampleBoolean": true
       },
       {

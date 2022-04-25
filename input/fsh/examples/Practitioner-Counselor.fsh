@@ -1,4 +1,4 @@
-Instance: Counselor
+Instance: PractitionerCounselor
 InstanceOf: Practitioner
 Title: "Practitioner/pBvMREMS3HpzyJgwa"
 Description: "Practitioner - Counselor"
