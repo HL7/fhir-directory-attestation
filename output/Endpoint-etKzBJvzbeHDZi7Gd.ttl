@@ -19,7 +19,7 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"etKzBJvzbeHDZi7Gd\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Endpoint</code></p></div><p><b>status</b>: active</p><p><b>connectionType</b>: rest-non-fhir (Details: http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS code rest-non-fhir = 'rest-non-fhir', stated as 'null')</p><p><b>name</b>: Endpoint for Acme of CT Portal</p><p><b>payloadType</b>: NA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (EndpointPayloadTypeCS#NA)</span></p><p><b>address</b>: <a href=\"https://urlofportal.acmect.com\">https://urlofportal.acmect.com</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"etKzBJvzbeHDZi7Gd\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Endpoint</code></p></div><p><b>status</b>: active</p><p><b>connectionType</b>: rest-non-fhir (Details: http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS code rest-non-fhir = 'rest-non-fhir', stated as 'null')</p><p><b>name</b>: Endpoint for St James Hospital</p><p><b>payloadType</b>: NA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (EndpointPayloadTypeCS#NA)</span></p><p><b>address</b>: <a href=\"https://urlofportal.stjameshospital.com\">https://urlofportal.stjameshospital.com</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -41,7 +41,7 @@
      fhir:Coding.system [ fhir:value "http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS" ];
      fhir:Coding.code [ fhir:value "rest-non-fhir" ]
   ];
-  fhir:Endpoint.name [ fhir:value "Endpoint for Acme of CT Portal"];
+  fhir:Endpoint.name [ fhir:value "Endpoint for St James Hospital"];
   fhir:Endpoint.payloadType [
      fhir:index 0;
      fhir:CodeableConcept.coding [
@@ -50,7 +50,7 @@
        fhir:Coding.code [ fhir:value "NA" ]
      ]
   ];
-  fhir:Endpoint.address [ fhir:value "https://urlofportal.acmect.com"] .
+  fhir:Endpoint.address [ fhir:value "https://urlofportal.stjameshospital.com"] .
 
 # - ontology header ------------------------------------------------------------
 

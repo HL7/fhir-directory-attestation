@@ -13,11 +13,11 @@
     <valueCode value="business"/>
   </extension>
   <url value="http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Endpoint"/>
-  <version value="0.0.1"/>
+  <version value="0.1.0"/>
   <name value="NatlDirAttestEndPoint"/>
   <title value="NatDir Endpoint"/>
   <status value="active"/>
-  <date value="2022-04-25T04:33:18-05:00"/>
+  <date value="2022-04-25T04:38:22-05:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>

@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation"/>
-  <version value="0.0.1"/>
+  <version value="0.1.0"/>
   <name value="ONCFASTNationalDirectory"/>
   <title value="National Directory"/>
   <status value="active"/>
-  <date value="2022-04-25T04:33:18-05:00"/>
+  <date value="2022-04-25T04:38:22-05:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>
@@ -765,7 +765,7 @@
         <reference value="Endpoint/etKzBJvzbeHDZi7Gd"/>
       </reference>
       <name value="Endpoint/etKzBJvzbeHDZi7Gd"/>
-      <description value="Endpoint - Acme of Connecticut"/>
+      <description value="Endpoint - St. James Hospital"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>

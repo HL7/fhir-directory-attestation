@@ -3,7 +3,7 @@
 
 err = 517, warn = 85, info = 21
 IG Publisher Version: 1.1.115
-Generated Mon Apr 25 04:34:59 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.0.1 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
+Generated Mon Apr 25 04:40:07 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.0 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
  Build Errors : 101 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.fhir-directory-attestation : 0 / 2 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-AcceptingPatientsCS : 0 / 0 / 1

@@ -45,7 +45,7 @@
     <valueCode value="business"/>
   </extension>
   <url value="http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDir-Validation"/>
-  <version value="0.0.1"/>
+  <version value="0.1.0"/>
   <name value="NatlDirAttestValidation"/>
   <title value="NatlDir Validation"/>
   <status value="active"/>

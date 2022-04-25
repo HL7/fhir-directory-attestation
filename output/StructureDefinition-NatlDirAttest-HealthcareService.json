@@ -16,11 +16,11 @@
     }
   ],
   "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-HealthcareService",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "name": "NatlDirAttestHealthCareService",
   "title": "NatDir HealthcareService",
   "status": "active",
-  "date": "2022-04-25T04:33:18-05:00",
+  "date": "2022-04-25T04:38:22-05:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
