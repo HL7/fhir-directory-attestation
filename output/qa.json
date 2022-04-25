@@ -3,7 +3,7 @@
   "name": "ONCFASTNationalDirectory",
   "package-id": "hl7.fhir.us.fhir-directory-attestation",
   "ig-ver": "0.0.1",
-  "date": "Sun, 24 Apr, 2022 12:38:40 -0500",
+  "date": "Mon, 25 Apr, 2022 03:17:22 -0500",
   "errs": 510,
   "warnings": 84,
   "hints": 21,

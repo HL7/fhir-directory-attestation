@@ -44,16 +44,15 @@ releaseLabel: draft
 # │  To control the menu.xml using this config, uncomment and set the "menu" property.             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
-  Home:          index.html
+  Home: index.html
   Guidance:
-    General Guidance:                              general-guidance.html
+    General Guidance:  general-guidance.html
     Technical Guidance: technical-guidance.html
-    Bulk Data and Subscriptions:          bulk-data.html
-  Profiles          : profiles.html
-  Terminology          : terminology.html
-  Search Parameters   : searchparameters.html
-  Capability Statement: 
-    Conformance Requirements  : CapabilityStatement-NatlDirVal.html
-  # Examples      : examples.html
-  Downloads     : downloads.html
+    Bulk Data and Subscriptions: bulk-data.html
+  Definitions:
+    Profiles: profiles.html
+    Terminology: terminology.html
+    Search Parameters: searchparameters.html
+  Use Cases: usecases.html
+  Downloads: downloads.html
   Artifacts: artifacts.html

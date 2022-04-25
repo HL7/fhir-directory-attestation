@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "ONCFASTNationalDirectory"];
   fhir:ImplementationGuide.title [ fhir:value "National Directory"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-24T12:38:40-05:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-25T03:17:22-05:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Administration Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -4316,11 +4316,16 @@
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 93;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "usecases.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Usecases" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 94;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "validation-diff2.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Validation Diff 2" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
-         fhir:index 94;
+         fhir:index 95;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "validation-search.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Validation Search" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
