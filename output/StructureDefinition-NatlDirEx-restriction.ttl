@@ -22,8 +22,8 @@
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
   fhir:StructureDefinition.url [ fhir:value "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirEx-restriction"];
-  fhir:StructureDefinition.version [ fhir:value "0.0.1"];
-  fhir:StructureDefinition.name [ fhir:value "NatlDirExRestriction"];
+  fhir:StructureDefinition.version [ fhir:value "0.1.0"];
+  fhir:StructureDefinition.name [ fhir:value "NatlDirAttestUsageRestriction"];
   fhir:StructureDefinition.title [ fhir:value " NatlDirEx Restriction"];
   fhir:StructureDefinition.status [ fhir:value "active"];
   fhir:StructureDefinition.date [ fhir:value "2017-12-15T01:01:31.325+11:00"^^xsd:dateTime];

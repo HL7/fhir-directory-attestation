@@ -1,38 +1,9 @@
 {
   "package": "hl7.fhir.us.fhir-directory-attestation",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "US",
-  "extensions": [
-    {
-      "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/natlDirAtt-usage-restriction",
-      "title": "NatlDirExr Usage Restriction",
-      "types": [
-        "Reference",
-        "Reference",
-        "string",
-        "Extension",
-        "string",
-        "uri",
-        "Identifier",
-        "string"
-      ]
-    },
-    {
-      "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/usage-restriction",
-      "title": "NatlDirExr Usage Restriction",
-      "types": [
-        "Reference",
-        "Reference",
-        "string",
-        "Extension",
-        "string",
-        "uri",
-        "Identifier",
-        "string"
-      ]
-    }
-  ],
+  "extensions": [],
   "profiles": {
     "Consent": [
       {
@@ -49,65 +20,59 @@
     "CareTeam": [
       {
         "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-CareTeam",
-        "title": "National Directory Attestation and Validation Care Team"
+        "title": "NatDir Care Team"
       }
     ],
     "Endpoint": [
       {
         "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Endpoint",
-        "title": "National Directory Attestation and Validation Endpoint"
+        "title": "NatDir Endpoint"
       }
     ],
     "HealthcareService": [
       {
         "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-HealthcareService",
-        "title": "National Directory Attestation and Validation HealthcareService"
+        "title": "NatDir HealthcareService"
       }
     ],
     "InsurancePlan": [
       {
         "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-InsurancePlan",
-        "title": "National Directory Attestation and Validation InsurancePlan"
+        "title": "NatDir InsurancePlan"
       }
     ],
     "Location": [
       {
         "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Location",
-        "title": "National Directory Attestation and Validation Location"
+        "title": "NatDir Location"
       }
     ],
     "Organization": [
       {
         "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Network",
-        "title": "National Directory Attestation and Validation Network"
+        "title": "NatDir Network"
       },
       {
         "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization",
-        "title": "National Directory Attestation and Validation Organization"
+        "title": "NatDir Organization"
       }
     ],
     "OrganizationAffiliation": [
       {
         "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-OrganizationAffiliation",
-        "title": "National Directory Attestation and Validation OrganizationAffiliation"
+        "title": "NatDir OrganizationAffiliation"
       }
     ],
     "Practitioner": [
       {
         "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Practitioner",
-        "title": "National Directory Attestation and Validation Practitioner"
+        "title": "NatDir Practitioner"
       }
     ],
     "PractitionerRole": [
       {
         "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-PractitionerRole",
-        "title": "National Directory Attestation and Validation PractitionerRole"
-      }
-    ],
-    "CommunicationRequest": [
-      {
-        "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-verifyRequest",
-        "title": "National Directory Attestation and Validation -Verification Request"
+        "title": "NatDir PractitionerRole"
       }
     ]
   },
@@ -167,19 +132,59 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/accessibility": [
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility": [
       "Location"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/associatedServers": [
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/communication-proficiency": [
+      "Practitioner"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime": [
+      "Location.telecom",
+      "Organization.contact.telecom",
+      "Organization.telecom"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/delivery-method": [
+      "HealthcareService"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/endpoint-usecase": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/careteam-alias": [
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/location-reference": [
+      "Organization"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference": [
+      "PractitionerRole"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients": [
+      "HealthcareService",
+      "Location"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/org-description": [
+      "Organization"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification": [
+      "Practitioner.qualification"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/qualification": [
+      "PractitionerRole"
+    ],
+    "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary": [
+      "HealthcareService.telecom",
+      "Organization.contact.telecom"
+    ],
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/accessibility": [
+      "Location"
+    ],
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/associatedServers": [
+      "Endpoint"
+    ],
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/careteam-alias": [
       "CareTeam"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/communication-proficiency": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/communication-proficiency": [
       "Practitioner.communication"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/contactpoint-availabletime": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/contactpoint-availabletime": [
       "CareTeam.telecom",
       "HealthcareService.telecom",
       "Location.telecom",
@@ -188,66 +193,73 @@
       "Practitioner.telecom",
       "PractitionerRole.telecom"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/delivery-method": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/delivery-method": [
       "HealthcareService"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/dynamicRegistration": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/dynamicRegistration": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/endpoint-reference": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/endpoint-reference": [
       "CareTeam"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/endpoint-usecase": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/endpoint-usecase": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/endpointType": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/endpointType": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/healthcareservice-reference": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/healthcareservice-reference": [
       "CareTeam"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/identifier-status": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/identifier-status": [
       "CareTeam.identifier"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/igsSupported": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/igsSupported": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/location-reference": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/location-reference": [
       "CareTeam",
       "Organization"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/network-reference": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/network-reference": [
       "PractitionerRole"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/newpatients": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/newpatients": [
       "HealthcareService",
       "Location",
       "PractitionerRole"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/org-description": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/org-description": [
       "Organization"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/practitioner-qualification": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/practitioner-qualification": [
       "Practitioner.qualification"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/qualification": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification": [
       "Organization",
       "OrganizationAffiliation",
+      "Practitioner",
       "PractitionerRole"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/secureEndpoint": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/rating": [
+      "HealthcareService",
+      "Organization",
+      "Practitioner",
+      "PractitionerRole"
+    ],
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/secureEndpoint": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/secureExchangeArtifacts": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/secureExchangeArtifacts": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/trustFramework": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/trustFramework": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/usage-restriction": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/usage-restriction": [
       "CareTeam"
     ],
-    "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/via-intermediary": [
+    "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/via-intermediary": [
       "CareTeam.telecom",
       "HealthcareService.telecom",
       "Location.telecom",

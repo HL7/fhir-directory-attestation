@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-ConsentCS.html\"><code>http://hl7.org/fhir/us/fhir-directory-attestation/CodeSystem/ConsentCS</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-ConsentScopeCS.html\"><code>http://hl7.org/fhir/us/fhir-directory-attestation/CodeSystem/ConsentScopeCS</code></a></li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://hl7.org/fhir/us/fhir-directory-attestation/ValueSet/ConsentVS"];
-  fhir:ValueSet.version [ fhir:value "0.0.1"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "ConsentVS"];
-  fhir:ValueSet.title [ fhir:value "National Directory Consent Value Set"];
+  fhir:ValueSet.title [ fhir:value "NatDir Consent Scopes"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2022-02-14T12:56:11-05:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2022-04-25T04:38:22-05:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "HL7 Patient Administration Working Group"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -32,7 +32,7 @@
        fhir:ContactPoint.value [ fhir:value "pafm@lists.HL7.org" ]
      ]
   ];
-  fhir:ValueSet.description [ fhir:value "	\r\nCodes for use in defining access levels for sharing subsets of constrained content (as an example)."];
+  fhir:ValueSet.description [ fhir:value "	\nCodes for use in defining access levels for sharing subsets of constrained content (as an example)."];
   fhir:ValueSet.jurisdiction [
      fhir:index 0;
      fhir:CodeableConcept.coding [

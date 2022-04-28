@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "013f42ac-3425-42da-9119-5dcca96ced0d-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/013f42ac-3425-42da-9119-5dcca96ced0d-3",
+  "id" : "f2288fa7-3ecc-4f7b-9be5-80d1590df15f-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/f2288fa7-3ecc-4f7b-9be5-80d1590df15f-3",
   "name" : "IntersectionUSCoreCareTeamAndNatlDirAttestCareTeam",
-  "title" : "Intersection of US Core CareTeam Profile And National Directory Attestation and Validation Care Team",
+  "title" : "Intersection of US Core CareTeam Profile And NatDir Care Team",
   "status" : "active",
-  "date" : "2022-02-14T12:56:37-05:00",
+  "date" : "2022-04-25T04:39:00-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -407,7 +407,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : true,
       "isSummary" : true,
       "binding" : {
@@ -443,7 +443,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : true,
       "binding" : {
@@ -483,7 +483,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
@@ -521,7 +521,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
@@ -554,7 +554,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
@@ -577,6 +577,10 @@
       "comment" : "The Identifier.assigner may omit the .reference element and only contain a .display element reflecting the name or other textual information about the assigning organization.",
       "min" : 0,
       "max" : "1",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-Organization"]
+      }],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -585,7 +589,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
@@ -775,7 +779,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
@@ -1013,7 +1017,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : true
     },
@@ -1034,7 +1038,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : false
     },
@@ -1055,7 +1059,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : false,
       "binding" : {
@@ -1090,7 +1094,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : false,
       "mapping" : [{
@@ -1105,6 +1109,10 @@
       "requirements" : "Allows for multiple organizations to collaboratively manage cross-organizational, longitudinal care plan.",
       "min" : 0,
       "max" : "1",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-Organization"]
+      }],
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
@@ -1113,7 +1121,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : true
     },
@@ -1135,7 +1143,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : false
     },
@@ -1214,7 +1222,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : true,
       "binding" : {
@@ -1254,7 +1262,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
@@ -1390,7 +1398,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : false
     },
@@ -1461,14 +1469,11 @@
       "max" : "1",
       "type" : [{
         "code" : "Reference",
-        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Practitioner",
-        "http://hl7.org/fhir/StructureDefinition/Patient",
-        "http://hl7.org/fhir/StructureDefinition/RelatedPerson",
-        "http://hl7.org/fhir/StructureDefinition/Organization"]
+        "targetProfile" : ["http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-Practitioner"]
       },
       {
         "code" : "string",
-        "targetProfile" : ["http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-Practitioner"]
+        "targetProfile" : ["http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-Practitioner"]
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1478,7 +1483,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
@@ -1507,7 +1512,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
@@ -1536,7 +1541,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
-      "mustSupport" : true,
+      "mustSupport" : false,
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{

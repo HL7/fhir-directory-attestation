@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:PractitionerRole</sch:title>
     <sch:rule context="f:PractitionerRole">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/network-reference']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/network-reference': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/network-reference']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/network-reference': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -103,6 +103,8 @@
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both</sch:assert>
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
       <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])">Must have either extensions or value[x], not both</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
@@ -180,49 +182,6 @@
   <sch:pattern>
     <sch:title>PractitionerRole.identifier</sch:title>
     <sch:rule context="f:PractitionerRole/f:identifier">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>PractitionerRole.identifier.extension</sch:title>
-    <sch:rule context="f:PractitionerRole/f:identifier/f:extension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>PractitionerRole.identifier.use</sch:title>
-    <sch:rule context="f:PractitionerRole/f:identifier/f:use">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>PractitionerRole.identifier.type</sch:title>
-    <sch:rule context="f:PractitionerRole/f:identifier/f:type">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>PractitionerRole.identifier.system</sch:title>
-    <sch:rule context="f:PractitionerRole/f:identifier/f:system">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>PractitionerRole.identifier.value</sch:title>
-    <sch:rule context="f:PractitionerRole/f:identifier/f:value">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>PractitionerRole.identifier.period</sch:title>
-    <sch:rule context="f:PractitionerRole/f:identifier/f:period">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
-    </sch:rule>
-  </sch:pattern>
-  <sch:pattern>
-    <sch:title>PractitionerRole.identifier.assigner</sch:title>
-    <sch:rule context="f:PractitionerRole/f:identifier/f:assigner">
       <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>

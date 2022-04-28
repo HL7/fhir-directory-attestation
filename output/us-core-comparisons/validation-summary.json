@@ -1,7 +1,7 @@
 {
   "ImplementationGuide/hl7.fhir.us.fhir-directory-exchange": {
     "errors": 0,
-    "warnings": 1
+    "warnings": 0
   },
   "StructureDefinition/NatlDirEx-CareTeam": {
     "errors": 0,
@@ -13,7 +13,7 @@
   },
   "StructureDefinition/NatlDirEx-HealthcareService": {
     "errors": 0,
-    "warnings": 1
+    "warnings": 0
   },
   "StructureDefinition/NatlDirEx-InsurancePlan": {
     "errors": 0,
@@ -21,7 +21,7 @@
   },
   "StructureDefinition/NatlDirEx-Location": {
     "errors": 0,
-    "warnings": 1
+    "warnings": 0
   },
   "StructureDefinition/NatlDirEx-Network": {
     "errors": 0,
@@ -29,11 +29,11 @@
   },
   "StructureDefinition/NatlDirEx-Organization": {
     "errors": 0,
-    "warnings": 1
+    "warnings": 0
   },
   "StructureDefinition/NatlDirEx-OrganizationAffiliation": {
     "errors": 0,
-    "warnings": 1
+    "warnings": 0
   },
   "StructureDefinition/NatlDirEx-Practitioner": {
     "errors": 0,
@@ -43,17 +43,13 @@
     "errors": 0,
     "warnings": 1
   },
-  "StructureDefinition/NatlDir-Restriction": {
+  "StructureDefinition/NatlDirEx-Restriction": {
     "errors": 1,
     "warnings": 1
   },
-  "StructureDefinition/NatlDir-Validation": {
-    "errors": 2,
-    "warnings": 3
-  },
-  "ValueSet/ConsentVS": {
-    "errors": 0,
-    "warnings": 0
+  "StructureDefinition/NatlDirEx-Validation": {
+    "errors": 1,
+    "warnings": 2
   },
   "ValueSet/OrganizationAffiliationRoleVS": {
     "errors": 0,
@@ -134,6 +130,202 @@
   "CodeSystem/VirtualModalitiesCS": {
     "errors": 0,
     "warnings": 0
+  },
+  "Organization/Acme": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Endpoint/AcmeOfCTPortalEndpoint": {
+    "errors": 1,
+    "warnings": 1
+  },
+  "InsurancePlan/AcmeQHPBronze": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "InsurancePlan/AcmeQHPGold": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Organization/AcmeofCTPremNet": {
+    "errors": 1,
+    "warnings": 0
+  },
+  "Organization/AcmeofCTStdNet": {
+    "errors": 1,
+    "warnings": 0
+  },
+  "PractitionerRole/AnonRole": {
+    "errors": 1,
+    "warnings": 1
+  },
+  "Organization/BigBox": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Organization/BurrClinic": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "OrganizationAffiliation/BurrClinicAffil": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "HealthcareService/BurrClinicServices": {
+    "errors": 2,
+    "warnings": 1
+  },
+  "Organization/CancerClinic": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Location/CancerClinicLoc": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "HealthcareService/CancerClinicService": {
+    "errors": 2,
+    "warnings": 1
+  },
+  "Organization/ConnHIE": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "OrganizationAffiliation/ConnHIEAffil": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Practitioner/Counselor": {
+    "errors": 1,
+    "warnings": 0
+  },
+  "PractitionerRole/CounselorRole1": {
+    "errors": 1,
+    "warnings": 0
+  },
+  "Organization/HamiltonClinic": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "OrganizationAffiliation/HamiltonClinicAffil": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "HealthcareService/HamiltonClinicServices": {
+    "errors": 2,
+    "warnings": 1
+  },
+  "Practitioner/HansSolo": {
+    "errors": 1,
+    "warnings": 2
+  },
+  "Location/HansSoloClinic": {
+    "errors": 1,
+    "warnings": 0
+  },
+  "PractitionerRole/HansSoloRole1": {
+    "errors": 1,
+    "warnings": 1
+  },
+  "HealthcareService/HansSoloService": {
+    "errors": 2,
+    "warnings": 1
+  },
+  "OrganizationAffiliation/HartfordOrthopedicAffil": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "HealthcareService/HartfordOrthopedicServices": {
+    "errors": 2,
+    "warnings": 1
+  },
+  "Organization/HartfordOrthopedics": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "HealthcareService/HospERService": {
+    "errors": 2,
+    "warnings": 1
+  },
+  "Location/HospLoc1": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Location/HospLoc2": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Organization/Hospital": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "Practitioner/JoeSmith": {
+    "errors": 0,
+    "warnings": 2
+  },
+  "PractitionerRole/JoeSmithRole1": {
+    "errors": 1,
+    "warnings": 1
+  },
+  "PractitionerRole/JoeSmithRole2": {
+    "errors": 1,
+    "warnings": 1
+  },
+  "PractitionerRole/JoeSmithRole3": {
+    "errors": 1,
+    "warnings": 2
+  },
+  "Organization/PharmChain": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "OrganizationAffiliation/PharmChainAffil1": {
+    "errors": 1,
+    "warnings": 0
+  },
+  "OrganizationAffiliation/PharmChainAffil2": {
+    "errors": 1,
+    "warnings": 0
+  },
+  "OrganizationAffiliation/PharmChainAffil3": {
+    "errors": 1,
+    "warnings": 0
+  },
+  "HealthcareService/PharmChainCompService": {
+    "errors": 2,
+    "warnings": 0
+  },
+  "HealthcareService/PharmChainMailService": {
+    "errors": 2,
+    "warnings": 0
+  },
+  "HealthcareService/PharmChainRetailService": {
+    "errors": 3,
+    "warnings": 0
+  },
+  "Location/PharmLoc1": {
+    "errors": 1,
+    "warnings": 0
+  },
+  "Location/PharmLoc2": {
+    "errors": 1,
+    "warnings": 0
+  },
+  "Location/PharmLoc3": {
+    "errors": 1,
+    "warnings": 0
+  },
+  "Location/PharmLoc4": {
+    "errors": 1,
+    "warnings": 0
+  },
+  "Location/StateOfCTLocation": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "HealthcareService/VirtualCounselService": {
+    "errors": 2,
+    "warnings": 1
   },
   "SearchParameter/endpoint-organization": {
     "errors": 0,

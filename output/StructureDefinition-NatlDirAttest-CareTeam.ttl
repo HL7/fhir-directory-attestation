@@ -22,11 +22,11 @@
      fhir:Extension.valueCode [ fhir:value "patient" ]
   ];
   fhir:StructureDefinition.url [ fhir:value "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-CareTeam"];
-  fhir:StructureDefinition.version [ fhir:value "0.0.1"];
+  fhir:StructureDefinition.version [ fhir:value "0.1.0"];
   fhir:StructureDefinition.name [ fhir:value "NatlDirAttestCareTeam"];
-  fhir:StructureDefinition.title [ fhir:value "National Directory Attestation and Validation Care Team"];
+  fhir:StructureDefinition.title [ fhir:value "NatDir Care Team"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-02-14T12:56:11-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-04-25T04:38:22-05:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Administration Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -444,58 +444,6 @@
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 8;
-       fhir:Element.id [ fhir:value "CareTeam.extension:restriction" ];
-       fhir:ElementDefinition.path [ fhir:value "CareTeam.extension" ];
-       fhir:ElementDefinition.sliceName [ fhir:value "restriction" ];
-       fhir:ElementDefinition.short [ fhir:value "Restriction" ];
-       fhir:ElementDefinition.definition [ fhir:value "Identifies and conveys information about restrictions on the use or release of exchanged information, e.g. information that can only be shared under particular condition, such as a signed data use agreement between parties" ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-       fhir:ElementDefinition.max [ fhir:value "*" ];
-       fhir:ElementDefinition.base [
-         fhir:ElementDefinition.base.path [ fhir:value "DomainResource.extension" ];
-         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
-         fhir:ElementDefinition.base.max [ fhir:value "*" ]
-       ];
-       fhir:ElementDefinition.type [
-         fhir:index 0;
-         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
-         fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/usage-restriction";
-           fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/usage-restriction>
-         ]
-       ];
-       fhir:ElementDefinition.condition [
-         fhir:value "ele-1";
-         fhir:index 0
-       ];
-       fhir:ElementDefinition.constraint [
-         fhir:index 0;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
-         ]
-       ], [
-         fhir:index 1;
-         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
-         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
-         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
-         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
-         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ];
-         fhir:ElementDefinition.constraint.source [
-           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
-           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
-         ]
-       ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
-       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 9;
        fhir:Element.id [ fhir:value "CareTeam.extension:alias" ];
        fhir:ElementDefinition.path [ fhir:value "CareTeam.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "alias" ];
@@ -512,9 +460,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/careteam-alias";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/careteam-alias";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/careteam-alias>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/careteam-alias>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -544,10 +492,9 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 9;
        fhir:Element.id [ fhir:value "CareTeam.extension:location" ];
        fhir:ElementDefinition.path [ fhir:value "CareTeam.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "location" ];
@@ -564,9 +511,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/location-reference";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/location-reference";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/location-reference>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/location-reference>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -596,10 +543,9 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 11;
+       fhir:index 10;
        fhir:Element.id [ fhir:value "CareTeam.extension:service" ];
        fhir:ElementDefinition.path [ fhir:value "CareTeam.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "service" ];
@@ -616,9 +562,60 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/healthcareservice-reference";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/healthcareservice-reference";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/healthcareservice-reference>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/healthcareservice-reference>
+         ]
+       ];
+       fhir:ElementDefinition.condition [
+         fhir:value "ele-1";
+         fhir:index 0
+       ];
+       fhir:ElementDefinition.constraint [
+         fhir:index 0;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ele-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "All FHIR elements must have a @value or children" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "hasValue() or (children().count() > id.count())" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "@value|f:*|h:div" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Element";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
+         ]
+       ], [
+         fhir:index 1;
+         fhir:ElementDefinition.constraint.key [ fhir:value "ext-1" ];
+         fhir:ElementDefinition.constraint.severity [ fhir:value "error" ];
+         fhir:ElementDefinition.constraint.human [ fhir:value "Must have either extensions or value[x], not both" ];
+         fhir:ElementDefinition.constraint.expression [ fhir:value "extension.exists() != value.exists()" ];
+         fhir:ElementDefinition.constraint.xpath [ fhir:value "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" ];
+         fhir:ElementDefinition.constraint.source [
+           fhir:value "http://hl7.org/fhir/StructureDefinition/Extension";
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
+         ]
+       ];
+       fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.id [ fhir:value "CareTeam.extension:endpoint" ];
+       fhir:ElementDefinition.path [ fhir:value "CareTeam.extension" ];
+       fhir:ElementDefinition.sliceName [ fhir:value "endpoint" ];
+       fhir:ElementDefinition.short [ fhir:value "Endpoints for the care team" ];
+       fhir:ElementDefinition.definition [ fhir:value "An extensions indicating endpoints for the care team" ];
+       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.max [ fhir:value "*" ];
+       fhir:ElementDefinition.base [
+         fhir:ElementDefinition.base.path [ fhir:value "DomainResource.extension" ];
+         fhir:ElementDefinition.base.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+         fhir:ElementDefinition.base.max [ fhir:value "*" ]
+       ];
+       fhir:ElementDefinition.type [
+         fhir:index 0;
+         fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
+         fhir:ElementDefinition.type.profile [
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/endpoint-reference";
+           fhir:index 0;
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/endpoint-reference>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -652,11 +649,11 @@
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 12;
-       fhir:Element.id [ fhir:value "CareTeam.extension:endpoint" ];
+       fhir:Element.id [ fhir:value "CareTeam.extension:restriction" ];
        fhir:ElementDefinition.path [ fhir:value "CareTeam.extension" ];
-       fhir:ElementDefinition.sliceName [ fhir:value "endpoint" ];
-       fhir:ElementDefinition.short [ fhir:value "Endpoints for the care team" ];
-       fhir:ElementDefinition.definition [ fhir:value "An extensions indicating endpoints for the care team" ];
+       fhir:ElementDefinition.sliceName [ fhir:value "restriction" ];
+       fhir:ElementDefinition.short [ fhir:value "Restriction" ];
+       fhir:ElementDefinition.definition [ fhir:value "Identifies and conveys information about restrictions on the use or release of exchanged information, e.g. information that can only be shared under particular condition, such as a signed data use agreement between parties" ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [
@@ -668,9 +665,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/endpoint-reference";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/usage-restriction";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/endpoint-reference>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/usage-restriction>
          ]
        ];
        fhir:ElementDefinition.condition [
@@ -700,7 +697,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 13;
@@ -901,9 +897,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/identifier-status";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/identifier-status";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/identifier-status>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/identifier-status>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -929,7 +925,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -963,7 +958,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifierReason [ fhir:value "This is labeled as \"Is Modifier\" because applications should not mistake a temporary id for a permanent one." ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
@@ -1020,7 +1014,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -1085,7 +1078,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1136,7 +1128,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1181,7 +1172,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1215,9 +1205,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-Organization";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-Organization";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-Organization>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-Organization>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -1232,7 +1222,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1278,7 +1267,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifierReason [ fhir:value "This element is labelled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid" ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
@@ -1428,7 +1416,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1512,7 +1499,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1526,7 +1512,7 @@
        fhir:ElementDefinition.path [ fhir:value "CareTeam.participant" ];
        fhir:ElementDefinition.short [ fhir:value "Members of the team" ];
        fhir:ElementDefinition.definition [ fhir:value "Identifies all people and organizations who are expected to be involved in the care team." ];
-       fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
+       fhir:ElementDefinition.min [ fhir:value "1"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [
          fhir:ElementDefinition.base.path [ fhir:value "CareTeam.participant" ];
@@ -1564,7 +1550,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1754,7 +1739,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -1797,17 +1781,17 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-CareTeam";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-CareTeam";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-CareTeam>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-CareTeam>
          ], [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-PractitionerRole";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-PractitionerRole";
            fhir:index 1;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-PractitionerRole>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-PractitionerRole>
          ], [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-Organization";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-Organization";
            fhir:index 2;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-Organization>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-Organization>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -1822,7 +1806,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -1873,7 +1856,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]
      ], [
@@ -1905,7 +1887,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -1937,7 +1918,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -1992,7 +1972,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -2018,9 +1997,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-Organization";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-Organization";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-Organization>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-Organization>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -2035,7 +2014,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ]
      ], [
@@ -2068,7 +2046,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -2186,9 +2163,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/contactpoint-availabletime";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/contactpoint-availabletime";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/contactpoint-availabletime>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/contactpoint-availabletime>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -2214,7 +2191,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -2223,7 +2199,7 @@
        fhir:ElementDefinition.path [ fhir:value "CareTeam.telecom.extension" ];
        fhir:ElementDefinition.sliceName [ fhir:value "via-intermediary" ];
        fhir:ElementDefinition.short [ fhir:value "Via Intermediary" ];
-       fhir:ElementDefinition.definition [ fhir:value "A reference to an alternative point of contact (NatlDir-PractitionerRole, NatlDir-Organization, NatlDir-OrganizationAffiliation, or NatlDir-Location) for this organization" ];
+       fhir:ElementDefinition.definition [ fhir:value "A reference to an alternative point of contact (NatlDirEndpointQry-PractitionerRole, NatlDirEndpointQry-Organization, NatlDirEndpointQry-OrganizationAffiliation, or NatlDirEndpointQry-Location) for this organization" ];
        fhir:ElementDefinition.min [ fhir:value "0"^^xsd:nonNegativeInteger ];
        fhir:ElementDefinition.max [ fhir:value "*" ];
        fhir:ElementDefinition.base [
@@ -2235,9 +2211,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Extension" ];
          fhir:ElementDefinition.type.profile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/via-intermediary";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/via-intermediary";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/via-intermediary>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/via-intermediary>
          ]
        ];
        fhir:ElementDefinition.constraint [
@@ -2263,7 +2239,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Extension>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -2299,7 +2274,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.binding [
@@ -2359,7 +2333,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -2549,7 +2522,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "false"^^xsd:boolean ]
      ], [
@@ -2667,9 +2639,9 @@
          fhir:index 0;
          fhir:ElementDefinition.type.code [ fhir:value "Reference" ];
          fhir:ElementDefinition.type.targetProfile [
-           fhir:value "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-Practitioner";
+           fhir:value "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-Practitioner";
            fhir:index 0;
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-Practitioner>
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-Practitioner>
          ]
        ], [
          fhir:index 1;
@@ -2687,7 +2659,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -2728,7 +2699,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
@@ -2769,7 +2739,6 @@
            fhir:link <http://hl7.org/fhir/StructureDefinition/Element>
          ]
        ];
-       fhir:ElementDefinition.mustSupport [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.isModifier [ fhir:value "false"^^xsd:boolean ];
        fhir:ElementDefinition.isSummary [ fhir:value "true"^^xsd:boolean ];
        fhir:ElementDefinition.mapping [
