@@ -3,5 +3,5 @@ InstanceOf: Organization
 Title: "Organization/oxdzMhGRoLTXdp5aE"
 Description: "Centers for Medicare and Medicaid Services"
 Usage: #example
-* id = "kxdzMhGRoLTXdp5aE"
+* id = "oxdzMhGRoLTXdp5aE"
 * name = "Centers for Medicare and Medicaid Services"

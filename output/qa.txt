@@ -3,7 +3,7 @@
 
 err = 519, warn = 85, info = 21
 IG Publisher Version: 1.1.115 Out of date - current version is 1.1.116
-Generated Sun May 01 20:05:12 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.2 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
+Generated Sun May 01 20:31:03 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.2 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
  Build Errors : 101 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.fhir-directory-attestation : 0 / 2 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-AcceptingPatientsCS : 0 / 0 / 1
@@ -54,7 +54,6 @@ Generated Sun May 01 20:05:12 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lYG8WxBHX4HRoewaM : 19 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lsH38uL5J3eYEQ5hJ : 11 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lyW5mPW2nf3DHC7h6 : 19 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-kxdzMhGRoLTXdp5aE : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o4XMGtrjTrN7mcctj : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o4aKCfZSaoxLrDPbA : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o4gQrsHZfpYNoohzD : 10 / 1 / 1
@@ -72,6 +71,7 @@ Generated Sun May 01 20:05:12 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-oPxE9d7Wtqjy9WEZx : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-ocb4z5LvCufWTr472 : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-ow7KqRFWWHrxKQW34 : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-oxdzMhGRoLTXdp5aE : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oa3oxC4yKJnB2E7on : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaGKaodXJgcsnAwr4 : 7 / 1 / 2
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaHDdxsHhAJ9dZFhL : 6 / 1 / 2
@@ -733,7 +733,6 @@ ERROR: Location/lyW5mPW2nf3DHC7h6: Location.telecom[0].extension[1]: The extensi
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.telecom[0].extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.managingOrganization: Unable to resolve resource 'Organization/BigBox'
 WARNING: Location/lyW5mPW2nf3DHC7h6: Location.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
-== fsh-generated/resources/Organization-kxdzMhGRoLTXdp5aE.json ==
 == fsh-generated/resources/Organization-o4XMGtrjTrN7mcctj.json ==
 ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Network' does not resolve
 ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.type[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS'
@@ -818,6 +817,7 @@ WARNING: Organization/o7C3dwiGT6Eatxkyb: Organization.meta.profile[0]: Profile r
 == fsh-generated/resources/Organization-oPxE9d7Wtqjy9WEZx.json ==
 == fsh-generated/resources/Organization-ocb4z5LvCufWTr472.json ==
 == fsh-generated/resources/Organization-ow7KqRFWWHrxKQW34.json ==
+== fsh-generated/resources/Organization-oxdzMhGRoLTXdp5aE.json ==
 == fsh-generated/resources/OrganizationAffiliation-oa3oxC4yKJnB2E7on.json ==
 ERROR: OrganizationAffiliation/oa3oxC4yKJnB2E7on: OrganizationAffiliation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' does not resolve
 ERROR: OrganizationAffiliation/oa3oxC4yKJnB2E7on: OrganizationAffiliation.participatingOrganization: Unable to resolve resource 'Organization/BurrClinic'

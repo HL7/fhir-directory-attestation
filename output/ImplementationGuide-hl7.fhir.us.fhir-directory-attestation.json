@@ -10,7 +10,7 @@
   "name": "ONCFASTNationalDirectory",
   "title": "National Directory",
   "status": "active",
-  "date": "2022-05-01T20:03:30-05:00",
+  "date": "2022-05-01T20:29:13-05:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -1190,20 +1190,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Organization"
-          }
-        ],
-        "reference": {
-          "reference": "Organization/kxdzMhGRoLTXdp5aE"
-        },
-        "name": "Organization/oxdzMhGRoLTXdp5aE",
-        "description": "Centers for Medicare and Medicaid Services",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Location"
           }
         ],
@@ -1660,6 +1646,20 @@
         },
         "name": "Organization/ow7KqRFWWHrxKQW34",
         "description": "US Post Office",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/oxdzMhGRoLTXdp5aE"
+        },
+        "name": "Organization/oxdzMhGRoLTXdp5aE",
+        "description": "Centers for Medicare and Medicaid Services",
         "exampleBoolean": true
       },
       {
