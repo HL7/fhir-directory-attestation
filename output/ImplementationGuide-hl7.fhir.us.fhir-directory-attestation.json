@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ONCFASTNationalDirectory</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation</pre><div><p>National Directory</p>\n</div></div>"
   },
   "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "name": "ONCFASTNationalDirectory",
   "title": "National Directory",
   "status": "active",
-  "date": "2022-04-25T04:38:22-05:00",
+  "date": "2022-05-01T20:03:30-05:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -840,34 +840,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Organization"
-          }
-        ],
-        "reference": {
-          "reference": "Organization/5cb4z5LvCufWTr472"
-        },
-        "name": "Organization/5cb4z5LvCufWTr472",
-        "description": "CT Department of Public Health",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Organization"
-          }
-        ],
-        "reference": {
-          "reference": "Organization/DPxE9d7Wtqjy9WEZx"
-        },
-        "name": "Organization/DPxE9d7Wtqjy9WEZx",
-        "description": "The Joint Commission on the Accreditation of Healthcare Organizations",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "TestScript"
           }
         ],
@@ -891,20 +863,6 @@
         "name": "Federated Endpoint Query",
         "description": "Scenario - Federated Endpoint Query",
         "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Organization"
-          }
-        ],
-        "reference": {
-          "reference": "Organization/GEQaW45BFAzMcfYx9"
-        },
-        "name": "Organization/GEQaW45BFAzMcfYx9",
-        "description": "Health and Human Services",
-        "exampleBoolean": true
       },
       {
         "extension": [
@@ -947,20 +905,6 @@
         "name": "Provider Qualification Verification",
         "description": "TestScript - Provider Qualification Verification",
         "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Organization"
-          }
-        ],
-        "reference": {
-          "reference": "Organization/Pw7KqRFWWHrxKQW34"
-        },
-        "name": "Organization/Pw7KqRFWWHrxKQW34",
-        "description": "US Post Office",
-        "exampleBoolean": true
       },
       {
         "extension": [
@@ -1036,6 +980,20 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Consent"
+          }
+        ],
+        "reference": {
+          "reference": "Consent/cotkDnGQjpHijDsRR"
+        },
+        "name": "Consent/cotkDnGQjpHijDsRR",
+        "description": "Restriction (Consent) on accessing Women's Shelter locations to certified Social Workers only",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Endpoint"
           }
         ],
@@ -1044,20 +1002,6 @@
         },
         "name": "Endpoint/etKzBJvzbeHDZi7Gd",
         "description": "Endpoint - St. James Hospital",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Practitioner"
-          }
-        ],
-        "reference": {
-          "reference": "Practitioner/fZzusFYr3PBYyRnot"
-        },
-        "name": "Practitioner/fZzusFYr3PBYyRnot",
-        "description": "Practitioner - Allison Camron",
         "exampleBoolean": true
       },
       {
@@ -1252,7 +1196,7 @@
         "reference": {
           "reference": "Organization/kxdzMhGRoLTXdp5aE"
         },
-        "name": "Organization/kxdzMhGRoLTXdp5aE",
+        "name": "Organization/oxdzMhGRoLTXdp5aE",
         "description": "Centers for Medicare and Medicaid Services",
         "exampleBoolean": true
       },
@@ -1390,20 +1334,6 @@
           }
         ],
         "reference": {
-          "reference": "Organization/m6AJtyEk6sSsHWLjt"
-        },
-        "name": "Organization/m6AJtyEk6sSsHWLjt",
-        "description": "St. Jame's Infirmary",
-        "exampleBoolean": true
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Organization"
-          }
-        ],
-        "reference": {
           "reference": "Organization/o4XMGtrjTrN7mcctj"
         },
         "name": "Organization/o3XMGtrjTrN7mcctj",
@@ -1516,6 +1446,20 @@
           }
         ],
         "reference": {
+          "reference": "Organization/o6AJtyEk6sSsHWLjt"
+        },
+        "name": "Organization/o6AJtyEk6sSsHWLjt",
+        "description": "St. Jame's Infirmary",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
           "reference": "Organization/o6eQQrm6h4TQwhbAa"
         },
         "name": "Organization/oJeQQrm6h4TQwhbAa",
@@ -1562,6 +1506,34 @@
         },
         "name": "Organization/o9ZkiSX6abYLhWWGo",
         "description": "Fast Scan Radiology",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/oEQaW45BFAzMcfYx9"
+        },
+        "name": "Organization/oEQaW45BFAzMcfYx9",
+        "description": "Health and Human Services",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/oPxE9d7Wtqjy9WEZx"
+        },
+        "name": "Organization/oPxE9d7Wtqjy9WEZx",
+        "description": "The Joint Commission on the Accreditation of Healthcare Organizations",
         "exampleBoolean": true
       },
       {
@@ -1666,6 +1638,34 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/ocb4z5LvCufWTr472"
+        },
+        "name": "Organization/ocb4z5LvCufWTr472",
+        "description": "CT Department of Public Health",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Organization"
+          }
+        ],
+        "reference": {
+          "reference": "Organization/ow7KqRFWWHrxKQW34"
+        },
+        "name": "Organization/ow7KqRFWWHrxKQW34",
+        "description": "US Post Office",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Practitioner"
           }
         ],
@@ -1702,6 +1702,20 @@
         },
         "name": "Practitioner/pFhDpHhMzBsSvmLb9",
         "description": "Practitioner - Joe Smith",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Practitioner"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/pZzusFYr3PBYyRnot"
+        },
+        "name": "Practitioner/pZzusFYr3PBYyRnot",
+        "description": "Practitioner - Allison Camron",
         "exampleBoolean": true
       },
       {
@@ -1786,6 +1800,34 @@
         },
         "name": "PractitionerRole/rtaTdfxSNTmqqnDeJ",
         "description": "Role - Self defined role 1",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Subscription"
+          }
+        ],
+        "reference": {
+          "reference": "Subscription/s6kJSgzdtcHzpuSP2"
+        },
+        "name": "Subscription/s6kJSgzdtcHzpuSP2",
+        "description": "Subscription updates arrive via websockets.",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Subscription"
+          }
+        ],
+        "reference": {
+          "reference": "Subscription/s7aTc2yk4YQyBRify"
+        },
+        "name": "Subscription/s7aTc2yk4YQyBRify",
+        "description": "Subscription updates arrive via POST, PUSH, PATCH operations to HTTP endpoints.",
         "exampleBoolean": true
       },
       {

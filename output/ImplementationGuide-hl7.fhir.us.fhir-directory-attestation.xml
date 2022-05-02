@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation"/>
-  <version value="0.1.0"/>
+  <version value="0.1.2"/>
   <name value="ONCFASTNationalDirectory"/>
   <title value="National Directory"/>
   <status value="active"/>
-  <date value="2022-04-25T04:38:22-05:00"/>
+  <date value="2022-05-01T20:03:30-05:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>
@@ -605,28 +605,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/5cb4z5LvCufWTr472"/>
-      </reference>
-      <name value="Organization/5cb4z5LvCufWTr472"/>
-      <description value="CT Department of Public Health"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/DPxE9d7Wtqjy9WEZx"/>
-      </reference>
-      <name value="Organization/DPxE9d7Wtqjy9WEZx"/>
-      <description value="The Joint Commission on the Accreditation of Healthcare Organizations"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="TestScript"/>
       </extension>
       <reference>
@@ -646,17 +624,6 @@
       <name value="Federated Endpoint Query"/>
       <description value="Scenario - Federated Endpoint Query"/>
       <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/GEQaW45BFAzMcfYx9"/>
-      </reference>
-      <name value="Organization/GEQaW45BFAzMcfYx9"/>
-      <description value="Health and Human Services"/>
-      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -690,17 +657,6 @@
       <name value="Provider Qualification Verification"/>
       <description value="TestScript - Provider Qualification Verification"/>
       <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/Pw7KqRFWWHrxKQW34"/>
-      </reference>
-      <name value="Organization/Pw7KqRFWWHrxKQW34"/>
-      <description value="US Post Office"/>
-      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -759,6 +715,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Consent"/>
+      </extension>
+      <reference>
+        <reference value="Consent/cotkDnGQjpHijDsRR"/>
+      </reference>
+      <name value="Consent/cotkDnGQjpHijDsRR"/>
+      <description value="Restriction (Consent) on accessing Women's Shelter locations to certified Social Workers only"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Endpoint"/>
       </extension>
       <reference>
@@ -766,17 +733,6 @@
       </reference>
       <name value="Endpoint/etKzBJvzbeHDZi7Gd"/>
       <description value="Endpoint - St. James Hospital"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Practitioner"/>
-      </extension>
-      <reference>
-        <reference value="Practitioner/fZzusFYr3PBYyRnot"/>
-      </reference>
-      <name value="Practitioner/fZzusFYr3PBYyRnot"/>
-      <description value="Practitioner - Allison Camron"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -929,7 +885,7 @@
       <reference>
         <reference value="Organization/kxdzMhGRoLTXdp5aE"/>
       </reference>
-      <name value="Organization/kxdzMhGRoLTXdp5aE"/>
+      <name value="Organization/oxdzMhGRoLTXdp5aE"/>
       <description value="Centers for Medicare and Medicaid Services"/>
       <exampleBoolean value="true"/>
     </resource>
@@ -1037,17 +993,6 @@
         <valueString value="Organization"/>
       </extension>
       <reference>
-        <reference value="Organization/m6AJtyEk6sSsHWLjt"/>
-      </reference>
-      <name value="Organization/m6AJtyEk6sSsHWLjt"/>
-      <description value="St. Jame's Infirmary"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
         <reference value="Organization/o4XMGtrjTrN7mcctj"/>
       </reference>
       <name value="Organization/o3XMGtrjTrN7mcctj"/>
@@ -1136,6 +1081,17 @@
         <valueString value="Organization"/>
       </extension>
       <reference>
+        <reference value="Organization/o6AJtyEk6sSsHWLjt"/>
+      </reference>
+      <name value="Organization/o6AJtyEk6sSsHWLjt"/>
+      <description value="St. Jame's Infirmary"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
         <reference value="Organization/o6eQQrm6h4TQwhbAa"/>
       </reference>
       <name value="Organization/oJeQQrm6h4TQwhbAa"/>
@@ -1173,6 +1129,28 @@
       </reference>
       <name value="Organization/o9ZkiSX6abYLhWWGo"/>
       <description value="Fast Scan Radiology"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/oEQaW45BFAzMcfYx9"/>
+      </reference>
+      <name value="Organization/oEQaW45BFAzMcfYx9"/>
+      <description value="Health and Human Services"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/oPxE9d7Wtqjy9WEZx"/>
+      </reference>
+      <name value="Organization/oPxE9d7Wtqjy9WEZx"/>
+      <description value="The Joint Commission on the Accreditation of Healthcare Organizations"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -1254,6 +1232,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/ocb4z5LvCufWTr472"/>
+      </reference>
+      <name value="Organization/ocb4z5LvCufWTr472"/>
+      <description value="CT Department of Public Health"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Organization"/>
+      </extension>
+      <reference>
+        <reference value="Organization/ow7KqRFWWHrxKQW34"/>
+      </reference>
+      <name value="Organization/ow7KqRFWWHrxKQW34"/>
+      <description value="US Post Office"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Practitioner"/>
       </extension>
       <reference>
@@ -1283,6 +1283,17 @@
       </reference>
       <name value="Practitioner/pFhDpHhMzBsSvmLb9"/>
       <description value="Practitioner - Joe Smith"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Practitioner"/>
+      </extension>
+      <reference>
+        <reference value="Practitioner/pZzusFYr3PBYyRnot"/>
+      </reference>
+      <name value="Practitioner/pZzusFYr3PBYyRnot"/>
+      <description value="Practitioner - Allison Camron"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -1349,6 +1360,28 @@
       </reference>
       <name value="PractitionerRole/rtaTdfxSNTmqqnDeJ"/>
       <description value="Role - Self defined role 1"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Subscription"/>
+      </extension>
+      <reference>
+        <reference value="Subscription/s6kJSgzdtcHzpuSP2"/>
+      </reference>
+      <name value="Subscription/s6kJSgzdtcHzpuSP2"/>
+      <description value="Subscription updates arrive via websockets."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Subscription"/>
+      </extension>
+      <reference>
+        <reference value="Subscription/s7aTc2yk4YQyBRify"/>
+      </reference>
+      <name value="Subscription/s7aTc2yk4YQyBRify"/>
+      <description value="Subscription updates arrive via POST, PUSH, PATCH operations to HTTP endpoints."/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>

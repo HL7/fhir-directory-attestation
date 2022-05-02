@@ -76,16 +76,21 @@ GET {nationalDirectory}/AuditEvent?entity=HealthcareService/{healthcareServiceId
 
 ```bash
 
-GET {nationalDirectory}/well-known-udap
+GET {nationalDirectory}/.well-known/udap
+# result> NationalDirectoryPublicCert
+
+# payload> software_s_tatement(national_d_irectory_p_ublic_cert, app_cert)
 POST {nationalDirectory}/oauth/register
+# result> client_id
+
+# payload> client_id
 POST {nationalDirectory}/oauth/authorize
+# access_token (Bearer token)
 ```
 
-Directory would need authentication/authorization to get to sensitive data
+The directory needs authentication/authorization to get to sensitive data.  This use case relies on the simpler *client credential* code flow, meaning the access is specified on an organizational account or application level.  Instead of logging in individual users, the public directory simply needs to know if you're a user using a particular piece of software; with the assumption that anybody with access to that software also has access to the directory.  
 
-Authorization code flow or client code flow would be used?
-
-Security/Identity RI – have been working with authorization code flow
+Please refer to [UDAP ServerTest 20 - Client Credentials Flow](https://www.udap.org/UDAPTestTool/) for testing guidance.  
 
 
 #### To Write Directory Data

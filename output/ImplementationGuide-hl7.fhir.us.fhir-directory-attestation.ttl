@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ONCFASTNationalDirectory</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation</pre><div><p>National Directory</p>\n</div></div>"
   ];
   fhir:ImplementationGuide.url [ fhir:value "http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation"];
-  fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
+  fhir:ImplementationGuide.version [ fhir:value "0.1.2"];
   fhir:ImplementationGuide.name [ fhir:value "ONCFASTNationalDirectory"];
   fhir:ImplementationGuide.title [ fhir:value "National Directory"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-25T04:38:22-05:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-05-01T20:03:30-05:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Administration Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -825,34 +825,6 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/5cb4z5LvCufWTr472>;
-         fhir:Reference.reference [ fhir:value "Organization/5cb4z5LvCufWTr472" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/5cb4z5LvCufWTr472" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "CT Department of Public Health" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 35;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/DPxE9d7Wtqjy9WEZx>;
-         fhir:Reference.reference [ fhir:value "Organization/DPxE9d7Wtqjy9WEZx" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/DPxE9d7Wtqjy9WEZx" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The Joint Commission on the Accreditation of Healthcare Organizations" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 36;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "TestScript" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -863,7 +835,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "TestScript - Dynamic Client Registration" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 37;
+       fhir:index 35;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -877,21 +849,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Scenario - Federated Endpoint Query" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 38;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/GEQaW45BFAzMcfYx9>;
-         fhir:Reference.reference [ fhir:value "Organization/GEQaW45BFAzMcfYx9" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/GEQaW45BFAzMcfYx9" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Health and Human Services" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 39;
+       fhir:index 36;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -905,7 +863,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Scenario - New Location Attestation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 40;
+       fhir:index 37;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -919,7 +877,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "TestScript - Organization create/read/update/delete/search" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 41;
+       fhir:index 38;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -933,21 +891,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "TestScript - Provider Qualification Verification" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 42;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/Pw7KqRFWWHrxKQW34>;
-         fhir:Reference.reference [ fhir:value "Organization/Pw7KqRFWWHrxKQW34" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/Pw7KqRFWWHrxKQW34" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "US Post Office" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 43;
+       fhir:index 39;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -961,7 +905,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "TestScript - Restricted Access to Shelters" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 44;
+       fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -975,7 +919,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "TestScript - Trusted Client Attestation" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 45;
+       fhir:index 41;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -989,7 +933,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Scenario - Dynamic Client Registration" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 46;
+       fhir:index 42;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1003,7 +947,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Scenario - Verify Practitioner Credentials" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 47;
+       fhir:index 43;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1017,7 +961,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Scenario - Restricted Womens' Shelter Access" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 48;
+       fhir:index 44;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Consent" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Consent/cotkDnGQjpHijDsRR>;
+         fhir:Reference.reference [ fhir:value "Consent/cotkDnGQjpHijDsRR" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Consent/cotkDnGQjpHijDsRR" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Restriction (Consent) on accessing Women's Shelter locations to certified Social Workers only" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 45;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1031,21 +989,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Endpoint - St. James Hospital" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 49;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Practitioner" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/fZzusFYr3PBYyRnot>;
-         fhir:Reference.reference [ fhir:value "Practitioner/fZzusFYr3PBYyRnot" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner/fZzusFYr3PBYyRnot" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Practitioner - Allison Camron" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 50;
+       fhir:index 46;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1059,7 +1003,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "HealthcareService - Pharmacy chain mail service" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 51;
+       fhir:index 47;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1073,7 +1017,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "HealthcareService - Emergency Medical Services" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 52;
+       fhir:index 48;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1087,7 +1031,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "HealthcareService - Family Medicine" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 53;
+       fhir:index 49;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1101,7 +1045,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "HealthcareService - Pharmacy chain compounding pharmacy service" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 54;
+       fhir:index 50;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1115,7 +1059,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "HealthcareService - Family Medicine Solo Practice" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 55;
+       fhir:index 51;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1129,7 +1073,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "HealthcareService - Virtual telehealth visit with professional counselor" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 56;
+       fhir:index 52;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1143,7 +1087,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "HealthcareService - Pharmacy chain retail service" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 57;
+       fhir:index 53;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1157,7 +1101,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "HealthcareService - Family Medicine" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 58;
+       fhir:index 54;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1171,7 +1115,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "HealthcareService - Hartford Orthopedics" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 59;
+       fhir:index 55;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1185,7 +1129,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "HealthcareService - Medical Oncology" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 60;
+       fhir:index 56;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1199,7 +1143,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Acme of Conneticut - Gold Plan" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 61;
+       fhir:index 57;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1213,7 +1157,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Acme of Conneticut - Silver Plan" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 62;
+       fhir:index 58;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1227,7 +1171,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Acme of Conneticut - Bronze Plan" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 63;
+       fhir:index 59;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1237,11 +1181,11 @@
          fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/kxdzMhGRoLTXdp5aE>;
          fhir:Reference.reference [ fhir:value "Organization/kxdzMhGRoLTXdp5aE" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/kxdzMhGRoLTXdp5aE" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/oxdzMhGRoLTXdp5aE" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Centers for Medicare and Medicaid Services" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 64;
+       fhir:index 60;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1255,7 +1199,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "State of Conneticut - Geographical Area" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 65;
+       fhir:index 61;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1269,7 +1213,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "456 Main Street, Anytown, CT, 00014" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 66;
+       fhir:index 62;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1283,7 +1227,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "123 Main Street, Anytown, CT, 00014" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 67;
+       fhir:index 63;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1297,7 +1241,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "123 Main Street, Anytown, CT, 00014" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 68;
+       fhir:index 64;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1311,7 +1255,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "123 Main Street, Anytown, CT, 00014" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 69;
+       fhir:index 65;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1325,7 +1269,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "345 Main Street, Nowheresville, CT, 00014" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 70;
+       fhir:index 66;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1339,7 +1283,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "456 Main Street, Somewhere, CT, 00014" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 71;
+       fhir:index 67;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1353,7 +1297,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "456 Main Street, Anytown, CT 00014" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 72;
+       fhir:index 68;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1367,21 +1311,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "444 Main Street, Rainbow, CT, 00014" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 73;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "Organization" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/m6AJtyEk6sSsHWLjt>;
-         fhir:Reference.reference [ fhir:value "Organization/m6AJtyEk6sSsHWLjt" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/m6AJtyEk6sSsHWLjt" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "St. Jame's Infirmary" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
-     ], [
-       fhir:index 74;
+       fhir:index 69;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1395,7 +1325,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ACME Preferred" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 75;
+       fhir:index 70;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1409,7 +1339,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ACME of Conneticut" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 76;
+       fhir:index 71;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1423,7 +1353,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ACME Premium" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 77;
+       fhir:index 72;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1437,7 +1367,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Big Box, LLC" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 78;
+       fhir:index 73;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1451,7 +1381,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Connecticut Health Information Exchange (CHIE)" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 79;
+       fhir:index 74;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1465,7 +1395,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Burr Clinic" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 80;
+       fhir:index 75;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1479,7 +1409,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Hamilton Clinic" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 81;
+       fhir:index 76;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1493,7 +1423,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Hartford General Hospital" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 82;
+       fhir:index 77;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o6AJtyEk6sSsHWLjt>;
+         fhir:Reference.reference [ fhir:value "Organization/o6AJtyEk6sSsHWLjt" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/o6AJtyEk6sSsHWLjt" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "St. Jame's Infirmary" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 78;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1507,7 +1451,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Hartford Orthopedics" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 83;
+       fhir:index 79;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1521,7 +1465,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "GoodRx Pharmacy" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 84;
+       fhir:index 80;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1535,7 +1479,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ACME Pharmacy" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 85;
+       fhir:index 81;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1549,7 +1493,35 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Fast Scan Radiology" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 86;
+       fhir:index 82;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/oEQaW45BFAzMcfYx9>;
+         fhir:Reference.reference [ fhir:value "Organization/oEQaW45BFAzMcfYx9" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/oEQaW45BFAzMcfYx9" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Health and Human Services" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 83;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/oPxE9d7Wtqjy9WEZx>;
+         fhir:Reference.reference [ fhir:value "Organization/oPxE9d7Wtqjy9WEZx" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/oPxE9d7Wtqjy9WEZx" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The Joint Commission on the Accreditation of Healthcare Organizations" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 84;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1563,7 +1535,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Burr Clinic Outpatient Network" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 87;
+       fhir:index 85;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1577,7 +1549,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "GoodRx Retail Pharmacy Network" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 88;
+       fhir:index 86;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1591,7 +1563,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "GoodRx Compounding Pharmacy Network" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 89;
+       fhir:index 87;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1605,7 +1577,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "GoodRx Mail Order Network" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 90;
+       fhir:index 88;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1619,7 +1591,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Connecticut HIE Network" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 91;
+       fhir:index 89;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1633,7 +1605,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Hamilton Clinic Outpatient Network" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 92;
+       fhir:index 90;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1645,6 +1617,34 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "OrganizationAffiliation/oareedAzJMQsamimk" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Hartford Orthopedic Provider Network" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 91;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/ocb4z5LvCufWTr472>;
+         fhir:Reference.reference [ fhir:value "Organization/ocb4z5LvCufWTr472" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/ocb4z5LvCufWTr472" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "CT Department of Public Health" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 92;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/ow7KqRFWWHrxKQW34>;
+         fhir:Reference.reference [ fhir:value "Organization/ow7KqRFWWHrxKQW34" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/ow7KqRFWWHrxKQW34" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "US Post Office" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
        fhir:index 93;
@@ -1693,6 +1693,20 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Practitioner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/pZzusFYr3PBYyRnot>;
+         fhir:Reference.reference [ fhir:value "Practitioner/pZzusFYr3PBYyRnot" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner/pZzusFYr3PBYyRnot" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Practitioner - Allison Camron" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 97;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "PractitionerRole" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -1703,7 +1717,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Role - Anonymous users not registered with the system" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 97;
+       fhir:index 98;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1717,7 +1731,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Role - Conselor or therapist" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 98;
+       fhir:index 99;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1731,7 +1745,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Role - Part time physician, part time smuggler" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 99;
+       fhir:index 100;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1745,7 +1759,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Role - Self defined role 3" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 100;
+       fhir:index 101;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1759,7 +1773,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Role - Self defined role 2" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 101;
+       fhir:index 102;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1773,7 +1787,35 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Role - Self defined role 1" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
      ], [
-       fhir:index 102;
+       fhir:index 103;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Subscription" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Subscription/s6kJSgzdtcHzpuSP2>;
+         fhir:Reference.reference [ fhir:value "Subscription/s6kJSgzdtcHzpuSP2" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Subscription/s6kJSgzdtcHzpuSP2" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Subscription updates arrive via websockets." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 104;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Subscription" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Subscription/s7aTc2yk4YQyBRify>;
+         fhir:Reference.reference [ fhir:value "Subscription/s7aTc2yk4YQyBRify" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Subscription/s7aTc2yk4YQyBRify" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Subscription updates arrive via POST, PUSH, PATCH operations to HTTP endpoints." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 105;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1787,7 +1829,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Endpoints managed by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 103;
+       fhir:index 106;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1801,7 +1843,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select services available in a region described by the specified location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 104;
+       fhir:index 107;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1815,7 +1857,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select HealthcareServices with the specified endpoint" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 105;
+       fhir:index 108;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1829,7 +1871,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select HealthcareServices available at the specified location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 106;
+       fhir:index 109;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1843,7 +1885,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select HealthcareServices with the specified name" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 107;
+       fhir:index 110;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1857,7 +1899,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select HealthcareServices provided by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 108;
+       fhir:index 111;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1871,7 +1913,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select HealthcareServices providing the specified category of services" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 109;
+       fhir:index 112;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1885,7 +1927,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select HealthcareServices of the specified type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 110;
+       fhir:index 113;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1899,7 +1941,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select services associated with the specified specialty" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 111;
+       fhir:index 114;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1913,7 +1955,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select products that are administered by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 112;
+       fhir:index 115;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1927,7 +1969,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select products that are offered in the specified location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 113;
+       fhir:index 116;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1941,7 +1983,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select products with the specified identifier" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 114;
+       fhir:index 117;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1955,7 +1997,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select products with the specified name" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 115;
+       fhir:index 118;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1969,7 +2011,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select products that are owned by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 116;
+       fhir:index 119;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1983,7 +2025,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select plans of the specified type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 117;
+       fhir:index 120;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -1997,7 +2039,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select insurance plans of the specified type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 118;
+       fhir:index 121;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2011,7 +2053,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Locations with the specified address.city" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 119;
+       fhir:index 122;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2025,7 +2067,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Locations with the specified address" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 120;
+       fhir:index 123;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2039,7 +2081,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Locations with the specified address.state" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 121;
+       fhir:index 124;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2053,7 +2095,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Locations with the specified address" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 122;
+       fhir:index 125;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2067,7 +2109,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Locations with the specified endpoint" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 123;
+       fhir:index 126;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2081,7 +2123,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Locations managed by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 124;
+       fhir:index 127;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2095,7 +2137,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Locations that are part of the specified location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 125;
+       fhir:index 128;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2109,7 +2151,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Locations of the specified type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 126;
+       fhir:index 129;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2123,7 +2165,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select organizations with the specified address (matches any of the string elements of an address)" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 127;
+       fhir:index 130;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2137,7 +2179,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select health insurance provider networks available in a region described by the specified location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 128;
+       fhir:index 131;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2151,7 +2193,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Organizations with the specified endpoint" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 129;
+       fhir:index 132;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2165,7 +2207,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Organizations with the specified name" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 130;
+       fhir:index 133;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2179,7 +2221,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Organizations that are part of the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 131;
+       fhir:index 134;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2193,7 +2235,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Organizations of the specified type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 132;
+       fhir:index 135;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2207,7 +2249,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select OrganizationAffiliations with the specified endpoint" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 133;
+       fhir:index 136;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2221,7 +2263,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select OrganizationAffiliations available at the specified location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 134;
+       fhir:index 137;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2235,7 +2277,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select roles where the organization is a member of the specified health insurance provider network" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 135;
+       fhir:index 138;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2249,7 +2291,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select roles filled by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 136;
+       fhir:index 139;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2263,7 +2305,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select roles offered by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 137;
+       fhir:index 140;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2277,7 +2319,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select OrganizationAffiliations with the specified role" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 138;
+       fhir:index 141;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2291,7 +2333,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select OrganizationAffiliations providing the specified service" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 139;
+       fhir:index 142;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2305,7 +2347,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select OrganizationAffiliations associated with the specified specialty" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 140;
+       fhir:index 143;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2319,7 +2361,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with the specified family name" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 141;
+       fhir:index 144;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2333,7 +2375,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with the specified given name" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 142;
+       fhir:index 145;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2347,7 +2389,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with the specified name (matches against any of the elements in the HumanName data type)" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 143;
+       fhir:index 146;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2361,7 +2403,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles with the specified endpoint" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 144;
+       fhir:index 147;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2375,7 +2417,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles available at the specified location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 145;
+       fhir:index 148;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2389,7 +2431,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select roles where the practitioner is a member of the specified health insurance provider network" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 146;
+       fhir:index 149;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2403,7 +2445,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles available at the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 147;
+       fhir:index 150;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2417,7 +2459,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles available in the specified period" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 148;
+       fhir:index 151;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2431,7 +2473,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select roles filled by the specified practitioner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 149;
+       fhir:index 152;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2445,7 +2487,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles with the specified role" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 150;
+       fhir:index 153;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2459,7 +2501,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles providing the specified service" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 151;
+       fhir:index 154;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2473,7 +2515,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles associated with the specified specialty" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 152;
+       fhir:index 155;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2487,7 +2529,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "This Section describes the expected capabilities of the NatlDir Server actor which is responsible for providing responses to the queries submitted by the NatlDir Requestors. The complete list of FHIR profiles, RESTful operations, and search parameters supported by NatlDir Servers are defined. Systems implementing this capability statement should meet the CMS FInal Rule requirement for provider directory access.  NatlDir  Clients can use the required capabilities to access necessary data based on their local use cases and other contextual requirements." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 153;
+       fhir:index 156;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2501,7 +2543,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select CareTeams of the specified type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 154;
+       fhir:index 157;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2515,7 +2557,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select CareTeams with the specified endpoint" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 155;
+       fhir:index 158;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2529,7 +2571,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select CareTeams with an identifier issued by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 156;
+       fhir:index 159;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2543,7 +2585,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select CareTeams with the specified identifier" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 157;
+       fhir:index 160;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2557,7 +2599,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select care teams operating at the specified location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 158;
+       fhir:index 161;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2571,7 +2613,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select care teams with the specified name" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 159;
+       fhir:index 162;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2585,7 +2627,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select care teams managed by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 160;
+       fhir:index 163;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2599,7 +2641,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select care teams that include the specified member" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 161;
+       fhir:index 164;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2613,7 +2655,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select care teams providing the specified service" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 162;
+       fhir:index 165;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2627,7 +2669,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select CareTeams with the specified status" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 163;
+       fhir:index 166;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2641,7 +2683,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select CareTeams with contact information available through the specified intermediary" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 164;
+       fhir:index 167;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2655,7 +2697,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Endpoints that support the specified protocol/profile/standard" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 165;
+       fhir:index 168;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2669,7 +2711,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Endpoints with an identifier issued by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 166;
+       fhir:index 169;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2683,7 +2725,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Endpoints with the specified identifier" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 167;
+       fhir:index 170;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2697,7 +2739,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select endpoints that support the specified media type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 168;
+       fhir:index 171;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2711,7 +2753,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Endpoints that support the specified type of content" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 169;
+       fhir:index 172;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2725,7 +2767,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Endpoints with the specified status" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 170;
+       fhir:index 173;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2739,7 +2781,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select endpoints that support the specified standard" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 171;
+       fhir:index 174;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2753,7 +2795,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select endpoints that support the type of services indicated by the specified code" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 172;
+       fhir:index 175;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2767,7 +2809,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Endpoints with contact information available through the specified intermediary" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 173;
+       fhir:index 176;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2781,7 +2823,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select HealthcareServices with the specified characteristic" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 174;
+       fhir:index 177;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2795,7 +2837,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select services with the specified eligibility requirements" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 175;
+       fhir:index 178;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2809,7 +2851,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select HealthcareServices with an identifier issued by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 176;
+       fhir:index 179;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2823,7 +2865,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select HealthcareServices with the specified identifier" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 177;
+       fhir:index 180;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2837,7 +2879,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select HealthcareServices that are part of the specified network and are/are not accepting new patients" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 178;
+       fhir:index 181;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2851,7 +2893,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select HealthcareServices that are/are not accepting new patients" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 179;
+       fhir:index 182;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2865,7 +2907,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select HealthcareServices with contact information available through the specified intermediary" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 180;
+       fhir:index 183;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2879,7 +2921,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select health insurance products offering covered benefits of the specified type" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 181;
+       fhir:index 184;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2893,7 +2935,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select health insurance products with covered benefits limited in the specified manner" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 182;
+       fhir:index 185;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2907,7 +2949,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select products offering covered benefits through the specified health insurance provider network" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 183;
+       fhir:index 186;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2921,7 +2963,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select products offering the specified type of coverage" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 184;
+       fhir:index 187;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2935,7 +2977,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select health insurance products/plans with the specified endpoint" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 185;
+       fhir:index 188;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2949,7 +2991,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select plans with costs for the specified group size" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 186;
+       fhir:index 189;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2963,7 +3005,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select plans with the specified type of cost" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 187;
+       fhir:index 190;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2977,7 +3019,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select plans which include the specified cost" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 188;
+       fhir:index 191;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -2991,7 +3033,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select products associated with the specified health insurance provider network" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 189;
+       fhir:index 192;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3005,7 +3047,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select plans that are available in the specified location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 190;
+       fhir:index 193;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3019,7 +3061,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select plans with the specified identifier" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 191;
+       fhir:index 194;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3033,7 +3075,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select plans associated with the specified health insurance provider network" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 192;
+       fhir:index 195;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3047,7 +3089,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select plans which include costs for the specified type of benefit" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 193;
+       fhir:index 196;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3061,7 +3103,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select plans which include costs for the specified category of coverage" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 194;
+       fhir:index 197;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3075,7 +3117,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select plans which include the specified type of cost" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 195;
+       fhir:index 198;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3089,7 +3131,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select plans which include the specified cost" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 196;
+       fhir:index 199;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3103,7 +3145,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select health insurance products/plans with the specified status" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 197;
+       fhir:index 200;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3117,7 +3159,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select locations that offer the specified accessibility options" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 198;
+       fhir:index 201;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3131,7 +3173,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select locations that contain the specified co-ordinates" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 199;
+       fhir:index 202;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3145,7 +3187,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Locations with an identifier issued by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 200;
+       fhir:index 203;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3159,7 +3201,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Locations with the specified identifier" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 201;
+       fhir:index 204;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3173,7 +3215,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select locations that are part of the specified network and are/are not accepting new patients" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 202;
+       fhir:index 205;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3187,7 +3229,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select locations that are/are not accepting new patients" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 203;
+       fhir:index 206;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3201,7 +3243,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Locations with the specified status" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 204;
+       fhir:index 207;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3215,7 +3257,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Locations with contact information available through the specified intermediary" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 205;
+       fhir:index 208;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3229,7 +3271,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select organizations with an address in the specified city" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 206;
+       fhir:index 209;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3243,7 +3285,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select organizations with an address in the specified country" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 207;
+       fhir:index 210;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3257,7 +3299,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select organizations with an address with the specified postal code" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 208;
+       fhir:index 211;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3271,7 +3313,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select organizations with an address in the specified state" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 209;
+       fhir:index 212;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3285,7 +3327,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Organizations with an identifier issued by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 210;
+       fhir:index 213;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3299,7 +3341,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Organizations with the specified identifier" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 211;
+       fhir:index 214;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3313,7 +3355,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Organizations with a type of qualification matching the specified code" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 212;
+       fhir:index 215;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3327,7 +3369,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Organizations with a qualification issued by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 213;
+       fhir:index 216;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3341,7 +3383,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Organizations with a qualification status matching the specified code" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 214;
+       fhir:index 217;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3355,7 +3397,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Organizations with a qualification that is valid at the location indicated by the specified code" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 215;
+       fhir:index 218;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3369,7 +3411,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Organizations with a qualification that is valid at the specified location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 216;
+       fhir:index 219;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3383,7 +3425,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Organizations with contact information available through the specified intermediary" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 217;
+       fhir:index 220;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3397,7 +3439,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select OrganizationAffiliations with an identifier issued by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 218;
+       fhir:index 221;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3411,7 +3453,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select OrganizationAffiliations with the specified identifier" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 219;
+       fhir:index 222;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3425,7 +3467,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select OrganizationAffiliations with contact information available through the specified intermediary" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 220;
+       fhir:index 223;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3439,7 +3481,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with the specified endpoint" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 221;
+       fhir:index 224;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3453,7 +3495,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with an identifier issued by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 222;
+       fhir:index 225;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3467,7 +3509,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with the specified identifier" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 223;
+       fhir:index 226;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3481,7 +3523,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with the specified name (A portion of name using some kind of phonetic matching algorithm)" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 224;
+       fhir:index 227;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3495,7 +3537,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with a type of qualification matching the specified code" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 225;
+       fhir:index 228;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3509,7 +3551,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with a qualification issued by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 226;
+       fhir:index 229;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3523,7 +3565,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners that have a qualification relevant to the date provided" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 227;
+       fhir:index 230;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3537,7 +3579,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with a qualification status matching the specified code" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 228;
+       fhir:index 231;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3551,7 +3593,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with a qualification that is valid at the location indicated by the specified code" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 229;
+       fhir:index 232;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3565,7 +3607,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with a qualification that is valid at the specified location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 230;
+       fhir:index 233;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3579,7 +3621,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with contact information available through the specified intermediary" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 231;
+       fhir:index 234;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3593,7 +3635,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles with an identifier issued by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 232;
+       fhir:index 235;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3607,7 +3649,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles with the specified identifier" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 233;
+       fhir:index 236;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3621,7 +3663,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles that are part of the specified network and are/are not accepting new patients" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 234;
+       fhir:index 237;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3635,7 +3677,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles that are/are not accepting new patients" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 235;
+       fhir:index 238;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3649,7 +3691,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles with a type of qualification matching the specified code" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 236;
+       fhir:index 239;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3663,7 +3705,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles with a qualification issued by the specified organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 237;
+       fhir:index 240;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3677,7 +3719,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles with a qualification status matching the specified code" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 238;
+       fhir:index 241;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3691,7 +3733,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles with a qualification that is valid at the location indicated by the specified code" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 239;
+       fhir:index 242;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3705,7 +3747,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles with a qualification that is valid at the specified location" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 240;
+       fhir:index 243;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3719,7 +3761,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select PractitionerRoles with contact information available through the specified intermediary" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 241;
+       fhir:index 244;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3733,7 +3775,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select validation information for data that was attested to using the specified method" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 242;
+       fhir:index 245;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3747,7 +3789,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select validation information for data that was attested to on behalf of the specified source" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 243;
+       fhir:index 246;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3761,7 +3803,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select validation information for data that was attested to by the specified source" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 244;
+       fhir:index 247;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3775,7 +3817,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select validation information for data that was validated against a primary source on the specified date" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 245;
+       fhir:index 248;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3789,7 +3831,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select validation information for data that was validated against the specified type of primary source organization" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 246;
+       fhir:index 249;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3803,7 +3845,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select validation information for data that was validated against the specified primary source" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 247;
+       fhir:index 250;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3817,7 +3859,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select validation information with a validation status that occurred at the specified date/time" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 248;
+       fhir:index 251;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3831,7 +3873,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select validation information for the specified resource" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 249;
+       fhir:index 252;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -3845,7 +3887,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select validation information with the specified status" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 250;
+       fhir:index 253;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -4476,23 +4518,15 @@
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/CodeSystem/VirtualModalitiesCS> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/5cb4z5LvCufWTr472> a fhir:us .
-
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/DPxE9d7Wtqjy9WEZx> a fhir:us .
-
 <http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/DynamicClientRegistration> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/FederatedQuery> a fhir:us .
-
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/GEQaW45BFAzMcfYx9> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/NewLocationAttestation> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/OrganizationCrud> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/ProviderQualificationVerification> a fhir:us .
-
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/Pw7KqRFWWHrxKQW34> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/RestrictedAccessToShelters> a fhir:us .
 
@@ -4504,9 +4538,9 @@
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/WomensShelters> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Endpoint/etKzBJvzbeHDZi7Gd> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Consent/cotkDnGQjpHijDsRR> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/fZzusFYr3PBYyRnot> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Endpoint/etKzBJvzbeHDZi7Gd> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/HealthcareService/hs53YAqF9RbwE8K2n> a fhir:us .
 
@@ -4554,8 +4588,6 @@
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/Location/lyW5mPW2nf3DHC7h6> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/m6AJtyEk6sSsHWLjt> a fhir:us .
-
 <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4XMGtrjTrN7mcctj> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4aKCfZSaoxLrDPbA> a fhir:us .
@@ -4572,6 +4604,8 @@
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o68Sau8tELE3GDnqR> a fhir:us .
 
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o6AJtyEk6sSsHWLjt> a fhir:us .
+
 <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o6eQQrm6h4TQwhbAa> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o7C3dwiGT6Eatxkyb> a fhir:us .
@@ -4579,6 +4613,10 @@
 <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o7tNYGTgKk5WLrwzh> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o9ZkiSX6abYLhWWGo> a fhir:us .
+
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/oEQaW45BFAzMcfYx9> a fhir:us .
+
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/oPxE9d7Wtqjy9WEZx> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/OrganizationAffiliation/oa3oxC4yKJnB2E7on> a fhir:us .
 
@@ -4594,11 +4632,17 @@
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/OrganizationAffiliation/oareedAzJMQsamimk> a fhir:us .
 
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/ocb4z5LvCufWTr472> a fhir:us .
+
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/ow7KqRFWWHrxKQW34> a fhir:us .
+
 <http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/p6x5NWQPoKgyTKjAk> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/pBvMREMS3HpzyJgwa> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/pFhDpHhMzBsSvmLb9> a fhir:us .
+
+<http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/pZzusFYr3PBYyRnot> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/PractitionerRole/rALFxTbdo6nEq5za6> a fhir:us .
 
@@ -4611,6 +4655,10 @@
 <http://hl7.org/fhir/us/fhir-directory-attestation/PractitionerRole/rP5Wt9gxQwyL7M8fX> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/PractitionerRole/rtaTdfxSNTmqqnDeJ> a fhir:us .
+
+<http://hl7.org/fhir/us/fhir-directory-attestation/Subscription/s6kJSgzdtcHzpuSP2> a fhir:us .
+
+<http://hl7.org/fhir/us/fhir-directory-attestation/Subscription/s7aTc2yk4YQyBRify> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/endpoint-organization> a fhir:us .
 

@@ -16,7 +16,7 @@
     }
   ],
   "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDir-Validation",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "name": "NatlDirAttestValidation",
   "title": "NatlDir Validation",
   "status": "active",
