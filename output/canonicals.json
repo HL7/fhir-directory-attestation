@@ -1351,5 +1351,12 @@
     "url": "http://hl7.org/fhir/uv/vhdir/SearchParameter/verificationresult-validator-organization",
     "version": "0.1.2",
     "name": "VhDir_sp_verificationresult_validator_organization"
+  },
+  {
+    "id": "NationalDirectoryCapabilityStatement",
+    "type": "CapabilityStatement",
+    "url": "https://vhdir.meteorapp.com/baseR4",
+    "version": "0.1.2",
+    "name": "National Care Directory"
   }
 ]

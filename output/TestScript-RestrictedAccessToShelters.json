@@ -3,13 +3,13 @@
   "id": "RestrictedAccessToShelters",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"RestrictedAccessToShelters\" </p></div><p><b>url</b>: <code>http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/RestrictedAccessToShelters</code></p><p><b>version</b>: 0.1.2</p><p><b>name</b>: Restricted Access to Shelters</p><p><b>status</b>: active</p><p><b>date</b>: 2022-05-01 08:29:13-0500</p><p><b>publisher</b>: HL7 Patient Administration Working Group</p><p><b>contact</b>: HL7 Patient Administration Working Group: <a href=\"https://www.hl7.org/Special/committees/pafm/index.cfm\">https://www.hl7.org/Special/committees/pafm/index.cfm</a>,<a href=\"mailto:pafm@lists.HL7.org\">pafm@lists.HL7.org</a></p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"RestrictedAccessToShelters\" </p></div><p><b>url</b>: <code>http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/RestrictedAccessToShelters</code></p><p><b>version</b>: 0.1.2</p><p><b>name</b>: Restricted Access to Shelters</p><p><b>status</b>: active</p><p><b>date</b>: 2022-05-04 12:20:47-0500</p><p><b>publisher</b>: HL7 Patient Administration Working Group</p><p><b>contact</b>: HL7 Patient Administration Working Group: <a href=\"https://www.hl7.org/Special/committees/pafm/index.cfm\">https://www.hl7.org/Special/committees/pafm/index.cfm</a>,<a href=\"mailto:pafm@lists.HL7.org\">pafm@lists.HL7.org</a></p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p></div>"
   },
   "url": "http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/RestrictedAccessToShelters",
   "version": "0.1.2",
   "name": "Restricted Access to Shelters",
   "status": "active",
-  "date": "2022-05-01T20:29:13-05:00",
+  "date": "2022-05-04T12:20:47-05:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {

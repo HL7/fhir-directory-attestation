@@ -11,7 +11,7 @@
   <name value="ONCFASTNationalDirectory"/>
   <title value="National Directory"/>
   <status value="active"/>
-  <date value="2022-05-01T20:29:13-05:00"/>
+  <date value="2022-05-04T12:20:47-05:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>
@@ -623,6 +623,17 @@
       </reference>
       <name value="Federated Endpoint Query"/>
       <description value="Scenario - Federated Endpoint Query"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CapabilityStatement"/>
+      </extension>
+      <reference>
+        <reference value="CapabilityStatement/NationalDirectoryCapabilityStatement"/>
+      </reference>
+      <name value="vhdir.meteorapp.com/metadata"/>
+      <description value="National Directory - Capability Statement"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

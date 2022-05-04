@@ -44,29 +44,34 @@ GET {directory}/CodeSystem/ConsentCS
 
 ```bash
 # Practitioner 
-POST {nationalDirectory}/Subscription 
-POST {federatedDirectory}/Practitioner 
-GET {nationalDirectory}/AuditEvent?entity=Practitioner/{practitionerId} 
+POST {{nationalDirectory}}/Subscription 
+PUT  {{nationalDirectory}}/Subscription/{{subscriptionId}}
+POST {{federatedDirectory}}/Practitioner 
+GET  {{nationalDirectory}}/AuditEvent?entity=Practitioner/{practitionerId} 
 
 # Organization
-POST {nationalDirectory}/Subscription 
-POST {federatedDirectory}/Organization 
-GET {nationalDirectory}/AuditEvent?entity=Organization/{organizationId} 
+POST {{nationalDirectory}}/Subscription 
+PUT  {{nationalDirectory}}/Subscription/{{subscriptionId}}
+POST {{federatedDirectory}}/Organization 
+GET  {{nationalDirectory}}/AuditEvent?entity=Organization/{organizationId} 
 
 # Location
-POST {nationalDirectory}/Subscription 
-POST {federatedDirectory}/Location 
-GET {nationalDirectory}/AuditEvent?entity=Location/{locationId} 
+POST {{nationalDirectory}}/Subscription 
+PUT  {{nationalDirectory}}/Subscription/{{subscriptionId}}
+POST {{federatedDirectory}}/Location 
+GET  {{nationalDirectory}}/AuditEvent?entity=Location/{locationId} 
 
 # Endpoint 
-POST {nationalDirectory}/Subscription 
-POST {federatedDirectory}/Endpoint 
-GET {nationalDirectory}/AuditEvent?entity=Endpoint/{endpointId} 
+POST {{nationalDirectory}}/Subscription 
+PUT  {{nationalDirectory}}/Subscription/{{subscriptionId}}
+POST {{federatedDirectory}}/Endpoint 
+GET  {{nationalDirectory}}/AuditEvent?entity=Endpoint/{endpointId} 
 
 # HealthcareService 
-POST {nationalDirectory}/Subscription 
-POST {federatedDirectory}/HealthcareService  
-GET {nationalDirectory}/AuditEvent?entity=HealthcareService/{healthcareServiceId} 
+POST {{nationalDirectory}}/Subscription 
+PUT  {{nationalDirectory}}/Subscription/{{subscriptionId}}
+POST {{federatedDirectory}}/HealthcareService  
+GET  {{nationalDirectory}}/AuditEvent?entity=HealthcareService/{healthcareServiceId} 
 ```
 
 #### Dynamic Registration  

@@ -10,7 +10,7 @@
   "name": "ONCFASTNationalDirectory",
   "title": "National Directory",
   "status": "active",
-  "date": "2022-05-01T20:29:13-05:00",
+  "date": "2022-05-04T12:20:47-05:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -862,6 +862,20 @@
         },
         "name": "Federated Endpoint Query",
         "description": "Scenario - Federated Endpoint Query",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/NationalDirectoryCapabilityStatement"
+        },
+        "name": "vhdir.meteorapp.com/metadata",
+        "description": "National Directory - Capability Statement",
         "exampleBoolean": false
       },
       {

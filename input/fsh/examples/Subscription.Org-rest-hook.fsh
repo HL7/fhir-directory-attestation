@@ -7,5 +7,5 @@ Usage: #example
 * status = #active
 * criteria = "{}"
 * channel.type = #rest-hook
-* channel.endpoint = "http://localhost:3000/baseR4/Organization"
+* channel.endpoint = "https://federated-dir.meteorapp.com/baseR4/Organization"
 * reason = "Back-end subscription updates for a specific federated directory (running on localhost)"

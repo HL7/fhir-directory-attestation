@@ -1,0 +1,655 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/fhir-directory-attestation/CapabilityStatement/NationalDirectoryCapabilityStatement> a fhir:CapabilityStatement;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "NationalDirectoryCapabilityStatement"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>National Care Directory</h2><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET past versions of resources (vread interaction)\">V-Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"PATCH a new resource version (patch interaction)\">Patch</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th><th><b title=\"DELETE a resource (delete interaction)\">Delete</b></th><th><b title=\"GET changes to a resource (history interaction on instance)\">Updates</b></th><th><b title=\"GET changes for all resources of the type (history interaction on type)\">History</b></th></tr><tr><td>AuditEvent</td><td> </td><td>y</td><td></td><td></td><td>y</td><td></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Bundle</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>CareTeam</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>CodeSystem</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>Communication</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>CommunicationRequest</td><td> </td><td>y</td><td></td><td></td><td>y</td><td></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Endpoint</td><td> </td><td>y</td><td></td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>HealthcareService</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>InsurancePlan</td><td> </td><td>y</td><td></td><td></td><td>y</td><td></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Location</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>Organization</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>OrganizationAffiliation</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>Practitioner</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>PractitionerRole</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>Provenance</td><td> </td><td>y</td><td></td><td></td><td>y</td><td></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>SearchParameter</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>Task</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>StructureDefinition</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>Subscription</td><td> </td><td>y</td><td></td><td></td><td>y</td><td></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>ValueSet</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>VerificationResult</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr></table></div>"
+  ];
+  fhir:CapabilityStatement.url [ fhir:value "https://vhdir.meteorapp.com/baseR4"];
+  fhir:CapabilityStatement.version [ fhir:value "0.1.2"];
+  fhir:CapabilityStatement.name [ fhir:value "National Care Directory"];
+  fhir:CapabilityStatement.status [ fhir:value "draft"];
+  fhir:CapabilityStatement.experimental [ fhir:value "true"^^xsd:boolean];
+  fhir:CapabilityStatement.date [ fhir:value "2022-05-03T03:25:00.108Z"^^xsd:dateTime];
+  fhir:CapabilityStatement.publisher [ fhir:value "HL7 Patient Administration Working Group"];
+  fhir:CapabilityStatement.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 Patient Administration Working Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.org/Special/committees/pafm/index.cfm" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "pafm@lists.HL7.org" ]
+     ]
+  ];
+  fhir:CapabilityStatement.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ]
+     ]
+  ];
+  fhir:CapabilityStatement.kind [ fhir:value "capability"];
+  fhir:CapabilityStatement.software [
+     fhir:CapabilityStatement.software.name [ fhir:value "Vault Server" ];
+     fhir:CapabilityStatement.software.version [ fhir:value "6.1.0" ];
+     fhir:CapabilityStatement.software.releaseDate [ fhir:value "2022-05-03T03:25:00.108Z"^^xsd:dateTime ]
+  ];
+  fhir:CapabilityStatement.fhirVersion [ fhir:value "4.0.1"];
+  fhir:CapabilityStatement.format [
+     fhir:value "json";
+     fhir:index 0
+  ];
+  fhir:CapabilityStatement.rest [
+     fhir:index 0;
+     fhir:CapabilityStatement.rest.mode [ fhir:value "server" ];
+     fhir:CapabilityStatement.rest.security [
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Element.extension [
+           fhir:index 0;
+           fhir:Extension.url [ fhir:value "token" ];
+           fhir:Extension.valueUri [ fhir:value "https://vhdir.meteorapp.com/oauth/token" ]
+         ], [
+           fhir:index 1;
+           fhir:Extension.url [ fhir:value "authorize" ];
+           fhir:Extension.valueUri [ fhir:value "https://vhdir.meteorapp.com/oauth/authorize" ]
+         ], [
+           fhir:index 2;
+           fhir:Extension.url [ fhir:value "register" ];
+           fhir:Extension.valueUri [ fhir:value "https://vhdir.meteorapp.com/oauth/registration" ]
+         ], [
+           fhir:index 3;
+           fhir:Extension.url [ fhir:value "manage" ];
+           fhir:Extension.valueUri [ fhir:value "https://vhdir.meteorapp.com/authorizations/manage" ]
+         ], [
+           fhir:index 4;
+           fhir:Extension.url [ fhir:value "introspect" ];
+           fhir:Extension.valueUri [ fhir:value "https://vhdir.meteorapp.com/authorizations/introspect" ]
+         ], [
+           fhir:index 5;
+           fhir:Extension.url [ fhir:value "revoke" ];
+           fhir:Extension.valueUri [ fhir:value "https://vhdir.meteorapp.com/authorizations/revoke" ]
+         ];
+         fhir:Extension.url [ fhir:value "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris" ]
+       ];
+       fhir:CapabilityStatement.rest.security.service [
+         fhir:index 0;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/restful-security-service" ];
+           fhir:Coding.code [ fhir:value "SMART-on-FHIR" ]
+         ];
+         fhir:CodeableConcept.text [ fhir:value "OAuth2 using SMART-on-FHIR profile (see http://docs.smarthealthit.org)" ]
+       ], [
+         fhir:index 1;
+         fhir:CodeableConcept.coding [
+           fhir:index 0;
+           fhir:Coding.system [ fhir:value "http://fhir.udap.org/CodeSystem/capability-rest-security-service" ];
+           fhir:Coding.code [ fhir:value "UDAP" ]
+         ];
+         fhir:CodeableConcept.text [ fhir:value "OAuth 2 using UDAP profile (see http://www.udap.org)" ]
+       ]
+     ];
+     fhir:CapabilityStatement.rest.resource [
+       fhir:index 0;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "AuditEvent" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "no-version" ]
+     ], [
+       fhir:index 1;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "Bundle" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "no-version" ]
+     ], [
+       fhir:index 2;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "CareTeam" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 3;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "CodeSystem" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 4;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "Communication" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 5;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "CommunicationRequest" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "no-version" ]
+     ], [
+       fhir:index 6;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "Endpoint" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 7;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "HealthcareService" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 8;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "InsurancePlan" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 9;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "Location" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 10;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "Organization" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 11;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "OrganizationAffiliation" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 12;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "Practitioner" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 13;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "PractitionerRole" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 14;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "Provenance" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "no-version" ]
+     ], [
+       fhir:index 15;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "SearchParameter" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 16;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "Task" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 17;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "StructureDefinition" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ], [
+       fhir:index 18;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "Subscription" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "no-version" ]
+     ], [
+       fhir:index 19;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "ValueSet" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "no-version" ]
+     ], [
+       fhir:index 20;
+       fhir:CapabilityStatement.rest.resource.type [ fhir:value "VerificationResult" ];
+       fhir:CapabilityStatement.rest.resource.interaction [
+         fhir:index 0;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
+       ], [
+         fhir:index 1;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "create" ]
+       ], [
+         fhir:index 2;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "update" ]
+       ], [
+         fhir:index 3;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "patch" ]
+       ], [
+         fhir:index 4;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "delete" ]
+       ], [
+         fhir:index 5;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-type" ]
+       ], [
+         fhir:index 6;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "history-instance" ]
+       ], [
+         fhir:index 7;
+         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "vread" ]
+       ];
+       fhir:CapabilityStatement.rest.resource.versioning [ fhir:value "versioned" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/fhir-directory-attestation/CapabilityStatement/NationalDirectoryCapabilityStatement.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/fhir-directory-attestation/CapabilityStatement/NationalDirectoryCapabilityStatement.ttl> .
+
+# -------------------------------------------------------------------------------------
+

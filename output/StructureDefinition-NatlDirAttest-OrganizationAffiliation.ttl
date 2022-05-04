@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "NatlDirAttestOrganizationAfflication"];
   fhir:StructureDefinition.title [ fhir:value "NatDir OrganizationAffiliation"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-05-01T20:29:13-05:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-05-04T12:20:47-05:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Administration Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

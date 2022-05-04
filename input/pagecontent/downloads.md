@@ -27,6 +27,13 @@ all the examples that are used in this Implementation Guide available for downlo
 - [XML](examples.xml.zip)
 - [JSON](examples.json.zip)
 
+
+### Postman Examples
+
+Examples of the API calls in this guide are available in [Postman](https://www.postman.com/) format.
+
+- [Postman Collection](NationalDirectory.PostmanCollection.json.zip)
+
 ### Downloadable Copy of Entire Specification
 
 A downloadable version of this IG is available so it can be hosted locally:

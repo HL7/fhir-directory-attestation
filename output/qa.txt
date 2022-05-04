@@ -1,11 +1,12 @@
 ﻿ONCFASTNationalDirectory : Validation Results
 =========================================
 
-err = 519, warn = 85, info = 21
+err = 521, warn = 86, info = 24
 IG Publisher Version: 1.1.115 Out of date - current version is 1.1.116
-Generated Sun May 01 20:31:03 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.2 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
- Build Errors : 101 / 1 / 1
+Generated Wed May 04 12:22:37 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.2 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
+ Build Errors : 102 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.fhir-directory-attestation : 0 / 2 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/capabilitystatement-NationalDirectoryCapabilityStatement : 2 / 1 / 4
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-AcceptingPatientsCS : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-AccessibilityCS : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-ConsentCS : 0 / 0 / 1
@@ -362,6 +363,7 @@ ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/outp
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/PractitionerRole-rtaTdfxSNTmqqnDeJ.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 612: The link 'Practitioner-JoeSmith.html' for "Practitioner/JoeSmith" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/PractitionerRole-rtaTdfxSNTmqqnDeJ.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1155: The link 'Location-HospLoc1.html' for "Location/HospLoc1" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/PractitionerRole-rtaTdfxSNTmqqnDeJ.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1242: The link 'HealthcareService-HospERService.html' for "HealthcareService/HospERService" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 273, column 8: The link 'NationalDirectory.PostmanCollection.json.zip' for "Postman Collection" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 7: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Organization-m6AJtyEk6sSsHWLjt.html' for "St. James" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 225: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Location-l4bjaZGQfeNfhAEpb.html' for "456 Main Street" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 382: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Practitioner-fZzusFYr3PBYyRnot.html' for "Dr. Allison Camron" cannot be resolved
@@ -369,6 +371,13 @@ ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/outp
 WARNING: ImplementationGuide/hl7.fhir.us.fhir-directory-attestation: ImplementationGuide.definition.resource[11].name: value should not start or finish with whitespace ' NatlDirEx...Restriction'
 WARNING: ImplementationGuide/hl7.fhir.us.fhir-directory-attestation: ImplementationGuide.definition.resource[13].description: value should not start or finish with whitespace '	
 Codes...example).'
+== fsh-generated/resources/CapabilityStatement-NationalDirectoryCapabilityStatement.json ==
+WARNING: CapabilityStatement/NationalDirectoryCapabilityStatement: CapabilityStatement: cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+INFORMATION: CapabilityStatement/NationalDirectoryCapabilityStatement: CapabilityStatement.rest[0].security.extension[0].extension[4]: This element does not match any known slice defined in the profile http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris
+INFORMATION: CapabilityStatement/NationalDirectoryCapabilityStatement: CapabilityStatement.rest[0].security.extension[0].extension[5]: This element does not match any known slice defined in the profile http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris
+ERROR: CapabilityStatement/NationalDirectoryCapabilityStatement: CapabilityStatement.rest[0].security.extension[0].extension[4][url='introspect']: Sub-extension url 'introspect' is not defined by the Extension http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris
+ERROR: CapabilityStatement/NationalDirectoryCapabilityStatement: CapabilityStatement.rest[0].security.extension[0].extension[5][url='revoke']: Sub-extension url 'revoke' is not defined by the Extension http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris
+INFORMATION: CapabilityStatement/NationalDirectoryCapabilityStatement: CapabilityStatement.rest[0].security.service[1].coding[0]: Code System URI 'http://fhir.udap.org/CodeSystem/capability-rest-security-service' is unknown so the code cannot be validated
 == fsh-generated/resources/CodeSystem-AcceptingPatientsCS.json ==
 == fsh-generated/resources/CodeSystem-AccessibilityCS.json ==
 == fsh-generated/resources/CodeSystem-ConsentCS.json ==

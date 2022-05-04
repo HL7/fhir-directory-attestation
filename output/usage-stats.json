@@ -77,6 +77,9 @@
     ]
   },
   "usage": {
+    "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris": [
+      "CapabilityStatement.rest.security"
+    ],
     "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation": [
       "CapabilityStatement.rest.resource",
       "CapabilityStatement.rest.resource.interaction",
