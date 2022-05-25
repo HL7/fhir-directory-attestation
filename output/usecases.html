@@ -63,7 +63,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">National Directory</span>
             <br/>
-            <span style="display:inline-block;">0.1.0 - draft
+            <span style="display:inline-block;">0.1.2 - draft
 
 
 
@@ -170,7 +170,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">National Directory - Local Development build (v0.1.0). See the <a href="http://hl7.org/fhir/us/fhir-directory-attestation/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">National Directory - Local Development build (v0.1.2). See the <a href="http://hl7.org/fhir/us/fhir-directory-attestation/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>Usecases</h2>
   
 
@@ -268,16 +268,21 @@ GET <span class="o">{</span>nationalDirectory<span class="o">}</span>/AuditEvent
 </blockquote>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-GET <span class="o">{</span>nationalDirectory<span class="o">}</span>/well-known-udap
+GET <span class="o">{</span>nationalDirectory<span class="o">}</span>/.well-known/udap
+<span class="c"># result&gt; NationalDirectoryPublicCert</span>
+
+<span class="c"># payload&gt; software_s_tatement(national_d_irectory_p_ublic_cert, app_cert)</span>
 POST <span class="o">{</span>nationalDirectory<span class="o">}</span>/oauth/register
+<span class="c"># result&gt; client_id</span>
+
+<span class="c"># payload&gt; client_id</span>
 POST <span class="o">{</span>nationalDirectory<span class="o">}</span>/oauth/authorize
+<span class="c"># access_token (Bearer token)</span>
 </code></pre></div></div>
 
-<p>Directory would need authentication/authorization to get to sensitive data</p>
+<p>The directory needs authentication/authorization to get to sensitive data.  This use case relies on the simpler <em>client credential</em> code flow, meaning the access is specified on an organizational account or application level.  Instead of logging in individual users, the public directory simply needs to know if you’re a user using a particular piece of software; with the assumption that anybody with access to that software also has access to the directory.</p>
 
-<p>Authorization code flow or client code flow would be used?</p>
-
-<p>Security/Identity RI – have been working with authorization code flow</p>
+<p>Please refer to <a href="https://www.udap.org/UDAPTestTool/">UDAP ServerTest 20 - Client Credentials Flow</a> for testing guidance.</p>
 
 <h4 id="to-write-directory-data">To Write Directory Data</h4>
 
@@ -376,7 +381,7 @@ POST <span class="o">{</span>directory<span class="o">}</span>/Practitioner/<spa
 
       <div class="inner-wrapper">
         <p>
-          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.org/Special/committees/pafm/index.cfm">HL7 Patient Administration Working Group</a>.  Package hl7.fhir.us.fhir-directory-attestation#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Apr 25, 2022 04:38-0500">2022-04-25</span>
+          IG &copy; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.org/Special/committees/pafm/index.cfm">HL7 Patient Administration Working Group</a>.  Package hl7.fhir.us.fhir-directory-attestation#0.1.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, May 1, 2022 20:29-0500">2022-05-01</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

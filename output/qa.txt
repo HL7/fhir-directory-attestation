@@ -1,9 +1,9 @@
 ﻿ONCFASTNationalDirectory : Validation Results
 =========================================
 
-err = 517, warn = 85, info = 21
-IG Publisher Version: 1.1.115
-Generated Mon Apr 25 04:40:07 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.0 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
+err = 519, warn = 85, info = 21
+IG Publisher Version: 1.1.115 Out of date - current version is 1.1.116
+Generated Sun May 01 20:31:03 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.2 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
  Build Errors : 101 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.fhir-directory-attestation : 0 / 2 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-AcceptingPatientsCS : 0 / 0 / 1
@@ -25,6 +25,7 @@ Generated Mon Apr 25 04:40:07 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-QualificationStatusCS : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-TrustFrameworkTypeCS : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-VirtualModalitiesCS : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/consent-cotkDnGQjpHijDsRR : 2 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/endpoint-etKzBJvzbeHDZi7Gd : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-FederatedQuery : 0 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-NewLocationAttestation : 0 / 1 / 1
@@ -53,12 +54,6 @@ Generated Mon Apr 25 04:40:07 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lYG8WxBHX4HRoewaM : 19 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lsH38uL5J3eYEQ5hJ : 11 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lyW5mPW2nf3DHC7h6 : 19 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-5cb4z5LvCufWTr472 : 0 / 0 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-DPxE9d7Wtqjy9WEZx : 0 / 0 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-GEQaW45BFAzMcfYx9 : 0 / 0 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-Pw7KqRFWWHrxKQW34 : 0 / 0 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-kxdzMhGRoLTXdp5aE : 0 / 0 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-m6AJtyEk6sSsHWLjt : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o4XMGtrjTrN7mcctj : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o4aKCfZSaoxLrDPbA : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o4gQrsHZfpYNoohzD : 10 / 1 / 1
@@ -67,10 +62,16 @@ Generated Mon Apr 25 04:40:07 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o5q79rZWvYNLtPK8D : 3 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o5sZhrXrLK9pXDGKX : 3 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o68Sau8tELE3GDnqR : 3 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o6AJtyEk6sSsHWLjt : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o6eQQrm6h4TQwhbAa : 11 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o7C3dwiGT6Eatxkyb : 5 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o7tNYGTgKk5WLrwzh : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o9ZkiSX6abYLhWWGo : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-oEQaW45BFAzMcfYx9 : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-oPxE9d7Wtqjy9WEZx : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-ocb4z5LvCufWTr472 : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-ow7KqRFWWHrxKQW34 : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-oxdzMhGRoLTXdp5aE : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oa3oxC4yKJnB2E7on : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaGKaodXJgcsnAwr4 : 7 / 1 / 2
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaHDdxsHhAJ9dZFhL : 6 / 1 / 2
@@ -78,10 +79,10 @@ Generated Mon Apr 25 04:40:07 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oamEcy7YASttYnaxK : 5 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaqirA9KjALpeDBjs : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oareedAzJMQsamimk : 6 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitioner-fZzusFYr3PBYyRnot : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitioner-p6x5NWQPoKgyTKjAk : 11 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitioner-pBvMREMS3HpzyJgwa : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitioner-pFhDpHhMzBsSvmLb9 : 7 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitioner-pZzusFYr3PBYyRnot : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rALFxTbdo6nEq5za6 : 9 / 1 / 2
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rCY6ePpLywTbfx3yp : 8 / 1 / 2
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rDAkiyGndx8FT5jpj : 11 / 1 / 2
@@ -101,6 +102,8 @@ Generated Mon Apr 25 04:40:07 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-NatlDirAttest-Practitioner : 0 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-NatlDirAttest-PractitionerRole : 0 / 2 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-NatlDirEx-restriction : 3 / 4 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/subscription-s6kJSgzdtcHzpuSP2 : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/subscription-s7aTc2yk4YQyBRify : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-DynamicClientRegistration : 0 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-OrganizationCrud : 0 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-ProviderQualificationVerification : 0 / 1 / 1
@@ -386,6 +389,9 @@ WARNING: CodeSystem/OrganizationAffiliationRoleCS: CodeSystem: HL7 Defined CodeS
 == fsh-generated/resources/CodeSystem-QualificationStatusCS.json ==
 == fsh-generated/resources/CodeSystem-TrustFrameworkTypeCS.json ==
 == fsh-generated/resources/CodeSystem-VirtualModalitiesCS.json ==
+== fsh-generated/resources/Consent-cotkDnGQjpHijDsRR.json ==
+ERROR: Consent/cotkDnGQjpHijDsRR: Consent: ppc-1: 'Either a Policy or PolicyRule' Rule 'Either a Policy or PolicyRule' Failed
+ERROR: Consent/cotkDnGQjpHijDsRR: Consent.category[0].coding[0]: Unknown Code http://terminology.hl7.org/CodeSystem/consentcategorycodes#57017-6 in http://terminology.hl7.org/CodeSystem/consentcategorycodes for 'http://terminology.hl7.org/CodeSystem/consentcategorycodes#57017-6'
 == fsh-generated/resources/Endpoint-etKzBJvzbeHDZi7Gd.json ==
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Endpoint' does not resolve
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/endpoint-usecase is unknown, and not allowed here
@@ -727,12 +733,6 @@ ERROR: Location/lyW5mPW2nf3DHC7h6: Location.telecom[0].extension[1]: The extensi
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.telecom[0].extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.managingOrganization: Unable to resolve resource 'Organization/BigBox'
 WARNING: Location/lyW5mPW2nf3DHC7h6: Location.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
-== fsh-generated/resources/Organization-5cb4z5LvCufWTr472.json ==
-== fsh-generated/resources/Organization-DPxE9d7Wtqjy9WEZx.json ==
-== fsh-generated/resources/Organization-GEQaW45BFAzMcfYx9.json ==
-== fsh-generated/resources/Organization-Pw7KqRFWWHrxKQW34.json ==
-== fsh-generated/resources/Organization-kxdzMhGRoLTXdp5aE.json ==
-== fsh-generated/resources/Organization-m6AJtyEk6sSsHWLjt.json ==
 == fsh-generated/resources/Organization-o4XMGtrjTrN7mcctj.json ==
 ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Network' does not resolve
 ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.type[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS'
@@ -790,6 +790,7 @@ ERROR: Organization/o68Sau8tELE3GDnqR: Organization.meta.profile[0]: Canonical U
 ERROR: Organization/o68Sau8tELE3GDnqR: Organization.type[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS'
 ERROR: Organization/o68Sau8tELE3GDnqR: Organization.type[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS' does not resolve
 WARNING: Organization/o68Sau8tELE3GDnqR: Organization.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Organization' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Organization-o6AJtyEk6sSsHWLjt.json ==
 == fsh-generated/resources/Organization-o6eQQrm6h4TQwhbAa.json ==
 ERROR: Organization/o6eQQrm6h4TQwhbAa: Organization.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Organization' does not resolve
 ERROR: Organization/o6eQQrm6h4TQwhbAa: Organization.type[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS'
@@ -812,6 +813,11 @@ ERROR: Organization/o7C3dwiGT6Eatxkyb: Organization.telecom[0].extension[0].url:
 WARNING: Organization/o7C3dwiGT6Eatxkyb: Organization.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Organization' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Organization-o7tNYGTgKk5WLrwzh.json ==
 == fsh-generated/resources/Organization-o9ZkiSX6abYLhWWGo.json ==
+== fsh-generated/resources/Organization-oEQaW45BFAzMcfYx9.json ==
+== fsh-generated/resources/Organization-oPxE9d7Wtqjy9WEZx.json ==
+== fsh-generated/resources/Organization-ocb4z5LvCufWTr472.json ==
+== fsh-generated/resources/Organization-ow7KqRFWWHrxKQW34.json ==
+== fsh-generated/resources/Organization-oxdzMhGRoLTXdp5aE.json ==
 == fsh-generated/resources/OrganizationAffiliation-oa3oxC4yKJnB2E7on.json ==
 ERROR: OrganizationAffiliation/oa3oxC4yKJnB2E7on: OrganizationAffiliation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' does not resolve
 ERROR: OrganizationAffiliation/oa3oxC4yKJnB2E7on: OrganizationAffiliation.participatingOrganization: Unable to resolve resource 'Organization/BurrClinic'
@@ -872,15 +878,6 @@ ERROR: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.locati
 ERROR: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.location[1]: Unable to resolve resource 'Location/HospLoc2'
 ERROR: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.healthcareService[0]: Unable to resolve resource 'HealthcareService/HartfordOrthopedicServices'
 WARNING: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
-== fsh-generated/resources/Practitioner-fZzusFYr3PBYyRnot.json ==
-ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner' does not resolve
-ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.qualification[0].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification is unknown, and not allowed here
-ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.qualification[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification' does not resolve
-ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.qualification[1].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification is unknown, and not allowed here
-ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.qualification[1].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification' does not resolve
-ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.qualification[2].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification is unknown, and not allowed here
-ERROR: Practitioner/fZzusFYr3PBYyRnot: Practitioner.qualification[2].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification' does not resolve
-WARNING: Practitioner/fZzusFYr3PBYyRnot: Practitioner.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Practitioner-p6x5NWQPoKgyTKjAk.json ==
 ERROR: Practitioner/p6x5NWQPoKgyTKjAk: Practitioner.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner' does not resolve
 ERROR: Practitioner/p6x5NWQPoKgyTKjAk: Practitioner.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/communication-proficiency is unknown, and not allowed here
@@ -912,6 +909,15 @@ ERROR: Practitioner/pFhDpHhMzBsSvmLb9: Practitioner.qualification[1].extension[0
 ERROR: Practitioner/pFhDpHhMzBsSvmLb9: Practitioner.qualification[2].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification is unknown, and not allowed here
 ERROR: Practitioner/pFhDpHhMzBsSvmLb9: Practitioner.qualification[2].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification' does not resolve
 WARNING: Practitioner/pFhDpHhMzBsSvmLb9: Practitioner.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/Practitioner-pZzusFYr3PBYyRnot.json ==
+ERROR: Practitioner/pZzusFYr3PBYyRnot: Practitioner.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner' does not resolve
+ERROR: Practitioner/pZzusFYr3PBYyRnot: Practitioner.qualification[0].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification is unknown, and not allowed here
+ERROR: Practitioner/pZzusFYr3PBYyRnot: Practitioner.qualification[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification' does not resolve
+ERROR: Practitioner/pZzusFYr3PBYyRnot: Practitioner.qualification[1].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification is unknown, and not allowed here
+ERROR: Practitioner/pZzusFYr3PBYyRnot: Practitioner.qualification[1].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification' does not resolve
+ERROR: Practitioner/pZzusFYr3PBYyRnot: Practitioner.qualification[2].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification is unknown, and not allowed here
+ERROR: Practitioner/pZzusFYr3PBYyRnot: Practitioner.qualification[2].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification' does not resolve
+WARNING: Practitioner/pZzusFYr3PBYyRnot: Practitioner.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/PractitionerRole-rALFxTbdo6nEq5za6.json ==
 ERROR: PractitionerRole/rALFxTbdo6nEq5za6: PractitionerRole.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole' does not resolve
 ERROR: PractitionerRole/rALFxTbdo6nEq5za6: PractitionerRole.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference is unknown, and not allowed here
@@ -1023,6 +1029,8 @@ ERROR: StructureDefinition/NatlDirEx-restriction: StructureDefinition.differenti
 WARNING: StructureDefinition/NatlDirEx-restriction: StructureDefinition.differential.element[3].binding: The valueSet reference http://hl7.org/fhir/uv/vhdir/ValueSet/consent on element Consent.scope could not be resolved
 WARNING: StructureDefinition/NatlDirEx-restriction: StructureDefinition.snapshot.element[11].binding: The valueSet reference http://hl7.org/fhir/uv/vhdir/ValueSet/consent on element Consent.scope could not be resolved
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirEx-restriction'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/Subscription-s6kJSgzdtcHzpuSP2.json ==
+== fsh-generated/resources/Subscription-s7aTc2yk4YQyBRify.json ==
 == fsh-generated/resources/TestScript-DynamicClientRegistration.json ==
 WARNING: TestScript/DynamicClientRegistration: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/TestScript-OrganizationCrud.json ==
