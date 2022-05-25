@@ -3,13 +3,13 @@
   "id": "s7aTc2yk4YQyBRify",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"s7aTc2yk4YQyBRify\" </p></div><p><b>status</b>: active</p><p><b>reason</b>: Back-end subscription updates for a specific federated directory (running on localhost)</p><p><b>criteria</b>: {}</p><h3>Channels</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>rest-hook</td><td><a href=\"http://localhost:3000/baseR4/Organization\">http://localhost:3000/baseR4/Organization</a></td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"s7aTc2yk4YQyBRify\" </p></div><p><b>status</b>: active</p><p><b>reason</b>: Back-end subscription updates for a specific federated directory (running on localhost)</p><p><b>criteria</b>: {}</p><h3>Channels</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Endpoint</b></td></tr><tr><td>*</td><td>rest-hook</td><td><a href=\"https://federated-dir.meteorapp.com/baseR4/Organization\">https://federated-dir.meteorapp.com/baseR4/Organization</a></td></tr></table></div>"
   },
   "status": "active",
   "reason": "Back-end subscription updates for a specific federated directory (running on localhost)",
   "criteria": "{}",
   "channel": {
     "type": "rest-hook",
-    "endpoint": "http://localhost:3000/baseR4/Organization"
+    "endpoint": "https://federated-dir.meteorapp.com/baseR4/Organization"
   }
 }

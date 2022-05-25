@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="NationalDirectoryCapabilityStatement"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>National Care Directory</h2><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET past versions of resources (vread interaction)">V-Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="PATCH a new resource version (patch interaction)">Patch</b></th><th><b title="POST a new resource (create interaction)">Create</b></th><th><b title="DELETE a resource (delete interaction)">Delete</b></th><th><b title="GET changes to a resource (history interaction on instance)">Updates</b></th><th><b title="GET changes for all resources of the type (history interaction on type)">History</b></th></tr><tr><td>AuditEvent</td><td> </td><td>y</td><td></td><td></td><td>y</td><td></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Bundle</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>CareTeam</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>CodeSystem</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>Communication</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>CommunicationRequest</td><td> </td><td>y</td><td></td><td></td><td>y</td><td></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Endpoint</td><td> </td><td>y</td><td></td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>HealthcareService</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>InsurancePlan</td><td> </td><td>y</td><td></td><td></td><td>y</td><td></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Location</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>Organization</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>OrganizationAffiliation</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>Practitioner</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>PractitionerRole</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>Provenance</td><td> </td><td>y</td><td></td><td></td><td>y</td><td></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>SearchParameter</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>Task</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>StructureDefinition</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>Subscription</td><td> </td><td>y</td><td></td><td></td><td>y</td><td></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>ValueSet</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr><tr><td>VerificationResult</td><td> </td><td>y</td><td>y</td><td></td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td><td>y</td></tr></table></div>
+  </text>
+  <url value="https://vhdir.meteorapp.com/baseR4"/>
+  <version value="0.1.2"/>
+  <name value="National Care Directory"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2022-05-03T03:25:00.108Z"/>
+  <publisher value="HL7 Patient Administration Working Group"/>
+  <contact>
+    <name value="HL7 Patient Administration Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/pafm/index.cfm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pafm@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <kind value="capability"/>
+  <software>
+    <name value="Vault Server"/>
+    <version value="6.1.0"/>
+    <releaseDate value="2022-05-03T03:25:00.108Z"/>
+  </software>
+  <fhirVersion value="4.0.1"/>
+  <format value="json"/>
+  <rest>
+    <mode value="server"/>
+    <security>
+      <extension url="http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris">
+        <extension url="token">
+          <valueUri value="https://vhdir.meteorapp.com/oauth/token"/>
+        </extension>
+        <extension url="authorize">
+          <valueUri value="https://vhdir.meteorapp.com/oauth/authorize"/>
+        </extension>
+        <extension url="register">
+          <valueUri value="https://vhdir.meteorapp.com/oauth/registration"/>
+        </extension>
+        <extension url="manage">
+          <valueUri value="https://vhdir.meteorapp.com/authorizations/manage"/>
+        </extension>
+        <extension url="introspect">
+          <valueUri value="https://vhdir.meteorapp.com/authorizations/introspect"/>
+        </extension>
+        <extension url="revoke">
+          <valueUri value="https://vhdir.meteorapp.com/authorizations/revoke"/>
+        </extension>
+      </extension>
+      <service>
+        <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/restful-security-service"/>
+          <code value="SMART-on-FHIR"/>
+        </coding>
+        <text value="OAuth2 using SMART-on-FHIR profile (see http://docs.smarthealthit.org)"/>
+      </service>
+      <service>
+        <coding>
+          <system value="http://fhir.udap.org/CodeSystem/capability-rest-security-service"/>
+          <code value="UDAP"/>
+        </coding>
+        <text value="OAuth 2 using UDAP profile (see http://www.udap.org)"/>
+      </service>
+    </security>
+    <resource>
+      <type value="AuditEvent"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <versioning value="no-version"/>
+    </resource>
+    <resource>
+      <type value="Bundle"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="no-version"/>
+    </resource>
+    <resource>
+      <type value="CareTeam"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="CodeSystem"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="Communication"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="CommunicationRequest"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <versioning value="no-version"/>
+    </resource>
+    <resource>
+      <type value="Endpoint"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="HealthcareService"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="InsurancePlan"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="Location"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="Organization"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="OrganizationAffiliation"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="Practitioner"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="PractitionerRole"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="Provenance"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <versioning value="no-version"/>
+    </resource>
+    <resource>
+      <type value="SearchParameter"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="Task"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="StructureDefinition"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+    <resource>
+      <type value="Subscription"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <versioning value="no-version"/>
+    </resource>
+    <resource>
+      <type value="ValueSet"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="no-version"/>
+    </resource>
+    <resource>
+      <type value="VerificationResult"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="create"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="patch"/>
+      </interaction>
+      <interaction>
+        <code value="delete"/>
+      </interaction>
+      <interaction>
+        <code value="history-type"/>
+      </interaction>
+      <interaction>
+        <code value="history-instance"/>
+      </interaction>
+      <interaction>
+        <code value="vread"/>
+      </interaction>
+      <versioning value="versioned"/>
+    </resource>
+  </rest>
+</CapabilityStatement>
