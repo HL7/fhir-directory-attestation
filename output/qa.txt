@@ -1,10 +1,10 @@
 ﻿ONCFASTNationalDirectory : Validation Results
 =========================================
 
-err = 521, warn = 86, info = 24
-IG Publisher Version: 1.1.115 Out of date - current version is 1.1.116
-Generated Wed May 04 12:22:37 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.2 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
- Build Errors : 102 / 1 / 1
+err = 529, warn = 91, info = 24
+IG Publisher Version: 1.1.115 Out of date - current version is 1.1.121
+Generated Fri Jun 03 13:26:27 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.4 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
+ Build Errors : 109 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.fhir-directory-attestation : 0 / 2 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/capabilitystatement-NationalDirectoryCapabilityStatement : 2 / 1 / 4
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-AcceptingPatientsCS : 0 / 0 / 1
@@ -27,8 +27,11 @@ Generated Wed May 04 12:22:37 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-TrustFrameworkTypeCS : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-VirtualModalitiesCS : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/consent-cotkDnGQjpHijDsRR : 2 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/device-dTixApQCHxxheiLX3 : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/device-dXuinjribcN2ARYXv : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/endpoint-etKzBJvzbeHDZi7Gd : 7 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-FederatedQuery : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-DaVinciDeqm : 0 / 2 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-FederatedQuery : 0 / 2 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-NewLocationAttestation : 0 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-UdapDynamicClientRegistration : 0 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-VerifyPractitionerCredentials : 0 / 1 / 1
@@ -106,6 +109,7 @@ Generated Wed May 04 12:22:37 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/subscription-s6kJSgzdtcHzpuSP2 : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/subscription-s7aTc2yk4YQyBRify : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-DynamicClientRegistration : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-FederatedQueryTestScript : 8 / 2 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-OrganizationCrud : 0 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-ProviderQualificationVerification : 0 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-RestrictedAccessToShelters : 0 / 1 / 1
@@ -363,6 +367,13 @@ ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/outp
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/PractitionerRole-rtaTdfxSNTmqqnDeJ.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 612: The link 'Practitioner-JoeSmith.html' for "Practitioner/JoeSmith" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/PractitionerRole-rtaTdfxSNTmqqnDeJ.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1155: The link 'Location-HospLoc1.html' for "Location/HospLoc1" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/PractitionerRole-rtaTdfxSNTmqqnDeJ.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1242: The link 'HealthcareService-HospERService.html' for "HealthcareService/HospERService" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1081: The link 'm6AJtyEk6sSsHWLjt' for "m6AJtyEk6sSsHWLjt: St. Jame’s Infirmary" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1282: The link 'fZzusFYr3PBYyRnot' for "fZzusFYr3PBYyRnot: Allison Camron, MD" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1481: The link 'l4bjaZGQfeNfhAEpb' for "l4bjaZGQfeNfhAEpb: 456 Main Street Anytown CT 00014-1234" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1699: The link 'hsEk35Ayonz755t6u' for "hsEk35Ayonz755t6u: Emergency Medicine" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1899: The link 'etKzBJvzbeHDZi7Gd' for "etKzBJvzbeHDZi7Gd: St. James Portal" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 2096: The link 'dTixApQCHxxheiLX3' for "dTixApQCHxxheiLX3: Distributed App (DApp)" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 2299: The link 'oPxE9d7Wtqjy9WEZx' for "oPxE9d7Wtqjy9WEZx: National Directory" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 273, column 8: The link 'NationalDirectory.PostmanCollection.json.zip' for "Postman Collection" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 7: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Organization-m6AJtyEk6sSsHWLjt.html' for "St. James" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 225: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Location-l4bjaZGQfeNfhAEpb.html' for "456 Main Street" cannot be resolved
@@ -401,6 +412,8 @@ WARNING: CodeSystem/OrganizationAffiliationRoleCS: CodeSystem: HL7 Defined CodeS
 == fsh-generated/resources/Consent-cotkDnGQjpHijDsRR.json ==
 ERROR: Consent/cotkDnGQjpHijDsRR: Consent: ppc-1: 'Either a Policy or PolicyRule' Rule 'Either a Policy or PolicyRule' Failed
 ERROR: Consent/cotkDnGQjpHijDsRR: Consent.category[0].coding[0]: Unknown Code http://terminology.hl7.org/CodeSystem/consentcategorycodes#57017-6 in http://terminology.hl7.org/CodeSystem/consentcategorycodes for 'http://terminology.hl7.org/CodeSystem/consentcategorycodes#57017-6'
+== fsh-generated/resources/Device-dTixApQCHxxheiLX3.json ==
+== fsh-generated/resources/Device-dXuinjribcN2ARYXv.json ==
 == fsh-generated/resources/Endpoint-etKzBJvzbeHDZi7Gd.json ==
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Endpoint' does not resolve
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/endpoint-usecase is unknown, and not allowed here
@@ -410,8 +423,12 @@ ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.connectionType.system: URL value 'ht
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.payloadType[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS'
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.payloadType[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS' does not resolve
 WARNING: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Endpoint' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/ExampleScenario-DaVinciDeqm.json ==
+WARNING: ExampleScenario/DaVinciDeqm: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ExampleScenario/DaVinciDeqm: ExampleScenario.instance[1].name: value should not start or finish with whitespace 'Emergency...Medicine '
 == fsh-generated/resources/ExampleScenario-FederatedQuery.json ==
 WARNING: ExampleScenario/FederatedQuery: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ExampleScenario/FederatedQuery: ExampleScenario.instance[1].name: value should not start or finish with whitespace 'Emergency...Medicine '
 == fsh-generated/resources/ExampleScenario-NewLocationAttestation.json ==
 WARNING: ExampleScenario/NewLocationAttestation: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ExampleScenario-UdapDynamicClientRegistration.json ==
@@ -1042,6 +1059,17 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-
 == fsh-generated/resources/Subscription-s7aTc2yk4YQyBRify.json ==
 == fsh-generated/resources/TestScript-DynamicClientRegistration.json ==
 WARNING: TestScript/DynamicClientRegistration: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/TestScript-FederatedQueryTestScript.json ==
+WARNING: TestScript/FederatedQueryTestScript: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: TestScript/FederatedQueryTestScript: TestScript: TestScript.name: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/TestScript)
+ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[0].resource: Unable to resolve resource 'm6AJtyEk6sSsHWLjt'
+ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[1].resource: Unable to resolve resource 'fZzusFYr3PBYyRnot'
+ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[2].resource: Unable to resolve resource 'l4bjaZGQfeNfhAEpb'
+ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[3].resource: Unable to resolve resource 'hsEk35Ayonz755t6u'
+WARNING: TestScript/FederatedQueryTestScript: TestScript.fixture[3].resource.display: value should not start or finish with whitespace 'Emergency...Medicine '
+ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[4].resource: Unable to resolve resource 'etKzBJvzbeHDZi7Gd'
+ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[5].resource: Unable to resolve resource 'dTixApQCHxxheiLX3'
+ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[6].resource: Unable to resolve resource 'oPxE9d7Wtqjy9WEZx'
 == fsh-generated/resources/TestScript-OrganizationCrud.json ==
 WARNING: TestScript/OrganizationCrud: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/TestScript-ProviderQualificationVerification.json ==

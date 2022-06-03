@@ -13,11 +13,11 @@
     <valueCode value="individual"/>
   </extension>
   <url value="http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-PractitionerRole"/>
-  <version value="0.1.2"/>
+  <version value="0.1.4"/>
   <name value="NatlDirAttestPractitionerRole"/>
   <title value="NatDir PractitionerRole"/>
   <status value="active"/>
-  <date value="2022-05-04T12:20:47-05:00"/>
+  <date value="2022-06-03T13:24:40-05:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>
