@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ONCFASTNationalDirectory</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation</pre><div><p>National Directory</p>\n</div></div>"
   },
   "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "name": "ONCFASTNationalDirectory",
   "title": "National Directory",
   "status": "active",
-  "date": "2022-05-04T12:20:47-05:00",
+  "date": "2022-06-03T13:24:40-05:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -840,6 +840,20 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ExampleScenario"
+          }
+        ],
+        "reference": {
+          "reference": "ExampleScenario/DaVinciDeqm"
+        },
+        "name": "DaVinci - Signed Measure Report",
+        "description": "Scenario - DaVinci DEQM Provenance",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "TestScript"
           }
         ],
@@ -862,6 +876,20 @@
         },
         "name": "Federated Endpoint Query",
         "description": "Scenario - Federated Endpoint Query",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "TestScript"
+          }
+        ],
+        "reference": {
+          "reference": "TestScript/FederatedQueryTestScript"
+        },
+        "name": "Federated Query",
+        "description": "TestScript - Distribute App (DApp) access to a centralized directory.",
         "exampleBoolean": false
       },
       {
@@ -1002,6 +1030,34 @@
         },
         "name": "Consent/cotkDnGQjpHijDsRR",
         "description": "Restriction (Consent) on accessing Women's Shelter locations to certified Social Workers only",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Device"
+          }
+        ],
+        "reference": {
+          "reference": "Device/dTixApQCHxxheiLX3"
+        },
+        "name": "Device/dTixApQCHxxheiLX3",
+        "description": "Device - National Directory",
+        "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Device"
+          }
+        ],
+        "reference": {
+          "reference": "Device/dXuinjribcN2ARYXv"
+        },
+        "name": "Device/dXuinjribcN2ARYXv",
+        "description": "Device - Federated Directory",
         "exampleBoolean": true
       },
       {

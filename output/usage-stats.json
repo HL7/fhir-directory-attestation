@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.us.fhir-directory-attestation",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "fhirVersion": "4.0.1",
   "jurisdiction": "US",
   "extensions": [],

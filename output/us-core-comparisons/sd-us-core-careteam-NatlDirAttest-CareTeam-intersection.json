@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "07445214-c278-4916-aacf-c340819bab6b-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/07445214-c278-4916-aacf-c340819bab6b-3",
+  "id" : "a739f1ba-8370-44c4-a61f-80661f0db24f-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/a739f1ba-8370-44c4-a61f-80661f0db24f-3",
   "name" : "IntersectionUSCoreCareTeamAndNatlDirAttestCareTeam",
   "title" : "Intersection of US Core CareTeam Profile And NatDir Care Team",
   "status" : "active",
-  "date" : "2022-05-04T12:21:27-05:00",
+  "date" : "2022-06-03T13:25:20-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -16,7 +16,8 @@
     "element" : [{
       "path" : "CareTeam",
       "short" : "Planned participants in the coordination and delivery of care for a patient or group",
-      "definition" : "left: The US Core CareTeam Profile is based upon the core FHIR CareTeam Resource and created to meet the 2015 Edition Common Clinical Data Set 'Care team member(s)' requirements.; right: The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.",
+      "definition" : "left: \\-; right: The Care Team includes all the people and organizations who plan to participate in the coordination and delivery of care for a patient.",
+      "comment" : "\\-",
       "min" : 0,
       "max" : "*",
       "constraint" : [{
@@ -76,7 +77,7 @@
       },
       {
         "identity" : "argonaut-dq-dstu2",
-        "map" : "CarePlan"
+        "map" : "CareTeam"
       }]
     },
     {

@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation"/>
-  <version value="0.1.2"/>
+  <version value="0.1.4"/>
   <name value="ONCFASTNationalDirectory"/>
   <title value="National Directory"/>
   <status value="active"/>
-  <date value="2022-05-04T12:20:47-05:00"/>
+  <date value="2022-06-03T13:24:40-05:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>
@@ -605,6 +605,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ExampleScenario"/>
+      </extension>
+      <reference>
+        <reference value="ExampleScenario/DaVinciDeqm"/>
+      </reference>
+      <name value="DaVinci - Signed Measure Report"/>
+      <description value="Scenario - DaVinci DEQM Provenance"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="TestScript"/>
       </extension>
       <reference>
@@ -623,6 +634,17 @@
       </reference>
       <name value="Federated Endpoint Query"/>
       <description value="Scenario - Federated Endpoint Query"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="TestScript"/>
+      </extension>
+      <reference>
+        <reference value="TestScript/FederatedQueryTestScript"/>
+      </reference>
+      <name value="Federated Query"/>
+      <description value="TestScript - Distribute App (DApp) access to a centralized directory."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -733,6 +755,28 @@
       </reference>
       <name value="Consent/cotkDnGQjpHijDsRR"/>
       <description value="Restriction (Consent) on accessing Women's Shelter locations to certified Social Workers only"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <reference>
+        <reference value="Device/dTixApQCHxxheiLX3"/>
+      </reference>
+      <name value="Device/dTixApQCHxxheiLX3"/>
+      <description value="Device - National Directory"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Device"/>
+      </extension>
+      <reference>
+        <reference value="Device/dXuinjribcN2ARYXv"/>
+      </reference>
+      <name value="Device/dXuinjribcN2ARYXv"/>
+      <description value="Device - Federated Directory"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>

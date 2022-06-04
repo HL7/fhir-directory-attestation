@@ -3,12 +3,12 @@
   "id": "FederatedQuery",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"FederatedQuery\" </p></div><p><b>url</b>: <code>http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/FederatedQuery</code></p><p><b>version</b>: 0.1.2</p><p><b>status</b>: active</p><p><b>date</b>: 2022-05-04 12:20:47-0500</p><p><b>publisher</b>: HL7 Patient Administration Working Group</p><p><b>contact</b>: HL7 Patient Administration Working Group: <a href=\"https://www.hl7.org/Special/committees/pafm/index.cfm\">https://www.hl7.org/Special/committees/pafm/index.cfm</a>,<a href=\"mailto:pafm@lists.HL7.org\">pafm@lists.HL7.org</a></p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p><blockquote><p><b>actor</b></p><p><b>actorId</b>: m6AJtyEk6sSsHWLjt</p><p><b>type</b>: entity</p><p><b>name</b>: St. Jame’s Infirmary</p></blockquote><blockquote><p><b>actor</b></p><p><b>actorId</b>: fZzusFYr3PBYyRnot</p><p><b>type</b>: person</p><p><b>name</b>: Allison Camron, MD</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: l4bjaZGQfeNfhAEpb</p><p><b>resourceType</b>: Location</p><p><b>name</b>: 456 Main Street Anytown CT 00014-1234</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: hsEk35Ayonz755t6u</p><p><b>resourceType</b>: HealthcareService</p><p><b>name</b>: Emergency Medicine Physician</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: etKzBJvzbeHDZi7Gd</p><p><b>resourceType</b>: Endpoint</p><p><b>name</b>: St. James Portal</p></blockquote><blockquote><p><b>process</b></p><p><b>title</b>: Query directory for HealthcareService</p><blockquote><p><b>step</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Number</b></td><td><b>Type</b></td><td><b>Name</b></td><td><b>Description</b></td></tr><tr><td>*</td><td>1</td><td>read</td><td>Query directory for HealthcareService</td><td>/HealthcareService</td></tr></table></blockquote></blockquote></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"FederatedQuery\" </p></div><p><b>url</b>: <code>http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/FederatedQuery</code></p><p><b>version</b>: 0.1.4</p><p><b>status</b>: active</p><p><b>date</b>: 2022-06-03 01:24:40-0500</p><p><b>publisher</b>: HL7 Patient Administration Working Group</p><p><b>contact</b>: HL7 Patient Administration Working Group: <a href=\"https://www.hl7.org/Special/committees/pafm/index.cfm\">https://www.hl7.org/Special/committees/pafm/index.cfm</a>,<a href=\"mailto:pafm@lists.HL7.org\">pafm@lists.HL7.org</a></p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p><blockquote><p><b>actor</b></p><p><b>actorId</b>: m6AJtyEk6sSsHWLjt</p><p><b>type</b>: entity</p><p><b>name</b>: St. Jame’s Infirmary</p></blockquote><blockquote><p><b>actor</b></p><p><b>actorId</b>: fZzusFYr3PBYyRnot</p><p><b>type</b>: person</p><p><b>name</b>: Allison Camron, MD</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: l4bjaZGQfeNfhAEpb</p><p><b>resourceType</b>: Location</p><p><b>name</b>: 456 Main Street Anytown CT 00014-1234</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: hsEk35Ayonz755t6u</p><p><b>resourceType</b>: HealthcareService</p><p><b>name</b>: Emergency Medicine </p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: etKzBJvzbeHDZi7Gd</p><p><b>resourceType</b>: Endpoint</p><p><b>name</b>: St. James Portal</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: dTixApQCHxxheiLX3</p><p><b>resourceType</b>: Device</p><p><b>name</b>: Distributed App (DApp)</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: oPxE9d7Wtqjy9WEZx</p><p><b>resourceType</b>: Device</p><p><b>name</b>: National Directory</p></blockquote><blockquote><p><b>process</b></p><p><b>title</b>: Query directory for St. James Infirmary</p><blockquote><p><b>step</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Number</b></td><td><b>Type</b></td><td><b>Name</b></td><td><b>Initiator</b></td><td><b>Receiver</b></td><td><b>Description</b></td></tr><tr><td>*</td><td>1</td><td>get</td><td>Query directory for St. James Infirmary organization</td><td>Organization/oPxE9d7Wtqjy9WEZx</td><td>Device/dTixApQCHxxheiLX3</td><td>/Organization?name=St. James Infirmary</td></tr></table></blockquote><blockquote><p><b>step</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Number</b></td><td><b>Type</b></td><td><b>Name</b></td><td><b>Initiator</b></td><td><b>Receiver</b></td><td><b>Description</b></td></tr><tr><td>*</td><td>2</td><td>get</td><td>Query directory for street address</td><td>Organization/oPxE9d7Wtqjy9WEZx</td><td>Device/dTixApQCHxxheiLX3</td><td>/Location?address=456 Main Street</td></tr></table></blockquote><blockquote><p><b>step</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Number</b></td><td><b>Type</b></td><td><b>Name</b></td><td><b>Initiator</b></td><td><b>Receiver</b></td><td><b>Description</b></td></tr><tr><td>*</td><td>3</td><td>get</td><td>Query directory for street address</td><td>Organization/oPxE9d7Wtqjy9WEZx</td><td>Device/dTixApQCHxxheiLX3</td><td>/Location?address-postalcode=00014</td></tr></table></blockquote><blockquote><p><b>step</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Number</b></td><td><b>Type</b></td><td><b>Name</b></td><td><b>Initiator</b></td><td><b>Receiver</b></td><td><b>Description</b></td></tr><tr><td>*</td><td>4</td><td>get</td><td>Query directory for local services</td><td>Organization/oPxE9d7Wtqjy9WEZx</td><td>Device/dTixApQCHxxheiLX3</td><td>/HealthcareService?category=emergency</td></tr></table></blockquote><blockquote><p><b>step</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Number</b></td><td><b>Type</b></td><td><b>Name</b></td><td><b>Initiator</b></td><td><b>Receiver</b></td><td><b>Description</b></td></tr><tr><td>*</td><td>5</td><td>get</td><td>Query directory for local services</td><td>Organization/oPxE9d7Wtqjy9WEZx</td><td>Device/dTixApQCHxxheiLX3</td><td>/Endpoint?name=St. James</td></tr></table></blockquote><blockquote><p><b>step</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Number</b></td><td><b>Type</b></td><td><b>Name</b></td><td><b>Initiator</b></td><td><b>Receiver</b></td><td><b>Description</b></td></tr><tr><td>*</td><td>6</td><td>get</td><td>Query directory for physician</td><td>Organization/oPxE9d7Wtqjy9WEZx</td><td>Device/dTixApQCHxxheiLX3</td><td>/Practitioner?name=Camron</td></tr></table></blockquote></blockquote></div>"
   },
   "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/FederatedQuery",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "status": "active",
-  "date": "2022-05-04T12:20:47-05:00",
+  "date": "2022-06-03T13:24:40-05:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -56,24 +56,86 @@
     {
       "resourceId": "hsEk35Ayonz755t6u",
       "resourceType": "HealthcareService",
-      "name": "Emergency Medicine Physician"
+      "name": "Emergency Medicine "
     },
     {
       "resourceId": "etKzBJvzbeHDZi7Gd",
       "resourceType": "Endpoint",
       "name": "St. James Portal"
+    },
+    {
+      "resourceId": "dTixApQCHxxheiLX3",
+      "resourceType": "Device",
+      "name": "Distributed App (DApp)"
+    },
+    {
+      "resourceId": "oPxE9d7Wtqjy9WEZx",
+      "resourceType": "Device",
+      "name": "National Directory"
     }
   ],
   "process": [
     {
-      "title": "Query directory for HealthcareService",
+      "title": "Query directory for St. James Infirmary",
       "step": [
         {
           "operation": {
             "number": "1",
-            "type": "read",
-            "name": "Query directory for HealthcareService",
-            "description": "/HealthcareService"
+            "type": "get",
+            "name": "Query directory for St. James Infirmary organization",
+            "initiator": "Organization/oPxE9d7Wtqjy9WEZx",
+            "receiver": "Device/dTixApQCHxxheiLX3",
+            "description": "/Organization?name=St. James Infirmary"
+          }
+        },
+        {
+          "operation": {
+            "number": "2",
+            "type": "get",
+            "name": "Query directory for street address",
+            "initiator": "Organization/oPxE9d7Wtqjy9WEZx",
+            "receiver": "Device/dTixApQCHxxheiLX3",
+            "description": "/Location?address=456 Main Street"
+          }
+        },
+        {
+          "operation": {
+            "number": "3",
+            "type": "get",
+            "name": "Query directory for street address",
+            "initiator": "Organization/oPxE9d7Wtqjy9WEZx",
+            "receiver": "Device/dTixApQCHxxheiLX3",
+            "description": "/Location?address-postalcode=00014"
+          }
+        },
+        {
+          "operation": {
+            "number": "4",
+            "type": "get",
+            "name": "Query directory for local services",
+            "initiator": "Organization/oPxE9d7Wtqjy9WEZx",
+            "receiver": "Device/dTixApQCHxxheiLX3",
+            "description": "/HealthcareService?category=emergency"
+          }
+        },
+        {
+          "operation": {
+            "number": "5",
+            "type": "get",
+            "name": "Query directory for local services",
+            "initiator": "Organization/oPxE9d7Wtqjy9WEZx",
+            "receiver": "Device/dTixApQCHxxheiLX3",
+            "description": "/Endpoint?name=St. James"
+          }
+        },
+        {
+          "operation": {
+            "number": "6",
+            "type": "get",
+            "name": "Query directory for physician",
+            "initiator": "Organization/oPxE9d7Wtqjy9WEZx",
+            "receiver": "Device/dTixApQCHxxheiLX3",
+            "description": "/Practitioner?name=Camron"
           }
         }
       ]

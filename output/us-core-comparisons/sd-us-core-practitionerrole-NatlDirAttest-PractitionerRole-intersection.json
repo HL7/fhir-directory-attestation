@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "07445214-c278-4916-aacf-c340819bab6b-9",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/07445214-c278-4916-aacf-c340819bab6b-9",
+  "id" : "a739f1ba-8370-44c4-a61f-80661f0db24f-9",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/a739f1ba-8370-44c4-a61f-80661f0db24f-9",
   "name" : "IntersectionUSCorePractitionerRoleProfileAndNatlDirAttestPractitionerRole",
   "title" : "Intersection of US Core PractitionerRole Profile And NatDir PractitionerRole",
   "status" : "active",
-  "date" : "2022-05-04T12:21:27-05:00",
+  "date" : "2022-06-03T13:25:20-05:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -16,7 +16,8 @@
     "element" : [{
       "path" : "PractitionerRole",
       "short" : "Roles/organizations the practitioner is associated with",
-      "definition" : "left: This is basic constraint on PractitionerRole for use in US Core resources.; right: A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.",
+      "definition" : "left: \\-; right: A specific set of Roles/Locations/specialties/services that a practitioner may perform at an organization for a period of time.",
+      "comment" : "\\-",
       "min" : 0,
       "max" : "*",
       "constraint" : [{
@@ -719,7 +720,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Provider role codes consisting of NUCC Health Care Provider Taxonomy Code Set for providers.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/07445214-c278-4916-aacf-c340819bab6b-12"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/a739f1ba-8370-44c4-a61f-80661f0db24f-12"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -756,7 +757,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/07445214-c278-4916-aacf-c340819bab6b-15"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/a739f1ba-8370-44c4-a61f-80661f0db24f-15"
       },
       "mapping" : [{
         "identity" : "v2",
