@@ -16,7 +16,7 @@
     }
   ],
   "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDir-Restriction",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "name": "NatlDirAttestRestriction",
   "title": "NatlDir Restriction",
   "status": "active",

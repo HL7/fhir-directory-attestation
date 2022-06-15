@@ -13,11 +13,11 @@
     <valueCode value="business"/>
   </extension>
   <url value="http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-InsurancePlan"/>
-  <version value="0.1.4"/>
+  <version value="0.1.6"/>
   <name value="NatlDirAttestInsurancePlan"/>
   <title value="NatDir InsurancePlan"/>
   <status value="active"/>
-  <date value="2022-06-03T13:24:40-05:00"/>
+  <date value="2022-06-15T12:17:27-04:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>

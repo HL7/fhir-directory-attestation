@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "a739f1ba-8370-44c4-a61f-80661f0db24f-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/a739f1ba-8370-44c4-a61f-80661f0db24f-3",
+  "id" : "20f666a2-f0be-4ebc-8d97-f86a164fddf6-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/20f666a2-f0be-4ebc-8d97-f86a164fddf6-3",
   "name" : "IntersectionUSCoreCareTeamAndNatlDirAttestCareTeam",
   "title" : "Intersection of US Core CareTeam Profile And NatDir Care Team",
   "status" : "active",
-  "date" : "2022-06-03T13:25:20-05:00",
+  "date" : "2022-06-15T12:18:04-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

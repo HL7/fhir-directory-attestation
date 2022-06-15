@@ -1,9 +1,146 @@
 {
   "package": "hl7.fhir.us.fhir-directory-attestation",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "fhirVersion": "4.0.1",
   "jurisdiction": "US",
-  "extensions": [],
+  "extensions": [
+    {
+      "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/EndpointRating",
+      "title": "Endpoint Rating",
+      "types": [
+        "integer",
+        "integer"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/EndpointSignature",
+      "title": "Endpoint Signature",
+      "types": [
+        "string",
+        "string"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/ExampleScenarioAssertion",
+      "title": "ExampleScenario Assertion",
+      "types": [
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/ExampleScenarioDescription",
+      "title": "ExampleScenario Description",
+      "types": [
+        "string",
+        "string"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/HealthcareServiceRating",
+      "title": "HealthcareService Rating",
+      "types": [
+        "integer",
+        "integer"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/InsurancePlanRating",
+      "title": "InsurancePlan Rating",
+      "types": [
+        "integer",
+        "integer"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/OrgAffiliationRating",
+      "title": "Organization Affiliation Rating",
+      "types": [
+        "integer",
+        "integer"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/OrganizationRating",
+      "title": "Organization Rating",
+      "types": [
+        "integer",
+        "integer"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/PractitionerRating",
+      "title": "Practitioner Rating",
+      "types": [
+        "integer",
+        "integer"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/PractitionerRoleRating",
+      "title": "Practitioner Role Rating",
+      "types": [
+        "integer",
+        "integer"
+      ]
+    },
+    {
+      "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/VersionNumber",
+      "title": "Version Number",
+      "types": [
+        "integer",
+        "integer"
+      ]
+    }
+  ],
   "profiles": {
     "Consent": [
       {

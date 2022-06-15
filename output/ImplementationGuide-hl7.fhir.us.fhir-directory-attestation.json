@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ONCFASTNationalDirectory</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation</pre><div><p>National Directory</p>\n</div></div>"
   },
   "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "name": "ONCFASTNationalDirectory",
   "title": "National Directory",
   "status": "active",
-  "date": "2022-06-03T13:24:40-05:00",
+  "date": "2022-06-15T12:17:27-04:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -44,6 +44,12 @@
     "4.0.1"
   ],
   "dependsOn": [
+    {
+      "id": "hl7tx",
+      "uri": "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
+      "packageId": "hl7.terminology.r4",
+      "version": "3.1.0"
+    },
     {
       "id": "hl7_fhir_us_core",
       "uri": "http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core",
@@ -546,6 +552,159 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/EndpointRating"
+        },
+        "name": "Endpoint Rating",
+        "description": "Rating for endpoint.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/EndpointSignature"
+        },
+        "name": "Endpoint Signature",
+        "description": "Extension for allowing a cryptographic signature to be applied to an Endpoint resource.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ExampleScenarioAssertion"
+        },
+        "name": "ExampleScenario Assertion",
+        "description": "When you want to add an assertion to an ExampleScenario.  Useful when writing TestScripts.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/ExampleScenarioDescription"
+        },
+        "name": "ExampleScenario Description",
+        "description": "When you want to add a description to an ExampleScenario.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/HealthcareServiceRating"
+        },
+        "name": "HealthcareService Rating",
+        "description": "Rating for HealthcareService.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/InsurancePlanRating"
+        },
+        "name": "InsurancePlan Rating",
+        "description": "Rating for InsurancePlan.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/OrgAffiliationRating"
+        },
+        "name": "Organization Affiliation Rating",
+        "description": "Rating for organization affiliation.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/OrganizationRating"
+        },
+        "name": "Organization Rating",
+        "description": "Rating for organization.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PractitionerRating"
+        },
+        "name": "Practitioner Rating",
+        "description": "Rating for practitioner.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/PractitionerRoleRating"
+        },
+        "name": "Practitioner Role Rating",
+        "description": "Rating for practitioner role.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/VersionNumber"
+        },
+        "name": "Version Number",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "ValueSet"
           }
         ],
@@ -840,28 +999,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ExampleScenario"
-          }
-        ],
-        "reference": {
-          "reference": "ExampleScenario/DaVinciDeqm"
-        },
-        "name": "DaVinci - Signed Measure Report",
-        "description": "Scenario - DaVinci DEQM Provenance",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "TestScript"
           }
         ],
         "reference": {
-          "reference": "TestScript/DynamicClientRegistration"
+          "reference": "TestScript/48twF7WfuXkxdnHkh"
         },
-        "name": "Dynamic Client Registration",
-        "description": "TestScript - Dynamic Client Registration",
+        "name": "Attestation",
+        "description": "TestScript - Attestation of new clinic information.",
         "exampleBoolean": false
       },
       {
@@ -872,24 +1017,52 @@
           }
         ],
         "reference": {
-          "reference": "ExampleScenario/FederatedQuery"
+          "reference": "ExampleScenario/4D7XtHwNtteDczynb"
+        },
+        "name": "Subscriptions",
+        "description": "Scenario - Subscriptions between National and Federated directories",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ExampleScenario"
+          }
+        ],
+        "reference": {
+          "reference": "ExampleScenario/5psortwYNqr2vLNwQ"
+        },
+        "name": "Protected Womens' Shelters",
+        "description": "Scenario - Restricted Womens' Shelter Access",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ExampleScenario"
+          }
+        ],
+        "reference": {
+          "reference": "ExampleScenario/DX6RLSCje9KkEcHRt"
+        },
+        "name": "Verify Practitioner Credentials",
+        "description": "Scenario - Verify Practitioner Credentials",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ExampleScenario"
+          }
+        ],
+        "reference": {
+          "reference": "ExampleScenario/N4qis3v6pkhtJrPFK"
         },
         "name": "Federated Endpoint Query",
         "description": "Scenario - Federated Endpoint Query",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "TestScript"
-          }
-        ],
-        "reference": {
-          "reference": "TestScript/FederatedQueryTestScript"
-        },
-        "name": "Federated Query",
-        "description": "TestScript - Distribute App (DApp) access to a centralized directory.",
         "exampleBoolean": false
       },
       {
@@ -914,66 +1087,10 @@
           }
         ],
         "reference": {
-          "reference": "ExampleScenario/NewLocationAttestation"
+          "reference": "ExampleScenario/PAsijcfHEKD9siu4h"
         },
-        "name": "New Location Attestation",
-        "description": "Scenario - New Location Attestation",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "TestScript"
-          }
-        ],
-        "reference": {
-          "reference": "TestScript/OrganizationCrud"
-        },
-        "name": "Organization CRUDS",
-        "description": "TestScript - Organization create/read/update/delete/search",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "TestScript"
-          }
-        ],
-        "reference": {
-          "reference": "TestScript/ProviderQualificationVerification"
-        },
-        "name": "Provider Qualification Verification",
-        "description": "TestScript - Provider Qualification Verification",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "TestScript"
-          }
-        ],
-        "reference": {
-          "reference": "TestScript/RestrictedAccessToShelters"
-        },
-        "name": "Restricted Access to Shelters",
-        "description": "TestScript - Restricted Access to Shelters",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "TestScript"
-          }
-        ],
-        "reference": {
-          "reference": "TestScript/TrustedClientAttestation"
-        },
-        "name": "Trusted Client Attestation",
-        "description": "TestScript - Trusted Client Attestation",
+        "name": "New Facility Attestation",
+        "description": "Scenario - New Facility Attestation",
         "exampleBoolean": false
       },
       {
@@ -984,7 +1101,7 @@
           }
         ],
         "reference": {
-          "reference": "ExampleScenario/UdapDynamicClientRegistration"
+          "reference": "ExampleScenario/RsW5oCHfnQejTw9Jd"
         },
         "name": "Dynamic Client Registration",
         "description": "Scenario - Dynamic Client Registration",
@@ -994,28 +1111,14 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ExampleScenario"
+            "valueString": "TestScript"
           }
         ],
         "reference": {
-          "reference": "ExampleScenario/VerifyPractitionerCredentials"
+          "reference": "TestScript/XA9eSGbRZR7Nrz2Gd"
         },
-        "name": "Verify Practitioner Credentials",
-        "description": "Scenario - Verify Practitioner Credentials",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ExampleScenario"
-          }
-        ],
-        "reference": {
-          "reference": "ExampleScenario/WomensShelters"
-        },
-        "name": "Protected Womens' Shelters",
-        "description": "Scenario - Restricted Womens' Shelter Access",
+        "name": "Restricted Access",
+        "description": "TestScript - Restricted access to women's shelters.",
         "exampleBoolean": false
       },
       {
@@ -1073,6 +1176,34 @@
         "name": "Endpoint/etKzBJvzbeHDZi7Gd",
         "description": "Endpoint - St. James Hospital",
         "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "TestScript"
+          }
+        ],
+        "reference": {
+          "reference": "TestScript/fquA2atodHs6n3cYs"
+        },
+        "name": "Federated Query",
+        "description": "TestScript - Distribute App (DApp) access to a centralized directory.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "TestScript"
+          }
+        ],
+        "reference": {
+          "reference": "TestScript/gszMyXpwsdoAjJZeh"
+        },
+        "name": "Dynamic Client Registration",
+        "description": "TestScript - Dynamic Client Registration",
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -1337,7 +1468,7 @@
           "reference": "Location/lWAKMdp4vCeNzcDJp"
         },
         "name": "Location/lWAKMdp4vCeNzcDJp",
-        "description": "345 Main Street, Nowheresville, CT, 00014",
+        "description": "Women's Shelter - 345 Main Street, Nowheresville, CT, 00014",
         "exampleBoolean": true
       },
       {
@@ -1381,6 +1512,20 @@
         "name": "Location/lyW5mPW2nf3DHC7h6",
         "description": "444 Main Street, Rainbow, CT, 00014",
         "exampleBoolean": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "TestScript"
+          }
+        ],
+        "reference": {
+          "reference": "TestScript/mqrNfC6BttERhMEZ9"
+        },
+        "name": "Verification",
+        "description": "TestScript - Verification of provider qualifications",
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -1708,6 +1853,20 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "TestScript"
+          }
+        ],
+        "reference": {
+          "reference": "TestScript/odYxqzPToJTN3A8GN"
+        },
+        "name": "Subscriptions",
+        "description": "TestScript - PUSH messaging via Subscriptions from National Directory to Federated instances.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Organization"
           }
         ],
@@ -1757,7 +1916,7 @@
           "reference": "Practitioner/pBvMREMS3HpzyJgwa"
         },
         "name": "Practitioner/pBvMREMS3HpzyJgwa",
-        "description": "Practitioner - Counselor",
+        "description": "Practitioner - Susie Song, Social Worker",
         "exampleBoolean": true
       },
       {

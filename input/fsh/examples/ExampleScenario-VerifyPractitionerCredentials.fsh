@@ -1,9 +1,11 @@
-Instance: VerifyPractitionerCredentials
+Instance: VerificationScenario
 InstanceOf: ExampleScenario
 Title: "Verify Practitioner Credentials"
 Description: "Scenario - Verify Practitioner Credentials"
 Usage: #definition
+* id = "DX6RLSCje9KkEcHRt"
 * status = #active
+
 * actor[0].actorId = "Practitioner/m6AJtyEk6sSsHWLjt"
 * actor[=].type = #entity
 * actor[=].name = "St. Jame’s Infirmary"

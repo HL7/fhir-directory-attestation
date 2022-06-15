@@ -1,9 +1,11 @@
-Instance: FederatedQuery
+Instance: FederatedQueryScenario
 InstanceOf: ExampleScenario
 Title: "Federated Endpoint Query"
 Description: "Scenario - Federated Endpoint Query"
 Usage: #definition
+* id = "N4qis3v6pkhtJrPFK"
 * status = #active
+
 * actor[0].actorId = "m6AJtyEk6sSsHWLjt"
 * actor[=].type = #entity
 * actor[=].name = "St. Jame’s Infirmary"

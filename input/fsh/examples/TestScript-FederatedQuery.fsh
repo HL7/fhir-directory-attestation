@@ -3,6 +3,7 @@ InstanceOf: TestScript
 Title: "Federated Query"
 Description: "TestScript - Distribute App (DApp) access to a centralized directory."
 Usage: #definition
+* id = "fquA2atodHs6n3cYs"
 * url = "http://example.org/ExampleScenario/FederatedQuery"
 * status = #active
 * name = ""
