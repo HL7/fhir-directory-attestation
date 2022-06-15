@@ -1,0 +1,230 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/48twF7WfuXkxdnHkh> a fhir:TestScript;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "48twF7WfuXkxdnHkh"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"48twF7WfuXkxdnHkh\" </p></div><p><b>url</b>: <code>http://</code></p><p><b>version</b>: 0.1.6</p><p><b>name</b>: Attestation</p><p><b>title</b>: Attestation</p><p><b>status</b>: draft</p><p><b>date</b>: 2022-06-14 09:41:40+0000</p><p><b>publisher</b>: HL7 Patient Administration Working Group</p><p><b>contact</b>: HL7 Patient Administration Working Group: <a href=\"https://www.hl7.org/Special/committees/pafm/index.cfm\">https://www.hl7.org/Special/committees/pafm/index.cfm</a>,<a href=\"mailto:pafm@lists.HL7.org\">pafm@lists.HL7.org</a></p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"o6AJtyEk6sSsHWLjt\">o6AJtyEk6sSsHWLjt: St. James Infirmary</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"l4bjaZGQfeNfhAEpb\">l4bjaZGQfeNfhAEpb: Cancer Clinic</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"hsEk35Ayonz755t6u\">hsEk35Ayonz755t6u</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"etKzBJvzbeHDZi7Gd\">etKzBJvzbeHDZi7Gd: Endpoint for St James Hospital</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"pZzusFYr3PBYyRnot\">pZzusFYr3PBYyRnot</a></p></blockquote><blockquote><p><b>test</b></p><p><b>name</b>: St. James Infirmary</p><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Resource</b></td><td><b>Label</b></td><td><b>Description</b></td><td><b>Accept</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Update (Details: http://terminology.hl7.org/CodeSystem/testscript-operation-codes code update = 'Update', stated as 'null')</td><td>Organization</td><td>St. James Infirmary</td><td>PUT {{hostname}}/baseR4/Organization/o6AJtyEk6sSsHWLjt</td><td>json</td><td>true</td><td>put</td><td>{{hostname}}/baseR4/Organization/o6AJtyEk6sSsHWLjt</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Asserts</h3><table class=\"grid\"><tr><td>-</td><td><b>Description</b></td><td><b>Response</b></td><td><b>WarningOnly</b></td></tr><tr><td>*</td><td>Confirm that the returned HTTP status is 200(OK).</td><td>okay</td><td>false</td></tr></table></blockquote></blockquote><blockquote><p><b>test</b></p><p><b>name</b>: 456 Main Street</p><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Resource</b></td><td><b>Label</b></td><td><b>Description</b></td><td><b>Accept</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Update (Details: http://terminology.hl7.org/CodeSystem/testscript-operation-codes code update = 'Update', stated as 'null')</td><td>Location</td><td>456 Main Street</td><td>PUT {{hostname}}/baseR4/Location/l4bjaZGQfeNfhAEpb</td><td>json</td><td>true</td><td>put</td><td>{{hostname}}/baseR4/Location/l4bjaZGQfeNfhAEpb</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Asserts</h3><table class=\"grid\"><tr><td>-</td><td><b>Description</b></td><td><b>Response</b></td><td><b>WarningOnly</b></td></tr><tr><td>*</td><td>Confirm that the returned HTTP status is 200(OK).</td><td>okay</td><td>false</td></tr></table></blockquote></blockquote><blockquote><p><b>test</b></p><p><b>name</b>: Emergency Medical Services</p><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Label</b></td><td><b>Description</b></td><td><b>Accept</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Update (Details: http://terminology.hl7.org/CodeSystem/testscript-operation-codes code update = 'Update', stated as 'null')</td><td>Emergency Medical Services</td><td>PUT {{hostname}}/baseR4/HealthcareService/hsEk35Ayonz755t6u</td><td>json</td><td>true</td><td>put</td><td>{{hostname}}/baseR4/HealthcareService/hsEk35Ayonz755t6u</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Asserts</h3><table class=\"grid\"><tr><td>-</td><td><b>Description</b></td><td><b>Response</b></td><td><b>WarningOnly</b></td></tr><tr><td>*</td><td>Confirm that the returned HTTP status is 200(OK).</td><td>okay</td><td>false</td></tr></table></blockquote></blockquote><blockquote><p><b>test</b></p><p><b>name</b>: St. James Infirmary - Patient Portal</p><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Resource</b></td><td><b>Label</b></td><td><b>Description</b></td><td><b>Accept</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Update (Details: http://terminology.hl7.org/CodeSystem/testscript-operation-codes code update = 'Update', stated as 'null')</td><td>Endpoint</td><td>St. James Infirmary - Patient Portal</td><td>PUT {{hostname}}/baseR4/Endpoint/etKzBJvzbeHDZi7Gd?resourceType=Endpoint</td><td>json</td><td>true</td><td>put</td><td>{{hostname}}/baseR4/Endpoint/etKzBJvzbeHDZi7Gd?resourceType=Endpoint</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Asserts</h3><table class=\"grid\"><tr><td>-</td><td><b>Description</b></td><td><b>Response</b></td><td><b>WarningOnly</b></td></tr><tr><td>*</td><td>Confirm that the returned HTTP status is 200(OK).</td><td>okay</td><td>false</td></tr></table></blockquote></blockquote><blockquote><p><b>test</b></p><p><b>name</b>: Dr. Allison Camron</p><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td><td><b>Resource</b></td><td><b>Label</b></td><td><b>Description</b></td><td><b>Accept</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Update (Details: http://terminology.hl7.org/CodeSystem/testscript-operation-codes code update = 'Update', stated as 'null')</td><td>Practitioner</td><td>Dr. Allison Camron</td><td>PUT {{hostname}}/baseR4/Practitioner/pZzusFYr3PBYyRnot?resourceType=Practitioner</td><td>json</td><td>true</td><td>put</td><td>{{hostname}}/baseR4/Practitioner/pZzusFYr3PBYyRnot?resourceType=Practitioner</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Asserts</h3><table class=\"grid\"><tr><td>-</td><td><b>Description</b></td><td><b>Response</b></td><td><b>WarningOnly</b></td></tr><tr><td>*</td><td>Confirm that the returned HTTP status is 200(OK).</td><td>okay</td><td>false</td></tr></table></blockquote></blockquote></div>"
+  ];
+  fhir:TestScript.url [ fhir:value "http://"];
+  fhir:TestScript.version [ fhir:value "0.1.6"];
+  fhir:TestScript.name [ fhir:value "Attestation"];
+  fhir:TestScript.title [ fhir:value "Attestation"];
+  fhir:TestScript.status [ fhir:value "draft"];
+  fhir:TestScript.date [ fhir:value "2022-06-14T21:41:40.107Z"^^xsd:dateTime];
+  fhir:TestScript.publisher [ fhir:value "HL7 Patient Administration Working Group"];
+  fhir:TestScript.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 Patient Administration Working Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.org/Special/committees/pafm/index.cfm" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "pafm@lists.HL7.org" ]
+     ]
+  ];
+  fhir:TestScript.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ]
+     ]
+  ];
+  fhir:TestScript.fixture [
+     fhir:index 0;
+     fhir:Element.id [ fhir:value "d08a86ad-a356-5ac6-9056-773ac6642b2a" ];
+     fhir:TestScript.fixture.autocreate [ fhir:value "true"^^xsd:boolean ];
+     fhir:TestScript.fixture.autodelete [ fhir:value "true"^^xsd:boolean ];
+     fhir:TestScript.fixture.resource [
+       fhir:Reference.reference [ fhir:value "o6AJtyEk6sSsHWLjt" ];
+       fhir:Reference.display [ fhir:value "St. James Infirmary" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Element.id [ fhir:value "f40d0e54-38c6-536e-bb0c-bb1077096f43" ];
+     fhir:TestScript.fixture.autocreate [ fhir:value "true"^^xsd:boolean ];
+     fhir:TestScript.fixture.autodelete [ fhir:value "true"^^xsd:boolean ];
+     fhir:TestScript.fixture.resource [
+       fhir:Reference.reference [ fhir:value "l4bjaZGQfeNfhAEpb" ];
+       fhir:Reference.display [ fhir:value "Cancer Clinic" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Element.id [ fhir:value "1419369a-4b9e-5efc-bb5c-75d4612b8d0d" ];
+     fhir:TestScript.fixture.autocreate [ fhir:value "true"^^xsd:boolean ];
+     fhir:TestScript.fixture.autodelete [ fhir:value "true"^^xsd:boolean ];
+     fhir:TestScript.fixture.resource [
+       fhir:Reference.reference [ fhir:value "hsEk35Ayonz755t6u" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Element.id [ fhir:value "906ab31c-1103-512a-9817-7f65e8203a5b" ];
+     fhir:TestScript.fixture.autocreate [ fhir:value "true"^^xsd:boolean ];
+     fhir:TestScript.fixture.autodelete [ fhir:value "true"^^xsd:boolean ];
+     fhir:TestScript.fixture.resource [
+       fhir:Reference.reference [ fhir:value "etKzBJvzbeHDZi7Gd" ];
+       fhir:Reference.display [ fhir:value "Endpoint for St James Hospital" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:Element.id [ fhir:value "523c5dcd-978d-5769-8a5b-835832af9dca" ];
+     fhir:TestScript.fixture.autocreate [ fhir:value "true"^^xsd:boolean ];
+     fhir:TestScript.fixture.autodelete [ fhir:value "true"^^xsd:boolean ];
+     fhir:TestScript.fixture.resource [
+       fhir:Reference.reference [ fhir:value "pZzusFYr3PBYyRnot" ]
+     ]
+  ];
+  fhir:TestScript.test [
+     fhir:index 0;
+     fhir:Element.id [ fhir:value "839236b5-6d9c-5332-8211-ad4bb93110b6" ];
+     fhir:TestScript.test.name [ fhir:value "St. James Infirmary" ];
+     fhir:TestScript.test.action [
+       fhir:index 0;
+       fhir:TestScript.test.action.operation [
+         fhir:TestScript.setup.action.operation.type [
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/testscript-operation-codes" ];
+           fhir:Coding.code [ fhir:value "update" ]
+         ];
+         fhir:TestScript.setup.action.operation.resource [ fhir:value "Organization" ];
+         fhir:TestScript.setup.action.operation.label [ fhir:value "St. James Infirmary" ];
+         fhir:TestScript.setup.action.operation.description [ fhir:value "PUT {{hostname}}/baseR4/Organization/o6AJtyEk6sSsHWLjt" ];
+         fhir:TestScript.setup.action.operation.accept [ fhir:value "json" ];
+         fhir:TestScript.setup.action.operation.encodeRequestUrl [ fhir:value "true"^^xsd:boolean ];
+         fhir:TestScript.setup.action.operation.method [ fhir:value "put" ];
+         fhir:TestScript.setup.action.operation.url [ fhir:value "{{hostname}}/baseR4/Organization/o6AJtyEk6sSsHWLjt" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:TestScript.test.action.assert [
+         fhir:TestScript.setup.action.assert.description [ fhir:value "Confirm that the returned HTTP status is 200(OK)." ];
+         fhir:TestScript.setup.action.assert.response [ fhir:value "okay" ];
+         fhir:TestScript.setup.action.assert.warningOnly [ fhir:value "false"^^xsd:boolean ]
+       ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:Element.id [ fhir:value "dbe0ce7b-9557-5ed2-91c8-f3779ed20c64" ];
+     fhir:TestScript.test.name [ fhir:value "456 Main Street" ];
+     fhir:TestScript.test.action [
+       fhir:index 0;
+       fhir:TestScript.test.action.operation [
+         fhir:TestScript.setup.action.operation.type [
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/testscript-operation-codes" ];
+           fhir:Coding.code [ fhir:value "update" ]
+         ];
+         fhir:TestScript.setup.action.operation.resource [ fhir:value "Location" ];
+         fhir:TestScript.setup.action.operation.label [ fhir:value "456 Main Street" ];
+         fhir:TestScript.setup.action.operation.description [ fhir:value "PUT {{hostname}}/baseR4/Location/l4bjaZGQfeNfhAEpb" ];
+         fhir:TestScript.setup.action.operation.accept [ fhir:value "json" ];
+         fhir:TestScript.setup.action.operation.encodeRequestUrl [ fhir:value "true"^^xsd:boolean ];
+         fhir:TestScript.setup.action.operation.method [ fhir:value "put" ];
+         fhir:TestScript.setup.action.operation.url [ fhir:value "{{hostname}}/baseR4/Location/l4bjaZGQfeNfhAEpb" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:TestScript.test.action.assert [
+         fhir:TestScript.setup.action.assert.description [ fhir:value "Confirm that the returned HTTP status is 200(OK)." ];
+         fhir:TestScript.setup.action.assert.response [ fhir:value "okay" ];
+         fhir:TestScript.setup.action.assert.warningOnly [ fhir:value "false"^^xsd:boolean ]
+       ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:Element.id [ fhir:value "973efcd9-1ca3-573a-991d-d615d43489c0" ];
+     fhir:TestScript.test.name [ fhir:value "Emergency Medical Services" ];
+     fhir:TestScript.test.action [
+       fhir:index 0;
+       fhir:TestScript.test.action.operation [
+         fhir:TestScript.setup.action.operation.type [
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/testscript-operation-codes" ];
+           fhir:Coding.code [ fhir:value "update" ]
+         ];
+         fhir:TestScript.setup.action.operation.label [ fhir:value "Emergency Medical Services" ];
+         fhir:TestScript.setup.action.operation.description [ fhir:value "PUT {{hostname}}/baseR4/HealthcareService/hsEk35Ayonz755t6u" ];
+         fhir:TestScript.setup.action.operation.accept [ fhir:value "json" ];
+         fhir:TestScript.setup.action.operation.encodeRequestUrl [ fhir:value "true"^^xsd:boolean ];
+         fhir:TestScript.setup.action.operation.method [ fhir:value "put" ];
+         fhir:TestScript.setup.action.operation.url [ fhir:value "{{hostname}}/baseR4/HealthcareService/hsEk35Ayonz755t6u" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:TestScript.test.action.assert [
+         fhir:TestScript.setup.action.assert.description [ fhir:value "Confirm that the returned HTTP status is 200(OK)." ];
+         fhir:TestScript.setup.action.assert.response [ fhir:value "okay" ];
+         fhir:TestScript.setup.action.assert.warningOnly [ fhir:value "false"^^xsd:boolean ]
+       ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:Element.id [ fhir:value "e62cf94a-278e-5692-b965-ff02dfb41c35" ];
+     fhir:TestScript.test.name [ fhir:value "St. James Infirmary - Patient Portal" ];
+     fhir:TestScript.test.action [
+       fhir:index 0;
+       fhir:TestScript.test.action.operation [
+         fhir:TestScript.setup.action.operation.type [
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/testscript-operation-codes" ];
+           fhir:Coding.code [ fhir:value "update" ]
+         ];
+         fhir:TestScript.setup.action.operation.resource [ fhir:value "Endpoint" ];
+         fhir:TestScript.setup.action.operation.label [ fhir:value "St. James Infirmary - Patient Portal" ];
+         fhir:TestScript.setup.action.operation.description [ fhir:value "PUT {{hostname}}/baseR4/Endpoint/etKzBJvzbeHDZi7Gd?resourceType=Endpoint" ];
+         fhir:TestScript.setup.action.operation.accept [ fhir:value "json" ];
+         fhir:TestScript.setup.action.operation.encodeRequestUrl [ fhir:value "true"^^xsd:boolean ];
+         fhir:TestScript.setup.action.operation.method [ fhir:value "put" ];
+         fhir:TestScript.setup.action.operation.url [ fhir:value "{{hostname}}/baseR4/Endpoint/etKzBJvzbeHDZi7Gd?resourceType=Endpoint" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:TestScript.test.action.assert [
+         fhir:TestScript.setup.action.assert.description [ fhir:value "Confirm that the returned HTTP status is 200(OK)." ];
+         fhir:TestScript.setup.action.assert.response [ fhir:value "okay" ];
+         fhir:TestScript.setup.action.assert.warningOnly [ fhir:value "false"^^xsd:boolean ]
+       ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:Element.id [ fhir:value "6d556f90-795c-5363-a64a-fffd3fd7c515" ];
+     fhir:TestScript.test.name [ fhir:value "Dr. Allison Camron" ];
+     fhir:TestScript.test.action [
+       fhir:index 0;
+       fhir:TestScript.test.action.operation [
+         fhir:TestScript.setup.action.operation.type [
+           fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/testscript-operation-codes" ];
+           fhir:Coding.code [ fhir:value "update" ]
+         ];
+         fhir:TestScript.setup.action.operation.resource [ fhir:value "Practitioner" ];
+         fhir:TestScript.setup.action.operation.label [ fhir:value "Dr. Allison Camron" ];
+         fhir:TestScript.setup.action.operation.description [ fhir:value "PUT {{hostname}}/baseR4/Practitioner/pZzusFYr3PBYyRnot?resourceType=Practitioner" ];
+         fhir:TestScript.setup.action.operation.accept [ fhir:value "json" ];
+         fhir:TestScript.setup.action.operation.encodeRequestUrl [ fhir:value "true"^^xsd:boolean ];
+         fhir:TestScript.setup.action.operation.method [ fhir:value "put" ];
+         fhir:TestScript.setup.action.operation.url [ fhir:value "{{hostname}}/baseR4/Practitioner/pZzusFYr3PBYyRnot?resourceType=Practitioner" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:TestScript.test.action.assert [
+         fhir:TestScript.setup.action.assert.description [ fhir:value "Confirm that the returned HTTP status is 200(OK)." ];
+         fhir:TestScript.setup.action.assert.response [ fhir:value "okay" ];
+         fhir:TestScript.setup.action.assert.warningOnly [ fhir:value "false"^^xsd:boolean ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/48twF7WfuXkxdnHkh.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/fhir-directory-attestation/TestScript/48twF7WfuXkxdnHkh.ttl> .
+
+# -------------------------------------------------------------------------------------
+

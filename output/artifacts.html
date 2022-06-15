@@ -63,7 +63,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">National Directory</span>
             <br/>
-            <span style="display:inline-block;">0.1.4 - draft
+            <span style="display:inline-block;">0.1.6 - draft
 
 
 
@@ -170,7 +170,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">National Directory - Local Development build (v0.1.4). See the <a href="http://hl7.org/fhir/us/fhir-directory-attestation/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">National Directory - Local Development build (v0.1.6). See the <a href="http://hl7.org/fhir/us/fhir-directory-attestation/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -191,19 +191,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#3">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#4">Terminology: Value Sets</a>
+         <a href="#4">Structures: Extension Definitions</a>
       </li>
       <li>
-         <a href="#5">Terminology: Code Systems</a>
+         <a href="#5">Terminology: Value Sets</a>
       </li>
       <li>
-         <a href="#6">Example: Example Scenarios</a>
+         <a href="#6">Terminology: Code Systems</a>
       </li>
       <li>
-         <a href="#7">Example: Example Instances</a>
+         <a href="#7">Example: Example Scenarios</a>
       </li>
       <li>
-         <a href="#8">Other</a>
+         <a href="#8">Example: Example Instances</a>
+      </li>
+      <li>
+         <a href="#9">Other</a>
       </li>
    </ul>
 </div>
@@ -1719,6 +1722,117 @@ be a relationship to an organization. Practitioner participation in healthcare p
       </table>
    </p>
    <a name="4"> </a>
+   <h3>Structures: Extension Definitions </h3>
+   <p>
+    <p>These define constraints on FHIR data types for systems conforming to this implementation guide</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-EndpointRating.html"
+                     title="StructureDefinition/EndpointRating">Endpoint Rating</a>
+               </td>
+               <td>
+<p>Rating for endpoint.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-EndpointSignature.html"
+                     title="StructureDefinition/EndpointSignature">Endpoint Signature</a>
+               </td>
+               <td>
+<p>Extension for allowing a cryptographic signature to be applied to an Endpoint resource.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ExampleScenarioAssertion.html"
+                     title="StructureDefinition/ExampleScenarioAssertion">ExampleScenario Assertion</a>
+               </td>
+               <td>
+<p>When you want to add an assertion to an ExampleScenario.  Useful when writing TestScripts.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ExampleScenarioDescription.html"
+                     title="StructureDefinition/ExampleScenarioDescription">ExampleScenario Description</a>
+               </td>
+               <td>
+<p>When you want to add a description to an ExampleScenario.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-HealthcareServiceRating.html"
+                     title="StructureDefinition/HealthcareServiceRating">HealthcareService Rating</a>
+               </td>
+               <td>
+<p>Rating for HealthcareService.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-InsurancePlanRating.html"
+                     title="StructureDefinition/InsurancePlanRating">InsurancePlan Rating</a>
+               </td>
+               <td>
+<p>Rating for InsurancePlan.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-OrgAffiliationRating.html"
+                     title="StructureDefinition/OrgAffiliationRating">Organization Affiliation Rating</a>
+               </td>
+               <td>
+<p>Rating for organization affiliation.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-OrganizationRating.html"
+                     title="StructureDefinition/OrganizationRating">Organization Rating</a>
+               </td>
+               <td>
+<p>Rating for organization.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PractitionerRating.html"
+                     title="StructureDefinition/PractitionerRating">Practitioner Rating</a>
+               </td>
+               <td>
+<p>Rating for practitioner.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-PractitionerRoleRating.html"
+                     title="StructureDefinition/PractitionerRoleRating">Practitioner Role Rating</a>
+               </td>
+               <td>
+<p>Rating for practitioner role.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-VersionNumber.html"
+                     title="StructureDefinition/VersionNumber">Version Number</a>
+               </td>
+               <td>
+
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="5"> </a>
    <h3>Terminology: Value Sets </h3>
    <p>
     <p>These define sets of codes used by systems conforming to this implementation guide</p>
@@ -1748,7 +1862,7 @@ be a relationship to an organization. Practitioner participation in healthcare p
          </tbody>
       </table>
    </p>
-   <a name="5"> </a>
+   <a name="6"> </a>
    <h3>Terminology: Code Systems </h3>
    <p>
     <p>These define new code systems used by systems conforming to this implementation guide</p>
@@ -1925,7 +2039,7 @@ be a relationship to an organization. Practitioner participation in healthcare p
          </tbody>
       </table>
    </p>
-   <a name="6"> </a>
+   <a name="7"> </a>
    <h3>Example: Example Scenarios </h3>
    <p>
     <p>These define groups of interrelated examples that demonstrate one or more of the workflows supported by this implementation guide</p>
@@ -1936,44 +2050,26 @@ be a relationship to an organization. Practitioner participation in healthcare p
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="ExampleScenario-DaVinciDeqm.html"
-                     title="ExampleScenario/DaVinciDeqm">DaVinci - Signed Measure Report</a>
+                  <a href="ExampleScenario-4D7XtHwNtteDczynb.html"
+                     title="ExampleScenario/4D7XtHwNtteDczynb">Subscriptions</a>
                </td>
                <td>
-<p>Scenario - DaVinci DEQM Provenance</p>
+<p>Scenario - Subscriptions between National and Federated directories</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ExampleScenario-FederatedQuery.html"
-                     title="ExampleScenario/FederatedQuery">Federated Endpoint Query</a>
+                  <a href="ExampleScenario-5psortwYNqr2vLNwQ.html"
+                     title="ExampleScenario/5psortwYNqr2vLNwQ">Protected Womens' Shelters</a>
                </td>
                <td>
-<p>Scenario - Federated Endpoint Query</p>
+<p>Scenario - Restricted Womens’ Shelter Access</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ExampleScenario-NewLocationAttestation.html"
-                     title="ExampleScenario/NewLocationAttestation">New Location Attestation</a>
-               </td>
-               <td>
-<p>Scenario - New Location Attestation</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ExampleScenario-UdapDynamicClientRegistration.html"
-                     title="ExampleScenario/UdapDynamicClientRegistration">Dynamic Client Registration</a>
-               </td>
-               <td>
-<p>Scenario - Dynamic Client Registration</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="ExampleScenario-VerifyPractitionerCredentials.html"
-                     title="ExampleScenario/VerifyPractitionerCredentials">Verify Practitioner Credentials</a>
+                  <a href="ExampleScenario-DX6RLSCje9KkEcHRt.html"
+                     title="ExampleScenario/DX6RLSCje9KkEcHRt">Verify Practitioner Credentials</a>
                </td>
                <td>
 <p>Scenario - Verify Practitioner Credentials</p>
@@ -1981,17 +2077,35 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ExampleScenario-WomensShelters.html"
-                     title="ExampleScenario/WomensShelters">Protected Womens' Shelters</a>
+                  <a href="ExampleScenario-N4qis3v6pkhtJrPFK.html"
+                     title="ExampleScenario/N4qis3v6pkhtJrPFK">Federated Endpoint Query</a>
                </td>
                <td>
-<p>Scenario - Restricted Womens’ Shelter Access</p>
+<p>Scenario - Federated Endpoint Query</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ExampleScenario-PAsijcfHEKD9siu4h.html"
+                     title="ExampleScenario/PAsijcfHEKD9siu4h">New Facility Attestation</a>
+               </td>
+               <td>
+<p>Scenario - New Facility Attestation</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ExampleScenario-RsW5oCHfnQejTw9Jd.html"
+                     title="ExampleScenario/RsW5oCHfnQejTw9Jd">Dynamic Client Registration</a>
+               </td>
+               <td>
+<p>Scenario - Dynamic Client Registration</p>
 </td>
             </tr>
          </tbody>
       </table>
    </p>
-   <a name="7"> </a>
+   <a name="8"> </a>
    <h3>Example: Example Instances </h3>
    <p>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like</p>
@@ -2201,7 +2315,7 @@ be a relationship to an organization. Practitioner participation in healthcare p
                      title="Location/lWAKMdp4vCeNzcDJp">Location/lWAKMdp4vCeNzcDJp</a>
                </td>
                <td>
-<p>345 Main Street, Nowheresville, CT, 00014</p>
+<p>Women’s Shelter - 345 Main Street, Nowheresville, CT, 00014</p>
 </td>
             </tr>
             <tr>
@@ -2471,7 +2585,7 @@ be a relationship to an organization. Practitioner participation in healthcare p
                      title="Practitioner/pBvMREMS3HpzyJgwa">Practitioner/pBvMREMS3HpzyJgwa</a>
                </td>
                <td>
-<p>Practitioner - Counselor</p>
+<p>Practitioner - Susie Song, Social Worker</p>
 </td>
             </tr>
             <tr>
@@ -2567,7 +2681,7 @@ be a relationship to an organization. Practitioner participation in healthcare p
          </tbody>
       </table>
    </p>
-   <a name="8"> </a>
+   <a name="9"> </a>
    <h3>Other </h3>
    <p>
     <p>These are resources that are used within this implementation guide that do not fit into one of the other categories</p>
@@ -2578,17 +2692,26 @@ be a relationship to an organization. Practitioner participation in healthcare p
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="TestScript-DynamicClientRegistration.html"
-                     title="TestScript/DynamicClientRegistration">Dynamic Client Registration</a>
+                  <a href="TestScript-48twF7WfuXkxdnHkh.html"
+                     title="TestScript/48twF7WfuXkxdnHkh">Attestation</a>
                </td>
                <td>
-<p>TestScript - Dynamic Client Registration</p>
+<p>TestScript - Attestation of new clinic information.</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="TestScript-FederatedQueryTestScript.html"
-                     title="TestScript/FederatedQueryTestScript">Federated Query</a>
+                  <a href="TestScript-XA9eSGbRZR7Nrz2Gd.html"
+                     title="TestScript/XA9eSGbRZR7Nrz2Gd">Restricted Access</a>
+               </td>
+               <td>
+<p>TestScript - Restricted access to women’s shelters.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="TestScript-fquA2atodHs6n3cYs.html"
+                     title="TestScript/fquA2atodHs6n3cYs">Federated Query</a>
                </td>
                <td>
 <p>TestScript - Distribute App (DApp) access to a centralized directory.</p>
@@ -2596,38 +2719,29 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="TestScript-OrganizationCrud.html"
-                     title="TestScript/OrganizationCrud">Organization CRUDS</a>
+                  <a href="TestScript-gszMyXpwsdoAjJZeh.html"
+                     title="TestScript/gszMyXpwsdoAjJZeh">Dynamic Client Registration</a>
                </td>
                <td>
-<p>TestScript - Organization create/read/update/delete/search</p>
+<p>TestScript - Dynamic Client Registration</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="TestScript-ProviderQualificationVerification.html"
-                     title="TestScript/ProviderQualificationVerification">Provider Qualification Verification</a>
+                  <a href="TestScript-mqrNfC6BttERhMEZ9.html"
+                     title="TestScript/mqrNfC6BttERhMEZ9">Verification</a>
                </td>
                <td>
-<p>TestScript - Provider Qualification Verification</p>
+<p>TestScript - Verification of provider qualifications</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="TestScript-RestrictedAccessToShelters.html"
-                     title="TestScript/RestrictedAccessToShelters">Restricted Access to Shelters</a>
+                  <a href="TestScript-odYxqzPToJTN3A8GN.html"
+                     title="TestScript/odYxqzPToJTN3A8GN">Subscriptions</a>
                </td>
                <td>
-<p>TestScript - Restricted Access to Shelters</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="TestScript-TrustedClientAttestation.html"
-                     title="TestScript/TrustedClientAttestation">Trusted Client Attestation</a>
-               </td>
-               <td>
-<p>TestScript - Trusted Client Attestation</p>
+<p>TestScript - PUSH messaging via Subscriptions from National Directory to Federated instances.</p>
 </td>
             </tr>
          </tbody>
@@ -2657,7 +2771,7 @@ be a relationship to an organization. Practitioner participation in healthcare p
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.org/Special/committees/pafm/index.cfm">HL7 Patient Administration Working Group</a>.  Package hl7.fhir.us.fhir-directory-attestation#0.1.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 3, 2022 13:24-0500">2022-06-03</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.hl7.org/Special/committees/pafm/index.cfm">HL7 Patient Administration Working Group</a>.  Package hl7.fhir.us.fhir-directory-attestation#0.1.6 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 15, 2022 12:17-0400">2022-06-15</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

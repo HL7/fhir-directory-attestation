@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ExampleScenario xmlns="http://hl7.org/fhir">
+  <id value="RsW5oCHfnQejTw9Jd"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "RsW5oCHfnQejTw9Jd" </p></div><p><b>url</b>: <code>http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/DynamicClientRegistrationScenario</code></p><p><b>version</b>: 0.1.6</p><p><b>status</b>: active</p><p><b>date</b>: 2022-06-15 12:17:27-0400</p><p><b>publisher</b>: HL7 Patient Administration Working Group</p><p><b>contact</b>: HL7 Patient Administration Working Group: <a href="https://www.hl7.org/Special/committees/pafm/index.cfm">https://www.hl7.org/Special/committees/pafm/index.cfm</a>,<a href="mailto:pafm@lists.HL7.org">pafm@lists.HL7.org</a></p><p><b>jurisdiction</b>: United States of America <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#US)</span></p><blockquote><p><b>actor</b></p><p><b>actorId</b>: m6AJtyEk6sSsHWLjt</p><p><b>type</b>: entity</p><p><b>name</b>: St. Jame’s Infirmary</p></blockquote><blockquote><p><b>actor</b></p><p><b>actorId</b>: fZzusFYr3PBYyRnot</p><p><b>type</b>: person</p><p><b>name</b>: Allison Camron, MD</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: l4bjaZGQfeNfhAEpb</p><p><b>resourceType</b>: Location</p><p><b>name</b>: 456 Main Street Anytown CT 00014-1234</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: hsEk35Ayonz755t6u</p><p><b>resourceType</b>: HealthcareService</p><p><b>name</b>: Emergency Medicine Physician</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: etKzBJvzbeHDZi7Gd</p><p><b>resourceType</b>: Endpoint</p><p><b>name</b>: St. James Portal</p></blockquote></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/DynamicClientRegistrationScenario"/>
+  <version value="0.1.6"/>
+  <status value="active"/>
+  <date value="2022-06-15T12:17:27-04:00"/>
+  <publisher value="HL7 Patient Administration Working Group"/>
+  <contact>
+    <name value="HL7 Patient Administration Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/pafm/index.cfm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pafm@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <actor>
+    <actorId value="m6AJtyEk6sSsHWLjt"/>
+    <type value="entity"/>
+    <name value="St. Jame’s Infirmary"/>
+  </actor>
+  <actor>
+    <actorId value="fZzusFYr3PBYyRnot"/>
+    <type value="person"/>
+    <name value="Allison Camron, MD"/>
+  </actor>
+  <instance>
+    <resourceId value="l4bjaZGQfeNfhAEpb"/>
+    <resourceType value="Location"/>
+    <name value="456 Main Street Anytown CT 00014-1234"/>
+  </instance>
+  <instance>
+    <resourceId value="hsEk35Ayonz755t6u"/>
+    <resourceType value="HealthcareService"/>
+    <name value="Emergency Medicine Physician"/>
+  </instance>
+  <instance>
+    <resourceId value="etKzBJvzbeHDZi7Gd"/>
+    <resourceType value="Endpoint"/>
+    <name value="St. James Portal"/>
+  </instance>
+</ExampleScenario>

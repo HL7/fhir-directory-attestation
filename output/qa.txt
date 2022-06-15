@@ -1,10 +1,10 @@
 ﻿ONCFASTNationalDirectory : Validation Results
 =========================================
 
-err = 529, warn = 91, info = 24
-IG Publisher Version: 1.1.115 Out of date - current version is 1.1.121
-Generated Fri Jun 03 13:26:27 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.4 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
- Build Errors : 109 / 1 / 1
+err = 455, warn = 101, info = 24
+IG Publisher Version: 1.1.121
+Generated Wed Jun 15 12:19:16 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.6 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
+ Build Errors : 119 / 2 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.fhir-directory-attestation : 0 / 2 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/capabilitystatement-NationalDirectoryCapabilityStatement : 2 / 1 / 4
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/codesystem-AcceptingPatientsCS : 0 / 0 / 1
@@ -30,37 +30,37 @@ Generated Fri Jun 03 13:26:27 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/device-dTixApQCHxxheiLX3 : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/device-dXuinjribcN2ARYXv : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/endpoint-etKzBJvzbeHDZi7Gd : 7 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-DaVinciDeqm : 0 / 2 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-FederatedQuery : 0 / 2 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-NewLocationAttestation : 0 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-UdapDynamicClientRegistration : 0 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-VerifyPractitionerCredentials : 0 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-WomensShelters : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-4D7XtHwNtteDczynb : 1 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-5psortwYNqr2vLNwQ : 1 / 2 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-DX6RLSCje9KkEcHRt : 1 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-N4qis3v6pkhtJrPFK : 1 / 2 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-PAsijcfHEKD9siu4h : 1 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/examplescenario-RsW5oCHfnQejTw9Jd : 1 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hs53YAqF9RbwE8K2n : 15 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hsEk35Ayonz755t6u : 8 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hsMPDyHBr9gABHb2n : 9 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hsMgv7tiYyaGsijG9 : 11 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hsZchHy4Z3ufZw3tP : 8 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hsEk35Ayonz755t6u : 7 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hsMPDyHBr9gABHb2n : 7 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hsMgv7tiYyaGsijG9 : 9 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hsZchHy4Z3ufZw3tP : 7 / 1 / 2
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hsn93H9RbKTSH57AY : 15 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hspFQ5Zbyc7hTzsAw : 18 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hspy9XZcsSMcY3DJc : 9 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hstqm7dvng64GJYeA : 10 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hsutdKbC5QCe7Xtfn : 9 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/insuranceplan-ipHFxNkt6vAvN7qEG : 11 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/insuranceplan-ipHFxNktk8dvN7qEG : 11 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/insuranceplan-ipZFESpMpTshnEMrD : 10 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hspFQ5Zbyc7hTzsAw : 13 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hspy9XZcsSMcY3DJc : 7 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hstqm7dvng64GJYeA : 7 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/healthcareservice-hsutdKbC5QCe7Xtfn : 7 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/insuranceplan-ipHFxNkt6vAvN7qEG : 5 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/insuranceplan-ipHFxNktk8dvN7qEG : 5 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/insuranceplan-ipZFESpMpTshnEMrD : 5 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-l3ParyXfseYrfcpJN : 1 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-l4bjaZGQfeNfhAEpb : 12 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lDj6WzsPaCdZsCyrP : 17 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lMFvtQ9PuGhKCanxe : 19 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-l4bjaZGQfeNfhAEpb : 11 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lDj6WzsPaCdZsCyrP : 15 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lMFvtQ9PuGhKCanxe : 17 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lNxvHyHMFya5Bym6r : 11 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lWAKMdp4vCeNzcDJp : 15 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lYG8WxBHX4HRoewaM : 19 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lWAKMdp4vCeNzcDJp : 13 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lYG8WxBHX4HRoewaM : 17 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lsH38uL5J3eYEQ5hJ : 11 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lyW5mPW2nf3DHC7h6 : 19 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o4XMGtrjTrN7mcctj : 7 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/location-lyW5mPW2nf3DHC7h6 : 17 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o4XMGtrjTrN7mcctj : 5 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o4aKCfZSaoxLrDPbA : 7 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o4gQrsHZfpYNoohzD : 10 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o4gQrsHZfpYNoohzD : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o53FxH84isnGG8aqy : 5 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o5CXtWS6CWaH4J8c9 : 3 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-o5q79rZWvYNLtPK8D : 3 / 1 / 1
@@ -76,23 +76,29 @@ Generated Fri Jun 03 13:26:27 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-ocb4z5LvCufWTr472 : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-ow7KqRFWWHrxKQW34 : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organization-oxdzMhGRoLTXdp5aE : 0 / 0 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oa3oxC4yKJnB2E7on : 7 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaGKaodXJgcsnAwr4 : 7 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaHDdxsHhAJ9dZFhL : 6 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaPTusDv4SHhKWHJG : 5 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oamEcy7YASttYnaxK : 5 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaqirA9KjALpeDBjs : 7 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oareedAzJMQsamimk : 6 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oa3oxC4yKJnB2E7on : 3 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaGKaodXJgcsnAwr4 : 3 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaHDdxsHhAJ9dZFhL : 3 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaPTusDv4SHhKWHJG : 3 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oamEcy7YASttYnaxK : 3 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oaqirA9KjALpeDBjs : 3 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/organizationaffiliation-oareedAzJMQsamimk : 1 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitioner-p6x5NWQPoKgyTKjAk : 11 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitioner-pBvMREMS3HpzyJgwa : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitioner-pFhDpHhMzBsSvmLb9 : 7 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitioner-pZzusFYr3PBYyRnot : 7 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rALFxTbdo6nEq5za6 : 9 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rCY6ePpLywTbfx3yp : 8 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rDAkiyGndx8FT5jpj : 11 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rGCrprwcPa3fj629w : 6 / 1 / 3
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rP5Wt9gxQwyL7M8fX : 9 / 1 / 2
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rtaTdfxSNTmqqnDeJ : 9 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rALFxTbdo6nEq5za6 : 5 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rCY6ePpLywTbfx3yp : 5 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rDAkiyGndx8FT5jpj : 7 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rGCrprwcPa3fj629w : 5 / 1 / 3
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rP5Wt9gxQwyL7M8fX : 5 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/practitionerrole-rtaTdfxSNTmqqnDeJ : 5 / 1 / 2
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-EndpointRating : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-EndpointSignature : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-ExampleScenarioAssertion : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-ExampleScenarioDescription : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-HealthcareServiceRating : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-InsurancePlanRating : 0 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-NatlDir-Restriction : 1 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-NatlDir-Validation : 2 / 3 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-NatlDirAttest-CareTeam : 0 / 2 / 1
@@ -106,14 +112,19 @@ Generated Fri Jun 03 13:26:27 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-NatlDirAttest-Practitioner : 0 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-NatlDirAttest-PractitionerRole : 0 / 2 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-NatlDirEx-restriction : 3 / 4 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-OrgAffiliationRating : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-OrganizationRating : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-PractitionerRating : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-PractitionerRoleRating : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/structuredefinition-VersionNumber : 0 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/subscription-s6kJSgzdtcHzpuSP2 : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/subscription-s7aTc2yk4YQyBRify : 0 / 0 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-DynamicClientRegistration : 0 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-FederatedQueryTestScript : 8 / 2 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-OrganizationCrud : 0 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-ProviderQualificationVerification : 0 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-RestrictedAccessToShelters : 0 / 1 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-TrustedClientAttestation : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-48twF7WfuXkxdnHkh : 5 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-XA9eSGbRZR7Nrz2Gd : 2 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-fquA2atodHs6n3cYs : 8 / 2 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-gszMyXpwsdoAjJZeh : 0 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-mqrNfC6BttERhMEZ9 : 1 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-odYxqzPToJTN3A8GN : 7 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/valueset-ConsentVS : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/valueset-OrganizationAffiliationRoleVS : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/capabilitystatement-NatlDir : 49 / 0 / 1
@@ -267,8 +278,9 @@ Generated Fri Jun 03 13:26:27 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-verificationresult-validator-organization : 0 / 0 / 1
 </table>
 == n/a ==
-WARNING: ImplementationGuide.dependency[1].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
-INFORMATION: ImplementationGuide.dependency[1].url: The correct canonical URL for this dependency is http://hl7.org/fhir/us/fhir-directory-exchange/ImplementationGuide/hl7.fhir.us.fhir-directory-exchange
+WARNING: ImplementationGuide.dependency[2].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
+INFORMATION: ImplementationGuide.dependency[2].url: The correct canonical URL for this dependency is http://hl7.org/fhir/us/fhir-directory-exchange/ImplementationGuide/hl7.fhir.us.fhir-directory-exchange
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VersionNumber.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: There is no jira specification file defined with the expected name of FHIR-us-fhir-directory-attestation in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/CapabilityStatement-NatlDir.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 276, column 980: The link 'StructureDefinition-NatlDirEx-Endpoint.html' for "NatlDir Endpoint" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/CapabilityStatement-NatlDir.html#/html/body/div/div/div/div/div/div/table/tbody/tr/td/a at Line 288, column 85: The link 'StructureDefinition-NatlDirEx-HealthcareService.html' for "NatlDir HealthcareService" cannot be resolved
@@ -324,7 +336,6 @@ ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/outp
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Location-l4bjaZGQfeNfhAEpb.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1170: The link 'Organization-CancerClinic.html' for "Organization/CancerClinic" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Location-lDj6WzsPaCdZsCyrP.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1200: The link 'Organization-BigBox.html' for "Organization/BigBox" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Location-lMFvtQ9PuGhKCanxe.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1192: The link 'Organization-BigBox.html' for "Organization/BigBox" cannot be resolved
-ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Location-lWAKMdp4vCeNzcDJp.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1198: The link 'Organization-BigBox.html' for "Organization/BigBox" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Location-lYG8WxBHX4HRoewaM.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1193: The link 'Organization-BigBox.html' for "Organization/BigBox" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Location-lyW5mPW2nf3DHC7h6.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1192: The link 'Organization-BigBox.html' for "Organization/BigBox" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Organization-o4XMGtrjTrN7mcctj.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 788: The link 'Organization-Acme.html' for "Organization/Acme" cannot be resolved
@@ -367,20 +378,31 @@ ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/outp
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/PractitionerRole-rtaTdfxSNTmqqnDeJ.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 612: The link 'Practitioner-JoeSmith.html' for "Practitioner/JoeSmith" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/PractitionerRole-rtaTdfxSNTmqqnDeJ.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1155: The link 'Location-HospLoc1.html' for "Location/HospLoc1" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/PractitionerRole-rtaTdfxSNTmqqnDeJ.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 1242: The link 'HealthcareService-HospERService.html' for "HealthcareService/HospERService" cannot be resolved
-ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1081: The link 'm6AJtyEk6sSsHWLjt' for "m6AJtyEk6sSsHWLjt: St. Jame’s Infirmary" cannot be resolved
-ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1282: The link 'fZzusFYr3PBYyRnot' for "fZzusFYr3PBYyRnot: Allison Camron, MD" cannot be resolved
-ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1481: The link 'l4bjaZGQfeNfhAEpb' for "l4bjaZGQfeNfhAEpb: 456 Main Street Anytown CT 00014-1234" cannot be resolved
-ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1699: The link 'hsEk35Ayonz755t6u' for "hsEk35Ayonz755t6u: Emergency Medicine" cannot be resolved
-ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1899: The link 'etKzBJvzbeHDZi7Gd' for "etKzBJvzbeHDZi7Gd: St. James Portal" cannot be resolved
-ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 2096: The link 'dTixApQCHxxheiLX3' for "dTixApQCHxxheiLX3: Distributed App (DApp)" cannot be resolved
-ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-FederatedQueryTestScript.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 2299: The link 'oPxE9d7Wtqjy9WEZx' for "oPxE9d7Wtqjy9WEZx: National Directory" cannot be resolved
-ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 273, column 8: The link 'NationalDirectory.PostmanCollection.json.zip' for "Postman Collection" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-48twF7WfuXkxdnHkh.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1094: The link 'o6AJtyEk6sSsHWLjt' for "o6AJtyEk6sSsHWLjt: St. James Infirmary" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-48twF7WfuXkxdnHkh.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1294: The link 'l4bjaZGQfeNfhAEpb' for "l4bjaZGQfeNfhAEpb: Cancer Clinic" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-48twF7WfuXkxdnHkh.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1488: The link 'hsEk35Ayonz755t6u' for "hsEk35Ayonz755t6u" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-48twF7WfuXkxdnHkh.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1667: The link 'etKzBJvzbeHDZi7Gd' for "etKzBJvzbeHDZi7Gd: Endpoint for St James Hospital" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-48twF7WfuXkxdnHkh.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1878: The link 'pZzusFYr3PBYyRnot' for "pZzusFYr3PBYyRnot" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-XA9eSGbRZR7Nrz2Gd.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1151: The link 'lyW5mPW2nf3DHC7h6' for "lyW5mPW2nf3DHC7h6: OrgA CT Location 2" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-XA9eSGbRZR7Nrz2Gd.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1350: The link 'cotkDnGQjpHijDsRR' for "cotkDnGQjpHijDsRR" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-fquA2atodHs6n3cYs.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1074: The link 'm6AJtyEk6sSsHWLjt' for "m6AJtyEk6sSsHWLjt: St. Jame’s Infirmary" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-fquA2atodHs6n3cYs.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1275: The link 'fZzusFYr3PBYyRnot' for "fZzusFYr3PBYyRnot: Allison Camron, MD" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-fquA2atodHs6n3cYs.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1474: The link 'l4bjaZGQfeNfhAEpb' for "l4bjaZGQfeNfhAEpb: 456 Main Street Anytown CT 00014-1234" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-fquA2atodHs6n3cYs.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1692: The link 'hsEk35Ayonz755t6u' for "hsEk35Ayonz755t6u: Emergency Medicine" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-fquA2atodHs6n3cYs.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1892: The link 'etKzBJvzbeHDZi7Gd' for "etKzBJvzbeHDZi7Gd: St. James Portal" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-fquA2atodHs6n3cYs.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 2089: The link 'dTixApQCHxxheiLX3' for "dTixApQCHxxheiLX3: Distributed App (DApp)" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-fquA2atodHs6n3cYs.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 2292: The link 'oPxE9d7Wtqjy9WEZx' for "oPxE9d7Wtqjy9WEZx: National Directory" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-odYxqzPToJTN3A8GN.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1098: The link 's7aTc2yk4YQyBRify' for "s7aTc2yk4YQyBRify" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-odYxqzPToJTN3A8GN.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1277: The link 's7aTc2yk4YQyBRify' for "s7aTc2yk4YQyBRify" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-odYxqzPToJTN3A8GN.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1456: The link 'o6AJtyEk6sSsHWLjt' for "o6AJtyEk6sSsHWLjt: St. James Infirmary - Covid Ward" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/TestScript-odYxqzPToJTN3A8GN.html#/html/body/div/div/div/div/div/div/blockquote/p/a at Line 238, column 1669: The link 'fZzusFYr3PBYyRnot' for "fZzusFYr3PBYyRnot" cannot be resolved
+ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 306, column 8: The link 'NationalDirectory.PostmanCollection.json.zip' for "Postman Collection" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 7: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Organization-m6AJtyEk6sSsHWLjt.html' for "St. James" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 225: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Location-l4bjaZGQfeNfhAEpb.html' for "456 Main Street" cannot be resolved
 ERROR: /Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 382: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Practitioner-fZzusFYr3PBYyRnot.html' for "Dr. Allison Camron" cannot be resolved
 == fsh-generated/resources/ImplementationGuide-hl7.fhir.us.fhir-directory-attestation.json ==
 WARNING: ImplementationGuide/hl7.fhir.us.fhir-directory-attestation: ImplementationGuide.definition.resource[11].name: value should not start or finish with whitespace ' NatlDirEx...Restriction'
-WARNING: ImplementationGuide/hl7.fhir.us.fhir-directory-attestation: ImplementationGuide.definition.resource[13].description: value should not start or finish with whitespace '	
+WARNING: ImplementationGuide/hl7.fhir.us.fhir-directory-attestation: ImplementationGuide.definition.resource[24].description: value should not start or finish with whitespace '	
 Codes...example).'
 == fsh-generated/resources/CapabilityStatement-NationalDirectoryCapabilityStatement.json ==
 WARNING: CapabilityStatement/NationalDirectoryCapabilityStatement: CapabilityStatement: cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -423,20 +445,26 @@ ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.connectionType.system: URL value 'ht
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.payloadType[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS'
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.payloadType[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS' does not resolve
 WARNING: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Endpoint' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
-== fsh-generated/resources/ExampleScenario-DaVinciDeqm.json ==
-WARNING: ExampleScenario/DaVinciDeqm: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ExampleScenario/DaVinciDeqm: ExampleScenario.instance[1].name: value should not start or finish with whitespace 'Emergency...Medicine '
-== fsh-generated/resources/ExampleScenario-FederatedQuery.json ==
-WARNING: ExampleScenario/FederatedQuery: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-WARNING: ExampleScenario/FederatedQuery: ExampleScenario.instance[1].name: value should not start or finish with whitespace 'Emergency...Medicine '
-== fsh-generated/resources/ExampleScenario-NewLocationAttestation.json ==
-WARNING: ExampleScenario/NewLocationAttestation: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== fsh-generated/resources/ExampleScenario-UdapDynamicClientRegistration.json ==
-WARNING: ExampleScenario/UdapDynamicClientRegistration: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== fsh-generated/resources/ExampleScenario-VerifyPractitionerCredentials.json ==
-WARNING: ExampleScenario/VerifyPractitionerCredentials: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== fsh-generated/resources/ExampleScenario-WomensShelters.json ==
-WARNING: ExampleScenario/WomensShelters: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ExampleScenario-4D7XtHwNtteDczynb.json ==
+ERROR: ExampleScenario.url: Resource id/url mismatch: 4D7XtHwNtteDczynb/http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/SubscriptionsScenario
+WARNING: ExampleScenario/4D7XtHwNtteDczynb: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ExampleScenario-5psortwYNqr2vLNwQ.json ==
+ERROR: ExampleScenario.url: Resource id/url mismatch: 5psortwYNqr2vLNwQ/http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/WomensShelterScenario
+WARNING: ExampleScenario/5psortwYNqr2vLNwQ: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ExampleScenario/5psortwYNqr2vLNwQ: ExampleScenario.instance[5].name: value should not start or finish with whitespace ' Susie...Worker'
+== fsh-generated/resources/ExampleScenario-DX6RLSCje9KkEcHRt.json ==
+ERROR: ExampleScenario.url: Resource id/url mismatch: DX6RLSCje9KkEcHRt/http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/VerificationScenario
+WARNING: ExampleScenario/DX6RLSCje9KkEcHRt: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ExampleScenario-N4qis3v6pkhtJrPFK.json ==
+ERROR: ExampleScenario.url: Resource id/url mismatch: N4qis3v6pkhtJrPFK/http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/FederatedQueryScenario
+WARNING: ExampleScenario/N4qis3v6pkhtJrPFK: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+WARNING: ExampleScenario/N4qis3v6pkhtJrPFK: ExampleScenario.instance[1].name: value should not start or finish with whitespace 'Emergency...Medicine '
+== fsh-generated/resources/ExampleScenario-PAsijcfHEKD9siu4h.json ==
+ERROR: ExampleScenario.url: Resource id/url mismatch: PAsijcfHEKD9siu4h/http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/AttestationScenario
+WARNING: ExampleScenario/PAsijcfHEKD9siu4h: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/ExampleScenario-RsW5oCHfnQejTw9Jd.json ==
+ERROR: ExampleScenario.url: Resource id/url mismatch: RsW5oCHfnQejTw9Jd/http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/DynamicClientRegistrationScenario
+WARNING: ExampleScenario/RsW5oCHfnQejTw9Jd: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/HealthcareService-hs53YAqF9RbwE8K2n.json ==
 ERROR: HealthcareService/hs53YAqF9RbwE8K2n: HealthcareService.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' does not resolve
 ERROR: HealthcareService/hs53YAqF9RbwE8K2n: HealthcareService.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/delivery-method is unknown, and not allowed here
@@ -464,7 +492,6 @@ ERROR: HealthcareService/hsEk35Ayonz755t6u: HealthcareService.extension[0].url: 
 ERROR: HealthcareService/hsEk35Ayonz755t6u: HealthcareService.category[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS'
 ERROR: HealthcareService/hsEk35Ayonz755t6u: HealthcareService.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS' does not resolve
 INFORMATION: HealthcareService/hsEk35Ayonz755t6u: HealthcareService.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#207P00000X)
-ERROR: HealthcareService/hsEk35Ayonz755t6u: HealthcareService.location[0]: Unable to resolve resource 'Location/HospLoc1'
 WARNING: HealthcareService/hsEk35Ayonz755t6u: HealthcareService.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/HealthcareService-hsMPDyHBr9gABHb2n.json ==
 ERROR: HealthcareService/hsMPDyHBr9gABHb2n: HealthcareService.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' does not resolve
@@ -472,11 +499,9 @@ ERROR: HealthcareService/hsMPDyHBr9gABHb2n: HealthcareService.extension[0]: The 
 ERROR: HealthcareService/hsMPDyHBr9gABHb2n: HealthcareService.extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/DeliveryMethodCS'
 ERROR: HealthcareService/hsMPDyHBr9gABHb2n: HealthcareService.extension[0].extension[0].value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/DeliveryMethodCS' does not resolve
 ERROR: HealthcareService/hsMPDyHBr9gABHb2n: HealthcareService.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/delivery-method' does not resolve
-ERROR: HealthcareService/hsMPDyHBr9gABHb2n: HealthcareService.providedBy: Unable to resolve resource 'Organization/BurrClinic'
 ERROR: HealthcareService/hsMPDyHBr9gABHb2n: HealthcareService.category[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS'
 ERROR: HealthcareService/hsMPDyHBr9gABHb2n: HealthcareService.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS' does not resolve
 INFORMATION: HealthcareService/hsMPDyHBr9gABHb2n: HealthcareService.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#207Q00000X)
-ERROR: HealthcareService/hsMPDyHBr9gABHb2n: HealthcareService.location[0]: Unable to resolve resource 'Location/HospLoc1'
 WARNING: HealthcareService/hsMPDyHBr9gABHb2n: HealthcareService.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/HealthcareService-hsMgv7tiYyaGsijG9.json ==
 ERROR: HealthcareService/hsMgv7tiYyaGsijG9: HealthcareService.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' does not resolve
@@ -487,10 +512,8 @@ ERROR: HealthcareService/hsMgv7tiYyaGsijG9: HealthcareService.extension[0].url: 
 ERROR: HealthcareService/hsMgv7tiYyaGsijG9: HealthcareService.category[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS'
 ERROR: HealthcareService/hsMgv7tiYyaGsijG9: HealthcareService.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS' does not resolve
 INFORMATION: HealthcareService/hsMgv7tiYyaGsijG9: HealthcareService.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#3336C0004X)
-ERROR: HealthcareService/hsMgv7tiYyaGsijG9: HealthcareService.location[0]: Unable to resolve resource 'Location/PharmLoc1'
 ERROR: HealthcareService/hsMgv7tiYyaGsijG9: HealthcareService.telecom[0].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary is unknown, and not allowed here
 ERROR: HealthcareService/hsMgv7tiYyaGsijG9: HealthcareService.telecom[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary' does not resolve
-ERROR: HealthcareService/hsMgv7tiYyaGsijG9: HealthcareService.telecom[0].extension[0].value.ofType(Reference): Unable to resolve resource 'Location/PharmLoc1'
 WARNING: HealthcareService/hsMgv7tiYyaGsijG9: HealthcareService.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/HealthcareService-hsZchHy4Z3ufZw3tP.json ==
 ERROR: HealthcareService/hsZchHy4Z3ufZw3tP: HealthcareService.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' does not resolve
@@ -501,7 +524,6 @@ ERROR: HealthcareService/hsZchHy4Z3ufZw3tP: HealthcareService.extension[0].url: 
 ERROR: HealthcareService/hsZchHy4Z3ufZw3tP: HealthcareService.category[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS'
 ERROR: HealthcareService/hsZchHy4Z3ufZw3tP: HealthcareService.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS' does not resolve
 INFORMATION: HealthcareService/hsZchHy4Z3ufZw3tP: HealthcareService.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#207Q00000X)
-ERROR: HealthcareService/hsZchHy4Z3ufZw3tP: HealthcareService.location[0]: Unable to resolve resource 'Location/HansSoloClinic'
 WARNING: HealthcareService/hsZchHy4Z3ufZw3tP: HealthcareService.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/HealthcareService-hsn93H9RbKTSH57AY.json ==
 ERROR: HealthcareService/hsn93H9RbKTSH57AY: HealthcareService.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' does not resolve
@@ -530,15 +552,10 @@ ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.extension[0].url: 
 ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.extension[1]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients is unknown, and not allowed here
 ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.extension[1].extension[0].value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS'
 ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.extension[1].extension[0].value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS' does not resolve
-ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.extension[1].extension[1].value.ofType(Reference): Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients' does not resolve
 ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.category[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS'
 ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS' does not resolve
 INFORMATION: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#3336C0003X)
-ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.location[0]: Unable to resolve resource 'Location/PharmLoc1'
-ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.location[1]: Unable to resolve resource 'Location/PharmLoc2'
-ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.location[2]: Unable to resolve resource 'Location/PharmLoc3'
-ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.location[3]: Unable to resolve resource 'Location/PharmLoc4'
 ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.telecom[0].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary is unknown, and not allowed here
 ERROR: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.telecom[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary' does not resolve
 WARNING: HealthcareService/hspFQ5Zbyc7hTzsAw: HealthcareService.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
@@ -548,11 +565,9 @@ ERROR: HealthcareService/hspy9XZcsSMcY3DJc: HealthcareService.extension[0]: The 
 ERROR: HealthcareService/hspy9XZcsSMcY3DJc: HealthcareService.extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/DeliveryMethodCS'
 ERROR: HealthcareService/hspy9XZcsSMcY3DJc: HealthcareService.extension[0].extension[0].value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/DeliveryMethodCS' does not resolve
 ERROR: HealthcareService/hspy9XZcsSMcY3DJc: HealthcareService.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/delivery-method' does not resolve
-ERROR: HealthcareService/hspy9XZcsSMcY3DJc: HealthcareService.providedBy: Unable to resolve resource 'Organization/HamiltonClinic'
 ERROR: HealthcareService/hspy9XZcsSMcY3DJc: HealthcareService.category[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS'
 ERROR: HealthcareService/hspy9XZcsSMcY3DJc: HealthcareService.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS' does not resolve
 INFORMATION: HealthcareService/hspy9XZcsSMcY3DJc: HealthcareService.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#207Q00000X)
-ERROR: HealthcareService/hspy9XZcsSMcY3DJc: HealthcareService.location[0]: Unable to resolve resource 'Location/HospLoc1'
 WARNING: HealthcareService/hspy9XZcsSMcY3DJc: HealthcareService.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/HealthcareService-hstqm7dvng64GJYeA.json ==
 ERROR: HealthcareService/hstqm7dvng64GJYeA: HealthcareService.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' does not resolve
@@ -560,12 +575,9 @@ ERROR: HealthcareService/hstqm7dvng64GJYeA: HealthcareService.extension[0]: The 
 ERROR: HealthcareService/hstqm7dvng64GJYeA: HealthcareService.extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/DeliveryMethodCS'
 ERROR: HealthcareService/hstqm7dvng64GJYeA: HealthcareService.extension[0].extension[0].value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/DeliveryMethodCS' does not resolve
 ERROR: HealthcareService/hstqm7dvng64GJYeA: HealthcareService.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/delivery-method' does not resolve
-ERROR: HealthcareService/hstqm7dvng64GJYeA: HealthcareService.providedBy: Unable to resolve resource 'Organization/HartfordOrthopedics'
 ERROR: HealthcareService/hstqm7dvng64GJYeA: HealthcareService.category[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS'
 ERROR: HealthcareService/hstqm7dvng64GJYeA: HealthcareService.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS' does not resolve
 INFORMATION: HealthcareService/hstqm7dvng64GJYeA: HealthcareService.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#207X00000X)
-ERROR: HealthcareService/hstqm7dvng64GJYeA: HealthcareService.location[0]: Unable to resolve resource 'Location/HospLoc1'
-ERROR: HealthcareService/hstqm7dvng64GJYeA: HealthcareService.location[1]: Unable to resolve resource 'Location/HospLoc2'
 WARNING: HealthcareService/hstqm7dvng64GJYeA: HealthcareService.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/HealthcareService-hsutdKbC5QCe7Xtfn.json ==
 ERROR: HealthcareService/hsutdKbC5QCe7Xtfn: HealthcareService.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' does not resolve
@@ -573,22 +585,14 @@ ERROR: HealthcareService/hsutdKbC5QCe7Xtfn: HealthcareService.extension[0]: The 
 ERROR: HealthcareService/hsutdKbC5QCe7Xtfn: HealthcareService.extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/DeliveryMethodCS'
 ERROR: HealthcareService/hsutdKbC5QCe7Xtfn: HealthcareService.extension[0].extension[0].value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/DeliveryMethodCS' does not resolve
 ERROR: HealthcareService/hsutdKbC5QCe7Xtfn: HealthcareService.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/delivery-method' does not resolve
-ERROR: HealthcareService/hsutdKbC5QCe7Xtfn: HealthcareService.providedBy: Unable to resolve resource 'Organization/CancerClinic'
 ERROR: HealthcareService/hsutdKbC5QCe7Xtfn: HealthcareService.category[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS'
 ERROR: HealthcareService/hsutdKbC5QCe7Xtfn: HealthcareService.category[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS' does not resolve
 INFORMATION: HealthcareService/hsutdKbC5QCe7Xtfn: HealthcareService.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#207RX0202X)
-ERROR: HealthcareService/hsutdKbC5QCe7Xtfn: HealthcareService.location[0]: Unable to resolve resource 'Location/CancerClinicLoc'
 WARNING: HealthcareService/hsutdKbC5QCe7Xtfn: HealthcareService.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/InsurancePlan-ipHFxNkt6vAvN7qEG.json ==
 ERROR: InsurancePlan/ipHFxNkt6vAvN7qEG: InsurancePlan.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-InsurancePlan' does not resolve
 ERROR: InsurancePlan/ipHFxNkt6vAvN7qEG: InsurancePlan.type[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsuranceProductTypeCS'
 ERROR: InsurancePlan/ipHFxNkt6vAvN7qEG: InsurancePlan.type[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsuranceProductTypeCS' does not resolve
-ERROR: InsurancePlan/ipHFxNkt6vAvN7qEG: InsurancePlan.ownedBy: Unable to resolve resource 'Organization/Acme'
-ERROR: InsurancePlan/ipHFxNkt6vAvN7qEG: InsurancePlan.administeredBy: Unable to resolve resource 'Organization/Acme'
-ERROR: InsurancePlan/ipHFxNkt6vAvN7qEG: InsurancePlan.coverageArea[0]: Unable to resolve resource 'Location/StateOfCTLocation'
-ERROR: InsurancePlan/ipHFxNkt6vAvN7qEG: InsurancePlan.endpoint[0]: Unable to resolve resource 'Endpoint/AcmeOfCTPortalEndpoint'
-ERROR: InsurancePlan/ipHFxNkt6vAvN7qEG: InsurancePlan.network[0]: Unable to resolve resource 'Organization/AcmeofCTStdNet'
-ERROR: InsurancePlan/ipHFxNkt6vAvN7qEG: InsurancePlan.network[1]: Unable to resolve resource 'Organization/AcmeofCTPremNet'
 ERROR: InsurancePlan/ipHFxNkt6vAvN7qEG: InsurancePlan.plan[0].type.coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsurancePlanTypeCS'
 ERROR: InsurancePlan/ipHFxNkt6vAvN7qEG: InsurancePlan.plan[0].type.coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsurancePlanTypeCS' does not resolve
 WARNING: InsurancePlan/ipHFxNkt6vAvN7qEG: InsurancePlan.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-InsurancePlan' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
@@ -596,12 +600,6 @@ WARNING: InsurancePlan/ipHFxNkt6vAvN7qEG: InsurancePlan.meta.profile[0]: Profile
 ERROR: InsurancePlan/ipHFxNktk8dvN7qEG: InsurancePlan.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-InsurancePlan' does not resolve
 ERROR: InsurancePlan/ipHFxNktk8dvN7qEG: InsurancePlan.type[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsuranceProductTypeCS'
 ERROR: InsurancePlan/ipHFxNktk8dvN7qEG: InsurancePlan.type[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsuranceProductTypeCS' does not resolve
-ERROR: InsurancePlan/ipHFxNktk8dvN7qEG: InsurancePlan.ownedBy: Unable to resolve resource 'Organization/Acme'
-ERROR: InsurancePlan/ipHFxNktk8dvN7qEG: InsurancePlan.administeredBy: Unable to resolve resource 'Organization/Acme'
-ERROR: InsurancePlan/ipHFxNktk8dvN7qEG: InsurancePlan.coverageArea[0]: Unable to resolve resource 'Location/StateOfCTLocation'
-ERROR: InsurancePlan/ipHFxNktk8dvN7qEG: InsurancePlan.endpoint[0]: Unable to resolve resource 'Endpoint/AcmeOfCTPortalEndpoint'
-ERROR: InsurancePlan/ipHFxNktk8dvN7qEG: InsurancePlan.network[0]: Unable to resolve resource 'Organization/AcmeofCTStdNet'
-ERROR: InsurancePlan/ipHFxNktk8dvN7qEG: InsurancePlan.network[1]: Unable to resolve resource 'Organization/AcmeofCTPremNet'
 ERROR: InsurancePlan/ipHFxNktk8dvN7qEG: InsurancePlan.plan[0].type.coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsurancePlanTypeCS'
 ERROR: InsurancePlan/ipHFxNktk8dvN7qEG: InsurancePlan.plan[0].type.coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsurancePlanTypeCS' does not resolve
 WARNING: InsurancePlan/ipHFxNktk8dvN7qEG: InsurancePlan.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-InsurancePlan' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
@@ -609,11 +607,6 @@ WARNING: InsurancePlan/ipHFxNktk8dvN7qEG: InsurancePlan.meta.profile[0]: Profile
 ERROR: InsurancePlan/ipZFESpMpTshnEMrD: InsurancePlan.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-InsurancePlan' does not resolve
 ERROR: InsurancePlan/ipZFESpMpTshnEMrD: InsurancePlan.type[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsuranceProductTypeCS'
 ERROR: InsurancePlan/ipZFESpMpTshnEMrD: InsurancePlan.type[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsuranceProductTypeCS' does not resolve
-ERROR: InsurancePlan/ipZFESpMpTshnEMrD: InsurancePlan.ownedBy: Unable to resolve resource 'Organization/Acme'
-ERROR: InsurancePlan/ipZFESpMpTshnEMrD: InsurancePlan.administeredBy: Unable to resolve resource 'Organization/Acme'
-ERROR: InsurancePlan/ipZFESpMpTshnEMrD: InsurancePlan.coverageArea[0]: Unable to resolve resource 'Location/StateOfCTLocation'
-ERROR: InsurancePlan/ipZFESpMpTshnEMrD: InsurancePlan.endpoint[0]: Unable to resolve resource 'Endpoint/AcmeOfCTPortalEndpoint'
-ERROR: InsurancePlan/ipZFESpMpTshnEMrD: InsurancePlan.network[0]: Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: InsurancePlan/ipZFESpMpTshnEMrD: InsurancePlan.plan[0].type.coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsurancePlanTypeCS'
 ERROR: InsurancePlan/ipZFESpMpTshnEMrD: InsurancePlan.plan[0].type.coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsurancePlanTypeCS' does not resolve
 WARNING: InsurancePlan/ipZFESpMpTshnEMrD: InsurancePlan.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-InsurancePlan' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
@@ -632,14 +625,12 @@ ERROR: Location/l4bjaZGQfeNfhAEpb: Location.extension[1].value.ofType(CodeableCo
 ERROR: Location/l4bjaZGQfeNfhAEpb: Location.extension[1].value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AccessibilityCS' does not resolve
 ERROR: Location/l4bjaZGQfeNfhAEpb: Location.telecom[0].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime is unknown, and not allowed here
 ERROR: Location/l4bjaZGQfeNfhAEpb: Location.telecom[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
-ERROR: Location/l4bjaZGQfeNfhAEpb: Location.managingOrganization: Unable to resolve resource 'Organization/CancerClinic'
 WARNING: Location/l4bjaZGQfeNfhAEpb: Location.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Location-lDj6WzsPaCdZsCyrP.json ==
 ERROR: Location/lDj6WzsPaCdZsCyrP: Location.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' does not resolve
 ERROR: Location/lDj6WzsPaCdZsCyrP: Location.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients is unknown, and not allowed here
 ERROR: Location/lDj6WzsPaCdZsCyrP: Location.extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS'
 ERROR: Location/lDj6WzsPaCdZsCyrP: Location.extension[0].extension[0].value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS' does not resolve
-ERROR: Location/lDj6WzsPaCdZsCyrP: Location.extension[0].extension[1].value.ofType(Reference): Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: Location/lDj6WzsPaCdZsCyrP: Location.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients' does not resolve
 ERROR: Location/lDj6WzsPaCdZsCyrP: Location.extension[1]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility is unknown, and not allowed here
 ERROR: Location/lDj6WzsPaCdZsCyrP: Location.extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility' does not resolve
@@ -651,14 +642,12 @@ ERROR: Location/lDj6WzsPaCdZsCyrP: Location.extension[2].value.ofType(CodeableCo
 ERROR: Location/lDj6WzsPaCdZsCyrP: Location.extension[2].value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AccessibilityCS' does not resolve
 ERROR: Location/lDj6WzsPaCdZsCyrP: Location.telecom[0].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime is unknown, and not allowed here
 ERROR: Location/lDj6WzsPaCdZsCyrP: Location.telecom[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
-ERROR: Location/lDj6WzsPaCdZsCyrP: Location.managingOrganization: Unable to resolve resource 'Organization/BigBox'
 WARNING: Location/lDj6WzsPaCdZsCyrP: Location.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Location-lMFvtQ9PuGhKCanxe.json ==
 ERROR: Location/lMFvtQ9PuGhKCanxe: Location.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' does not resolve
 ERROR: Location/lMFvtQ9PuGhKCanxe: Location.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients is unknown, and not allowed here
 ERROR: Location/lMFvtQ9PuGhKCanxe: Location.extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS'
 ERROR: Location/lMFvtQ9PuGhKCanxe: Location.extension[0].extension[0].value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS' does not resolve
-ERROR: Location/lMFvtQ9PuGhKCanxe: Location.extension[0].extension[1].value.ofType(Reference): Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: Location/lMFvtQ9PuGhKCanxe: Location.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients' does not resolve
 ERROR: Location/lMFvtQ9PuGhKCanxe: Location.extension[1]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility is unknown, and not allowed here
 ERROR: Location/lMFvtQ9PuGhKCanxe: Location.extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility' does not resolve
@@ -672,7 +661,6 @@ ERROR: Location/lMFvtQ9PuGhKCanxe: Location.telecom[0].extension[0]: The extensi
 ERROR: Location/lMFvtQ9PuGhKCanxe: Location.telecom[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
 ERROR: Location/lMFvtQ9PuGhKCanxe: Location.telecom[0].extension[1]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime is unknown, and not allowed here
 ERROR: Location/lMFvtQ9PuGhKCanxe: Location.telecom[0].extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
-ERROR: Location/lMFvtQ9PuGhKCanxe: Location.managingOrganization: Unable to resolve resource 'Organization/BigBox'
 WARNING: Location/lMFvtQ9PuGhKCanxe: Location.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Location-lNxvHyHMFya5Bym6r.json ==
 ERROR: Location/lNxvHyHMFya5Bym6r: Location.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' does not resolve
@@ -692,7 +680,6 @@ ERROR: Location/lWAKMdp4vCeNzcDJp: Location.meta.profile[0]: Canonical URL 'http
 ERROR: Location/lWAKMdp4vCeNzcDJp: Location.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients is unknown, and not allowed here
 ERROR: Location/lWAKMdp4vCeNzcDJp: Location.extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS'
 ERROR: Location/lWAKMdp4vCeNzcDJp: Location.extension[0].extension[0].value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS' does not resolve
-ERROR: Location/lWAKMdp4vCeNzcDJp: Location.extension[0].extension[1].value.ofType(Reference): Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: Location/lWAKMdp4vCeNzcDJp: Location.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients' does not resolve
 ERROR: Location/lWAKMdp4vCeNzcDJp: Location.extension[1]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility is unknown, and not allowed here
 ERROR: Location/lWAKMdp4vCeNzcDJp: Location.extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility' does not resolve
@@ -702,14 +689,12 @@ ERROR: Location/lWAKMdp4vCeNzcDJp: Location.telecom[0].extension[0]: The extensi
 ERROR: Location/lWAKMdp4vCeNzcDJp: Location.telecom[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
 ERROR: Location/lWAKMdp4vCeNzcDJp: Location.telecom[0].extension[1]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime is unknown, and not allowed here
 ERROR: Location/lWAKMdp4vCeNzcDJp: Location.telecom[0].extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
-ERROR: Location/lWAKMdp4vCeNzcDJp: Location.managingOrganization: Unable to resolve resource 'Organization/BigBox'
 WARNING: Location/lWAKMdp4vCeNzcDJp: Location.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Location-lYG8WxBHX4HRoewaM.json ==
 ERROR: Location/lYG8WxBHX4HRoewaM: Location.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' does not resolve
 ERROR: Location/lYG8WxBHX4HRoewaM: Location.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients is unknown, and not allowed here
 ERROR: Location/lYG8WxBHX4HRoewaM: Location.extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS'
 ERROR: Location/lYG8WxBHX4HRoewaM: Location.extension[0].extension[0].value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS' does not resolve
-ERROR: Location/lYG8WxBHX4HRoewaM: Location.extension[0].extension[1].value.ofType(Reference): Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: Location/lYG8WxBHX4HRoewaM: Location.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients' does not resolve
 ERROR: Location/lYG8WxBHX4HRoewaM: Location.extension[1]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility is unknown, and not allowed here
 ERROR: Location/lYG8WxBHX4HRoewaM: Location.extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility' does not resolve
@@ -723,7 +708,6 @@ ERROR: Location/lYG8WxBHX4HRoewaM: Location.telecom[0].extension[0]: The extensi
 ERROR: Location/lYG8WxBHX4HRoewaM: Location.telecom[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
 ERROR: Location/lYG8WxBHX4HRoewaM: Location.telecom[0].extension[1]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime is unknown, and not allowed here
 ERROR: Location/lYG8WxBHX4HRoewaM: Location.telecom[0].extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
-ERROR: Location/lYG8WxBHX4HRoewaM: Location.managingOrganization: Unable to resolve resource 'Organization/BigBox'
 WARNING: Location/lYG8WxBHX4HRoewaM: Location.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Location-lsH38uL5J3eYEQ5hJ.json ==
 ERROR: Location/lsH38uL5J3eYEQ5hJ: Location.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' does not resolve
@@ -743,7 +727,6 @@ ERROR: Location/lyW5mPW2nf3DHC7h6: Location.meta.profile[0]: Canonical URL 'http
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients is unknown, and not allowed here
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.extension[0].extension[0].value.ofType(CodeableConcept).coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS'
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.extension[0].extension[0].value.ofType(CodeableConcept).coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS' does not resolve
-ERROR: Location/lyW5mPW2nf3DHC7h6: Location.extension[0].extension[1].value.ofType(Reference): Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients' does not resolve
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.extension[1]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility is unknown, and not allowed here
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility' does not resolve
@@ -757,16 +740,13 @@ ERROR: Location/lyW5mPW2nf3DHC7h6: Location.telecom[0].extension[0]: The extensi
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.telecom[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.telecom[0].extension[1]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime is unknown, and not allowed here
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.telecom[0].extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
-ERROR: Location/lyW5mPW2nf3DHC7h6: Location.managingOrganization: Unable to resolve resource 'Organization/BigBox'
 WARNING: Location/lyW5mPW2nf3DHC7h6: Location.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Organization-o4XMGtrjTrN7mcctj.json ==
 ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Network' does not resolve
 ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.type[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS'
 ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.type[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS' does not resolve
-ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.partOf: Unable to resolve resource 'Organization/Acme'
 ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.contact[0].telecom[0].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary is unknown, and not allowed here
 ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.contact[0].telecom[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary' does not resolve
-ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.contact[0].telecom[0].extension[0].value.ofType(Reference): Unable to resolve resource 'Organization/Acme'
 WARNING: Organization/o4XMGtrjTrN7mcctj: Organization.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Network' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Organization-o4aKCfZSaoxLrDPbA.json ==
 ERROR: Organization/o4aKCfZSaoxLrDPbA: Organization.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Organization' does not resolve
@@ -781,13 +761,10 @@ WARNING: Organization/o4aKCfZSaoxLrDPbA: Organization.meta.profile[0]: Profile r
 ERROR: Organization/o4gQrsHZfpYNoohzD: Organization.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Network' does not resolve
 ERROR: Organization/o4gQrsHZfpYNoohzD: Organization.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/location-reference is unknown, and not allowed here
 ERROR: Organization/o4gQrsHZfpYNoohzD: Organization.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/location-reference' does not resolve
-ERROR: Organization/o4gQrsHZfpYNoohzD: Organization.extension[0].value.ofType(Reference): Unable to resolve resource 'Location/StateOfCTLocation'
 ERROR: Organization/o4gQrsHZfpYNoohzD: Organization.type[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS'
 ERROR: Organization/o4gQrsHZfpYNoohzD: Organization.type[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS' does not resolve
-ERROR: Organization/o4gQrsHZfpYNoohzD: Organization.partOf: Unable to resolve resource 'Organization/Acme'
 ERROR: Organization/o4gQrsHZfpYNoohzD: Organization.contact[0].telecom[0].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary is unknown, and not allowed here
 ERROR: Organization/o4gQrsHZfpYNoohzD: Organization.contact[0].telecom[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary' does not resolve
-ERROR: Organization/o4gQrsHZfpYNoohzD: Organization.contact[0].telecom[0].extension[0].value.ofType(Reference): Unable to resolve resource 'Organization/Acme'
 WARNING: Organization/o4gQrsHZfpYNoohzD: Organization.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Network' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Organization-o53FxH84isnGG8aqy.json ==
 ERROR: Organization/o53FxH84isnGG8aqy: Organization.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Organization' does not resolve
@@ -846,63 +823,39 @@ WARNING: Organization/o7C3dwiGT6Eatxkyb: Organization.meta.profile[0]: Profile r
 == fsh-generated/resources/Organization-oxdzMhGRoLTXdp5aE.json ==
 == fsh-generated/resources/OrganizationAffiliation-oa3oxC4yKJnB2E7on.json ==
 ERROR: OrganizationAffiliation/oa3oxC4yKJnB2E7on: OrganizationAffiliation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' does not resolve
-ERROR: OrganizationAffiliation/oa3oxC4yKJnB2E7on: OrganizationAffiliation.participatingOrganization: Unable to resolve resource 'Organization/BurrClinic'
-ERROR: OrganizationAffiliation/oa3oxC4yKJnB2E7on: OrganizationAffiliation.network[0]: Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: OrganizationAffiliation/oa3oxC4yKJnB2E7on: OrganizationAffiliation.code[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS'
 ERROR: OrganizationAffiliation/oa3oxC4yKJnB2E7on: OrganizationAffiliation.code[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS' does not resolve
-ERROR: OrganizationAffiliation/oa3oxC4yKJnB2E7on: OrganizationAffiliation.location[0]: Unable to resolve resource 'Location/HospLoc2'
-ERROR: OrganizationAffiliation/oa3oxC4yKJnB2E7on: OrganizationAffiliation.healthcareService[0]: Unable to resolve resource 'HealthcareService/BurrClinicServices'
 WARNING: OrganizationAffiliation/oa3oxC4yKJnB2E7on: OrganizationAffiliation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/OrganizationAffiliation-oaGKaodXJgcsnAwr4.json ==
 ERROR: OrganizationAffiliation/oaGKaodXJgcsnAwr4: OrganizationAffiliation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' does not resolve
-ERROR: OrganizationAffiliation/oaGKaodXJgcsnAwr4: OrganizationAffiliation.network[0]: Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: OrganizationAffiliation/oaGKaodXJgcsnAwr4: OrganizationAffiliation.code[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS'
 ERROR: OrganizationAffiliation/oaGKaodXJgcsnAwr4: OrganizationAffiliation.code[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS' does not resolve
 INFORMATION: OrganizationAffiliation/oaGKaodXJgcsnAwr4: OrganizationAffiliation.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#3336C0003X)
-ERROR: OrganizationAffiliation/oaGKaodXJgcsnAwr4: OrganizationAffiliation.location[0]: Unable to resolve resource 'Location/PharmLoc1'
-ERROR: OrganizationAffiliation/oaGKaodXJgcsnAwr4: OrganizationAffiliation.location[1]: Unable to resolve resource 'Location/PharmLoc2'
-ERROR: OrganizationAffiliation/oaGKaodXJgcsnAwr4: OrganizationAffiliation.healthcareService[0]: Unable to resolve resource 'HealthcareService/PharmChainRetailService'
 WARNING: OrganizationAffiliation/oaGKaodXJgcsnAwr4: OrganizationAffiliation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/OrganizationAffiliation-oaHDdxsHhAJ9dZFhL.json ==
 ERROR: OrganizationAffiliation/oaHDdxsHhAJ9dZFhL: OrganizationAffiliation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' does not resolve
-ERROR: OrganizationAffiliation/oaHDdxsHhAJ9dZFhL: OrganizationAffiliation.network[0]: Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: OrganizationAffiliation/oaHDdxsHhAJ9dZFhL: OrganizationAffiliation.code[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS'
 ERROR: OrganizationAffiliation/oaHDdxsHhAJ9dZFhL: OrganizationAffiliation.code[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS' does not resolve
 INFORMATION: OrganizationAffiliation/oaHDdxsHhAJ9dZFhL: OrganizationAffiliation.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#3336C0004X)
-ERROR: OrganizationAffiliation/oaHDdxsHhAJ9dZFhL: OrganizationAffiliation.location[0]: Unable to resolve resource 'Location/PharmLoc1'
-ERROR: OrganizationAffiliation/oaHDdxsHhAJ9dZFhL: OrganizationAffiliation.healthcareService[0]: Unable to resolve resource 'HealthcareService/PharmChainCompService'
 WARNING: OrganizationAffiliation/oaHDdxsHhAJ9dZFhL: OrganizationAffiliation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/OrganizationAffiliation-oaPTusDv4SHhKWHJG.json ==
 ERROR: OrganizationAffiliation/oaPTusDv4SHhKWHJG: OrganizationAffiliation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' does not resolve
-ERROR: OrganizationAffiliation/oaPTusDv4SHhKWHJG: OrganizationAffiliation.network[0]: Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: OrganizationAffiliation/oaPTusDv4SHhKWHJG: OrganizationAffiliation.code[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS'
 ERROR: OrganizationAffiliation/oaPTusDv4SHhKWHJG: OrganizationAffiliation.code[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS' does not resolve
 INFORMATION: OrganizationAffiliation/oaPTusDv4SHhKWHJG: OrganizationAffiliation.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#3336M0002X)
-ERROR: OrganizationAffiliation/oaPTusDv4SHhKWHJG: OrganizationAffiliation.healthcareService[0]: Unable to resolve resource 'HealthcareService/PharmChainMailService'
 WARNING: OrganizationAffiliation/oaPTusDv4SHhKWHJG: OrganizationAffiliation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/OrganizationAffiliation-oamEcy7YASttYnaxK.json ==
 ERROR: OrganizationAffiliation/oamEcy7YASttYnaxK: OrganizationAffiliation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' does not resolve
-ERROR: OrganizationAffiliation/oamEcy7YASttYnaxK: OrganizationAffiliation.organization: Unable to resolve resource 'Organization/ConnHIE'
-ERROR: OrganizationAffiliation/oamEcy7YASttYnaxK: OrganizationAffiliation.participatingOrganization: Unable to resolve resource 'Organization/BurrClinic'
 ERROR: OrganizationAffiliation/oamEcy7YASttYnaxK: OrganizationAffiliation.code[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS'
 ERROR: OrganizationAffiliation/oamEcy7YASttYnaxK: OrganizationAffiliation.code[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS' does not resolve
 WARNING: OrganizationAffiliation/oamEcy7YASttYnaxK: OrganizationAffiliation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/OrganizationAffiliation-oaqirA9KjALpeDBjs.json ==
 ERROR: OrganizationAffiliation/oaqirA9KjALpeDBjs: OrganizationAffiliation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' does not resolve
-ERROR: OrganizationAffiliation/oaqirA9KjALpeDBjs: OrganizationAffiliation.participatingOrganization: Unable to resolve resource 'Organization/HamiltonClinic'
-ERROR: OrganizationAffiliation/oaqirA9KjALpeDBjs: OrganizationAffiliation.network[0]: Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: OrganizationAffiliation/oaqirA9KjALpeDBjs: OrganizationAffiliation.code[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS'
 ERROR: OrganizationAffiliation/oaqirA9KjALpeDBjs: OrganizationAffiliation.code[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS' does not resolve
-ERROR: OrganizationAffiliation/oaqirA9KjALpeDBjs: OrganizationAffiliation.location[0]: Unable to resolve resource 'Location/HospLoc1'
-ERROR: OrganizationAffiliation/oaqirA9KjALpeDBjs: OrganizationAffiliation.healthcareService[0]: Unable to resolve resource 'HealthcareService/HamiltonClinicServices'
 WARNING: OrganizationAffiliation/oaqirA9KjALpeDBjs: OrganizationAffiliation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/OrganizationAffiliation-oareedAzJMQsamimk.json ==
 ERROR: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' does not resolve
-ERROR: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.participatingOrganization: Unable to resolve resource 'Organization/HartfordOrthopedics'
-ERROR: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.network[0]: Unable to resolve resource 'Organization/AcmeofCTStdNet'
-ERROR: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.location[0]: Unable to resolve resource 'Location/HospLoc1'
-ERROR: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.location[1]: Unable to resolve resource 'Location/HospLoc2'
-ERROR: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.healthcareService[0]: Unable to resolve resource 'HealthcareService/HartfordOrthopedicServices'
 WARNING: OrganizationAffiliation/oareedAzJMQsamimk: OrganizationAffiliation.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/Practitioner-p6x5NWQPoKgyTKjAk.json ==
 ERROR: Practitioner/p6x5NWQPoKgyTKjAk: Practitioner.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner' does not resolve
@@ -948,44 +901,32 @@ WARNING: Practitioner/pZzusFYr3PBYyRnot: Practitioner.meta.profile[0]: Profile r
 ERROR: PractitionerRole/rALFxTbdo6nEq5za6: PractitionerRole.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole' does not resolve
 ERROR: PractitionerRole/rALFxTbdo6nEq5za6: PractitionerRole.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference is unknown, and not allowed here
 ERROR: PractitionerRole/rALFxTbdo6nEq5za6: PractitionerRole.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference' does not resolve
-ERROR: PractitionerRole/rALFxTbdo6nEq5za6: PractitionerRole.extension[0].value.ofType(Reference): Unable to resolve resource 'Organization/AcmeofCTStdNet'
-ERROR: PractitionerRole/rALFxTbdo6nEq5za6: PractitionerRole.organization: Unable to resolve resource 'Organization/CancerClinic'
 ERROR: PractitionerRole/rALFxTbdo6nEq5za6: PractitionerRole.code[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS'
 ERROR: PractitionerRole/rALFxTbdo6nEq5za6: PractitionerRole.code[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS' does not resolve
 INFORMATION: PractitionerRole/rALFxTbdo6nEq5za6: PractitionerRole.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#207R00000X)
-ERROR: PractitionerRole/rALFxTbdo6nEq5za6: PractitionerRole.location[0]: Unable to resolve resource 'Location/HospLoc2'
-ERROR: PractitionerRole/rALFxTbdo6nEq5za6: PractitionerRole.healthcareService[0]: Unable to resolve resource 'HealthcareService/BurrClinicServices'
 WARNING: PractitionerRole/rALFxTbdo6nEq5za6: PractitionerRole.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/PractitionerRole-rCY6ePpLywTbfx3yp.json ==
 ERROR: PractitionerRole/rCY6ePpLywTbfx3yp: PractitionerRole.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole' does not resolve
 ERROR: PractitionerRole/rCY6ePpLywTbfx3yp: PractitionerRole.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference is unknown, and not allowed here
 ERROR: PractitionerRole/rCY6ePpLywTbfx3yp: PractitionerRole.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference' does not resolve
-ERROR: PractitionerRole/rCY6ePpLywTbfx3yp: PractitionerRole.extension[0].value.ofType(Reference): Unable to resolve resource 'Organization/AcmeofCTStdNet'
-ERROR: PractitionerRole/rCY6ePpLywTbfx3yp: PractitionerRole.practitioner: Unable to resolve resource 'Practitioner/Counselor'
 ERROR: PractitionerRole/rCY6ePpLywTbfx3yp: PractitionerRole.code[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS'
 ERROR: PractitionerRole/rCY6ePpLywTbfx3yp: PractitionerRole.code[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS' does not resolve
 INFORMATION: PractitionerRole/rCY6ePpLywTbfx3yp: PractitionerRole.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#101YP2500X)
-ERROR: PractitionerRole/rCY6ePpLywTbfx3yp: PractitionerRole.healthcareService[0]: Unable to resolve resource 'HealthcareService/VirtualCounselService'
 WARNING: PractitionerRole/rCY6ePpLywTbfx3yp: PractitionerRole.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/PractitionerRole-rDAkiyGndx8FT5jpj.json ==
 ERROR: PractitionerRole/rDAkiyGndx8FT5jpj: PractitionerRole.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole' does not resolve
 ERROR: PractitionerRole/rDAkiyGndx8FT5jpj: PractitionerRole.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference is unknown, and not allowed here
 ERROR: PractitionerRole/rDAkiyGndx8FT5jpj: PractitionerRole.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference' does not resolve
-ERROR: PractitionerRole/rDAkiyGndx8FT5jpj: PractitionerRole.extension[0].value.ofType(Reference): Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: PractitionerRole/rDAkiyGndx8FT5jpj: PractitionerRole.extension[1]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/qualification is unknown, and not allowed here
 ERROR: PractitionerRole/rDAkiyGndx8FT5jpj: PractitionerRole.extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/qualification' does not resolve
-ERROR: PractitionerRole/rDAkiyGndx8FT5jpj: PractitionerRole.practitioner: Unable to resolve resource 'Practitioner/HansSolo'
 ERROR: PractitionerRole/rDAkiyGndx8FT5jpj: PractitionerRole.code[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS'
 ERROR: PractitionerRole/rDAkiyGndx8FT5jpj: PractitionerRole.code[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS' does not resolve
 INFORMATION: PractitionerRole/rDAkiyGndx8FT5jpj: PractitionerRole.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#207R00000X)
-ERROR: PractitionerRole/rDAkiyGndx8FT5jpj: PractitionerRole.location[0]: Unable to resolve resource 'Location/HansSoloClinic'
-ERROR: PractitionerRole/rDAkiyGndx8FT5jpj: PractitionerRole.healthcareService[0]: Unable to resolve resource 'HealthcareService/HansSoloService'
 WARNING: PractitionerRole/rDAkiyGndx8FT5jpj: PractitionerRole.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/PractitionerRole-rGCrprwcPa3fj629w.json ==
 ERROR: PractitionerRole/rGCrprwcPa3fj629w: PractitionerRole.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole' does not resolve
 ERROR: PractitionerRole/rGCrprwcPa3fj629w: PractitionerRole.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference is unknown, and not allowed here
 ERROR: PractitionerRole/rGCrprwcPa3fj629w: PractitionerRole.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference' does not resolve
-ERROR: PractitionerRole/rGCrprwcPa3fj629w: PractitionerRole.extension[0].value.ofType(Reference): Unable to resolve resource 'Organization/AcmeofCTStdNet'
 ERROR: PractitionerRole/rGCrprwcPa3fj629w: PractitionerRole.code[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS'
 ERROR: PractitionerRole/rGCrprwcPa3fj629w: PractitionerRole.code[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS' does not resolve
 INFORMATION: PractitionerRole/rGCrprwcPa3fj629w: PractitionerRole.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#207R00000X)
@@ -995,26 +936,30 @@ WARNING: PractitionerRole/rGCrprwcPa3fj629w: PractitionerRole.meta.profile[0]: P
 ERROR: PractitionerRole/rP5Wt9gxQwyL7M8fX: PractitionerRole.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole' does not resolve
 ERROR: PractitionerRole/rP5Wt9gxQwyL7M8fX: PractitionerRole.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference is unknown, and not allowed here
 ERROR: PractitionerRole/rP5Wt9gxQwyL7M8fX: PractitionerRole.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference' does not resolve
-ERROR: PractitionerRole/rP5Wt9gxQwyL7M8fX: PractitionerRole.extension[0].value.ofType(Reference): Unable to resolve resource 'Organization/AcmeofCTStdNet'
-ERROR: PractitionerRole/rP5Wt9gxQwyL7M8fX: PractitionerRole.organization: Unable to resolve resource 'Organization/BurrClinic'
 ERROR: PractitionerRole/rP5Wt9gxQwyL7M8fX: PractitionerRole.code[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS'
 ERROR: PractitionerRole/rP5Wt9gxQwyL7M8fX: PractitionerRole.code[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS' does not resolve
 INFORMATION: PractitionerRole/rP5Wt9gxQwyL7M8fX: PractitionerRole.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#207R00000X)
-ERROR: PractitionerRole/rP5Wt9gxQwyL7M8fX: PractitionerRole.location[0]: Unable to resolve resource 'Location/HospLoc2'
-ERROR: PractitionerRole/rP5Wt9gxQwyL7M8fX: PractitionerRole.healthcareService[0]: Unable to resolve resource 'HealthcareService/BurrClinicServices'
 WARNING: PractitionerRole/rP5Wt9gxQwyL7M8fX: PractitionerRole.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/PractitionerRole-rtaTdfxSNTmqqnDeJ.json ==
 ERROR: PractitionerRole/rtaTdfxSNTmqqnDeJ: PractitionerRole.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole' does not resolve
 ERROR: PractitionerRole/rtaTdfxSNTmqqnDeJ: PractitionerRole.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference is unknown, and not allowed here
 ERROR: PractitionerRole/rtaTdfxSNTmqqnDeJ: PractitionerRole.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference' does not resolve
-ERROR: PractitionerRole/rtaTdfxSNTmqqnDeJ: PractitionerRole.extension[0].value.ofType(Reference): Unable to resolve resource 'Organization/AcmeofCTStdNet'
-ERROR: PractitionerRole/rtaTdfxSNTmqqnDeJ: PractitionerRole.practitioner: Unable to resolve resource 'Practitioner/JoeSmith'
 ERROR: PractitionerRole/rtaTdfxSNTmqqnDeJ: PractitionerRole.code[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS'
 ERROR: PractitionerRole/rtaTdfxSNTmqqnDeJ: PractitionerRole.code[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS' does not resolve
 INFORMATION: PractitionerRole/rtaTdfxSNTmqqnDeJ: PractitionerRole.specialty[0]: None of the codings provided are in the value set 'Practice Setting Code Value Set' (http://hl7.org/fhir/ValueSet/c80-practice-codes), and a coding is recommended to come from this value set) (codes = http://nucc.org/provider-taxonomy#207R00000X)
-ERROR: PractitionerRole/rtaTdfxSNTmqqnDeJ: PractitionerRole.location[0]: Unable to resolve resource 'Location/HospLoc1'
-ERROR: PractitionerRole/rtaTdfxSNTmqqnDeJ: PractitionerRole.healthcareService[0]: Unable to resolve resource 'HealthcareService/HospERService'
 WARNING: PractitionerRole/rtaTdfxSNTmqqnDeJ: PractitionerRole.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/StructureDefinition-EndpointRating.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/EndpointRating'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-EndpointSignature.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/EndpointSignature'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-ExampleScenarioAssertion.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/ExampleScenarioAssertion'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-ExampleScenarioDescription.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/ExampleScenarioDescription'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-HealthcareServiceRating.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/HealthcareServiceRating'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-InsurancePlanRating.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/InsurancePlanRating'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-NatlDir-Restriction.json ==
 ERROR: StructureDefinition/NatlDir-Restriction: StructureDefinition.snapshot.element[9].example[0].value.ofType(Identifier): if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDir-Restriction'): The Implementation Guide contains no examples for this profile
@@ -1055,29 +1000,52 @@ ERROR: StructureDefinition/NatlDirEx-restriction: StructureDefinition.differenti
 WARNING: StructureDefinition/NatlDirEx-restriction: StructureDefinition.differential.element[3].binding: The valueSet reference http://hl7.org/fhir/uv/vhdir/ValueSet/consent on element Consent.scope could not be resolved
 WARNING: StructureDefinition/NatlDirEx-restriction: StructureDefinition.snapshot.element[11].binding: The valueSet reference http://hl7.org/fhir/uv/vhdir/ValueSet/consent on element Consent.scope could not be resolved
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirEx-restriction'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-OrgAffiliationRating.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/OrgAffiliationRating'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-OrganizationRating.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/OrganizationRating'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-PractitionerRating.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/PractitionerRating'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-PractitionerRoleRating.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/PractitionerRoleRating'): The Implementation Guide contains no examples for this extension
+== fsh-generated/resources/StructureDefinition-VersionNumber.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/VersionNumber'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/Subscription-s6kJSgzdtcHzpuSP2.json ==
 == fsh-generated/resources/Subscription-s7aTc2yk4YQyBRify.json ==
-== fsh-generated/resources/TestScript-DynamicClientRegistration.json ==
-WARNING: TestScript/DynamicClientRegistration: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== fsh-generated/resources/TestScript-FederatedQueryTestScript.json ==
-WARNING: TestScript/FederatedQueryTestScript: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-ERROR: TestScript/FederatedQueryTestScript: TestScript: TestScript.name: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/TestScript)
-ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[0].resource: Unable to resolve resource 'm6AJtyEk6sSsHWLjt'
-ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[1].resource: Unable to resolve resource 'fZzusFYr3PBYyRnot'
-ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[2].resource: Unable to resolve resource 'l4bjaZGQfeNfhAEpb'
-ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[3].resource: Unable to resolve resource 'hsEk35Ayonz755t6u'
-WARNING: TestScript/FederatedQueryTestScript: TestScript.fixture[3].resource.display: value should not start or finish with whitespace 'Emergency...Medicine '
-ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[4].resource: Unable to resolve resource 'etKzBJvzbeHDZi7Gd'
-ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[5].resource: Unable to resolve resource 'dTixApQCHxxheiLX3'
-ERROR: TestScript/FederatedQueryTestScript: TestScript.fixture[6].resource: Unable to resolve resource 'oPxE9d7Wtqjy9WEZx'
-== fsh-generated/resources/TestScript-OrganizationCrud.json ==
-WARNING: TestScript/OrganizationCrud: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== fsh-generated/resources/TestScript-ProviderQualificationVerification.json ==
-WARNING: TestScript/ProviderQualificationVerification: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== fsh-generated/resources/TestScript-RestrictedAccessToShelters.json ==
-WARNING: TestScript/RestrictedAccessToShelters: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-== fsh-generated/resources/TestScript-TrustedClientAttestation.json ==
-WARNING: TestScript/TrustedClientAttestation: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/TestScript-48twF7WfuXkxdnHkh.json ==
+ERROR: TestScript/48twF7WfuXkxdnHkh: TestScript.fixture[0].resource: Unable to resolve resource with reference 'o6AJtyEk6sSsHWLjt'
+ERROR: TestScript/48twF7WfuXkxdnHkh: TestScript.fixture[1].resource: Unable to resolve resource with reference 'l4bjaZGQfeNfhAEpb'
+ERROR: TestScript/48twF7WfuXkxdnHkh: TestScript.fixture[2].resource: Unable to resolve resource with reference 'hsEk35Ayonz755t6u'
+ERROR: TestScript/48twF7WfuXkxdnHkh: TestScript.fixture[3].resource: Unable to resolve resource with reference 'etKzBJvzbeHDZi7Gd'
+ERROR: TestScript/48twF7WfuXkxdnHkh: TestScript.fixture[4].resource: Unable to resolve resource with reference 'pZzusFYr3PBYyRnot'
+== fsh-generated/resources/TestScript-XA9eSGbRZR7Nrz2Gd.json ==
+WARNING: TestScript/XA9eSGbRZR7Nrz2Gd: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: TestScript/XA9eSGbRZR7Nrz2Gd: TestScript.fixture[0].resource: Unable to resolve resource with reference 'lyW5mPW2nf3DHC7h6'
+ERROR: TestScript/XA9eSGbRZR7Nrz2Gd: TestScript.fixture[1].resource: Unable to resolve resource with reference 'cotkDnGQjpHijDsRR'
+== fsh-generated/resources/TestScript-fquA2atodHs6n3cYs.json ==
+WARNING: TestScript/fquA2atodHs6n3cYs: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: TestScript/fquA2atodHs6n3cYs: TestScript: TestScript.name: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/TestScript)
+ERROR: TestScript/fquA2atodHs6n3cYs: TestScript.fixture[0].resource: Unable to resolve resource with reference 'm6AJtyEk6sSsHWLjt'
+ERROR: TestScript/fquA2atodHs6n3cYs: TestScript.fixture[1].resource: Unable to resolve resource with reference 'fZzusFYr3PBYyRnot'
+ERROR: TestScript/fquA2atodHs6n3cYs: TestScript.fixture[2].resource: Unable to resolve resource with reference 'l4bjaZGQfeNfhAEpb'
+ERROR: TestScript/fquA2atodHs6n3cYs: TestScript.fixture[3].resource: Unable to resolve resource with reference 'hsEk35Ayonz755t6u'
+WARNING: TestScript/fquA2atodHs6n3cYs: TestScript.fixture[3].resource.display: value should not start or finish with whitespace 'Emergency...Medicine '
+ERROR: TestScript/fquA2atodHs6n3cYs: TestScript.fixture[4].resource: Unable to resolve resource with reference 'etKzBJvzbeHDZi7Gd'
+ERROR: TestScript/fquA2atodHs6n3cYs: TestScript.fixture[5].resource: Unable to resolve resource with reference 'dTixApQCHxxheiLX3'
+ERROR: TestScript/fquA2atodHs6n3cYs: TestScript.fixture[6].resource: Unable to resolve resource with reference 'oPxE9d7Wtqjy9WEZx'
+== fsh-generated/resources/TestScript-gszMyXpwsdoAjJZeh.json ==
+WARNING: TestScript/gszMyXpwsdoAjJZeh: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/TestScript-mqrNfC6BttERhMEZ9.json ==
+ERROR: TestScript.url: Resource id/url mismatch: mqrNfC6BttERhMEZ9/http://hl7.org/fhir/us/fhir-directory-attestation/TestScript/ProviderQualificationVerification
+WARNING: TestScript/mqrNfC6BttERhMEZ9: TestScript: tst-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+== fsh-generated/resources/TestScript-odYxqzPToJTN3A8GN.json ==
+ERROR: TestScript/odYxqzPToJTN3A8GN: TestScript.fixture[0].resource: Unable to resolve resource with reference 's7aTc2yk4YQyBRify'
+ERROR: TestScript/odYxqzPToJTN3A8GN: TestScript.fixture[1].resource: Unable to resolve resource with reference 's7aTc2yk4YQyBRify'
+ERROR: TestScript/odYxqzPToJTN3A8GN: TestScript.fixture[2].resource: Unable to resolve resource with reference 'o6AJtyEk6sSsHWLjt'
+ERROR: TestScript/odYxqzPToJTN3A8GN: TestScript.fixture[3].resource: Unable to resolve resource with reference 'fZzusFYr3PBYyRnot'
+ERROR: TestScript/odYxqzPToJTN3A8GN: TestScript.test[1].action[0].operation.type: Unknown Code http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove in http://terminology.hl7.org/CodeSystem/testscript-operation-codes for 'http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove'
+ERROR: TestScript/odYxqzPToJTN3A8GN: TestScript.test[3].action[0].operation.type: Unknown Code http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove in http://terminology.hl7.org/CodeSystem/testscript-operation-codes for 'http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove'
+ERROR: TestScript/odYxqzPToJTN3A8GN: TestScript.test[5].action[0].operation.type: Unknown Code http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove in http://terminology.hl7.org/CodeSystem/testscript-operation-codes for 'http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove'
 == fsh-generated/resources/ValueSet-ConsentVS.json ==
 == fsh-generated/resources/ValueSet-OrganizationAffiliationRoleVS.json ==
 == input/resources/capabilitystatement-NatlDir.json ==

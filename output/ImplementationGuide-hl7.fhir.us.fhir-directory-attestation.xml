@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation"/>
-  <version value="0.1.4"/>
+  <version value="0.1.6"/>
   <name value="ONCFASTNationalDirectory"/>
   <title value="National Directory"/>
   <status value="active"/>
-  <date value="2022-06-03T13:24:40-05:00"/>
+  <date value="2022-06-15T12:17:27-04:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>
@@ -34,6 +34,11 @@
   <packageId value="hl7.fhir.us.fhir-directory-attestation"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
+  <dependsOn id="hl7tx">
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="3.1.0"/>
+  </dependsOn>
   <dependsOn id="hl7_fhir_us_core">
     <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core"/>
     <packageId value="hl7.fhir.us.core"/>
@@ -374,6 +379,126 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/EndpointRating"/>
+      </reference>
+      <name value="Endpoint Rating"/>
+      <description value="Rating for endpoint."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/EndpointSignature"/>
+      </reference>
+      <name value="Endpoint Signature"/>
+      <description value="Extension for allowing a cryptographic signature to be applied to an Endpoint resource."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ExampleScenarioAssertion"/>
+      </reference>
+      <name value="ExampleScenario Assertion"/>
+      <description value="When you want to add an assertion to an ExampleScenario.  Useful when writing TestScripts."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ExampleScenarioDescription"/>
+      </reference>
+      <name value="ExampleScenario Description"/>
+      <description value="When you want to add a description to an ExampleScenario."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/HealthcareServiceRating"/>
+      </reference>
+      <name value="HealthcareService Rating"/>
+      <description value="Rating for HealthcareService."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/InsurancePlanRating"/>
+      </reference>
+      <name value="InsurancePlan Rating"/>
+      <description value="Rating for InsurancePlan."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/OrgAffiliationRating"/>
+      </reference>
+      <name value="Organization Affiliation Rating"/>
+      <description value="Rating for organization affiliation."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/OrganizationRating"/>
+      </reference>
+      <name value="Organization Rating"/>
+      <description value="Rating for organization."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PractitionerRating"/>
+      </reference>
+      <name value="Practitioner Rating"/>
+      <description value="Rating for practitioner."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/PractitionerRoleRating"/>
+      </reference>
+      <name value="Practitioner Role Rating"/>
+      <description value="Rating for practitioner role."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/VersionNumber"/>
+      </reference>
+      <name value="Version Number"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -605,24 +730,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ExampleScenario"/>
-      </extension>
-      <reference>
-        <reference value="ExampleScenario/DaVinciDeqm"/>
-      </reference>
-      <name value="DaVinci - Signed Measure Report"/>
-      <description value="Scenario - DaVinci DEQM Provenance"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="TestScript"/>
       </extension>
       <reference>
-        <reference value="TestScript/DynamicClientRegistration"/>
+        <reference value="TestScript/48twF7WfuXkxdnHkh"/>
       </reference>
-      <name value="Dynamic Client Registration"/>
-      <description value="TestScript - Dynamic Client Registration"/>
+      <name value="Attestation"/>
+      <description value="TestScript - Attestation of new clinic information."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -630,21 +744,43 @@
         <valueString value="ExampleScenario"/>
       </extension>
       <reference>
-        <reference value="ExampleScenario/FederatedQuery"/>
+        <reference value="ExampleScenario/4D7XtHwNtteDczynb"/>
+      </reference>
+      <name value="Subscriptions"/>
+      <description value="Scenario - Subscriptions between National and Federated directories"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ExampleScenario"/>
+      </extension>
+      <reference>
+        <reference value="ExampleScenario/5psortwYNqr2vLNwQ"/>
+      </reference>
+      <name value="Protected Womens' Shelters"/>
+      <description value="Scenario - Restricted Womens' Shelter Access"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ExampleScenario"/>
+      </extension>
+      <reference>
+        <reference value="ExampleScenario/DX6RLSCje9KkEcHRt"/>
+      </reference>
+      <name value="Verify Practitioner Credentials"/>
+      <description value="Scenario - Verify Practitioner Credentials"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ExampleScenario"/>
+      </extension>
+      <reference>
+        <reference value="ExampleScenario/N4qis3v6pkhtJrPFK"/>
       </reference>
       <name value="Federated Endpoint Query"/>
       <description value="Scenario - Federated Endpoint Query"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="TestScript"/>
-      </extension>
-      <reference>
-        <reference value="TestScript/FederatedQueryTestScript"/>
-      </reference>
-      <name value="Federated Query"/>
-      <description value="TestScript - Distribute App (DApp) access to a centralized directory."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -663,54 +799,10 @@
         <valueString value="ExampleScenario"/>
       </extension>
       <reference>
-        <reference value="ExampleScenario/NewLocationAttestation"/>
+        <reference value="ExampleScenario/PAsijcfHEKD9siu4h"/>
       </reference>
-      <name value="New Location Attestation"/>
-      <description value="Scenario - New Location Attestation"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="TestScript"/>
-      </extension>
-      <reference>
-        <reference value="TestScript/OrganizationCrud"/>
-      </reference>
-      <name value="Organization CRUDS"/>
-      <description value="TestScript - Organization create/read/update/delete/search"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="TestScript"/>
-      </extension>
-      <reference>
-        <reference value="TestScript/ProviderQualificationVerification"/>
-      </reference>
-      <name value="Provider Qualification Verification"/>
-      <description value="TestScript - Provider Qualification Verification"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="TestScript"/>
-      </extension>
-      <reference>
-        <reference value="TestScript/RestrictedAccessToShelters"/>
-      </reference>
-      <name value="Restricted Access to Shelters"/>
-      <description value="TestScript - Restricted Access to Shelters"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="TestScript"/>
-      </extension>
-      <reference>
-        <reference value="TestScript/TrustedClientAttestation"/>
-      </reference>
-      <name value="Trusted Client Attestation"/>
-      <description value="TestScript - Trusted Client Attestation"/>
+      <name value="New Facility Attestation"/>
+      <description value="Scenario - New Facility Attestation"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -718,7 +810,7 @@
         <valueString value="ExampleScenario"/>
       </extension>
       <reference>
-        <reference value="ExampleScenario/UdapDynamicClientRegistration"/>
+        <reference value="ExampleScenario/RsW5oCHfnQejTw9Jd"/>
       </reference>
       <name value="Dynamic Client Registration"/>
       <description value="Scenario - Dynamic Client Registration"/>
@@ -726,24 +818,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ExampleScenario"/>
+        <valueString value="TestScript"/>
       </extension>
       <reference>
-        <reference value="ExampleScenario/VerifyPractitionerCredentials"/>
+        <reference value="TestScript/XA9eSGbRZR7Nrz2Gd"/>
       </reference>
-      <name value="Verify Practitioner Credentials"/>
-      <description value="Scenario - Verify Practitioner Credentials"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ExampleScenario"/>
-      </extension>
-      <reference>
-        <reference value="ExampleScenario/WomensShelters"/>
-      </reference>
-      <name value="Protected Womens' Shelters"/>
-      <description value="Scenario - Restricted Womens' Shelter Access"/>
+      <name value="Restricted Access"/>
+      <description value="TestScript - Restricted access to women's shelters."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -789,6 +870,28 @@
       <name value="Endpoint/etKzBJvzbeHDZi7Gd"/>
       <description value="Endpoint - St. James Hospital"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="TestScript"/>
+      </extension>
+      <reference>
+        <reference value="TestScript/fquA2atodHs6n3cYs"/>
+      </reference>
+      <name value="Federated Query"/>
+      <description value="TestScript - Distribute App (DApp) access to a centralized directory."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="TestScript"/>
+      </extension>
+      <reference>
+        <reference value="TestScript/gszMyXpwsdoAjJZeh"/>
+      </reference>
+      <name value="Dynamic Client Registration"/>
+      <description value="TestScript - Dynamic Client Registration"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -996,7 +1099,7 @@
         <reference value="Location/lWAKMdp4vCeNzcDJp"/>
       </reference>
       <name value="Location/lWAKMdp4vCeNzcDJp"/>
-      <description value="345 Main Street, Nowheresville, CT, 00014"/>
+      <description value="Women's Shelter - 345 Main Street, Nowheresville, CT, 00014"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
@@ -1031,6 +1134,17 @@
       <name value="Location/lyW5mPW2nf3DHC7h6"/>
       <description value="444 Main Street, Rainbow, CT, 00014"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="TestScript"/>
+      </extension>
+      <reference>
+        <reference value="TestScript/mqrNfC6BttERhMEZ9"/>
+      </reference>
+      <name value="Verification"/>
+      <description value="TestScript - Verification of provider qualifications"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1287,6 +1401,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="TestScript"/>
+      </extension>
+      <reference>
+        <reference value="TestScript/odYxqzPToJTN3A8GN"/>
+      </reference>
+      <name value="Subscriptions"/>
+      <description value="TestScript - PUSH messaging via Subscriptions from National Directory to Federated instances."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Organization"/>
       </extension>
       <reference>
@@ -1326,7 +1451,7 @@
         <reference value="Practitioner/pBvMREMS3HpzyJgwa"/>
       </reference>
       <name value="Practitioner/pBvMREMS3HpzyJgwa"/>
-      <description value="Practitioner - Counselor"/>
+      <description value="Practitioner - Susie Song, Social Worker"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TestScript xmlns="http://hl7.org/fhir">
+  <id value="48twF7WfuXkxdnHkh"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "48twF7WfuXkxdnHkh" </p></div><p><b>url</b>: <code>http://</code></p><p><b>version</b>: 0.1.6</p><p><b>name</b>: Attestation</p><p><b>title</b>: Attestation</p><p><b>status</b>: draft</p><p><b>date</b>: 2022-06-14 09:41:40+0000</p><p><b>publisher</b>: HL7 Patient Administration Working Group</p><p><b>contact</b>: HL7 Patient Administration Working Group: <a href="https://www.hl7.org/Special/committees/pafm/index.cfm">https://www.hl7.org/Special/committees/pafm/index.cfm</a>,<a href="mailto:pafm@lists.HL7.org">pafm@lists.HL7.org</a></p><p><b>jurisdiction</b>: United States of America <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#US)</span></p><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href="o6AJtyEk6sSsHWLjt">o6AJtyEk6sSsHWLjt: St. James Infirmary</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href="l4bjaZGQfeNfhAEpb">l4bjaZGQfeNfhAEpb: Cancer Clinic</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href="hsEk35Ayonz755t6u">hsEk35Ayonz755t6u</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href="etKzBJvzbeHDZi7Gd">etKzBJvzbeHDZi7Gd: Endpoint for St James Hospital</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href="pZzusFYr3PBYyRnot">pZzusFYr3PBYyRnot</a></p></blockquote><blockquote><p><b>test</b></p><p><b>name</b>: St. James Infirmary</p><blockquote><p><b>action</b></p><h3>Operations</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Resource</b></td><td><b>Label</b></td><td><b>Description</b></td><td><b>Accept</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Update (Details: http://terminology.hl7.org/CodeSystem/testscript-operation-codes code update = 'Update', stated as 'null')</td><td>Organization</td><td>St. James Infirmary</td><td>PUT {{hostname}}/baseR4/Organization/o6AJtyEk6sSsHWLjt</td><td>json</td><td>true</td><td>put</td><td>{{hostname}}/baseR4/Organization/o6AJtyEk6sSsHWLjt</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Asserts</h3><table class="grid"><tr><td>-</td><td><b>Description</b></td><td><b>Response</b></td><td><b>WarningOnly</b></td></tr><tr><td>*</td><td>Confirm that the returned HTTP status is 200(OK).</td><td>okay</td><td>false</td></tr></table></blockquote></blockquote><blockquote><p><b>test</b></p><p><b>name</b>: 456 Main Street</p><blockquote><p><b>action</b></p><h3>Operations</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Resource</b></td><td><b>Label</b></td><td><b>Description</b></td><td><b>Accept</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Update (Details: http://terminology.hl7.org/CodeSystem/testscript-operation-codes code update = 'Update', stated as 'null')</td><td>Location</td><td>456 Main Street</td><td>PUT {{hostname}}/baseR4/Location/l4bjaZGQfeNfhAEpb</td><td>json</td><td>true</td><td>put</td><td>{{hostname}}/baseR4/Location/l4bjaZGQfeNfhAEpb</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Asserts</h3><table class="grid"><tr><td>-</td><td><b>Description</b></td><td><b>Response</b></td><td><b>WarningOnly</b></td></tr><tr><td>*</td><td>Confirm that the returned HTTP status is 200(OK).</td><td>okay</td><td>false</td></tr></table></blockquote></blockquote><blockquote><p><b>test</b></p><p><b>name</b>: Emergency Medical Services</p><blockquote><p><b>action</b></p><h3>Operations</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Label</b></td><td><b>Description</b></td><td><b>Accept</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Update (Details: http://terminology.hl7.org/CodeSystem/testscript-operation-codes code update = 'Update', stated as 'null')</td><td>Emergency Medical Services</td><td>PUT {{hostname}}/baseR4/HealthcareService/hsEk35Ayonz755t6u</td><td>json</td><td>true</td><td>put</td><td>{{hostname}}/baseR4/HealthcareService/hsEk35Ayonz755t6u</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Asserts</h3><table class="grid"><tr><td>-</td><td><b>Description</b></td><td><b>Response</b></td><td><b>WarningOnly</b></td></tr><tr><td>*</td><td>Confirm that the returned HTTP status is 200(OK).</td><td>okay</td><td>false</td></tr></table></blockquote></blockquote><blockquote><p><b>test</b></p><p><b>name</b>: St. James Infirmary - Patient Portal</p><blockquote><p><b>action</b></p><h3>Operations</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Resource</b></td><td><b>Label</b></td><td><b>Description</b></td><td><b>Accept</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Update (Details: http://terminology.hl7.org/CodeSystem/testscript-operation-codes code update = 'Update', stated as 'null')</td><td>Endpoint</td><td>St. James Infirmary - Patient Portal</td><td>PUT {{hostname}}/baseR4/Endpoint/etKzBJvzbeHDZi7Gd?resourceType=Endpoint</td><td>json</td><td>true</td><td>put</td><td>{{hostname}}/baseR4/Endpoint/etKzBJvzbeHDZi7Gd?resourceType=Endpoint</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Asserts</h3><table class="grid"><tr><td>-</td><td><b>Description</b></td><td><b>Response</b></td><td><b>WarningOnly</b></td></tr><tr><td>*</td><td>Confirm that the returned HTTP status is 200(OK).</td><td>okay</td><td>false</td></tr></table></blockquote></blockquote><blockquote><p><b>test</b></p><p><b>name</b>: Dr. Allison Camron</p><blockquote><p><b>action</b></p><h3>Operations</h3><table class="grid"><tr><td>-</td><td><b>Type</b></td><td><b>Resource</b></td><td><b>Label</b></td><td><b>Description</b></td><td><b>Accept</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Update (Details: http://terminology.hl7.org/CodeSystem/testscript-operation-codes code update = 'Update', stated as 'null')</td><td>Practitioner</td><td>Dr. Allison Camron</td><td>PUT {{hostname}}/baseR4/Practitioner/pZzusFYr3PBYyRnot?resourceType=Practitioner</td><td>json</td><td>true</td><td>put</td><td>{{hostname}}/baseR4/Practitioner/pZzusFYr3PBYyRnot?resourceType=Practitioner</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Asserts</h3><table class="grid"><tr><td>-</td><td><b>Description</b></td><td><b>Response</b></td><td><b>WarningOnly</b></td></tr><tr><td>*</td><td>Confirm that the returned HTTP status is 200(OK).</td><td>okay</td><td>false</td></tr></table></blockquote></blockquote></div>
+  </text>
+  <url value="http://"/>
+  <version value="0.1.6"/>
+  <name value="Attestation"/>
+  <title value="Attestation"/>
+  <status value="draft"/>
+  <date value="2022-06-14T21:41:40.107Z"/>
+  <publisher value="HL7 Patient Administration Working Group"/>
+  <contact>
+    <name value="HL7 Patient Administration Working Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.hl7.org/Special/committees/pafm/index.cfm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pafm@lists.HL7.org"/>
+    </telecom>
+  </contact>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+    </coding>
+  </jurisdiction>
+  <fixture id="d08a86ad-a356-5ac6-9056-773ac6642b2a">
+    <autocreate value="true"/>
+    <autodelete value="true"/>
+    <resource>
+      <reference value="o6AJtyEk6sSsHWLjt"/>
+      <display value="St. James Infirmary"/>
+    </resource>
+  </fixture>
+  <fixture id="f40d0e54-38c6-536e-bb0c-bb1077096f43">
+    <autocreate value="true"/>
+    <autodelete value="true"/>
+    <resource>
+      <reference value="l4bjaZGQfeNfhAEpb"/>
+      <display value="Cancer Clinic"/>
+    </resource>
+  </fixture>
+  <fixture id="1419369a-4b9e-5efc-bb5c-75d4612b8d0d">
+    <autocreate value="true"/>
+    <autodelete value="true"/>
+    <resource>
+      <reference value="hsEk35Ayonz755t6u"/>
+    </resource>
+  </fixture>
+  <fixture id="906ab31c-1103-512a-9817-7f65e8203a5b">
+    <autocreate value="true"/>
+    <autodelete value="true"/>
+    <resource>
+      <reference value="etKzBJvzbeHDZi7Gd"/>
+      <display value="Endpoint for St James Hospital"/>
+    </resource>
+  </fixture>
+  <fixture id="523c5dcd-978d-5769-8a5b-835832af9dca">
+    <autocreate value="true"/>
+    <autodelete value="true"/>
+    <resource>
+      <reference value="pZzusFYr3PBYyRnot"/>
+    </resource>
+  </fixture>
+  <test id="839236b5-6d9c-5332-8211-ad4bb93110b6">
+    <name value="St. James Infirmary"/>
+    <action>
+      <operation>
+        <type>
+          <system value="http://terminology.hl7.org/CodeSystem/testscript-operation-codes"/>
+          <code value="update"/>
+        </type>
+        <resource value="Organization"/>
+        <label value="St. James Infirmary"/>
+        <description value="PUT {{hostname}}/baseR4/Organization/o6AJtyEk6sSsHWLjt"/>
+        <accept value="json"/>
+        <encodeRequestUrl value="true"/>
+        <method value="put"/>
+        <url value="{{hostname}}/baseR4/Organization/o6AJtyEk6sSsHWLjt"/>
+      </operation>
+    </action>
+    <action>
+      <assert>
+        <description value="Confirm that the returned HTTP status is 200(OK)."/>
+        <response value="okay"/>
+        <warningOnly value="false"/>
+      </assert>
+    </action>
+  </test>
+  <test id="dbe0ce7b-9557-5ed2-91c8-f3779ed20c64">
+    <name value="456 Main Street"/>
+    <action>
+      <operation>
+        <type>
+          <system value="http://terminology.hl7.org/CodeSystem/testscript-operation-codes"/>
+          <code value="update"/>
+        </type>
+        <resource value="Location"/>
+        <label value="456 Main Street"/>
+        <description value="PUT {{hostname}}/baseR4/Location/l4bjaZGQfeNfhAEpb"/>
+        <accept value="json"/>
+        <encodeRequestUrl value="true"/>
+        <method value="put"/>
+        <url value="{{hostname}}/baseR4/Location/l4bjaZGQfeNfhAEpb"/>
+      </operation>
+    </action>
+    <action>
+      <assert>
+        <description value="Confirm that the returned HTTP status is 200(OK)."/>
+        <response value="okay"/>
+        <warningOnly value="false"/>
+      </assert>
+    </action>
+  </test>
+  <test id="973efcd9-1ca3-573a-991d-d615d43489c0">
+    <name value="Emergency Medical Services"/>
+    <action>
+      <operation>
+        <type>
+          <system value="http://terminology.hl7.org/CodeSystem/testscript-operation-codes"/>
+          <code value="update"/>
+        </type>
+        <label value="Emergency Medical Services"/>
+        <description value="PUT {{hostname}}/baseR4/HealthcareService/hsEk35Ayonz755t6u"/>
+        <accept value="json"/>
+        <encodeRequestUrl value="true"/>
+        <method value="put"/>
+        <url value="{{hostname}}/baseR4/HealthcareService/hsEk35Ayonz755t6u"/>
+      </operation>
+    </action>
+    <action>
+      <assert>
+        <description value="Confirm that the returned HTTP status is 200(OK)."/>
+        <response value="okay"/>
+        <warningOnly value="false"/>
+      </assert>
+    </action>
+  </test>
+  <test id="e62cf94a-278e-5692-b965-ff02dfb41c35">
+    <name value="St. James Infirmary - Patient Portal"/>
+    <action>
+      <operation>
+        <type>
+          <system value="http://terminology.hl7.org/CodeSystem/testscript-operation-codes"/>
+          <code value="update"/>
+        </type>
+        <resource value="Endpoint"/>
+        <label value="St. James Infirmary - Patient Portal"/>
+        <description value="PUT {{hostname}}/baseR4/Endpoint/etKzBJvzbeHDZi7Gd?resourceType=Endpoint"/>
+        <accept value="json"/>
+        <encodeRequestUrl value="true"/>
+        <method value="put"/>
+        <url value="{{hostname}}/baseR4/Endpoint/etKzBJvzbeHDZi7Gd?resourceType=Endpoint"/>
+      </operation>
+    </action>
+    <action>
+      <assert>
+        <description value="Confirm that the returned HTTP status is 200(OK)."/>
+        <response value="okay"/>
+        <warningOnly value="false"/>
+      </assert>
+    </action>
+  </test>
+  <test id="6d556f90-795c-5363-a64a-fffd3fd7c515">
+    <name value="Dr. Allison Camron"/>
+    <action>
+      <operation>
+        <type>
+          <system value="http://terminology.hl7.org/CodeSystem/testscript-operation-codes"/>
+          <code value="update"/>
+        </type>
+        <resource value="Practitioner"/>
+        <label value="Dr. Allison Camron"/>
+        <description value="PUT {{hostname}}/baseR4/Practitioner/pZzusFYr3PBYyRnot?resourceType=Practitioner"/>
+        <accept value="json"/>
+        <encodeRequestUrl value="true"/>
+        <method value="put"/>
+        <url value="{{hostname}}/baseR4/Practitioner/pZzusFYr3PBYyRnot?resourceType=Practitioner"/>
+      </operation>
+    </action>
+    <action>
+      <assert>
+        <description value="Confirm that the returned HTTP status is 200(OK)."/>
+        <response value="okay"/>
+        <warningOnly value="false"/>
+      </assert>
+    </action>
+  </test>
+</TestScript>

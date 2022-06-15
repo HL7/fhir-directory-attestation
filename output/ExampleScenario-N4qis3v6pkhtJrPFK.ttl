@@ -1,0 +1,151 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/N4qis3v6pkhtJrPFK> a fhir:ExampleScenario;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "N4qis3v6pkhtJrPFK"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"N4qis3v6pkhtJrPFK\" </p></div><p><b>url</b>: <code>http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/FederatedQueryScenario</code></p><p><b>version</b>: 0.1.6</p><p><b>status</b>: active</p><p><b>date</b>: 2022-06-15 12:17:27-0400</p><p><b>publisher</b>: HL7 Patient Administration Working Group</p><p><b>contact</b>: HL7 Patient Administration Working Group: <a href=\"https://www.hl7.org/Special/committees/pafm/index.cfm\">https://www.hl7.org/Special/committees/pafm/index.cfm</a>,<a href=\"mailto:pafm@lists.HL7.org\">pafm@lists.HL7.org</a></p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p><blockquote><p><b>actor</b></p><p><b>actorId</b>: m6AJtyEk6sSsHWLjt</p><p><b>type</b>: entity</p><p><b>name</b>: St. Jame’s Infirmary</p></blockquote><blockquote><p><b>actor</b></p><p><b>actorId</b>: fZzusFYr3PBYyRnot</p><p><b>type</b>: person</p><p><b>name</b>: Allison Camron, MD</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: l4bjaZGQfeNfhAEpb</p><p><b>resourceType</b>: Location</p><p><b>name</b>: 456 Main Street Anytown CT 00014-1234</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: hsEk35Ayonz755t6u</p><p><b>resourceType</b>: HealthcareService</p><p><b>name</b>: Emergency Medicine </p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: etKzBJvzbeHDZi7Gd</p><p><b>resourceType</b>: Endpoint</p><p><b>name</b>: St. James Portal</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: dTixApQCHxxheiLX3</p><p><b>resourceType</b>: Device</p><p><b>name</b>: Distributed App (DApp)</p></blockquote><blockquote><p><b>instance</b></p><p><b>resourceId</b>: oPxE9d7Wtqjy9WEZx</p><p><b>resourceType</b>: Device</p><p><b>name</b>: National Directory</p></blockquote><blockquote><p><b>process</b></p><p><b>title</b>: Query directory for St. James Infirmary</p><blockquote><p><b>step</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Number</b></td><td><b>Type</b></td><td><b>Name</b></td><td><b>Initiator</b></td><td><b>Receiver</b></td><td><b>Description</b></td></tr><tr><td>*</td><td>1</td><td>get</td><td>Query directory for St. James Infirmary organization</td><td>Organization/oPxE9d7Wtqjy9WEZx</td><td>Device/dTixApQCHxxheiLX3</td><td>/Organization?name=St. James Infirmary</td></tr></table></blockquote><blockquote><p><b>step</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Number</b></td><td><b>Type</b></td><td><b>Name</b></td><td><b>Initiator</b></td><td><b>Receiver</b></td><td><b>Description</b></td></tr><tr><td>*</td><td>2</td><td>get</td><td>Query directory for street address</td><td>Organization/oPxE9d7Wtqjy9WEZx</td><td>Device/dTixApQCHxxheiLX3</td><td>/Location?address=456 Main Street</td></tr></table></blockquote><blockquote><p><b>step</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Number</b></td><td><b>Type</b></td><td><b>Name</b></td><td><b>Initiator</b></td><td><b>Receiver</b></td><td><b>Description</b></td></tr><tr><td>*</td><td>3</td><td>get</td><td>Query directory for street address</td><td>Organization/oPxE9d7Wtqjy9WEZx</td><td>Device/dTixApQCHxxheiLX3</td><td>/Location?address-postalcode=00014</td></tr></table></blockquote><blockquote><p><b>step</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Number</b></td><td><b>Type</b></td><td><b>Name</b></td><td><b>Initiator</b></td><td><b>Receiver</b></td><td><b>Description</b></td></tr><tr><td>*</td><td>4</td><td>get</td><td>Query directory for local services</td><td>Organization/oPxE9d7Wtqjy9WEZx</td><td>Device/dTixApQCHxxheiLX3</td><td>/HealthcareService?category=emergency</td></tr></table></blockquote><blockquote><p><b>step</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Number</b></td><td><b>Type</b></td><td><b>Name</b></td><td><b>Initiator</b></td><td><b>Receiver</b></td><td><b>Description</b></td></tr><tr><td>*</td><td>5</td><td>get</td><td>Query directory for local services</td><td>Organization/oPxE9d7Wtqjy9WEZx</td><td>Device/dTixApQCHxxheiLX3</td><td>/Endpoint?name=St. James</td></tr></table></blockquote><blockquote><p><b>step</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Number</b></td><td><b>Type</b></td><td><b>Name</b></td><td><b>Initiator</b></td><td><b>Receiver</b></td><td><b>Description</b></td></tr><tr><td>*</td><td>6</td><td>get</td><td>Query directory for physician</td><td>Organization/oPxE9d7Wtqjy9WEZx</td><td>Device/dTixApQCHxxheiLX3</td><td>/Practitioner?name=Camron</td></tr></table></blockquote></blockquote></div>"
+  ];
+  fhir:ExampleScenario.url [ fhir:value "http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/FederatedQueryScenario"];
+  fhir:ExampleScenario.version [ fhir:value "0.1.6"];
+  fhir:ExampleScenario.status [ fhir:value "active"];
+  fhir:ExampleScenario.date [ fhir:value "2022-06-15T12:17:27-04:00"^^xsd:dateTime];
+  fhir:ExampleScenario.publisher [ fhir:value "HL7 Patient Administration Working Group"];
+  fhir:ExampleScenario.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 Patient Administration Working Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://www.hl7.org/Special/committees/pafm/index.cfm" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "pafm@lists.HL7.org" ]
+     ]
+  ];
+  fhir:ExampleScenario.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ]
+     ]
+  ];
+  fhir:ExampleScenario.actor [
+     fhir:index 0;
+     fhir:ExampleScenario.actor.actorId [ fhir:value "m6AJtyEk6sSsHWLjt" ];
+     fhir:ExampleScenario.actor.type [ fhir:value "entity" ];
+     fhir:ExampleScenario.actor.name [ fhir:value "St. Jame’s Infirmary" ]
+  ], [
+     fhir:index 1;
+     fhir:ExampleScenario.actor.actorId [ fhir:value "fZzusFYr3PBYyRnot" ];
+     fhir:ExampleScenario.actor.type [ fhir:value "person" ];
+     fhir:ExampleScenario.actor.name [ fhir:value "Allison Camron, MD" ]
+  ];
+  fhir:ExampleScenario.instance [
+     fhir:index 0;
+     fhir:ExampleScenario.instance.resourceId [ fhir:value "l4bjaZGQfeNfhAEpb" ];
+     fhir:ExampleScenario.instance.resourceType [ fhir:value "Location" ];
+     fhir:ExampleScenario.instance.name [ fhir:value "456 Main Street Anytown CT 00014-1234" ]
+  ], [
+     fhir:index 1;
+     fhir:ExampleScenario.instance.resourceId [ fhir:value "hsEk35Ayonz755t6u" ];
+     fhir:ExampleScenario.instance.resourceType [ fhir:value "HealthcareService" ];
+     fhir:ExampleScenario.instance.name [ fhir:value "Emergency Medicine " ]
+  ], [
+     fhir:index 2;
+     fhir:ExampleScenario.instance.resourceId [ fhir:value "etKzBJvzbeHDZi7Gd" ];
+     fhir:ExampleScenario.instance.resourceType [ fhir:value "Endpoint" ];
+     fhir:ExampleScenario.instance.name [ fhir:value "St. James Portal" ]
+  ], [
+     fhir:index 3;
+     fhir:ExampleScenario.instance.resourceId [ fhir:value "dTixApQCHxxheiLX3" ];
+     fhir:ExampleScenario.instance.resourceType [ fhir:value "Device" ];
+     fhir:ExampleScenario.instance.name [ fhir:value "Distributed App (DApp)" ]
+  ], [
+     fhir:index 4;
+     fhir:ExampleScenario.instance.resourceId [ fhir:value "oPxE9d7Wtqjy9WEZx" ];
+     fhir:ExampleScenario.instance.resourceType [ fhir:value "Device" ];
+     fhir:ExampleScenario.instance.name [ fhir:value "National Directory" ]
+  ];
+  fhir:ExampleScenario.process [
+     fhir:index 0;
+     fhir:ExampleScenario.process.title [ fhir:value "Query directory for St. James Infirmary" ];
+     fhir:ExampleScenario.process.step [
+       fhir:index 0;
+       fhir:ExampleScenario.process.step.operation [
+         fhir:ExampleScenario.process.step.operation.number [ fhir:value "1" ];
+         fhir:ExampleScenario.process.step.operation.type [ fhir:value "get" ];
+         fhir:ExampleScenario.process.step.operation.name [ fhir:value "Query directory for St. James Infirmary organization" ];
+         fhir:ExampleScenario.process.step.operation.initiator [ fhir:value "Organization/oPxE9d7Wtqjy9WEZx" ];
+         fhir:ExampleScenario.process.step.operation.receiver [ fhir:value "Device/dTixApQCHxxheiLX3" ];
+         fhir:ExampleScenario.process.step.operation.description [ fhir:value "/Organization?name=St. James Infirmary" ]
+       ]
+     ], [
+       fhir:index 1;
+       fhir:ExampleScenario.process.step.operation [
+         fhir:ExampleScenario.process.step.operation.number [ fhir:value "2" ];
+         fhir:ExampleScenario.process.step.operation.type [ fhir:value "get" ];
+         fhir:ExampleScenario.process.step.operation.name [ fhir:value "Query directory for street address" ];
+         fhir:ExampleScenario.process.step.operation.initiator [ fhir:value "Organization/oPxE9d7Wtqjy9WEZx" ];
+         fhir:ExampleScenario.process.step.operation.receiver [ fhir:value "Device/dTixApQCHxxheiLX3" ];
+         fhir:ExampleScenario.process.step.operation.description [ fhir:value "/Location?address=456 Main Street" ]
+       ]
+     ], [
+       fhir:index 2;
+       fhir:ExampleScenario.process.step.operation [
+         fhir:ExampleScenario.process.step.operation.number [ fhir:value "3" ];
+         fhir:ExampleScenario.process.step.operation.type [ fhir:value "get" ];
+         fhir:ExampleScenario.process.step.operation.name [ fhir:value "Query directory for street address" ];
+         fhir:ExampleScenario.process.step.operation.initiator [ fhir:value "Organization/oPxE9d7Wtqjy9WEZx" ];
+         fhir:ExampleScenario.process.step.operation.receiver [ fhir:value "Device/dTixApQCHxxheiLX3" ];
+         fhir:ExampleScenario.process.step.operation.description [ fhir:value "/Location?address-postalcode=00014" ]
+       ]
+     ], [
+       fhir:index 3;
+       fhir:ExampleScenario.process.step.operation [
+         fhir:ExampleScenario.process.step.operation.number [ fhir:value "4" ];
+         fhir:ExampleScenario.process.step.operation.type [ fhir:value "get" ];
+         fhir:ExampleScenario.process.step.operation.name [ fhir:value "Query directory for local services" ];
+         fhir:ExampleScenario.process.step.operation.initiator [ fhir:value "Organization/oPxE9d7Wtqjy9WEZx" ];
+         fhir:ExampleScenario.process.step.operation.receiver [ fhir:value "Device/dTixApQCHxxheiLX3" ];
+         fhir:ExampleScenario.process.step.operation.description [ fhir:value "/HealthcareService?category=emergency" ]
+       ]
+     ], [
+       fhir:index 4;
+       fhir:ExampleScenario.process.step.operation [
+         fhir:ExampleScenario.process.step.operation.number [ fhir:value "5" ];
+         fhir:ExampleScenario.process.step.operation.type [ fhir:value "get" ];
+         fhir:ExampleScenario.process.step.operation.name [ fhir:value "Query directory for local services" ];
+         fhir:ExampleScenario.process.step.operation.initiator [ fhir:value "Organization/oPxE9d7Wtqjy9WEZx" ];
+         fhir:ExampleScenario.process.step.operation.receiver [ fhir:value "Device/dTixApQCHxxheiLX3" ];
+         fhir:ExampleScenario.process.step.operation.description [ fhir:value "/Endpoint?name=St. James" ]
+       ]
+     ], [
+       fhir:index 5;
+       fhir:ExampleScenario.process.step.operation [
+         fhir:ExampleScenario.process.step.operation.number [ fhir:value "6" ];
+         fhir:ExampleScenario.process.step.operation.type [ fhir:value "get" ];
+         fhir:ExampleScenario.process.step.operation.name [ fhir:value "Query directory for physician" ];
+         fhir:ExampleScenario.process.step.operation.initiator [ fhir:value "Organization/oPxE9d7Wtqjy9WEZx" ];
+         fhir:ExampleScenario.process.step.operation.receiver [ fhir:value "Device/dTixApQCHxxheiLX3" ];
+         fhir:ExampleScenario.process.step.operation.description [ fhir:value "/Practitioner?name=Camron" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/N4qis3v6pkhtJrPFK.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/fhir-directory-attestation/ExampleScenario/N4qis3v6pkhtJrPFK.ttl> .
+
+# -------------------------------------------------------------------------------------
+

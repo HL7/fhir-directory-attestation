@@ -1,7 +1,8 @@
 Instance: ProviderQualificationVerification
 InstanceOf: TestScript
-Title: "Provider Qualification Verification"
-Description: "TestScript - Provider Qualification Verification"
+Title: "Verification"
+Description: "TestScript - Verification of provider qualifications"
 Usage: #definition
+* id = "mqrNfC6BttERhMEZ9"
 * status = #active
 * name = "Provider Qualification Verification"
