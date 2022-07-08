@@ -1,9 +1,9 @@
 {
   "resourceType": "SearchParameter",
-  "id": "organization-address-postalcode",
-  "url": "http://hl7.org/fhir/uv/vhdir/SearchParameter/organization-address-postalcode",
-  "name": "VhDir_sp_organization_address_postalcode",
-  "derivedFrom": "http://hl7.org/fhir/SearchParameter/Organization-address-postalcode",
+  "id": "practitioner-address-postalcode",
+  "url": "http://hl7.org/fhir/uv/vhdir/SearchParameter/practitioner-address-postalcode",
+  "name": "VhDir_sp_practitioner_address_postalcode",
+  "derivedFrom": "http://hl7.org/fhir/SearchParameter/practitioner-address-postalcode",
   "status": "draft",
   "date": "2018-05-23",
   "publisher": "HL7 Patient Administration Committee",
@@ -17,13 +17,13 @@
       ]
     }
   ],
-  "description": "Select organizations with an address with the specified postal code",
+  "description": "Select practitioners with an address with the specified postal code",
   "code": "address-postalcode",
   "base": [
-    "Organization"
+    "Practitioner"
   ],
   "type": "string",
-  "expression": "Organization.address.postalCode",
+  "expression": "Practitioner.address.postalCode",
   "multipleOr": true,
   "multipleAnd": true,
   "modifier": [

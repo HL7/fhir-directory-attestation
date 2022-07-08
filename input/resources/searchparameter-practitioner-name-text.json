@@ -1,0 +1,57 @@
+{
+    "resourceType": "SearchParameter",
+    "id": "practitioner-name-text",
+    "url": "http://hl7.org/fhir/uv/vhdir/SearchParameter/practitioner-name-text",
+    "version": "0.1.4",
+    "name": "VhDir_sp_practitioner_name_text",
+    "derivedFrom": "http://hl7.org/fhir/SearchParameter/individual-phonetic",
+    "status": "draft",
+    "date": {
+      "$date": {
+        "$numberLong": "1527051600000"
+      }
+    },
+    "publisher": "FHIR At Scale Taskforce",
+    "contact": [
+      {
+        "name": "FHIR At Scale Taskforce",
+        "telecom": [
+          {
+            "system": "email",
+            "value": "awatson@mitre.org",
+            "resourceType": "ContactPoint"
+          }
+        ]
+      }
+    ],
+    "description": "Select Practitioners with the specified name (A portion of name using some kind of phonetic matching algorithm)",
+    "jurisdiction": [
+      {
+        "coding": [
+          {
+            "system": "urn:iso:std:iso:3166",
+            "code": "US"
+          }
+        ]
+      }
+    ],
+    "code": "name-text",
+    "base": [
+      "Practitioner"
+    ],
+    "type": "string",
+    "expression": "Practitioner.name.text",
+    "multipleOr": true,
+    "multipleAnd": true,
+    "modifier": [
+        "exact",
+        "contains"
+    ],
+    "meta": {
+      "lastUpdated": {
+        "$date": {
+          "$numberLong": "1654478776484"
+        }
+      }
+    }
+  }
