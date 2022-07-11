@@ -6,11 +6,11 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ONCFASTNationalDirectory</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation</pre><div><p>National Directory</p>\n</div></div>"
   },
   "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "name": "ONCFASTNationalDirectory",
   "title": "National Directory",
   "status": "active",
-  "date": "2022-06-15T12:17:27-04:00",
+  "date": "2022-07-10T21:26:18-05:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -713,6 +713,20 @@
         },
         "name": "NatDir Consent Scopes",
         "description": "\t\nCodes for use in defining access levels for sharing subsets of constrained content (as an example).",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/2.16.840.1.114222.4.11.1066"
+        },
+        "name": "Healthcare Provider Taxonomy",
+        "description": "NPPI Healthcare Provider Taxonomy",
         "exampleBoolean": false
       },
       {
@@ -3719,6 +3733,48 @@
           }
         ],
         "reference": {
+          "reference": "SearchParameter/practitioner-address-city"
+        },
+        "name": "NatDir_practitioner_address_city",
+        "description": "Select organizations with an address in the specified city",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "SearchParameter"
+          }
+        ],
+        "reference": {
+          "reference": "SearchParameter/practitioner-address-postalcode"
+        },
+        "name": "VhDir_sp_practitioner_address_postalcode",
+        "description": "Select practitioners with an address with the specified postal code",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "SearchParameter"
+          }
+        ],
+        "reference": {
+          "reference": "SearchParameter/practitioner-address-state"
+        },
+        "name": "NatDir_practitioner_address_state",
+        "description": "Select organizations with an address in the specified state",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "SearchParameter"
+          }
+        ],
+        "reference": {
           "reference": "SearchParameter/practitioner-endpoint"
         },
         "name": "VhDir_sp_practitioner_endpoint",
@@ -3751,6 +3807,20 @@
         },
         "name": "VhDir_sp_practitioner_identifier",
         "description": "Select Practitioners with the specified identifier",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "SearchParameter"
+          }
+        ],
+        "reference": {
+          "reference": "SearchParameter/practitioner-name-text"
+        },
+        "name": "NatDir_sp_practitioner_name_text",
+        "description": "Select Practitioners with the specified name (A portion of name using some kind of phonetic matching algorithm)",
         "exampleBoolean": false
       },
       {

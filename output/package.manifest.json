@@ -1,8 +1,8 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.7",
   "fhirVersion": [
     "4.0.1"
   ],
-  "date": "20220615121659",
+  "date": "20220710212557",
   "name": "hl7.fhir.us.fhir-directory-attestation"
 }

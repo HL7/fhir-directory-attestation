@@ -3,14 +3,10 @@
     "id": "practitioner-name-text",
     "url": "http://hl7.org/fhir/uv/vhdir/SearchParameter/practitioner-name-text",
     "version": "0.1.4",
-    "name": "VhDir_sp_practitioner_name_text",
-    "derivedFrom": "http://hl7.org/fhir/SearchParameter/individual-phonetic",
+    "name": "NatDir_sp_practitioner_name_text",
+    "derivedFrom": "http://hl7.org/fhir/SearchParameter/Practitioner-name",
     "status": "draft",
-    "date": {
-      "$date": {
-        "$numberLong": "1527051600000"
-      }
-    },
+    "date": "2022-07-10T00:00:00+00:00",
     "publisher": "FHIR At Scale Taskforce",
     "contact": [
       {
@@ -46,12 +42,5 @@
     "modifier": [
         "exact",
         "contains"
-    ],
-    "meta": {
-      "lastUpdated": {
-        "$date": {
-          "$numberLong": "1654478776484"
-        }
-      }
-    }
+    ]
   }

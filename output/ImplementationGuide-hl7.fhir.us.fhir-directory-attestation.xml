@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/hl7.fhir.us.fhir-directory-attestation"/>
-  <version value="0.1.6"/>
+  <version value="0.1.7"/>
   <name value="ONCFASTNationalDirectory"/>
   <title value="National Directory"/>
   <status value="active"/>
-  <date value="2022-06-15T12:17:27-04:00"/>
+  <date value="2022-07-10T21:26:18-05:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>
@@ -506,6 +506,17 @@
       </reference>
       <name value="NatDir Consent Scopes"/>
       <description value="&#x9;&#xA;Codes for use in defining access levels for sharing subsets of constrained content (as an example)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/2.16.840.1.114222.4.11.1066"/>
+      </reference>
+      <name value="Healthcare Provider Taxonomy"/>
+      <description value="NPPI Healthcare Provider Taxonomy"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -2867,6 +2878,39 @@
         <valueString value="SearchParameter"/>
       </extension>
       <reference>
+        <reference value="SearchParameter/practitioner-address-city"/>
+      </reference>
+      <name value="NatDir_practitioner_address_city"/>
+      <description value="Select organizations with an address in the specified city"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/practitioner-address-postalcode"/>
+      </reference>
+      <name value="VhDir_sp_practitioner_address_postalcode"/>
+      <description value="Select practitioners with an address with the specified postal code"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/practitioner-address-state"/>
+      </reference>
+      <name value="NatDir_practitioner_address_state"/>
+      <description value="Select organizations with an address in the specified state"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
         <reference value="SearchParameter/practitioner-endpoint"/>
       </reference>
       <name value="VhDir_sp_practitioner_endpoint"/>
@@ -2893,6 +2937,17 @@
       </reference>
       <name value="VhDir_sp_practitioner_identifier"/>
       <description value="Select Practitioners with the specified identifier"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/practitioner-name-text"/>
+      </reference>
+      <name value="NatDir_sp_practitioner_name_text"/>
+      <description value="Select Practitioners with the specified name (A portion of name using some kind of phonetic matching algorithm)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

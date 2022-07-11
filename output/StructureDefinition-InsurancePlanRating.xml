@@ -13,11 +13,11 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/InsurancePlanRating"/>
-  <version value="0.1.6"/>
+  <version value="0.1.7"/>
   <name value="InsurancePlanRating"/>
   <title value="InsurancePlan Rating"/>
   <status value="active"/>
-  <date value="2022-06-15T12:17:27-04:00"/>
+  <date value="2022-07-10T21:26:18-05:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>

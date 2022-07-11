@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-ConsentCS.html"><code>http://hl7.org/fhir/us/fhir-directory-attestation/CodeSystem/ConsentCS</code></a></li><li>Include all codes defined in <a href="CodeSystem-ConsentScopeCS.html"><code>http://hl7.org/fhir/us/fhir-directory-attestation/CodeSystem/ConsentScopeCS</code></a></li></ul></div>
   </text>
   <url value="http://hl7.org/fhir/us/fhir-directory-attestation/ValueSet/ConsentVS"/>
-  <version value="0.1.6"/>
+  <version value="0.1.7"/>
   <name value="ConsentVS"/>
   <title value="NatDir Consent Scopes"/>
   <status value="active"/>
-  <date value="2022-06-15T12:17:27-04:00"/>
+  <date value="2022-07-10T21:26:18-05:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>

@@ -1,9 +1,9 @@
 ﻿ONCFASTNationalDirectory : Validation Results
 =========================================
 
-err = 455, warn = 101, info = 24
-IG Publisher Version: 1.1.121
-Generated Wed Jun 15 12:19:16 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.6 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
+err = 460, warn = 107, info = 24
+IG Publisher Version: 1.1.121 Out of date - current version is 1.1.122
+Generated Sun Jul 10 21:28:14 CDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.7 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
  Build Errors : 119 / 2 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/ImplementationGuide-hl7.fhir.us.fhir-directory-attestation : 0 / 2 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/capabilitystatement-NationalDirectoryCapabilityStatement : 2 / 1 / 4
@@ -125,6 +125,7 @@ Generated Wed Jun 15 12:19:16 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-gszMyXpwsdoAjJZeh : 0 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-mqrNfC6BttERhMEZ9 : 1 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/testscript-odYxqzPToJTN3A8GN : 7 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/valueset-2.16.840.1.114222.4.11.1066 : 1 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/valueset-ConsentVS : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/fsh-generated/resources/valueset-OrganizationAffiliationRoleVS : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/capabilitystatement-NatlDir : 49 / 0 / 1
@@ -233,12 +234,16 @@ Generated Wed Jun 15 12:19:16 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-organizationaffiliation-service : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-organizationaffiliation-specialty : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-organizationaffiliation-via-intermediary : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-address-city : 1 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-address-postalcode : 1 / 1 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-address-state : 1 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-endpoint : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-family-name : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-given-name : 0 / 0 / 1
- /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-identifier : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-identifier : 0 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-identifier-assigner : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-name : 0 / 0 / 1
+ /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-name-text : 1 / 1 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-phonetic : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-qualification-code : 0 / 0 / 1
  /Users/awatson/Code/implementation-guides/fhir-directory-attestation/input/resources/searchparameter-practitioner-qualification-issuer : 0 / 0 / 1
@@ -1046,6 +1051,9 @@ ERROR: TestScript/odYxqzPToJTN3A8GN: TestScript.fixture[3].resource: Unable to r
 ERROR: TestScript/odYxqzPToJTN3A8GN: TestScript.test[1].action[0].operation.type: Unknown Code http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove in http://terminology.hl7.org/CodeSystem/testscript-operation-codes for 'http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove'
 ERROR: TestScript/odYxqzPToJTN3A8GN: TestScript.test[3].action[0].operation.type: Unknown Code http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove in http://terminology.hl7.org/CodeSystem/testscript-operation-codes for 'http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove'
 ERROR: TestScript/odYxqzPToJTN3A8GN: TestScript.test[5].action[0].operation.type: Unknown Code http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove in http://terminology.hl7.org/CodeSystem/testscript-operation-codes for 'http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove'
+== fsh-generated/resources/ValueSet-2.16.840.1.114222.4.11.1066.json ==
+ERROR: ValueSet.url: Resource id/url mismatch: 2.16.840.1.114222.4.11.1066/http://hl7.org/fhir/us/fhir-directory-attestation/ValueSet/Healthcare-Provider-Taxonomy
+WARNING: ValueSet/2.16.840.1.114222.4.11.1066: ValueSet: vsd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/ValueSet-ConsentVS.json ==
 == fsh-generated/resources/ValueSet-OrganizationAffiliationRoleVS.json ==
 == input/resources/capabilitystatement-NatlDir.json ==
@@ -1203,12 +1211,25 @@ ERROR: CapabilityStatement/NatlDir: CapabilityStatement.rest[0].resource[7].sear
 == input/resources/SearchParameter-organizationaffiliation-service.json ==
 == input/resources/SearchParameter-organizationaffiliation-specialty.json ==
 == input/resources/searchparameter-organizationaffiliation-via-intermediary.json ==
+== input/resources/searchparameter-practitioner-address-city.json ==
+ERROR: SearchParameter/practitioner-address-city: SearchParameter.derivedFrom: Canonical URL 'http://hl7.org/fhir/SearchParameter/practitioner-address-city' does not resolve
+WARNING: SearchParameter/practitioner-address-city: SearchParameter: Unable to find the base Search Parameter http://hl7.org/fhir/SearchParameter/practitioner-address-city so can't check that this SearchParameter is a proper derivation from it
+== input/resources/searchparameter-practitioner-address-postalcode.json ==
+ERROR: SearchParameter/practitioner-address-postalcode: SearchParameter.derivedFrom: Canonical URL 'http://hl7.org/fhir/SearchParameter/practitioner-address-postalcode' does not resolve
+WARNING: SearchParameter/practitioner-address-postalcode: SearchParameter: Unable to find the base Search Parameter http://hl7.org/fhir/SearchParameter/practitioner-address-postalcode so can't check that this SearchParameter is a proper derivation from it
+== input/resources/searchparameter-practitioner-address-state.json ==
+ERROR: SearchParameter/practitioner-address-state: SearchParameter.derivedFrom: Canonical URL 'http://hl7.org/fhir/SearchParameter/practitioner-address-state' does not resolve
+WARNING: SearchParameter/practitioner-address-state: SearchParameter: Unable to find the base Search Parameter http://hl7.org/fhir/SearchParameter/practitioner-address-state so can't check that this SearchParameter is a proper derivation from it
 == input/resources/searchparameter-practitioner-endpoint.json ==
 == input/resources/SearchParameter-practitioner-family-name.json ==
 == input/resources/SearchParameter-practitioner-given-name.json ==
 == input/resources/searchparameter-practitioner-identifier.json ==
+WARNING: SearchParameter/practitioner-identifier: SearchParameter: The expression 'Practitioner.identifier.value' is not compatible with the expression 'Practitioner.identifier' in the derivedFrom SearchParameter http://hl7.org/fhir/SearchParameter/Practitioner-identifier, and this likely indicates that the derivation relationship is not valid
 == input/resources/searchparameter-practitioner-identifier-assigner.json ==
 == input/resources/SearchParameter-practitioner-name.json ==
+== input/resources/searchparameter-practitioner-name-text.json ==
+ERROR: SearchParameter.contact[0].telecom[0]: Unrecognised property '@resourceType'
+WARNING: SearchParameter/practitioner-name-text: SearchParameter: The expression 'Practitioner.name.text' is not compatible with the expression 'Practitioner.name' in the derivedFrom SearchParameter http://hl7.org/fhir/SearchParameter/Practitioner-name, and this likely indicates that the derivation relationship is not valid
 == input/resources/searchparameter-practitioner-phonetic.json ==
 == input/resources/searchparameter-practitioner-qualification-code.json ==
 == input/resources/searchparameter-practitioner-qualification-issuer.json ==
