@@ -8,9 +8,9 @@ Usage: #example
 * language = #en-US
 * id = "rCY6ePpLywTbfx3yp"
 * extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference"
-* extension.valueReference = Reference(Organization/AcmeofCTStdNet)
+* extension.valueReference = Reference(OrganizationAcmeofCTStdNet)
 * active = true
-* practitioner = Reference(Practitioner/Counselor)
+* practitioner = Reference(PractitionerCounselor)
 * code = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS#co "Counselor"
 * specialty = http://nucc.org/provider-taxonomy#101YP2500X "Professional Counselor"
-* healthcareService = Reference(HealthcareService/VirtualCounselService)
+* healthcareService = Reference(ServiceVirtualCounsel)

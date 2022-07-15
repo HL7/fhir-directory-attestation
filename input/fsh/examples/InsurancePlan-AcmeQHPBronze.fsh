@@ -10,9 +10,9 @@ Usage: #example
 * status = #active
 * type = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsuranceProductTypeCS#qhp "Qualified Health Plan"
 * name = "Acme of CT QHP Bronze"
-* ownedBy = Reference(Organization/Acme)
-* administeredBy = Reference(Organization/Acme)
-* coverageArea = Reference(Location/StateOfCTLocation)
-* endpoint = Reference(Endpoint/AcmeOfCTPortalEndpoint)
-* network = Reference(Organization/AcmeofCTStdNet)
+* ownedBy = Reference(OrganizationAcme)
+* administeredBy = Reference(OrganizationAcme)
+* coverageArea = Reference(StateOfCTLocation)
+* endpoint = Reference(EndpointStJames)
+* network = Reference(OrganizationAcmeofCTStdNet)
 * plan.type = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsurancePlanTypeCS#bronze "Bronze-QHP"

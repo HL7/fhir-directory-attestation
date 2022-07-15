@@ -39,7 +39,7 @@ Usage: #example
 * address.postalCode = "00014-1234"
 * position.longitude = 3
 * position.latitude = 15
-* managingOrganization = Reference(Organization/CancerClinic)
+* managingOrganization = Reference(OrganizationBurrClinic)
 * hoursOfOperation.daysOfWeek[0] = #mon
 * hoursOfOperation.daysOfWeek[+] = #tue
 * hoursOfOperation.daysOfWeek[+] = #wed

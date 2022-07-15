@@ -9,7 +9,7 @@ Usage: #example
 * extension[0].extension[0].url = "acceptingPatients"
 * extension[=].extension[=].valueCodeableConcept = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS#existptonly
 * extension[=].extension[+].url = "fromNetwork"
-* extension[=].extension[=].valueReference = Reference(Organization/AcmeofCTStdNet)
+* extension[=].extension[=].valueReference = Reference(OrganizationAcmeofCTStdNet)
 * extension[=].url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients"
 * extension[+].url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility"
 * extension[=].valueCodeableConcept = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AccessibilityCS#adacomp
@@ -51,7 +51,7 @@ Usage: #example
 * address.postalCode = "00014-1234"
 * position.longitude = 5
 * position.latitude = 16
-* managingOrganization = Reference(Organization/o6AJtyEk6sSsHWLjt)
+* managingOrganization = Reference(Organization-StJames)
 * hoursOfOperation[0].daysOfWeek[0] = #mon
 * hoursOfOperation[=].daysOfWeek[+] = #tue
 * hoursOfOperation[=].daysOfWeek[+] = #wed

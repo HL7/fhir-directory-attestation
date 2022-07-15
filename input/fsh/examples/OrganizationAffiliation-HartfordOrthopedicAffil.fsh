@@ -8,10 +8,10 @@ Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation"
 * language = #en-US
 * active = true
-* organization = Reference(Organization/o68Sau8tELE3GDnqR)
-* participatingOrganization = Reference(Organization/HartfordOrthopedics)
-* network = Reference(Organization/AcmeofCTStdNet)
+* organization = Reference(OrganizationHospital)
+* participatingOrganization = Reference(OrganizationHartfordOrthopedics)
+* network = Reference(OrganizationAcmeofCTStdNet)
 * code = http://hl7.org/fhir/organization-role#provider
-* location[0] = Reference(Location/HospLoc1)
-* location[+] = Reference(Location/HospLoc2)
-* healthcareService = Reference(HealthcareService/HartfordOrthopedicServices)
+* location[0] = Reference(HospLoc1)
+* location[+] = Reference(HospLoc2)
+* healthcareService = Reference(ServiceHartfordOrthopedic)

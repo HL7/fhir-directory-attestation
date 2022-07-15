@@ -13,16 +13,16 @@ Usage: #example
 * extension[+].extension[0].url = "acceptingPatients"
 * extension[=].extension[=].valueCodeableConcept = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS#existptonly
 * extension[=].extension[+].url = "fromNetwork"
-* extension[=].extension[=].valueReference = Reference(Organization/AcmeofCTStdNet)
+* extension[=].extension[=].valueReference = Reference(OrganizationAcmeofCTStdNet)
 * extension[=].url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients"
 * active = true
-* providedBy = Reference(Organization/o7C3dwiGT6Eatxkyb)
+* providedBy = Reference(OrganizationPharmChain)
 * category = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS#pharm "Pharmacy"
 * specialty = http://nucc.org/provider-taxonomy#3336C0003X "Community/Retail Pharmacy"
-* location[0] = Reference(Location/PharmLoc1)
-* location[+] = Reference(Location/PharmLoc2)
-* location[+] = Reference(Location/PharmLoc3)
-* location[+] = Reference(Location/PharmLoc4)
+* location[0] = Reference(PharmLoc1)
+* location[+] = Reference(PharmLoc2)
+* location[+] = Reference(PharmLoc3)
+* location[+] = Reference(PharmLoc4)
 * name = "Pharmacy by PharmChain"
 * telecom.extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary"
-* telecom.extension.valueReference = Reference(Organization/o7C3dwiGT6Eatxkyb)
+* telecom.extension.valueReference = Reference(OrganizationPharmChain)

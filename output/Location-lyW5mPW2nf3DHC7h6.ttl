@@ -19,7 +19,7 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"lyW5mPW2nf3DHC7h6\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location</code></p></div><p><b>status</b>: active</p><p><b>name</b>: OrgA CT Location 2</p><p><b>type</b>: outpatient pharmacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#OUTPHARM)</span></p><p><b>telecom</b>: ph: (777)-888-9999, <a href=\"https://www.orga.com\">https://www.orga.com</a></p><p><b>address</b>: 444 Main Street Rainbow CT 00014-1334 </p><h3>Positions</h3><table class=\"grid\"><tr><td>-</td><td><b>Longitude</b></td><td><b>Latitude</b></td></tr><tr><td>*</td><td>9</td><td>18</td></tr></table><p><b>managingOrganization</b>: <a href=\"Organization-BigBox.html\">Organization/BigBox</a></p><blockquote><p><b>hoursOfOperation</b></p><p><b>daysOfWeek</b>: mon, tue, wed, thu, fri</p><p><b>allDay</b>: true</p></blockquote><blockquote><p><b>hoursOfOperation</b></p><p><b>daysOfWeek</b>: sat, sun</p><p><b>openingTime</b>: 08:00:00</p><p><b>closingTime</b>: 17:00:00</p></blockquote></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"lyW5mPW2nf3DHC7h6\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location</code></p></div><p><b>status</b>: active</p><p><b>name</b>: OrgA CT Location 2</p><p><b>type</b>: outpatient pharmacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#OUTPHARM)</span></p><p><b>telecom</b>: ph: (777)-888-9999, <a href=\"https://www.orga.com\">https://www.orga.com</a></p><p><b>address</b>: 444 Main Street Rainbow CT 00014-1334 </p><h3>Positions</h3><table class=\"grid\"><tr><td>-</td><td><b>Longitude</b></td><td><b>Latitude</b></td></tr><tr><td>*</td><td>9</td><td>18</td></tr></table><p><b>managingOrganization</b>: <a href=\"Organization-o53FxH84isnGG8aqy.html\">Organization/o53FxH84isnGG8aqy</a> \"Big Box Retailer\"</p><blockquote><p><b>hoursOfOperation</b></p><p><b>daysOfWeek</b>: mon, tue, wed, thu, fri</p><p><b>allDay</b>: true</p></blockquote><blockquote><p><b>hoursOfOperation</b></p><p><b>daysOfWeek</b>: sat, sun</p><p><b>openingTime</b>: 08:00:00</p><p><b>closingTime</b>: 17:00:00</p></blockquote></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -37,8 +37,8 @@
        fhir:index 1;
        fhir:Extension.url [ fhir:value "fromNetwork" ];
        fhir:Extension.valueReference [
-         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/AcmeofCTStdNet>;
-         fhir:Reference.reference [ fhir:value "Organization/AcmeofCTStdNet" ]
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4XMGtrjTrN7mcctj>;
+         fhir:Reference.reference [ fhir:value "Organization/o4XMGtrjTrN7mcctj" ]
        ]
      ];
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients" ]
@@ -148,8 +148,8 @@
      fhir:Location.position.latitude [ fhir:value "18"^^xsd:decimal ]
   ];
   fhir:Location.managingOrganization [
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/BigBox>;
-     fhir:Reference.reference [ fhir:value "Organization/BigBox" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o53FxH84isnGG8aqy>;
+     fhir:Reference.reference [ fhir:value "Organization/o53FxH84isnGG8aqy" ]
   ];
   fhir:Location.hoursOfOperation [
      fhir:index 0;
@@ -183,9 +183,9 @@
      fhir:Location.hoursOfOperation.closingTime [ fhir:value "17:00:00"^^xsd:time ]
   ] .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/AcmeofCTStdNet> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4XMGtrjTrN7mcctj> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/BigBox> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o53FxH84isnGG8aqy> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

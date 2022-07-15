@@ -1,4 +1,4 @@
-ValueSet: Healthcare_Provider_Taxonomy
+ValueSet: HealthcareProviderTaxonomy
 Title: "Healthcare Provider Taxonomy" 
 Description: "NPPI Healthcare Provider Taxonomy" 
 * ^id = "2.16.840.1.114222.4.11.1066"

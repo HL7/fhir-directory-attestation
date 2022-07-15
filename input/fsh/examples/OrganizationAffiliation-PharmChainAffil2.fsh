@@ -8,9 +8,9 @@ Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation"
 * language = #en-US
 * active = true
-* participatingOrganization = Reference(Organization/o7C3dwiGT6Eatxkyb)
-* network = Reference(Organization/AcmeofCTStdNet)
+* participatingOrganization = Reference(OrganizationPharmChain)
+* network = Reference(OrganizationAcmeofCTStdNet)
 * code = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS#pharmacy
 * specialty = http://nucc.org/provider-taxonomy#3336C0004X "Compounding Pharmacy"
-* location = Reference(Location/PharmLoc1)
-* healthcareService = Reference(HealthcareService/PharmChainCompService)
+* location = Reference(PharmLoc1)
+* healthcareService = Reference(ServicePharmChainComp)

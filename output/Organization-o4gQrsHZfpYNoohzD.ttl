@@ -19,14 +19,13 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"o4gQrsHZfpYNoohzD\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Network</code></p></div><p><b>active</b>: true</p><p><b>type</b>: Network <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (OrgTypeCS#ntwk)</span></p><p><b>name</b>: ACME CT Premium Preferred Provider Network</p><p><b>partOf</b>: <a href=\"Organization-Acme.html\">Organization/Acme</a></p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Telecom</b></td></tr><tr><td>*</td><td>Jane Kawasaki </td><td>-unknown-</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"o4gQrsHZfpYNoohzD\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Network</code></p></div><p><b>active</b>: true</p><p><b>type</b>: Network <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (OrgTypeCS#ntwk)</span></p><p><b>name</b>: ACME CT Premium Preferred Provider Network</p><p><b>partOf</b>: <a href=\"Organization-o4aKCfZSaoxLrDPbA.html\">Organization/o4aKCfZSaoxLrDPbA</a> \"Acme of CT\"</p><h3>Contacts</h3><table class=\"grid\"><tr><td>-</td><td><b>Name</b></td><td><b>Telecom</b></td></tr><tr><td>*</td><td>Jane Kawasaki </td><td>-unknown-</td></tr></table></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/location-reference" ];
      fhir:Extension.valueReference [
-       fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Location/StateOfCTLocation>;
-       fhir:Reference.reference [ fhir:value "Location/StateOfCTLocation" ]
+       fhir:Reference.reference [ fhir:value "LocationStateOfCTLocation" ]
      ]
   ];
   fhir:Organization.active [ fhir:value "true"^^xsd:boolean];
@@ -41,8 +40,8 @@
   ];
   fhir:Organization.name [ fhir:value "ACME CT Premium Preferred Provider Network"];
   fhir:Organization.partOf [
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/Acme>;
-     fhir:Reference.reference [ fhir:value "Organization/Acme" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4aKCfZSaoxLrDPbA>;
+     fhir:Reference.reference [ fhir:value "Organization/o4aKCfZSaoxLrDPbA" ]
   ];
   fhir:Organization.contact [
      fhir:index 0;
@@ -59,16 +58,14 @@
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary" ];
          fhir:Extension.valueReference [
-           fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/Acme>;
-           fhir:Reference.reference [ fhir:value "Organization/Acme" ]
+           fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4aKCfZSaoxLrDPbA>;
+           fhir:Reference.reference [ fhir:value "Organization/o4aKCfZSaoxLrDPbA" ]
          ]
        ]
      ]
   ] .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Location/StateOfCTLocation> a fhir:us .
-
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/Acme> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4aKCfZSaoxLrDPbA> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

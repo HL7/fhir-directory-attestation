@@ -16,17 +16,17 @@ Usage: #definition
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[=].resource.type = "Subscription"
-* fixture[=].resource = Reference(s7aTc2yk4YQyBRify)
+* fixture[=].resource = Reference(Subscription-RestHook)
 * fixture[+].id = "4d5c229a-1c32-5418-89e6-6bc75887e055"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[=].resource.type = "Subscription"
-* fixture[=].resource = Reference(s7aTc2yk4YQyBRify)
+* fixture[=].resource = Reference(Subscription-RestHook)
 * fixture[+].id = "69c02b22-fb36-5b29-a62e-530e7b583efd"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[=].resource.type = "Organization"
-* fixture[=].resource = Reference(o6AJtyEk6sSsHWLjt) "St. James Infirmary - Covid Ward"
+* fixture[=].resource = Reference(Organization-StJames) "St. James Infirmary - Covid Ward"
 * fixture[+].id = "e751df8a-4678-5744-9344-4813e27c066c"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
@@ -34,7 +34,7 @@ Usage: #definition
 // * fixture[=].resource.display.family = "Camron"
 // * fixture[=].resource.display.given = "Allison"
 * fixture[=].resource.type = "Practitioner"
-* fixture[=].resource = Reference(fZzusFYr3PBYyRnot)
+* fixture[=].resource = Reference(PractitionerAllisonCamron)
 * test[0].id = "85ab6581-ce9e-5981-bdf1-9150958d20e3"
 * test[=].name = "Subscribe to Organization updates via rest-hooks"
 * test[=].action[0].operation.method = #put

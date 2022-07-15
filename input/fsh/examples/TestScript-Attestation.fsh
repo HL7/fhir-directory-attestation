@@ -14,24 +14,24 @@ Usage: #definition
 * jurisdiction = urn:iso:std:iso:3166#US
 * fixture[0].id = "d08a86ad-a356-5ac6-9056-773ac6642b2a"
 * fixture[=].autocreate = true
-* fixture[=].autodelete = true
+* fixture[=].autodelete = true 
 * fixture[=].resource.type = "Organization"
-* fixture[=].resource = Reference(o6AJtyEk6sSsHWLjt) "St. James Infirmary"
+* fixture[=].resource = Reference(Organization-StJames) "St. James Infirmary"
 * fixture[+].id = "f40d0e54-38c6-536e-bb0c-bb1077096f43"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[=].resource.type = "Location"
-* fixture[=].resource = Reference(l4bjaZGQfeNfhAEpb) "Cancer Clinic"
+* fixture[=].resource = Reference(OrganizationHamiltonClinic) "Cancer Clinic" 
 * fixture[+].id = "1419369a-4b9e-5efc-bb5c-75d4612b8d0d"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[=].resource.type = "HealthcareService"
-* fixture[=].resource = Reference(hsEk35Ayonz755t6u)
+* fixture[=].resource = Reference(ServiceHospER)
 * fixture[+].id = "906ab31c-1103-512a-9817-7f65e8203a5b"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[=].resource.type = "Endpoint"
-* fixture[=].resource = Reference(etKzBJvzbeHDZi7Gd) "Endpoint for St James Hospital"
+* fixture[=].resource = Reference(EndpointStJames) "Endpoint for St James Hospital"
 * fixture[+].id = "523c5dcd-978d-5769-8a5b-835832af9dca"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
@@ -39,7 +39,7 @@ Usage: #definition
 // * fixture[=].resource.name.family = "Camron"
 // * fixture[=].resource.name.given = "Allison"
 * fixture[=].resource.type = "Practitioner"
-* fixture[=].resource = Reference(pZzusFYr3PBYyRnot)
+* fixture[=].resource = Reference(PractitionerAllisonCamron)
 * test[0].id = "839236b5-6d9c-5332-8211-ad4bb93110b6"
 * test[=].name = "St. James Infirmary"
 * test[=].action[0].operation.method = #put

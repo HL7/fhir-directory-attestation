@@ -744,7 +744,7 @@
   {
     "id": "2.16.840.1.114222.4.11.1066",
     "type": "ValueSet",
-    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ValueSet/Healthcare-Provider-Taxonomy",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/ValueSet/HealthcareProviderTaxonomy",
     "version": "0.1.7",
     "name": "Healthcare Provider Taxonomy"
   },

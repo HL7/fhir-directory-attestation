@@ -12,7 +12,7 @@
   </text>
   <extension url="http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference">
     <valueReference>
-      <reference value="Organization/AcmeofCTStdNet"/>
+      <reference value="Organization/o4XMGtrjTrN7mcctj"/>
     </valueReference>
   </extension>
   <active value="true"/>

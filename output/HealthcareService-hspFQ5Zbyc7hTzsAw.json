@@ -10,7 +10,7 @@
   "language": "en-US",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"hspFQ5Zbyc7hTzsAw\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService</code></p></div><p><b>active</b>: true</p><p><b>providedBy</b>: <a href=\"Organization-o7C3dwiGT6Eatxkyb.html\">Organization/o7C3dwiGT6Eatxkyb</a> \"GoodRx Pharmacy\"</p><p><b>category</b>: Pharmacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (HealthcareServiceCategoryCS#pharm)</span></p><p><b>specialty</b>: Community/Retail Pharmacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#3336C0003X)</span></p><p><b>location</b>: </p><ul><li><a href=\"Location-PharmLoc1.html\">Location/PharmLoc1</a></li><li><a href=\"Location-PharmLoc2.html\">Location/PharmLoc2</a></li><li><a href=\"Location-PharmLoc3.html\">Location/PharmLoc3</a></li><li><a href=\"Location-PharmLoc4.html\">Location/PharmLoc4</a></li></ul><p><b>name</b>: Pharmacy by PharmChain</p><p><b>telecom</b>: -unknown-</p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"hspFQ5Zbyc7hTzsAw\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService</code></p></div><p><b>active</b>: true</p><p><b>providedBy</b>: <a href=\"Organization-o7C3dwiGT6Eatxkyb.html\">Organization/o7C3dwiGT6Eatxkyb</a> \"GoodRx Pharmacy\"</p><p><b>category</b>: Pharmacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (HealthcareServiceCategoryCS#pharm)</span></p><p><b>specialty</b>: Community/Retail Pharmacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#3336C0003X)</span></p><p><b>location</b>: </p><ul><li><a href=\"Location-lMFvtQ9PuGhKCanxe.html\">Location/lMFvtQ9PuGhKCanxe</a> \"OrgA CT Location 1\"</li><li><a href=\"Location-lyW5mPW2nf3DHC7h6.html\">Location/lyW5mPW2nf3DHC7h6</a> \"OrgA CT Location 2\"</li><li><a href=\"Location-lYG8WxBHX4HRoewaM.html\">Location/lYG8WxBHX4HRoewaM</a> \"OrgA MA Location 1\"</li><li><a href=\"Location-lWAKMdp4vCeNzcDJp.html\">Location/lWAKMdp4vCeNzcDJp</a> \"Women's Shelter - 345 Main Street, Nowheresville, CT, 00014\"</li></ul><p><b>name</b>: Pharmacy by PharmChain</p><p><b>telecom</b>: -unknown-</p></div>"
   },
   "extension": [
     {
@@ -45,7 +45,7 @@
         {
           "url": "fromNetwork",
           "valueReference": {
-            "reference": "Organization/AcmeofCTStdNet"
+            "reference": "Organization/o4XMGtrjTrN7mcctj"
           }
         }
       ],
@@ -80,16 +80,16 @@
   ],
   "location": [
     {
-      "reference": "Location/PharmLoc1"
+      "reference": "Location/lMFvtQ9PuGhKCanxe"
     },
     {
-      "reference": "Location/PharmLoc2"
+      "reference": "Location/lyW5mPW2nf3DHC7h6"
     },
     {
-      "reference": "Location/PharmLoc3"
+      "reference": "Location/lYG8WxBHX4HRoewaM"
     },
     {
-      "reference": "Location/PharmLoc4"
+      "reference": "Location/lWAKMdp4vCeNzcDJp"
     }
   ],
   "name": "Pharmacy by PharmChain",

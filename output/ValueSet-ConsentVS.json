@@ -10,7 +10,7 @@
   "name": "ConsentVS",
   "title": "NatDir Consent Scopes",
   "status": "active",
-  "date": "2022-07-10T21:26:18-05:00",
+  "date": "2022-07-15T12:22:10-04:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -27,7 +27,7 @@
       ]
     }
   ],
-  "description": "\t\nCodes for use in defining access levels for sharing subsets of constrained content (as an example).",
+  "description": "\t\r\nCodes for use in defining access levels for sharing subsets of constrained content (as an example).",
   "jurisdiction": [
     {
       "coding": [

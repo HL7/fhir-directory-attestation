@@ -10,7 +10,7 @@
   <name value="ConsentVS"/>
   <title value="NatDir Consent Scopes"/>
   <status value="active"/>
-  <date value="2022-07-10T21:26:18-05:00"/>
+  <date value="2022-07-15T12:22:10-04:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>
@@ -23,7 +23,7 @@
       <value value="pafm@lists.HL7.org"/>
     </telecom>
   </contact>
-  <description value="&#x9;&#xA;Codes for use in defining access levels for sharing subsets of constrained content (as an example)."/>
+  <description value="&#x9;&#xD;&#xA;Codes for use in defining access levels for sharing subsets of constrained content (as an example)."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

@@ -10,18 +10,18 @@
   "language": "en-US",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"oareedAzJMQsamimk\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation</code></p></div><p><b>active</b>: true</p><p><b>organization</b>: <a href=\"Organization-o68Sau8tELE3GDnqR.html\">Organization/o68Sau8tELE3GDnqR</a> \"Hartford General Hospital\"</p><p><b>participatingOrganization</b>: <a href=\"Organization-HartfordOrthopedics.html\">Organization/HartfordOrthopedics</a></p><p><b>network</b>: <a href=\"Organization-AcmeofCTStdNet.html\">Organization/AcmeofCTStdNet</a></p><p><b>code</b>: Provider <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R4/codesystem-organization-role.html\">Organization Affiliation Role</a>#provider)</span></p><p><b>location</b>: </p><ul><li><a href=\"Location-HospLoc1.html\">Location/HospLoc1</a></li><li><a href=\"Location-HospLoc2.html\">Location/HospLoc2</a></li></ul><p><b>healthcareService</b>: <a href=\"HealthcareService-HartfordOrthopedicServices.html\">HealthcareService/HartfordOrthopedicServices</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"oareedAzJMQsamimk\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation</code></p></div><p><b>active</b>: true</p><p><b>organization</b>: <a href=\"Organization-o68Sau8tELE3GDnqR.html\">Organization/o68Sau8tELE3GDnqR</a> \"Hartford General Hospital\"</p><p><b>participatingOrganization</b>: <a href=\"Organization-o6eQQrm6h4TQwhbAa.html\">Organization/o6eQQrm6h4TQwhbAa</a> \"Hartford Orthopedics Services\"</p><p><b>network</b>: <a href=\"Organization-o4XMGtrjTrN7mcctj.html\">Organization/o4XMGtrjTrN7mcctj</a> \"ACME CT Preferred Provider Network\"</p><p><b>code</b>: Provider <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://hl7.org/fhir/R4/codesystem-organization-role.html\">Organization Affiliation Role</a>#provider)</span></p><p><b>location</b>: </p><ul><li><a href=\"Location-lsH38uL5J3eYEQ5hJ.html\">Location/lsH38uL5J3eYEQ5hJ</a> \"Hartford Hospital Location 1\"</li><li><a href=\"Location-lNxvHyHMFya5Bym6r.html\">Location/lNxvHyHMFya5Bym6r</a> \"Hartford Hospital Location 2\"</li></ul><p><b>healthcareService</b>: <a href=\"HealthcareService-hstqm7dvng64GJYeA.html\">HealthcareService/hstqm7dvng64GJYeA</a></p></div>"
   },
   "active": true,
   "organization": {
     "reference": "Organization/o68Sau8tELE3GDnqR"
   },
   "participatingOrganization": {
-    "reference": "Organization/HartfordOrthopedics"
+    "reference": "Organization/o6eQQrm6h4TQwhbAa"
   },
   "network": [
     {
-      "reference": "Organization/AcmeofCTStdNet"
+      "reference": "Organization/o4XMGtrjTrN7mcctj"
     }
   ],
   "code": [
@@ -36,15 +36,15 @@
   ],
   "location": [
     {
-      "reference": "Location/HospLoc1"
+      "reference": "Location/lsH38uL5J3eYEQ5hJ"
     },
     {
-      "reference": "Location/HospLoc2"
+      "reference": "Location/lNxvHyHMFya5Bym6r"
     }
   ],
   "healthcareService": [
     {
-      "reference": "HealthcareService/HartfordOrthopedicServices"
+      "reference": "HealthcareService/hstqm7dvng64GJYeA"
     }
   ]
 }

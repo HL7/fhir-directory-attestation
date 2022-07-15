@@ -19,7 +19,7 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"l4bjaZGQfeNfhAEpb\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location</code></p></div><p><b>status</b>: active</p><p><b>name</b>: Cancer Clinic</p><p><b>type</b>: Hospital <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#HOSP)</span></p><p><b>telecom</b>: ph: (111)-222-3333, <a href=\"https://www.hgh.com\">https://www.hgh.com</a></p><p><b>address</b>: 456 Main Street Anytown CT 00014-1234 </p><h3>Positions</h3><table class=\"grid\"><tr><td>-</td><td><b>Longitude</b></td><td><b>Latitude</b></td></tr><tr><td>*</td><td>3</td><td>15</td></tr></table><p><b>managingOrganization</b>: <a href=\"Organization-CancerClinic.html\">Organization/CancerClinic</a></p><h3>HoursOfOperations</h3><table class=\"grid\"><tr><td>-</td><td><b>DaysOfWeek</b></td></tr><tr><td>*</td><td>mon, tue, wed, thu, fri</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"l4bjaZGQfeNfhAEpb\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location</code></p></div><p><b>status</b>: active</p><p><b>name</b>: Cancer Clinic</p><p><b>type</b>: Hospital <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/3.1.0/CodeSystem-v3-RoleCode.html\">RoleCode</a>#HOSP)</span></p><p><b>telecom</b>: ph: (111)-222-3333, <a href=\"https://www.hgh.com\">https://www.hgh.com</a></p><p><b>address</b>: 456 Main Street Anytown CT 00014-1234 </p><h3>Positions</h3><table class=\"grid\"><tr><td>-</td><td><b>Longitude</b></td><td><b>Latitude</b></td></tr><tr><td>*</td><td>3</td><td>15</td></tr></table><p><b>managingOrganization</b>: <a href=\"Organization-o5q79rZWvYNLtPK8D.html\">Organization/o5q79rZWvYNLtPK8D</a> \"Burr Clinic\"</p><h3>HoursOfOperations</h3><table class=\"grid\"><tr><td>-</td><td><b>DaysOfWeek</b></td></tr><tr><td>*</td><td>mon, tue, wed, thu, fri</td></tr></table></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -106,8 +106,8 @@
      fhir:Location.position.latitude [ fhir:value "15"^^xsd:decimal ]
   ];
   fhir:Location.managingOrganization [
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/CancerClinic>;
-     fhir:Reference.reference [ fhir:value "Organization/CancerClinic" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o5q79rZWvYNLtPK8D>;
+     fhir:Reference.reference [ fhir:value "Organization/o5q79rZWvYNLtPK8D" ]
   ];
   fhir:Location.hoursOfOperation [
      fhir:index 0;
@@ -129,7 +129,7 @@
      ]
   ] .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/CancerClinic> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o5q79rZWvYNLtPK8D> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

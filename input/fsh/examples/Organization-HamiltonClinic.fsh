@@ -22,7 +22,7 @@ Usage: #example
 * address.city = "Anytown"
 * address.state = "CT"
 * address.postalCode = "00014-1234"
-* partOf = Reference(Organization/o68Sau8tELE3GDnqR)
+* partOf = Reference(OrganizationHospital)
 * contact.telecom.system = #phone
 * contact.telecom.value = "(111)-222-3333"
 * contact.telecom.rank = 1

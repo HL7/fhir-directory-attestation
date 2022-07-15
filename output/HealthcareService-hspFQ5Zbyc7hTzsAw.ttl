@@ -19,7 +19,7 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"hspFQ5Zbyc7hTzsAw\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService</code></p></div><p><b>active</b>: true</p><p><b>providedBy</b>: <a href=\"Organization-o7C3dwiGT6Eatxkyb.html\">Organization/o7C3dwiGT6Eatxkyb</a> \"GoodRx Pharmacy\"</p><p><b>category</b>: Pharmacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (HealthcareServiceCategoryCS#pharm)</span></p><p><b>specialty</b>: Community/Retail Pharmacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#3336C0003X)</span></p><p><b>location</b>: </p><ul><li><a href=\"Location-PharmLoc1.html\">Location/PharmLoc1</a></li><li><a href=\"Location-PharmLoc2.html\">Location/PharmLoc2</a></li><li><a href=\"Location-PharmLoc3.html\">Location/PharmLoc3</a></li><li><a href=\"Location-PharmLoc4.html\">Location/PharmLoc4</a></li></ul><p><b>name</b>: Pharmacy by PharmChain</p><p><b>telecom</b>: -unknown-</p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"hspFQ5Zbyc7hTzsAw\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService</code></p></div><p><b>active</b>: true</p><p><b>providedBy</b>: <a href=\"Organization-o7C3dwiGT6Eatxkyb.html\">Organization/o7C3dwiGT6Eatxkyb</a> \"GoodRx Pharmacy\"</p><p><b>category</b>: Pharmacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (HealthcareServiceCategoryCS#pharm)</span></p><p><b>specialty</b>: Community/Retail Pharmacy <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#3336C0003X)</span></p><p><b>location</b>: </p><ul><li><a href=\"Location-lMFvtQ9PuGhKCanxe.html\">Location/lMFvtQ9PuGhKCanxe</a> \"OrgA CT Location 1\"</li><li><a href=\"Location-lyW5mPW2nf3DHC7h6.html\">Location/lyW5mPW2nf3DHC7h6</a> \"OrgA CT Location 2\"</li><li><a href=\"Location-lYG8WxBHX4HRoewaM.html\">Location/lYG8WxBHX4HRoewaM</a> \"OrgA MA Location 1\"</li><li><a href=\"Location-lWAKMdp4vCeNzcDJp.html\">Location/lWAKMdp4vCeNzcDJp</a> \"Women's Shelter - 345 Main Street, Nowheresville, CT, 00014\"</li></ul><p><b>name</b>: Pharmacy by PharmChain</p><p><b>telecom</b>: -unknown-</p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
@@ -51,8 +51,8 @@
        fhir:index 1;
        fhir:Extension.url [ fhir:value "fromNetwork" ];
        fhir:Extension.valueReference [
-         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/AcmeofCTStdNet>;
-         fhir:Reference.reference [ fhir:value "Organization/AcmeofCTStdNet" ]
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4XMGtrjTrN7mcctj>;
+         fhir:Reference.reference [ fhir:value "Organization/o4XMGtrjTrN7mcctj" ]
        ]
      ];
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/newpatients" ]
@@ -82,20 +82,20 @@
   ];
   fhir:HealthcareService.location [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Location/PharmLoc1>;
-     fhir:Reference.reference [ fhir:value "Location/PharmLoc1" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Location/lMFvtQ9PuGhKCanxe>;
+     fhir:Reference.reference [ fhir:value "Location/lMFvtQ9PuGhKCanxe" ]
   ], [
      fhir:index 1;
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Location/PharmLoc2>;
-     fhir:Reference.reference [ fhir:value "Location/PharmLoc2" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Location/lyW5mPW2nf3DHC7h6>;
+     fhir:Reference.reference [ fhir:value "Location/lyW5mPW2nf3DHC7h6" ]
   ], [
      fhir:index 2;
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Location/PharmLoc3>;
-     fhir:Reference.reference [ fhir:value "Location/PharmLoc3" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Location/lYG8WxBHX4HRoewaM>;
+     fhir:Reference.reference [ fhir:value "Location/lYG8WxBHX4HRoewaM" ]
   ], [
      fhir:index 3;
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Location/PharmLoc4>;
-     fhir:Reference.reference [ fhir:value "Location/PharmLoc4" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Location/lWAKMdp4vCeNzcDJp>;
+     fhir:Reference.reference [ fhir:value "Location/lWAKMdp4vCeNzcDJp" ]
   ];
   fhir:HealthcareService.name [ fhir:value "Pharmacy by PharmChain"];
   fhir:HealthcareService.telecom [
@@ -110,17 +110,17 @@
      ]
   ] .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/AcmeofCTStdNet> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4XMGtrjTrN7mcctj> a fhir:us .
 
 <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o7C3dwiGT6Eatxkyb> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Location/PharmLoc1> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Location/lMFvtQ9PuGhKCanxe> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Location/PharmLoc2> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Location/lyW5mPW2nf3DHC7h6> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Location/PharmLoc3> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Location/lYG8WxBHX4HRoewaM> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Location/PharmLoc4> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Location/lWAKMdp4vCeNzcDJp> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

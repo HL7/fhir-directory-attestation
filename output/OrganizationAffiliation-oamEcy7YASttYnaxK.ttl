@@ -19,16 +19,16 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"oamEcy7YASttYnaxK\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation</code></p></div><p><b>active</b>: true</p><p><b>organization</b>: <a href=\"Organization-ConnHIE.html\">Organization/ConnHIE</a></p><p><b>participatingOrganization</b>: <a href=\"Organization-BurrClinic.html\">Organization/BurrClinic</a></p><p><b>code</b>: bt <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (OrganizationAffiliationRoleCS#bt)</span></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"oamEcy7YASttYnaxK\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation</code></p></div><p><b>active</b>: true</p><p><b>organization</b>: <a href=\"Organization-o5CXtWS6CWaH4J8c9.html\">Organization/o5CXtWS6CWaH4J8c9</a> \"Connecticut HIE\"</p><p><b>participatingOrganization</b>: <a href=\"Organization-o5q79rZWvYNLtPK8D.html\">Organization/o5q79rZWvYNLtPK8D</a> \"Burr Clinic\"</p><p><b>code</b>: bt <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (OrganizationAffiliationRoleCS#bt)</span></p></div>"
   ];
   fhir:OrganizationAffiliation.active [ fhir:value "true"^^xsd:boolean];
   fhir:OrganizationAffiliation.organization [
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/ConnHIE>;
-     fhir:Reference.reference [ fhir:value "Organization/ConnHIE" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o5CXtWS6CWaH4J8c9>;
+     fhir:Reference.reference [ fhir:value "Organization/o5CXtWS6CWaH4J8c9" ]
   ];
   fhir:OrganizationAffiliation.participatingOrganization [
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/BurrClinic>;
-     fhir:Reference.reference [ fhir:value "Organization/BurrClinic" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o5q79rZWvYNLtPK8D>;
+     fhir:Reference.reference [ fhir:value "Organization/o5q79rZWvYNLtPK8D" ]
   ];
   fhir:OrganizationAffiliation.code [
      fhir:index 0;
@@ -39,9 +39,9 @@
      ]
   ] .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/ConnHIE> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o5CXtWS6CWaH4J8c9> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/BurrClinic> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o5q79rZWvYNLtPK8D> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

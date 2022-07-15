@@ -11,7 +11,7 @@
   <name value="NatlDirAttestOrganization"/>
   <title value="NatDir Organization"/>
   <status value="active"/>
-  <date value="2022-07-10T21:26:18-05:00"/>
+  <date value="2022-07-15T12:22:10-04:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>
@@ -24,7 +24,7 @@
       <value value="pafm@lists.HL7.org"/>
     </telecom>
   </contact>
-  <description value="An organization is a formal or informal grouping of people or organizations with a common purpose, such as a company, institution, corporation, community group, or healthcare practice.&#xA;Guidance:   When the contact is a department name, rather than a human (e.g., patient help line), include a blank family and given name, and provide the department name in contact.name.text"/>
+  <description value="An organization is a formal or informal grouping of people or organizations with a common purpose, such as a company, institution, corporation, community group, or healthcare practice.&#xD;&#xA;Guidance:   When the contact is a department name, rather than a human (e.g., patient help line), include a blank family and given name, and provide the department name in contact.name.text"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

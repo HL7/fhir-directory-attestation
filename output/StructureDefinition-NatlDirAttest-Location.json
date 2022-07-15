@@ -10,7 +10,7 @@
   "name": "NatlDirAttestLocation",
   "title": "NatDir Location",
   "status": "active",
-  "date": "2022-07-10T21:26:18-05:00",
+  "date": "2022-07-15T12:22:10-04:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -27,7 +27,7 @@
       ]
     }
   ],
-  "description": "A Location is the physical place where healthcare services are provided, practitioners are employed, \n                 organizations are based, etc. Locations can range in scope from a room in a building to a geographic region/area.",
+  "description": "A Location is the physical place where healthcare services are provided, practitioners are employed, \r\n                 organizations are based, etc. Locations can range in scope from a room in a building to a geographic region/area.",
   "jurisdiction": [
     {
       "coding": [

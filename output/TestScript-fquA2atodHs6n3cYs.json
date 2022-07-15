@@ -3,7 +3,7 @@
   "id": "fquA2atodHs6n3cYs",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"fquA2atodHs6n3cYs\" </p></div><p><b>url</b>: <code>http://example.org/ExampleScenario/FederatedQuery</code></p><p><b>version</b>: 0.1.7</p><p><b>status</b>: active</p><p><b>date</b>: 2022-06-03 06:08:03+0000</p><p><b>publisher</b>: HL7 Patient Administration Working Group</p><p><b>contact</b>: HL7 Patient Administration Working Group: <a href=\"https://www.hl7.org/Special/committees/pafm/index.cfm\">https://www.hl7.org/Special/committees/pafm/index.cfm</a>,<a href=\"mailto:pafm@lists.HL7.org\">pafm@lists.HL7.org</a></p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"m6AJtyEk6sSsHWLjt\">m6AJtyEk6sSsHWLjt: St. Jame’s Infirmary</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"fZzusFYr3PBYyRnot\">fZzusFYr3PBYyRnot: Allison Camron, MD</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"l4bjaZGQfeNfhAEpb\">l4bjaZGQfeNfhAEpb: 456 Main Street Anytown CT 00014-1234</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"hsEk35Ayonz755t6u\">hsEk35Ayonz755t6u: Emergency Medicine </a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"etKzBJvzbeHDZi7Gd\">etKzBJvzbeHDZi7Gd: St. James Portal</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"dTixApQCHxxheiLX3\">dTixApQCHxxheiLX3: Distributed App (DApp)</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"oPxE9d7Wtqjy9WEZx\">oPxE9d7Wtqjy9WEZx: National Directory</a></p></blockquote><blockquote><p><b>test</b></p><p><b>name</b>: Query directory for St. James Infirmary</p><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Label</b></td><td><b>Description</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>SourceId</b></td><td><b>TargetId</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Query directory for St. James Infirmary organization</td><td>/Organization?name=St. James Infirmary</td><td>false</td><td>get</td><td>oPxE9d7Wtqjy9WEZx</td><td>dTixApQCHxxheiLX3</td><td>/Organization?name=St. James Infirmary</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Label</b></td><td><b>Description</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>SourceId</b></td><td><b>TargetId</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Query directory for street address</td><td>/Location?address=456 Main Street</td><td>false</td><td>get</td><td>oPxE9d7Wtqjy9WEZx</td><td>dTixApQCHxxheiLX3</td><td>/Location?address=456 Main Street</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Label</b></td><td><b>Description</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>SourceId</b></td><td><b>TargetId</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Query directory for street address</td><td>/Location?address-postalcode=00014</td><td>false</td><td>get</td><td>oPxE9d7Wtqjy9WEZx</td><td>dTixApQCHxxheiLX3</td><td>/Location?address-postalcode=00014</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Label</b></td><td><b>Description</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>SourceId</b></td><td><b>TargetId</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Query directory for local services</td><td>/HealthcareService?category=emergency</td><td>false</td><td>get</td><td>oPxE9d7Wtqjy9WEZx</td><td>dTixApQCHxxheiLX3</td><td>/HealthcareService?category=emergency</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Label</b></td><td><b>Description</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>SourceId</b></td><td><b>TargetId</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Query directory for local services</td><td>/Endpoint?name=St. James</td><td>false</td><td>get</td><td>oPxE9d7Wtqjy9WEZx</td><td>dTixApQCHxxheiLX3</td><td>/Endpoint?name=St. James</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Label</b></td><td><b>Description</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>SourceId</b></td><td><b>TargetId</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Query directory for physician</td><td>/Practitioner?name=Camron</td><td>false</td><td>get</td><td>oPxE9d7Wtqjy9WEZx</td><td>dTixApQCHxxheiLX3</td><td>/Practitioner?name=Camron</td></tr></table></blockquote></blockquote></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"fquA2atodHs6n3cYs\" </p></div><p><b>url</b>: <code>http://example.org/ExampleScenario/FederatedQuery</code></p><p><b>version</b>: 0.1.7</p><p><b>status</b>: active</p><p><b>date</b>: 2022-06-03 06:08:03+0000</p><p><b>publisher</b>: HL7 Patient Administration Working Group</p><p><b>contact</b>: HL7 Patient Administration Working Group: <a href=\"https://www.hl7.org/Special/committees/pafm/index.cfm\">https://www.hl7.org/Special/committees/pafm/index.cfm</a>,<a href=\"mailto:pafm@lists.HL7.org\">pafm@lists.HL7.org</a></p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#US)</span></p><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"Organization-o6AJtyEk6sSsHWLjt.html\">Organization/o6AJtyEk6sSsHWLjt: St. Jame’s Infirmary</a> \"St. James Infirmary\"</p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"Practitioner-pZzusFYr3PBYyRnot.html\">Practitioner/pZzusFYr3PBYyRnot: Allison Camron, MD</a> \" CAMRON\"</p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"Organization-o5sZhrXrLK9pXDGKX.html\">Organization/o5sZhrXrLK9pXDGKX: 456 Main Street Anytown CT 00014-1234</a> \"Hamilton Clinic\"</p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"HealthcareService-hsEk35Ayonz755t6u.html\">HealthcareService/hsEk35Ayonz755t6u: Emergency Medicine </a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"Endpoint-etKzBJvzbeHDZi7Gd.html\">Endpoint/etKzBJvzbeHDZi7Gd: St. James Portal</a> \"Endpoint for St James Hospital\"</p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"Device-dXuinjribcN2ARYXv.html\">Device/dXuinjribcN2ARYXv: Distributed App (DApp)</a></p></blockquote><blockquote><p><b>fixture</b></p><p><b>autocreate</b>: true</p><p><b>autodelete</b>: true</p><p><b>resource</b>: <a href=\"Device-dTixApQCHxxheiLX3.html\">Device/dTixApQCHxxheiLX3: National Directory</a></p></blockquote><blockquote><p><b>test</b></p><p><b>name</b>: Query directory for St. James Infirmary</p><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Label</b></td><td><b>Description</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>SourceId</b></td><td><b>TargetId</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Query directory for St. James Infirmary organization</td><td>/Organization?name=St. James Infirmary</td><td>false</td><td>get</td><td>oPxE9d7Wtqjy9WEZx</td><td>dTixApQCHxxheiLX3</td><td>/Organization?name=St. James Infirmary</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Label</b></td><td><b>Description</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>SourceId</b></td><td><b>TargetId</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Query directory for street address</td><td>/Location?address=456 Main Street</td><td>false</td><td>get</td><td>oPxE9d7Wtqjy9WEZx</td><td>dTixApQCHxxheiLX3</td><td>/Location?address=456 Main Street</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Label</b></td><td><b>Description</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>SourceId</b></td><td><b>TargetId</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Query directory for street address</td><td>/Location?address-postalcode=00014</td><td>false</td><td>get</td><td>oPxE9d7Wtqjy9WEZx</td><td>dTixApQCHxxheiLX3</td><td>/Location?address-postalcode=00014</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Label</b></td><td><b>Description</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>SourceId</b></td><td><b>TargetId</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Query directory for local services</td><td>/HealthcareService?category=emergency</td><td>false</td><td>get</td><td>oPxE9d7Wtqjy9WEZx</td><td>dTixApQCHxxheiLX3</td><td>/HealthcareService?category=emergency</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Label</b></td><td><b>Description</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>SourceId</b></td><td><b>TargetId</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Query directory for local services</td><td>/Endpoint?name=St. James</td><td>false</td><td>get</td><td>oPxE9d7Wtqjy9WEZx</td><td>dTixApQCHxxheiLX3</td><td>/Endpoint?name=St. James</td></tr></table></blockquote><blockquote><p><b>action</b></p><h3>Operations</h3><table class=\"grid\"><tr><td>-</td><td><b>Label</b></td><td><b>Description</b></td><td><b>EncodeRequestUrl</b></td><td><b>Method</b></td><td><b>SourceId</b></td><td><b>TargetId</b></td><td><b>Url</b></td></tr><tr><td>*</td><td>Query directory for physician</td><td>/Practitioner?name=Camron</td><td>false</td><td>get</td><td>oPxE9d7Wtqjy9WEZx</td><td>dTixApQCHxxheiLX3</td><td>/Practitioner?name=Camron</td></tr></table></blockquote></blockquote></div>"
   },
   "url": "http://example.org/ExampleScenario/FederatedQuery",
   "version": "0.1.7",
@@ -40,7 +40,7 @@
       "autocreate": true,
       "autodelete": true,
       "resource": {
-        "reference": "m6AJtyEk6sSsHWLjt",
+        "reference": "Organization/o6AJtyEk6sSsHWLjt",
         "display": "St. Jame’s Infirmary"
       }
     },
@@ -48,7 +48,7 @@
       "autocreate": true,
       "autodelete": true,
       "resource": {
-        "reference": "fZzusFYr3PBYyRnot",
+        "reference": "Practitioner/pZzusFYr3PBYyRnot",
         "display": "Allison Camron, MD"
       }
     },
@@ -56,7 +56,7 @@
       "autocreate": true,
       "autodelete": true,
       "resource": {
-        "reference": "l4bjaZGQfeNfhAEpb",
+        "reference": "Organization/o5sZhrXrLK9pXDGKX",
         "display": "456 Main Street Anytown CT 00014-1234"
       }
     },
@@ -64,7 +64,7 @@
       "autocreate": true,
       "autodelete": true,
       "resource": {
-        "reference": "hsEk35Ayonz755t6u",
+        "reference": "HealthcareService/hsEk35Ayonz755t6u",
         "display": "Emergency Medicine "
       }
     },
@@ -72,7 +72,7 @@
       "autocreate": true,
       "autodelete": true,
       "resource": {
-        "reference": "etKzBJvzbeHDZi7Gd",
+        "reference": "Endpoint/etKzBJvzbeHDZi7Gd",
         "display": "St. James Portal"
       }
     },
@@ -80,7 +80,7 @@
       "autocreate": true,
       "autodelete": true,
       "resource": {
-        "reference": "dTixApQCHxxheiLX3",
+        "reference": "Device/dXuinjribcN2ARYXv",
         "display": "Distributed App (DApp)"
       }
     },
@@ -88,7 +88,7 @@
       "autocreate": true,
       "autodelete": true,
       "resource": {
-        "reference": "oPxE9d7Wtqjy9WEZx",
+        "reference": "Device/dTixApQCHxxheiLX3",
         "display": "National Directory"
       }
     }
