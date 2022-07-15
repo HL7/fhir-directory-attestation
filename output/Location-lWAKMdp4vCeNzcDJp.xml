@@ -21,7 +21,7 @@
     </extension>
     <extension url="fromNetwork">
       <valueReference>
-        <reference value="Organization/AcmeofCTStdNet"/>
+        <reference value="Organization/o4XMGtrjTrN7mcctj"/>
       </valueReference>
     </extension>
   </extension>

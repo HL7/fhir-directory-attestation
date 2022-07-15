@@ -8,7 +8,7 @@ Usage: #example
 * language = #en-US
 * id = "rDAkiyGndx8FT5jpj"
 * extension[0].url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference"
-* extension[=].valueReference = Reference(Organization/AcmeofCTStdNet)
+* extension[=].valueReference = Reference(OrganizationAcmeofCTStdNet)
 * extension[+].extension[0].url = "code"
 * extension[=].extension[=].valueCodeableConcept = http://nucc.org/provider-taxonomy#207R00000X
 * extension[=].extension[+].url = "status"
@@ -17,8 +17,8 @@ Usage: #example
 * extension[=].extension[=].valueReference.display = "American Board of Internal Medicine"
 * extension[=].url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/qualification"
 * active = true
-* practitioner = Reference(Practitioner/HansSolo)
+* practitioner = Reference(PractitionerHansSolo)
 * code = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS#ph
 * specialty = http://nucc.org/provider-taxonomy#207R00000X "Internal Medicine Physician"
-* location = Reference(Location/HansSoloClinic)
-* healthcareService = Reference(HealthcareService/HansSoloService)
+* location = Reference(HansSoloClinic)
+* healthcareService = Reference(ServiceHansSolo)

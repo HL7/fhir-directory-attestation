@@ -19,14 +19,14 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"rDAkiyGndx8FT5jpj\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole</code></p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-HansSolo.html\">Practitioner/HansSolo</a></p><p><b>code</b>: ph <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ProviderRoleCS#ph)</span></p><p><b>specialty</b>: Internal Medicine Physician <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#207R00000X)</span></p><p><b>location</b>: <a href=\"Location-HansSoloClinic.html\">Location/HansSoloClinic</a></p><p><b>healthcareService</b>: <a href=\"HealthcareService-HansSoloService.html\">HealthcareService/HansSoloService</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"rDAkiyGndx8FT5jpj\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole</code></p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-p6x5NWQPoKgyTKjAk.html\">Practitioner/p6x5NWQPoKgyTKjAk</a> \" SOLO\"</p><p><b>code</b>: ph <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ProviderRoleCS#ph)</span></p><p><b>specialty</b>: Internal Medicine Physician <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#207R00000X)</span></p><p><b>location</b>: <a href=\"Location-lDj6WzsPaCdZsCyrP.html\">Location/lDj6WzsPaCdZsCyrP</a> \"OrgA CT Location 1\"</p><p><b>healthcareService</b>: <a href=\"HealthcareService-hsZchHy4Z3ufZw3tP.html\">HealthcareService/hsZchHy4Z3ufZw3tP</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference" ];
      fhir:Extension.valueReference [
-       fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/AcmeofCTStdNet>;
-       fhir:Reference.reference [ fhir:value "Organization/AcmeofCTStdNet" ]
+       fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4XMGtrjTrN7mcctj>;
+       fhir:Reference.reference [ fhir:value "Organization/o4XMGtrjTrN7mcctj" ]
      ]
   ], [
      fhir:index 1;
@@ -55,8 +55,8 @@
   ];
   fhir:PractitionerRole.active [ fhir:value "true"^^xsd:boolean];
   fhir:PractitionerRole.practitioner [
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/HansSolo>;
-     fhir:Reference.reference [ fhir:value "Practitioner/HansSolo" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/p6x5NWQPoKgyTKjAk>;
+     fhir:Reference.reference [ fhir:value "Practitioner/p6x5NWQPoKgyTKjAk" ]
   ];
   fhir:PractitionerRole.code [
      fhir:index 0;
@@ -77,22 +77,22 @@
   ];
   fhir:PractitionerRole.location [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Location/HansSoloClinic>;
-     fhir:Reference.reference [ fhir:value "Location/HansSoloClinic" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Location/lDj6WzsPaCdZsCyrP>;
+     fhir:Reference.reference [ fhir:value "Location/lDj6WzsPaCdZsCyrP" ]
   ];
   fhir:PractitionerRole.healthcareService [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/HealthcareService/HansSoloService>;
-     fhir:Reference.reference [ fhir:value "HealthcareService/HansSoloService" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/HealthcareService/hsZchHy4Z3ufZw3tP>;
+     fhir:Reference.reference [ fhir:value "HealthcareService/hsZchHy4Z3ufZw3tP" ]
   ] .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/AcmeofCTStdNet> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4XMGtrjTrN7mcctj> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/HansSolo> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/p6x5NWQPoKgyTKjAk> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Location/HansSoloClinic> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Location/lDj6WzsPaCdZsCyrP> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/HealthcareService/HansSoloService> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/HealthcareService/hsZchHy4Z3ufZw3tP> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

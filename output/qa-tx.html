@@ -5,10 +5,10 @@
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
 Accept-Charset: UTF-8
-Accept: application/fhir+xml
-Content-Type: application/fhir+xml;charset=UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
 
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;Parameters xmlns=&quot;http://hl7.org/fhir&quot;&gt;&lt;parameter&gt;&lt;name value=&quot;coding&quot;/&gt;&lt;valueCoding&gt;&lt;system value=&quot;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS&quot;/&gt;&lt;code value=&quot;rest-non-fhir&quot;/&gt;&lt;/valueCoding&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;displayLanguage&quot;/&gt;&lt;valueString value=&quot;en-US&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;default-to-latest-version&quot;/&gt;&lt;valueBoolean value=&quot;true&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;profile&quot;/&gt;&lt;resource&gt;&lt;Parameters&gt;&lt;parameter&gt;&lt;name value=&quot;x-system-cache-id&quot;/&gt;&lt;valueString value=&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;/&gt;&lt;/parameter&gt;&lt;/Parameters&gt;&lt;/resource&gt;&lt;/parameter&gt;&lt;/Parameters&gt;
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS&quot;,&quot;code&quot;:&quot;rest-non-fhir&quot;}},{&quot;name&quot;:&quot;displayLanguage&quot;,&quot;valueString&quot;:&quot;en-US&quot;},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;}]}}]}
 </pre>
 <pre>
 200
@@ -17,16 +17,16 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:678
-content-type:application/fhir+xml; charset=UTF-8
-date:Wed, 15 Jun 2022 16:17:54 GMT
-last-modified:Wed, 15 Jun 2022 16:17:53 GMT
+content-length:515
+content-type:application/fhir+json
+date:Fri, 15 Jul 2022 16:22:38 GMT
+last-modified:Fri, 15 Jul 2022 16:22:38 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:19-149959
+x-request-id:29-499971
 
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;Parameters xmlns=&quot;http://hl7.org/fhir&quot;&gt;&lt;parameter&gt;&lt;name value=&quot;result&quot;/&gt;&lt;valueBoolean value=&quot;false&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;message&quot;/&gt;&lt;valueString value=&quot;The code system &amp;apos;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS&amp;apos; is not known (encountered paired with code = &amp;apos;rest-non-fhir&amp;apos;); The code provided (http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS#rest-non-fhir) is not valid in the value set &amp;apos;All codes known to the system&amp;apos;&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;cause&quot;/&gt;&lt;valueString value=&quot;not-found&quot;/&gt;&lt;/parameter&gt;&lt;/Parameters&gt;
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code system 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS' is not known (encountered paired with code = 'rest-non-fhir'); The code provided (http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS#rest-non-fhir) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;not-found&quot;}]}
 </pre>
 <hr/><a name="l2"> </a>
 <p>#2</p>
@@ -34,10 +34,10 @@ x-request-id:19-149959
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
 Accept-Charset: UTF-8
-Accept: application/fhir+xml
-Content-Type: application/fhir+xml;charset=UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
 
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;Parameters xmlns=&quot;http://hl7.org/fhir&quot;&gt;&lt;parameter&gt;&lt;name value=&quot;coding&quot;/&gt;&lt;valueCoding&gt;&lt;system value=&quot;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS&quot;/&gt;&lt;code value=&quot;NA&quot;/&gt;&lt;/valueCoding&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;displayLanguage&quot;/&gt;&lt;valueString value=&quot;en-US&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;default-to-latest-version&quot;/&gt;&lt;valueBoolean value=&quot;true&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;profile&quot;/&gt;&lt;resource&gt;&lt;Parameters&gt;&lt;parameter&gt;&lt;name value=&quot;x-system-cache-id&quot;/&gt;&lt;valueString value=&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;/&gt;&lt;/parameter&gt;&lt;/Parameters&gt;&lt;/resource&gt;&lt;/parameter&gt;&lt;/Parameters&gt;
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS&quot;,&quot;code&quot;:&quot;NA&quot;}},{&quot;name&quot;:&quot;displayLanguage&quot;,&quot;valueString&quot;:&quot;en-US&quot;},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;}]}}]}
 </pre>
 <pre>
 200
@@ -46,16 +46,16 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:650
-content-type:application/fhir+xml; charset=UTF-8
-date:Wed, 15 Jun 2022 16:17:54 GMT
-last-modified:Wed, 15 Jun 2022 16:17:54 GMT
+content-length:487
+content-type:application/fhir+json
+date:Fri, 15 Jul 2022 16:22:38 GMT
+last-modified:Fri, 15 Jul 2022 16:22:38 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:19-149960
+x-request-id:29-499972
 
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;Parameters xmlns=&quot;http://hl7.org/fhir&quot;&gt;&lt;parameter&gt;&lt;name value=&quot;result&quot;/&gt;&lt;valueBoolean value=&quot;false&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;message&quot;/&gt;&lt;valueString value=&quot;The code system &amp;apos;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS&amp;apos; is not known (encountered paired with code = &amp;apos;NA&amp;apos;); The code provided (http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS#NA) is not valid in the value set &amp;apos;All codes known to the system&amp;apos;&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;cause&quot;/&gt;&lt;valueString value=&quot;not-found&quot;/&gt;&lt;/parameter&gt;&lt;/Parameters&gt;
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code system 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS' is not known (encountered paired with code = 'NA'); The code provided (http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS#NA) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;not-found&quot;}]}
 </pre>
 <hr/><a name="l3"> </a>
 <p>#3</p>
@@ -63,24 +63,28 @@ x-request-id:19-149960
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
 Accept-Charset: UTF-8
-Accept: application/fhir+xml
-Content-Type: application/fhir+xml;charset=UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
 
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;Parameters xmlns=&quot;http://hl7.org/fhir&quot;&gt;&lt;parameter&gt;&lt;name value=&quot;coding&quot;/&gt;&lt;valueCoding&gt;&lt;system value=&quot;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS&quot;/&gt;&lt;code value=&quot;emerg&quot;/&gt;&lt;/valueCoding&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;displayLanguage&quot;/&gt;&lt;valueString value=&quot;en-US&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;default-to-latest-version&quot;/&gt;&lt;valueBoolean value=&quot;true&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;profile&quot;/&gt;&lt;resource&gt;&lt;Parameters&gt;&lt;parameter&gt;&lt;name value=&quot;x-system-cache-id&quot;/&gt;&lt;valueString value=&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;/&gt;&lt;/parameter&gt;&lt;/Parameters&gt;&lt;/resource&gt;&lt;/parameter&gt;&lt;/Parameters&gt;
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS&quot;,&quot;code&quot;:&quot;emerg&quot;}},{&quot;name&quot;:&quot;displayLanguage&quot;,&quot;valueString&quot;:&quot;en-US&quot;},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;}]}}]}
 </pre>
 <pre>
 200
 access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
 access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
 connection:keep-alive
-content-length:668
-content-type:application/fhir+xml
-date:Wed, 15 Jun 2022 16:17:54 GMT
+content-length:505
+content-type:application/fhir+json
+date:Fri, 15 Jul 2022 16:22:38 GMT
+last-modified:Fri, 15 Jul 2022 16:22:38 GMT
+pragma:no-cache
 server:nginx
-x-request-id:19-149961
+x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
+x-request-id:29-499973
 
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;Parameters xmlns=&quot;http://hl7.org/fhir&quot;&gt;&lt;parameter&gt;&lt;name value=&quot;result&quot;/&gt;&lt;valueBoolean value=&quot;false&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;message&quot;/&gt;&lt;valueString value=&quot;The code system &amp;apos;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS&amp;apos; is not known (encountered paired with code = &amp;apos;emerg&amp;apos;); The code provided (http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS#emerg) is not valid in the value set &amp;apos;All codes known to the system&amp;apos;&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;cause&quot;/&gt;&lt;valueString value=&quot;not-found&quot;/&gt;&lt;/parameter&gt;&lt;/Parameters&gt;
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code system 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS' is not known (encountered paired with code = 'emerg'); The code provided (http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS#emerg) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;not-found&quot;}]}
 </pre>
 <hr/><a name="l4"> </a>
 <p>#4</p>
@@ -88,10 +92,10 @@ x-request-id:19-149961
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
 Accept-Charset: UTF-8
-Accept: application/fhir+xml
-Content-Type: application/fhir+xml;charset=UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
 
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;Parameters xmlns=&quot;http://hl7.org/fhir&quot;&gt;&lt;parameter&gt;&lt;name value=&quot;coding&quot;/&gt;&lt;valueCoding&gt;&lt;system value=&quot;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS&quot;/&gt;&lt;code value=&quot;outpatient&quot;/&gt;&lt;/valueCoding&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;displayLanguage&quot;/&gt;&lt;valueString value=&quot;en-US&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;default-to-latest-version&quot;/&gt;&lt;valueBoolean value=&quot;true&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;profile&quot;/&gt;&lt;resource&gt;&lt;Parameters&gt;&lt;parameter&gt;&lt;name value=&quot;x-system-cache-id&quot;/&gt;&lt;valueString value=&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;/&gt;&lt;/parameter&gt;&lt;/Parameters&gt;&lt;/resource&gt;&lt;/parameter&gt;&lt;/Parameters&gt;
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS&quot;,&quot;code&quot;:&quot;outpatient&quot;}},{&quot;name&quot;:&quot;displayLanguage&quot;,&quot;valueString&quot;:&quot;en-US&quot;},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;}]}}]}
 </pre>
 <pre>
 200
@@ -100,16 +104,16 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:682
-content-type:application/fhir+xml; charset=UTF-8
-date:Wed, 15 Jun 2022 16:17:54 GMT
-last-modified:Wed, 15 Jun 2022 16:17:54 GMT
+content-length:519
+content-type:application/fhir+json
+date:Fri, 15 Jul 2022 16:22:38 GMT
+last-modified:Fri, 15 Jul 2022 16:22:38 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:19-149962
+x-request-id:29-499974
 
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;Parameters xmlns=&quot;http://hl7.org/fhir&quot;&gt;&lt;parameter&gt;&lt;name value=&quot;result&quot;/&gt;&lt;valueBoolean value=&quot;false&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;message&quot;/&gt;&lt;valueString value=&quot;The code system &amp;apos;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS&amp;apos; is not known (encountered paired with code = &amp;apos;outpatient&amp;apos;); The code provided (http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS#outpatient) is not valid in the value set &amp;apos;All codes known to the system&amp;apos;&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;cause&quot;/&gt;&lt;valueString value=&quot;not-found&quot;/&gt;&lt;/parameter&gt;&lt;/Parameters&gt;
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code system 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS' is not known (encountered paired with code = 'outpatient'); The code provided (http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS#outpatient) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;not-found&quot;}]}
 </pre>
 <hr/><a name="l5"> </a>
 <p>#5</p>
@@ -117,10 +121,10 @@ x-request-id:19-149962
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
 Accept-Charset: UTF-8
-Accept: application/fhir+xml
-Content-Type: application/fhir+xml;charset=UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
 
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;Parameters xmlns=&quot;http://hl7.org/fhir&quot;&gt;&lt;parameter&gt;&lt;name value=&quot;coding&quot;/&gt;&lt;valueCoding&gt;&lt;system value=&quot;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS&quot;/&gt;&lt;code value=&quot;ph&quot;/&gt;&lt;/valueCoding&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;displayLanguage&quot;/&gt;&lt;valueString value=&quot;en-US&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;default-to-latest-version&quot;/&gt;&lt;valueBoolean value=&quot;true&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;profile&quot;/&gt;&lt;resource&gt;&lt;Parameters&gt;&lt;parameter&gt;&lt;name value=&quot;x-system-cache-id&quot;/&gt;&lt;valueString value=&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;/&gt;&lt;/parameter&gt;&lt;/Parameters&gt;&lt;/resource&gt;&lt;/parameter&gt;&lt;/Parameters&gt;
+{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;coding&quot;,&quot;valueCoding&quot;:{&quot;system&quot;:&quot;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS&quot;,&quot;code&quot;:&quot;ph&quot;}},{&quot;name&quot;:&quot;displayLanguage&quot;,&quot;valueString&quot;:&quot;en-US&quot;},{&quot;name&quot;:&quot;default-to-latest-version&quot;,&quot;valueBoolean&quot;:true},{&quot;name&quot;:&quot;profile&quot;,&quot;resource&quot;:{&quot;resourceType&quot;:&quot;Parameters&quot;,&quot;parameter&quot;:[{&quot;name&quot;:&quot;x-system-cache-id&quot;,&quot;valueString&quot;:&quot;dc8fd4bc-091a-424a-8a3b-6198ef146891&quot;}]}}]}
 </pre>
 <pre>
 200
@@ -129,15 +133,15 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:636
-content-type:application/fhir+xml; charset=UTF-8
-date:Wed, 15 Jun 2022 16:17:54 GMT
-last-modified:Wed, 15 Jun 2022 16:17:54 GMT
+content-length:473
+content-type:application/fhir+json
+date:Fri, 15 Jul 2022 16:22:39 GMT
+last-modified:Fri, 15 Jul 2022 16:22:38 GMT
 pragma:no-cache
 server:nginx
 x-gdpr-disclosure:All access to this server is logged as AuditEvent Resources, and these store your ip address (and logged in user, if one exists). Also, your IP address is logged with Google Analytics for building geomaps of server usage. Your continued use of the API constitutes agreement to these terms. See [link] for erasure requests
-x-request-id:19-149963
+x-request-id:29-499975
 
-&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;Parameters xmlns=&quot;http://hl7.org/fhir&quot;&gt;&lt;parameter&gt;&lt;name value=&quot;result&quot;/&gt;&lt;valueBoolean value=&quot;false&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;message&quot;/&gt;&lt;valueString value=&quot;The code system &amp;apos;http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS&amp;apos; is not known (encountered paired with code = &amp;apos;ph&amp;apos;); The code provided (http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS#ph) is not valid in the value set &amp;apos;All codes known to the system&amp;apos;&quot;/&gt;&lt;/parameter&gt;&lt;parameter&gt;&lt;name value=&quot;cause&quot;/&gt;&lt;valueString value=&quot;not-found&quot;/&gt;&lt;/parameter&gt;&lt;/Parameters&gt;
+{&quot;resourceType&quot; : &quot;Parameters&quot;,&quot;parameter&quot; : [{&quot;name&quot; : &quot;result&quot;,&quot;valueBoolean&quot; : false},{&quot;name&quot; : &quot;message&quot;,&quot;valueString&quot; : &quot;The code system 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS' is not known (encountered paired with code = 'ph'); The code provided (http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS#ph) is not valid in the value set 'All codes known to the system'&quot;},{&quot;name&quot; : &quot;cause&quot;,&quot;valueString&quot; : &quot;not-found&quot;}]}
 </pre>
 </head></html>

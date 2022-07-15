@@ -19,7 +19,7 @@ Usage: #example
 * extension.extension[=].valueCodeableConcept = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/VirtualModalitiesCS#phone
 * extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/delivery-method"
 * active = true
-* providedBy = Reference(Organization/o7C3dwiGT6Eatxkyb)
+* providedBy = Reference(OrganizationPharmChain)
 * category = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS#pharm "Pharmacy"
 * specialty = http://nucc.org/provider-taxonomy#3336M0002X "Mail Order Pharmacy"
 * name = "Mail Order Pharmacy by OrgA"

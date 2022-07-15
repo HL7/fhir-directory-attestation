@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/fhir-directory-attestation/CodeSystem/ConsentCS defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">protect<a name="ConsentCS-protect"> </a></td><td>Protect</td><td>The data (or subset of data) provided should be only made available to the people, or types of people explicitly declared in the consent.</td></tr></table></div>
   </text>
   <url value="http://hl7.org/fhir/us/fhir-directory-attestation/CodeSystem/ConsentCS"/>
-  <version value="0.1.6"/>
+  <version value="0.1.7"/>
   <name value="ConsentCS"/>
   <title value="NatDir Consent"/>
   <status value="active"/>
-  <date value="2022-06-15T12:17:27-04:00"/>
+  <date value="2022-07-15T12:22:10-04:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>

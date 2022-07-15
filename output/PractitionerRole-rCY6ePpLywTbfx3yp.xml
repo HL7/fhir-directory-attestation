@@ -8,16 +8,16 @@
   </meta>
   <language value="en-US"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "rCY6ePpLywTbfx3yp" Updated "2020-07-07 01:26:22+0000"  (Language "en-US") </p><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole</code></p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-Counselor.html">Practitioner/Counselor</a></p><p><b>code</b>: Counselor <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (ProviderRoleCS#co)</span></p><p><b>specialty</b>: Professional Counselor <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (provider-taxonomy#101YP2500X)</span></p><p><b>healthcareService</b>: <a href="HealthcareService-VirtualCounselService.html">HealthcareService/VirtualCounselService</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "rCY6ePpLywTbfx3yp" Updated "2020-07-07 01:26:22+0000"  (Language "en-US") </p><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole</code></p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-pBvMREMS3HpzyJgwa.html">Practitioner/pBvMREMS3HpzyJgwa</a> " SONG"</p><p><b>code</b>: Counselor <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (ProviderRoleCS#co)</span></p><p><b>specialty</b>: Professional Counselor <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (provider-taxonomy#101YP2500X)</span></p><p><b>healthcareService</b>: <a href="HealthcareService-hsn93H9RbKTSH57AY.html">HealthcareService/hsn93H9RbKTSH57AY</a></p></div>
   </text>
   <extension url="http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference">
     <valueReference>
-      <reference value="Organization/AcmeofCTStdNet"/>
+      <reference value="Organization/o4XMGtrjTrN7mcctj"/>
     </valueReference>
   </extension>
   <active value="true"/>
   <practitioner>
-    <reference value="Practitioner/Counselor"/>
+    <reference value="Practitioner/pBvMREMS3HpzyJgwa"/>
   </practitioner>
   <code>
     <coding>
@@ -34,6 +34,6 @@
     </coding>
   </specialty>
   <healthcareService>
-    <reference value="HealthcareService/VirtualCounselService"/>
+    <reference value="HealthcareService/hsn93H9RbKTSH57AY"/>
   </healthcareService>
 </PractitionerRole>

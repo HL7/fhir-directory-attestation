@@ -19,20 +19,20 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"rCY6ePpLywTbfx3yp\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole</code></p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-Counselor.html\">Practitioner/Counselor</a></p><p><b>code</b>: Counselor <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ProviderRoleCS#co)</span></p><p><b>specialty</b>: Professional Counselor <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#101YP2500X)</span></p><p><b>healthcareService</b>: <a href=\"HealthcareService-VirtualCounselService.html\">HealthcareService/VirtualCounselService</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"rCY6ePpLywTbfx3yp\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole</code></p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href=\"Practitioner-pBvMREMS3HpzyJgwa.html\">Practitioner/pBvMREMS3HpzyJgwa</a> \" SONG\"</p><p><b>code</b>: Counselor <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ProviderRoleCS#co)</span></p><p><b>specialty</b>: Professional Counselor <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#101YP2500X)</span></p><p><b>healthcareService</b>: <a href=\"HealthcareService-hsn93H9RbKTSH57AY.html\">HealthcareService/hsn93H9RbKTSH57AY</a></p></div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference" ];
      fhir:Extension.valueReference [
-       fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/AcmeofCTStdNet>;
-       fhir:Reference.reference [ fhir:value "Organization/AcmeofCTStdNet" ]
+       fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4XMGtrjTrN7mcctj>;
+       fhir:Reference.reference [ fhir:value "Organization/o4XMGtrjTrN7mcctj" ]
      ]
   ];
   fhir:PractitionerRole.active [ fhir:value "true"^^xsd:boolean];
   fhir:PractitionerRole.practitioner [
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/Counselor>;
-     fhir:Reference.reference [ fhir:value "Practitioner/Counselor" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/pBvMREMS3HpzyJgwa>;
+     fhir:Reference.reference [ fhir:value "Practitioner/pBvMREMS3HpzyJgwa" ]
   ];
   fhir:PractitionerRole.code [
      fhir:index 0;
@@ -54,15 +54,15 @@
   ];
   fhir:PractitionerRole.healthcareService [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/HealthcareService/VirtualCounselService>;
-     fhir:Reference.reference [ fhir:value "HealthcareService/VirtualCounselService" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/HealthcareService/hsn93H9RbKTSH57AY>;
+     fhir:Reference.reference [ fhir:value "HealthcareService/hsn93H9RbKTSH57AY" ]
   ] .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/AcmeofCTStdNet> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4XMGtrjTrN7mcctj> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/Counselor> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Practitioner/pBvMREMS3HpzyJgwa> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/HealthcareService/VirtualCounselService> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/HealthcareService/hsn93H9RbKTSH57AY> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

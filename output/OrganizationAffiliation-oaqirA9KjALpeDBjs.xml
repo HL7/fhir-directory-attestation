@@ -8,14 +8,14 @@
   </meta>
   <language value="en-US"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "oaqirA9KjALpeDBjs" Updated "2020-07-07 01:26:22+0000"  (Language "en-US") </p><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation</code></p></div><p><b>active</b>: true</p><p><b>participatingOrganization</b>: <a href="Organization-HamiltonClinic.html">Organization/HamiltonClinic</a></p><p><b>network</b>: <a href="Organization-AcmeofCTStdNet.html">Organization/AcmeofCTStdNet</a></p><p><b>code</b>: outpatient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (OrganizationAffiliationRoleCS#outpatient)</span></p><p><b>location</b>: <a href="Location-HospLoc1.html">Location/HospLoc1</a></p><p><b>healthcareService</b>: <a href="HealthcareService-HamiltonClinicServices.html">HealthcareService/HamiltonClinicServices</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "oaqirA9KjALpeDBjs" Updated "2020-07-07 01:26:22+0000"  (Language "en-US") </p><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-OrganizationAffiliation</code></p></div><p><b>active</b>: true</p><p><b>participatingOrganization</b>: <a href="Organization-o5sZhrXrLK9pXDGKX.html">Organization/o5sZhrXrLK9pXDGKX</a> "Hamilton Clinic"</p><p><b>network</b>: <a href="Organization-o4XMGtrjTrN7mcctj.html">Organization/o4XMGtrjTrN7mcctj</a> "ACME CT Preferred Provider Network"</p><p><b>code</b>: outpatient <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (OrganizationAffiliationRoleCS#outpatient)</span></p><p><b>location</b>: <a href="Location-lsH38uL5J3eYEQ5hJ.html">Location/lsH38uL5J3eYEQ5hJ</a> "Hartford Hospital Location 1"</p><p><b>healthcareService</b>: <a href="HealthcareService-hspy9XZcsSMcY3DJc.html">HealthcareService/hspy9XZcsSMcY3DJc</a></p></div>
   </text>
   <active value="true"/>
   <participatingOrganization>
-    <reference value="Organization/HamiltonClinic"/>
+    <reference value="Organization/o5sZhrXrLK9pXDGKX"/>
   </participatingOrganization>
   <network>
-    <reference value="Organization/AcmeofCTStdNet"/>
+    <reference value="Organization/o4XMGtrjTrN7mcctj"/>
   </network>
   <code>
     <coding>
@@ -24,9 +24,9 @@
     </coding>
   </code>
   <location>
-    <reference value="Location/HospLoc1"/>
+    <reference value="Location/lsH38uL5J3eYEQ5hJ"/>
   </location>
   <healthcareService>
-    <reference value="HealthcareService/HamiltonClinicServices"/>
+    <reference value="HealthcareService/hspy9XZcsSMcY3DJc"/>
   </healthcareService>
 </OrganizationAffiliation>

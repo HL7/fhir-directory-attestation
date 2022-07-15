@@ -11,11 +11,11 @@ Usage: #example
 * extension.extension.valueCodeableConcept = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/DeliveryMethodCS#physical
 * extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/delivery-method"
 * active = true
-* providedBy = Reference(Organization/o7C3dwiGT6Eatxkyb)
+* providedBy = Reference(OrganizationPharmChain)
 * category = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS#pharm "Pharmacy"
 * specialty = http://nucc.org/provider-taxonomy#3336C0004X "Compounding Pharmacy"
 * specialty.text = "Compounding Pharmacy"
-* location = Reference(Location/PharmLoc1)
+* location = Reference(PharmLoc1)
 * name = "Compounding Pharmacy by OrgA"
 * telecom.extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary"
-* telecom.extension.valueReference = Reference(Location/PharmLoc1)
+* telecom.extension.valueReference = Reference(PharmLoc1)

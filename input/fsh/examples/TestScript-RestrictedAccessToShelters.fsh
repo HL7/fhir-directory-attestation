@@ -16,12 +16,12 @@ Usage: #definition
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[=].resource.type = "Location"
-* fixture[=].resource = Reference(lyW5mPW2nf3DHC7h6) "OrgA CT Location 2"
+* fixture[=].resource = Reference(PharmLoc2) "OrgA CT Location 2" 
 * fixture[+].id = "43552bb8-5e5e-58e2-b233-36727b1d9d87"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[=].resource.type = "Consent"
-* fixture[=].resource = Reference(cotkDnGQjpHijDsRR)
+* fixture[=].resource = Reference(WomensShelterScenario)
 * test[0].id = "4222467a-7bc0-54e4-9879-88fa0c05c412"
 * test[=].name = "Social Worker - Access Role"
 * test[=].action[0].operation.method = #put

@@ -13,11 +13,11 @@
     <valueCode value="business"/>
   </extension>
   <url value="http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-OrganizationAffiliation"/>
-  <version value="0.1.6"/>
+  <version value="0.1.7"/>
   <name value="NatlDirAttestOrganizationAfflication"/>
   <title value="NatDir OrganizationAffiliation"/>
   <status value="active"/>
-  <date value="2022-06-15T12:17:27-04:00"/>
+  <date value="2022-07-15T12:22:10-04:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>
@@ -844,6 +844,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <binding>
@@ -936,6 +937,7 @@
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
+      <mustSupport value="true"/>
       <isModifier value="false"/>
       <isSummary value="true"/>
       <mapping>

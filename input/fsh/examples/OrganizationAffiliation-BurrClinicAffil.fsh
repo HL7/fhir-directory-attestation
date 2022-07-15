@@ -8,9 +8,9 @@ Usage: #example
 * language = #en-US
 * id = "oa3oxC4yKJnB2E7on"
 * active = true
-* organization = Reference(Organization/o68Sau8tELE3GDnqR)
-* participatingOrganization = Reference(Organization/BurrClinic)
-* network = Reference(Organization/AcmeofCTStdNet)
+* organization = Reference(OrganizationHospital)
+* participatingOrganization = Reference(OrganizationBurrClinic)
+* network = Reference(OrganizationAcmeofCTStdNet)
 * code = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS#outpatient
-* location = Reference(Location/HospLoc2)
-* healthcareService = Reference(HealthcareService/BurrClinicServices)
+* location = Reference(HospLoc2)
+* healthcareService = Reference(ServiceBurrClinic)

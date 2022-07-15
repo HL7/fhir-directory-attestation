@@ -10,8 +10,8 @@ Usage: #example
 * active = true
 * type = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS#ntwk "Network"
 * name = "ACME CT Preferred Provider Network"
-* partOf = Reference(Organization/Acme)
+* partOf = Reference(OrganizationAcme)
 * contact.name.family = "Kawasaki"
 * contact.name.given = "Jane"
 * contact.telecom.extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary"
-* contact.telecom.extension.valueReference = Reference(Organization/Acme)
+* contact.telecom.extension.valueReference = Reference(OrganizationAcme)

@@ -11,7 +11,7 @@ Usage: #example
 * extension.extension.valueCodeableConcept = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/DeliveryMethodCS#physical
 * extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/delivery-method"
 * active = true
-* providedBy = Reference(Organization/o68Sau8tELE3GDnqR)
+* providedBy = Reference(OrganizationHospital)
 * category = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS#emerg
 * specialty = http://nucc.org/provider-taxonomy#207P00000X "Emergency Medicine Physician"
-* location = Reference(Location/HospLoc1)
+* location = Reference(HospLoc1)

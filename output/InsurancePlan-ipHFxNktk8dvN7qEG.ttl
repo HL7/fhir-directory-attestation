@@ -19,7 +19,7 @@
   fhir:Resource.language [ fhir:value "en-US"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"ipHFxNktk8dvN7qEG\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-InsurancePlan</code></p></div><p><b>status</b>: active</p><p><b>type</b>: Qualified Health Plan <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (InsuranceProductTypeCS#qhp)</span></p><p><b>name</b>: Acme of CT QHP Silver</p><p><b>ownedBy</b>: <a href=\"Organization-Acme.html\">Organization/Acme</a></p><p><b>administeredBy</b>: <a href=\"Organization-Acme.html\">Organization/Acme</a></p><p><b>coverageArea</b>: <a href=\"Location-StateOfCTLocation.html\">Location/StateOfCTLocation</a></p><p><b>endpoint</b>: <a href=\"Endpoint-AcmeOfCTPortalEndpoint.html\">Endpoint/AcmeOfCTPortalEndpoint</a></p><p><b>network</b>: </p><ul><li><a href=\"Organization-AcmeofCTStdNet.html\">Organization/AcmeofCTStdNet</a></li><li><a href=\"Organization-AcmeofCTPremNet.html\">Organization/AcmeofCTPremNet</a></li></ul><h3>Plans</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td></tr><tr><td>*</td><td>Silver-QHP <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (InsurancePlanTypeCS#silver)</span></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"ipHFxNktk8dvN7qEG\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-InsurancePlan</code></p></div><p><b>status</b>: active</p><p><b>type</b>: Qualified Health Plan <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (InsuranceProductTypeCS#qhp)</span></p><p><b>name</b>: Acme of CT QHP Silver</p><p><b>ownedBy</b>: <a href=\"Organization-o4aKCfZSaoxLrDPbA.html\">Organization/o4aKCfZSaoxLrDPbA</a> \"Acme of CT\"</p><p><b>administeredBy</b>: <a href=\"Organization-o4aKCfZSaoxLrDPbA.html\">Organization/o4aKCfZSaoxLrDPbA</a> \"Acme of CT\"</p><p><b>coverageArea</b>: <a href=\"Location-l3ParyXfseYrfcpJN.html\">Location/l3ParyXfseYrfcpJN</a> \"State of Conneticut Area\"</p><p><b>endpoint</b>: <a href=\"Endpoint-etKzBJvzbeHDZi7Gd.html\">Endpoint/etKzBJvzbeHDZi7Gd</a> \"Endpoint for St James Hospital\"</p><p><b>network</b>: </p><ul><li><a href=\"Organization-o4XMGtrjTrN7mcctj.html\">Organization/o4XMGtrjTrN7mcctj</a> \"ACME CT Preferred Provider Network\"</li><li><a href=\"Organization-o4gQrsHZfpYNoohzD.html\">Organization/o4gQrsHZfpYNoohzD</a> \"ACME CT Premium Preferred Provider Network\"</li></ul><h3>Plans</h3><table class=\"grid\"><tr><td>-</td><td><b>Type</b></td></tr><tr><td>*</td><td>Silver-QHP <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (InsurancePlanTypeCS#silver)</span></td></tr></table></div>"
   ];
   fhir:InsurancePlan.status [ fhir:value "active"];
   fhir:InsurancePlan.type [
@@ -33,31 +33,31 @@
   ];
   fhir:InsurancePlan.name [ fhir:value "Acme of CT QHP Silver"];
   fhir:InsurancePlan.ownedBy [
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/Acme>;
-     fhir:Reference.reference [ fhir:value "Organization/Acme" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4aKCfZSaoxLrDPbA>;
+     fhir:Reference.reference [ fhir:value "Organization/o4aKCfZSaoxLrDPbA" ]
   ];
   fhir:InsurancePlan.administeredBy [
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/Acme>;
-     fhir:Reference.reference [ fhir:value "Organization/Acme" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4aKCfZSaoxLrDPbA>;
+     fhir:Reference.reference [ fhir:value "Organization/o4aKCfZSaoxLrDPbA" ]
   ];
   fhir:InsurancePlan.coverageArea [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Location/StateOfCTLocation>;
-     fhir:Reference.reference [ fhir:value "Location/StateOfCTLocation" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Location/l3ParyXfseYrfcpJN>;
+     fhir:Reference.reference [ fhir:value "Location/l3ParyXfseYrfcpJN" ]
   ];
   fhir:InsurancePlan.endpoint [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Endpoint/AcmeOfCTPortalEndpoint>;
-     fhir:Reference.reference [ fhir:value "Endpoint/AcmeOfCTPortalEndpoint" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Endpoint/etKzBJvzbeHDZi7Gd>;
+     fhir:Reference.reference [ fhir:value "Endpoint/etKzBJvzbeHDZi7Gd" ]
   ];
   fhir:InsurancePlan.network [
      fhir:index 0;
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/AcmeofCTStdNet>;
-     fhir:Reference.reference [ fhir:value "Organization/AcmeofCTStdNet" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4XMGtrjTrN7mcctj>;
+     fhir:Reference.reference [ fhir:value "Organization/o4XMGtrjTrN7mcctj" ]
   ], [
      fhir:index 1;
-     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/AcmeofCTPremNet>;
-     fhir:Reference.reference [ fhir:value "Organization/AcmeofCTPremNet" ]
+     fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4gQrsHZfpYNoohzD>;
+     fhir:Reference.reference [ fhir:value "Organization/o4gQrsHZfpYNoohzD" ]
   ];
   fhir:InsurancePlan.plan [
      fhir:index 0;
@@ -71,15 +71,15 @@
      ]
   ] .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/Acme> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4aKCfZSaoxLrDPbA> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Location/StateOfCTLocation> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Location/l3ParyXfseYrfcpJN> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Endpoint/AcmeOfCTPortalEndpoint> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Endpoint/etKzBJvzbeHDZi7Gd> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/AcmeofCTStdNet> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4XMGtrjTrN7mcctj> a fhir:us .
 
-<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/AcmeofCTPremNet> a fhir:us .
+<http://hl7.org/fhir/us/fhir-directory-attestation/Organization/o4gQrsHZfpYNoohzD> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

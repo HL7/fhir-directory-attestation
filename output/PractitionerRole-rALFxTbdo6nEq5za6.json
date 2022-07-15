@@ -10,19 +10,19 @@
   "language": "en-US",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"rALFxTbdo6nEq5za6\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole</code></p></div><p><b>active</b>: true</p><p><b>organization</b>: <a href=\"Organization-CancerClinic.html\">Organization/CancerClinic</a></p><p><b>code</b>: ph <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ProviderRoleCS#ph)</span></p><p><b>specialty</b>: Internal Medicine Physician <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#207R00000X)</span></p><p><b>location</b>: <a href=\"Location-HospLoc2.html\">Location/HospLoc2</a></p><p><b>healthcareService</b>: <a href=\"HealthcareService-BurrClinicServices.html\">HealthcareService/BurrClinicServices</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"rALFxTbdo6nEq5za6\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole</code></p></div><p><b>active</b>: true</p><p><b>organization</b>: <a href=\"Organization-o5q79rZWvYNLtPK8D.html\">Organization/o5q79rZWvYNLtPK8D</a> \"Burr Clinic\"</p><p><b>code</b>: ph <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (ProviderRoleCS#ph)</span></p><p><b>specialty</b>: Internal Medicine Physician <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#207R00000X)</span></p><p><b>location</b>: <a href=\"Location-lNxvHyHMFya5Bym6r.html\">Location/lNxvHyHMFya5Bym6r</a> \"Hartford Hospital Location 2\"</p><p><b>healthcareService</b>: <a href=\"HealthcareService-hsMPDyHBr9gABHb2n.html\">HealthcareService/hsMPDyHBr9gABHb2n</a></p></div>"
   },
   "extension": [
     {
       "url": "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference",
       "valueReference": {
-        "reference": "Organization/AcmeofCTStdNet"
+        "reference": "Organization/o4XMGtrjTrN7mcctj"
       }
     }
   ],
   "active": true,
   "organization": {
-    "reference": "Organization/CancerClinic"
+    "reference": "Organization/o5q79rZWvYNLtPK8D"
   },
   "code": [
     {
@@ -47,12 +47,12 @@
   ],
   "location": [
     {
-      "reference": "Location/HospLoc2"
+      "reference": "Location/lNxvHyHMFya5Bym6r"
     }
   ],
   "healthcareService": [
     {
-      "reference": "HealthcareService/BurrClinicServices"
+      "reference": "HealthcareService/hsMPDyHBr9gABHb2n"
     }
   ]
 }

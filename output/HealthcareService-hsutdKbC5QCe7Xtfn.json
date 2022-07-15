@@ -10,7 +10,7 @@
   "language": "en-US",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"hsutdKbC5QCe7Xtfn\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService</code></p></div><p><b>active</b>: true</p><p><b>providedBy</b>: <a href=\"Organization-CancerClinic.html\">Organization/CancerClinic</a></p><p><b>category</b>: outpat <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (HealthcareServiceCategoryCS#outpat)</span></p><p><b>specialty</b>: Medical Oncology Physician <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#207RX0202X)</span></p><p><b>location</b>: <a href=\"Location-CancerClinicLoc.html\">Location/CancerClinicLoc</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"hsutdKbC5QCe7Xtfn\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService</code></p></div><p><b>active</b>: true</p><p><b>providedBy</b>: <a href=\"Organization-o5q79rZWvYNLtPK8D.html\">Organization/o5q79rZWvYNLtPK8D</a> \"Burr Clinic\"</p><p><b>category</b>: outpat <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (HealthcareServiceCategoryCS#outpat)</span></p><p><b>specialty</b>: Medical Oncology Physician <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (provider-taxonomy#207RX0202X)</span></p><p><b>location</b>: <a href=\"Location-l4bjaZGQfeNfhAEpb.html\">Location/l4bjaZGQfeNfhAEpb</a> \"Cancer Clinic\"</p></div>"
   },
   "extension": [
     {
@@ -32,7 +32,7 @@
   ],
   "active": true,
   "providedBy": {
-    "reference": "Organization/CancerClinic"
+    "reference": "Organization/o5q79rZWvYNLtPK8D"
   },
   "category": [
     {
@@ -57,7 +57,7 @@
   ],
   "location": [
     {
-      "reference": "Location/CancerClinicLoc"
+      "reference": "Location/l4bjaZGQfeNfhAEpb"
     }
   ]
 }

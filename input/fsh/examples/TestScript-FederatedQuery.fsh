@@ -11,30 +11,30 @@ Usage: #definition
 * date = "2022-06-03T18:08:03.756Z"
 * publisher = ""
 * version = "0.0.1"
-* fixture[0].resource = Reference(m6AJtyEk6sSsHWLjt) "St. Jame’s Infirmary"
+* fixture[0].resource = Reference(Organization-StJames) "St. Jame’s Infirmary"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
-* fixture[+].resource = Reference(fZzusFYr3PBYyRnot) "Allison Camron, MD"
+* fixture[+].resource = Reference(PractitionerAllisonCamron) "Allison Camron, MD"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[+].resource.type = "Location"
-* fixture[=].resource = Reference(l4bjaZGQfeNfhAEpb) "456 Main Street Anytown CT 00014-1234"
+* fixture[=].resource = Reference(OrganizationHamiltonClinic) "456 Main Street Anytown CT 00014-1234"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[+].resource.type = "HealthcareService"
-* fixture[=].resource = Reference(hsEk35Ayonz755t6u) "Emergency Medicine "
+* fixture[=].resource = Reference(ServiceHospER) "Emergency Medicine "
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[+].resource.type = "Endpoint"
-* fixture[=].resource = Reference(etKzBJvzbeHDZi7Gd) "St. James Portal"
+* fixture[=].resource = Reference(EndpointStJames) "St. James Portal"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[+].resource.type = "Device"
-* fixture[=].resource = Reference(dTixApQCHxxheiLX3) "Distributed App (DApp)"
+* fixture[=].resource = Reference(DeviceFederatedDir) "Distributed App (DApp)"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
-* fixture[+].resource.type = "Device"
-* fixture[=].resource = Reference(oPxE9d7Wtqjy9WEZx) "National Directory"
+* fixture[+].resource.type = "Device" 
+* fixture[=].resource = Reference(DeviceNatDir) "National Directory"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * test.name = "Query directory for St. James Infirmary"

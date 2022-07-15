@@ -8,10 +8,10 @@ Usage: #example
 * language = #en-US
 * id = "rP5Wt9gxQwyL7M8fX"
 * extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference"
-* extension.valueReference = Reference(Organization/AcmeofCTStdNet)
+* extension.valueReference = Reference(OrganizationAcmeofCTStdNet)
 * active = true
-* organization = Reference(Organization/BurrClinic)
+* organization = Reference(OrganizationBurrClinic)
 * code = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS#ph
 * specialty = http://nucc.org/provider-taxonomy#207R00000X "Internal Medicine Physician"
-* location = Reference(Location/HospLoc2)
-* healthcareService = Reference(HealthcareService/BurrClinicServices)
+* location = Reference(HospLoc2)
+* healthcareService = Reference(ServiceBurrClinic)

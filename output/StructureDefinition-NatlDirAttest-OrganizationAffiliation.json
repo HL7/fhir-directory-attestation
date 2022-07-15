@@ -16,11 +16,11 @@
     }
   ],
   "url": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-OrganizationAffiliation",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "name": "NatlDirAttestOrganizationAfflication",
   "title": "NatDir OrganizationAffiliation",
   "status": "active",
-  "date": "2022-06-15T12:17:27-04:00",
+  "date": "2022-07-15T12:22:10-04:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -1037,6 +1037,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": true,
         "isModifier": false,
         "isSummary": true,
         "binding": {
@@ -1151,6 +1152,7 @@
             "source": "http://hl7.org/fhir/StructureDefinition/Element"
           }
         ],
+        "mustSupport": true,
         "isModifier": false,
         "isSummary": true,
         "mapping": [

@@ -16,7 +16,7 @@
     {
       "url": "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference",
       "valueReference": {
-        "reference": "Organization/AcmeofCTStdNet"
+        "reference": "Organization/o4XMGtrjTrN7mcctj"
       }
     }
   ],

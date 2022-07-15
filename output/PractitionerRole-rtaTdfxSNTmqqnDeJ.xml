@@ -8,16 +8,16 @@
   </meta>
   <language value="en-US"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "rtaTdfxSNTmqqnDeJ" Updated "2020-07-07 01:26:22+0000"  (Language "en-US") </p><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole</code></p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-JoeSmith.html">Practitioner/JoeSmith</a></p><p><b>organization</b>: <a href="Organization-o68Sau8tELE3GDnqR.html">Organization/o68Sau8tELE3GDnqR</a> "Hartford General Hospital"</p><p><b>code</b>: ph <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (ProviderRoleCS#ph)</span></p><p><b>specialty</b>: Internal Medicine Physician <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (provider-taxonomy#207R00000X)</span></p><p><b>location</b>: <a href="Location-HospLoc1.html">Location/HospLoc1</a></p><p><b>healthcareService</b>: <a href="HealthcareService-HospERService.html">HealthcareService/HospERService</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "rtaTdfxSNTmqqnDeJ" Updated "2020-07-07 01:26:22+0000"  (Language "en-US") </p><p style="margin-bottom: 0px">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole</code></p></div><p><b>active</b>: true</p><p><b>practitioner</b>: <a href="Practitioner-pFhDpHhMzBsSvmLb9.html">Practitioner/pFhDpHhMzBsSvmLb9</a> " SMITH"</p><p><b>organization</b>: <a href="Organization-o68Sau8tELE3GDnqR.html">Organization/o68Sau8tELE3GDnqR</a> "Hartford General Hospital"</p><p><b>code</b>: ph <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (ProviderRoleCS#ph)</span></p><p><b>specialty</b>: Internal Medicine Physician <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (provider-taxonomy#207R00000X)</span></p><p><b>location</b>: <a href="Location-lsH38uL5J3eYEQ5hJ.html">Location/lsH38uL5J3eYEQ5hJ</a> "Hartford Hospital Location 1"</p><p><b>healthcareService</b>: <a href="HealthcareService-hsEk35Ayonz755t6u.html">HealthcareService/hsEk35Ayonz755t6u</a></p></div>
   </text>
   <extension url="http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference">
     <valueReference>
-      <reference value="Organization/AcmeofCTStdNet"/>
+      <reference value="Organization/o4XMGtrjTrN7mcctj"/>
     </valueReference>
   </extension>
   <active value="true"/>
   <practitioner>
-    <reference value="Practitioner/JoeSmith"/>
+    <reference value="Practitioner/pFhDpHhMzBsSvmLb9"/>
   </practitioner>
   <organization>
     <reference value="Organization/o68Sau8tELE3GDnqR"/>
@@ -36,9 +36,9 @@
     </coding>
   </specialty>
   <location>
-    <reference value="Location/HospLoc1"/>
+    <reference value="Location/lsH38uL5J3eYEQ5hJ"/>
   </location>
   <healthcareService>
-    <reference value="HealthcareService/HospERService"/>
+    <reference value="HealthcareService/hsEk35Ayonz755t6u"/>
   </healthcareService>
 </PractitionerRole>
