@@ -10,7 +10,7 @@
   "name": "ONCFASTNationalDirectory",
   "title": "National Directory",
   "status": "active",
-  "date": "2022-07-15T12:22:10-04:00",
+  "date": "2022-07-15T15:24:32-04:00",
   "publisher": "HL7 Patient Administration Working Group",
   "contact": [
     {
@@ -1189,7 +1189,7 @@
         },
         "name": "Endpoint/etKzBJvzbeHDZi7Gd",
         "description": "Endpoint - St. James Hospital",
-        "exampleBoolean": true
+        "exampleCanonical": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Endpoint"
       },
       {
         "extension": [
@@ -1553,7 +1553,7 @@
         },
         "name": "Organization/o3XMGtrjTrN7mcctj",
         "description": "ACME Preferred",
-        "exampleBoolean": true
+        "exampleCanonical": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization"
       },
       {
         "extension": [
@@ -1567,7 +1567,7 @@
         },
         "name": "Organization/oGaKCfZSaoxLrDPbA",
         "description": "ACME of Conneticut",
-        "exampleBoolean": true
+        "exampleCanonical": "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization"
       },
       {
         "extension": [

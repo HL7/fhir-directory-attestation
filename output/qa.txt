@@ -1,9 +1,9 @@
 ﻿ONCFASTNationalDirectory : Validation Results
 =========================================
 
-err = 469, warn = 122, info = 24
+err = 469, warn = 117, info = 26
 IG Publisher Version: 1.1.125
-Generated Fri Jul 15 12:24:18 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.7 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
+Generated Fri Jul 15 15:26:12 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-directory-attestation#0.1.7 (canonical = http://hl7.org/fhir/us/fhir-directory-attestation)
  Build Errors : 5 / 2 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.fhir-directory-attestation : 0 / 2 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\capabilitystatement-NationalDirectoryCapabilityStatement : 2 / 1 / 4
@@ -29,7 +29,7 @@ Generated Fri Jul 15 12:24:18 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\consent-cotkDnGQjpHijDsRR : 2 / 0 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\device-dTixApQCHxxheiLX3 : 0 / 0 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\device-dXuinjribcN2ARYXv : 0 / 0 / 1
- C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\endpoint-etKzBJvzbeHDZi7Gd : 7 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\endpoint-etKzBJvzbeHDZi7Gd : 7 / 0 / 2
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\examplescenario-4D7XtHwNtteDczynb : 1 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\examplescenario-5psortwYNqr2vLNwQ : 1 / 2 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\examplescenario-DX6RLSCje9KkEcHRt : 1 / 1 / 1
@@ -58,8 +58,8 @@ Generated Fri Jul 15 12:24:18 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\location-lYG8WxBHX4HRoewaM : 17 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\location-lsH38uL5J3eYEQ5hJ : 11 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\location-lyW5mPW2nf3DHC7h6 : 17 / 1 / 1
- C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\organization-o4XMGtrjTrN7mcctj : 5 / 1 / 1
- C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\organization-o4aKCfZSaoxLrDPbA : 7 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\organization-o4XMGtrjTrN7mcctj : 4 / 0 / 4
+ C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\organization-o4aKCfZSaoxLrDPbA : 8 / 1 / 2
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\organization-o4gQrsHZfpYNoohzD : 8 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\organization-o53FxH84isnGG8aqy : 5 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\organization-o5CXtWS6CWaH4J8c9 : 3 / 1 / 1
@@ -102,12 +102,12 @@ Generated Fri Jul 15 12:24:18 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.fhir-
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDir-Restriction : 1 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDir-Validation : 2 / 3 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDirAttest-CareTeam : 0 / 2 / 1
- C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDirAttest-Endpoint : 1 / 1 / 1
+ C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDirAttest-Endpoint : 1 / 0 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDirAttest-HealthcareService : 0 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDirAttest-InsurancePlan : 0 / 1 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDirAttest-Location : 0 / 1 / 1
- C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDirAttest-Network : 3 / 4 / 1
- C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDirAttest-Organization : 4 / 4 / 1
+ C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDirAttest-Network : 3 / 3 / 1
+ C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDirAttest-Organization : 4 / 3 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDirAttest-OrganizationAffiliation : 3 / 4 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDirAttest-Practitioner : 3 / 4 / 1
  C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\fsh-generated\resources\structuredefinition-NatlDirAttest-PractitionerRole : 4 / 5 / 1
@@ -287,10 +287,10 @@ WARNING: ImplementationGuide.dependency[2].url: The canonical URL for an Impleme
 INFORMATION: ImplementationGuide.dependency[2].url: The correct canonical URL for this dependency is http://hl7.org/fhir/us/fhir-directory-exchange/ImplementationGuide/hl7.fhir.us.fhir-directory-exchange
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/VersionNumber.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: There is no jira specification file defined with the expected name of FHIR-us-fhir-directory-attestation in the xml folder of the  https://github.com/HL7/Jira-Spec-Artifacts project.  This must exist before ballot or publication.
-ERROR: C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\output\downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 306, column 8: The link 'NationalDirectory.PostmanCollection.json.zip' for "Postman Collection" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\output\usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 7: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Organization-m6AJtyEk6sSsHWLjt.html' for "St. James" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\output\usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 225: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Location-l4bjaZGQfeNfhAEpb.html' for "456 Main Street" cannot be resolved
-ERROR: C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\output\usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 382: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Practitioner-fZzusFYr3PBYyRnot.html' for "Dr. Allison Camron" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\output\Organization-o4XMGtrjTrN7mcctj.html#/html/body/div/div/div/div/div/div/p/a at Line 234, column 858: The link 'OrganzationAcme' for "OrganzationAcme" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\output\usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 7: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Organization-o6AJtyEk6sSsHWLjt.html' for "St. James" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\output\usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 225: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Location-lYG8WxBHX4HRoewaM.html' for "456 Main Street" cannot be resolved
+ERROR: C:\Users\smahoney\Documents\GitHub\fhir-directory-attestation\output\usecases.html#/html/body/div/div/div/div/div/blockquote/p/a at Line 198, column 382: The link 'file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Practitioner-pZzusFYr3PBYyRnot.html' for "Dr. Allison Camron" cannot be resolved
 == fsh-generated\resources\ImplementationGuide-hl7.fhir.us.fhir-directory-attestation.json ==
 WARNING: ImplementationGuide/hl7.fhir.us.fhir-directory-attestation: ImplementationGuide.definition.resource[11].name: value should not start or finish with whitespace ' NatlDirEx...Restriction'
 WARNING: ImplementationGuide/hl7.fhir.us.fhir-directory-attestation: ImplementationGuide.definition.resource[24].description: value should not start or finish with whitespace '	
@@ -328,14 +328,14 @@ ERROR: Consent/cotkDnGQjpHijDsRR: Consent.category[0].coding[0]: Unknown Code ht
 == fsh-generated\resources\Device-dTixApQCHxxheiLX3.json ==
 == fsh-generated\resources\Device-dXuinjribcN2ARYXv.json ==
 == fsh-generated\resources\Endpoint-etKzBJvzbeHDZi7Gd.json ==
-ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Endpoint' does not resolve
+INFORMATION: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Endpoint
+ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint: Endpoint.extension:endpoint-type: minimum required = 1, but only found 0 (from http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Endpoint)
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/endpoint-usecase is unknown, and not allowed here
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/endpoint-usecase' does not resolve
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.connectionType: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS'
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.connectionType.system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS' does not resolve
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.payloadType[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS'
 ERROR: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.payloadType[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS' does not resolve
-WARNING: Endpoint/etKzBJvzbeHDZi7Gd: Endpoint.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Endpoint' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated\resources\ExampleScenario-4D7XtHwNtteDczynb.json ==
 ERROR: ExampleScenario.url: Resource id/url mismatch: 4D7XtHwNtteDczynb/http://hl7.org/fhir/us/fhir-directory-attestation/ExampleScenario/SubscriptionsScenario
 WARNING: ExampleScenario/4D7XtHwNtteDczynb: ExampleScenario: esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -633,21 +633,21 @@ ERROR: Location/lyW5mPW2nf3DHC7h6: Location.telecom[0].extension[1]: The extensi
 ERROR: Location/lyW5mPW2nf3DHC7h6: Location.telecom[0].extension[1].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
 WARNING: Location/lyW5mPW2nf3DHC7h6: Location.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated\resources\Organization-o4XMGtrjTrN7mcctj.json ==
-ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Network' does not resolve
 ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.type[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS'
 ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.type[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS' does not resolve
-ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.contact[0].telecom[0].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary is unknown, and not allowed here
-ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.contact[0].telecom[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary' does not resolve
-WARNING: Organization/o4XMGtrjTrN7mcctj: Organization.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Network' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.partOf: Unable to resolve resource with reference 'OrganzationAcme'
+ERROR: Organization/o4XMGtrjTrN7mcctj: Organization.type[0]: None of the codings provided are in the value set 'Network Type' (http://hl7.org/fhir/us/fhir-directory-query/ValueSet/NetworkTypeVS), and a coding from this value set is required) (codes = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS#ntwk)
 == fsh-generated\resources\Organization-o4aKCfZSaoxLrDPbA.json ==
-ERROR: Organization/o4aKCfZSaoxLrDPbA: Organization.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Organization' does not resolve
+ERROR: Organization/o4aKCfZSaoxLrDPbA: Organization.extension[0]: Slicing cannot be evaluated: Unable to resolve profile CanonicalType[http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification]
+ERROR: Organization/o4aKCfZSaoxLrDPbA: Organization.meta.profile[1]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Organization' does not resolve
 ERROR: Organization/o4aKCfZSaoxLrDPbA: Organization.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/org-description is unknown, and not allowed here
 ERROR: Organization/o4aKCfZSaoxLrDPbA: Organization.extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/org-description' does not resolve
 ERROR: Organization/o4aKCfZSaoxLrDPbA: Organization.type[0].coding[0]: Unknown Code System 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS'
 ERROR: Organization/o4aKCfZSaoxLrDPbA: Organization.type[0].coding[0].system: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS' does not resolve
 ERROR: Organization/o4aKCfZSaoxLrDPbA: Organization.telecom[0].extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime is unknown, and not allowed here
 ERROR: Organization/o4aKCfZSaoxLrDPbA: Organization.telecom[0].extension[0].url: URL value 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime' does not resolve
-WARNING: Organization/o4aKCfZSaoxLrDPbA: Organization.meta.profile[0]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Organization' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
+INFORMATION: Organization/o4aKCfZSaoxLrDPbA: Organization.telecom[0].extension[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization
+WARNING: Organization/o4aKCfZSaoxLrDPbA: Organization.meta.profile[1]: Profile reference 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Organization' has not been checked because it is unknown, and the validator is set to not fetch unknown profiles
 == fsh-generated\resources\Organization-o4gQrsHZfpYNoohzD.json ==
 ERROR: Organization/o4gQrsHZfpYNoohzD: Organization.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Network' does not resolve
 ERROR: Organization/o4gQrsHZfpYNoohzD: Organization.extension[0]: The extension http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/location-reference is unknown, and not allowed here
@@ -866,7 +866,6 @@ WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-CareTeam'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-NatlDirAttest-Endpoint.json ==
 ERROR: StructureDefinition/NatlDirAttest-Endpoint: StructureDefinition.snapshot.element[35].binding.extension[0].value.ofType(canonical): Canonical URL 'http://hl7.org/fhir/us/davinci-pdex-NatlDir/ValueSet/MinEndpointConnectionTypeVS' does not resolve
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Endpoint'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-NatlDirAttest-HealthcareService.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-HealthcareService'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-NatlDirAttest-InsurancePlan.json ==
@@ -880,7 +879,6 @@ WARNING: StructureDefinition/NatlDirAttest-Network: StructureDefinition.differen
 WARNING: StructureDefinition/NatlDirAttest-Network: StructureDefinition.snapshot.element[17].type[0].profile[0]: Unable to resolve profile http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification
 ERROR: NatlDirAttest-Network: Unable to find Extension 'http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification' referenced at http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Network snapshot Organization.extension (qualification)
 ERROR: NatlDirAttest-Network: Unable to find Extension 'http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification' referenced at http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Network snapshot Organization.extension (qualification)
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Network'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-NatlDirAttest-Organization.json ==
 WARNING: http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization#Organization.extension:qualification: The type of profile http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification cannot be checked as the profile is not known
 ERROR: StructureDefinition/NatlDirAttest-Organization: StructureDefinition.snapshot.element[17].type[0].profile[0]: Canonical URL 'http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification' does not resolve
@@ -889,7 +887,6 @@ WARNING: StructureDefinition/NatlDirAttest-Organization: StructureDefinition.dif
 WARNING: StructureDefinition/NatlDirAttest-Organization: StructureDefinition.snapshot.element[17].type[0].profile[0]: Unable to resolve profile http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification
 ERROR: NatlDirAttest-Organization: Unable to find Extension 'http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification' referenced at http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization snapshot Organization.extension (qualification)
 ERROR: NatlDirAttest-Organization: Unable to find Extension 'http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification' referenced at http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization snapshot Organization.extension (qualification)
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-NatlDirAttest-OrganizationAffiliation.json ==
 WARNING: http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-OrganizationAffiliation#OrganizationAffiliation.extension:qualification: The type of profile http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification cannot be checked as the profile is not known
 ERROR: StructureDefinition/NatlDirAttest-OrganizationAffiliation: StructureDefinition.snapshot.element[16].type[0].profile[0]: Canonical URL 'http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/qualification' does not resolve

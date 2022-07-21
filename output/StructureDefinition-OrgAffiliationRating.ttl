@@ -20,7 +20,7 @@
   fhir:StructureDefinition.name [ fhir:value "OrgAffiliationRating"];
   fhir:StructureDefinition.title [ fhir:value "Organization Affiliation Rating"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-07-15T12:22:10-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-07-15T15:24:32-04:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 Patient Administration Working Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

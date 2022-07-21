@@ -1,10 +1,10 @@
 Instance: EndpointStJames
-InstanceOf: Endpoint
+InstanceOf: NatlDirAttestEndPoint
 Title: "Endpoint/etKzBJvzbeHDZi7Gd"
 Description: "Endpoint - St. James Hospital"
 Usage: #example
 * meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
-* meta.profile = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Endpoint"
+* meta.profile = Canonical(NatlDirAttestEndPoint)
 * language = #en-US
 * id = "etKzBJvzbeHDZi7Gd"
 * extension.extension.url = "type"
@@ -15,3 +15,14 @@ Usage: #example
 * name = "Endpoint for St James Hospital"
 * payloadType = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS#NA
 * address = "https://urlofportal.stjameshospital.com"
+
+
+
+
+Instance: EndpointTest
+InstanceOf: NatlDirAttestEndPoint
+Title: "Test"
+Description: "EndpointTest"
+Usage: #example
+* meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
+* meta.profile = Canonical(NatlDirAttestEndPoint)

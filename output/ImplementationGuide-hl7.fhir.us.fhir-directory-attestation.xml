@@ -11,7 +11,7 @@
   <name value="ONCFASTNationalDirectory"/>
   <title value="National Directory"/>
   <status value="active"/>
-  <date value="2022-07-15T12:22:10-04:00"/>
+  <date value="2022-07-15T15:24:32-04:00"/>
   <publisher value="HL7 Patient Administration Working Group"/>
   <contact>
     <name value="HL7 Patient Administration Working Group"/>
@@ -880,7 +880,7 @@
       </reference>
       <name value="Endpoint/etKzBJvzbeHDZi7Gd"/>
       <description value="Endpoint - St. James Hospital"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Endpoint"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1166,7 +1166,7 @@
       </reference>
       <name value="Organization/o3XMGtrjTrN7mcctj"/>
       <description value="ACME Preferred"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1177,7 +1177,7 @@
       </reference>
       <name value="Organization/oGaKCfZSaoxLrDPbA"/>
       <description value="ACME of Conneticut"/>
-      <exampleBoolean value="true"/>
+      <exampleCanonical value="http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

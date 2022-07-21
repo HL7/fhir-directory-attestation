@@ -4,13 +4,13 @@
   "meta": {
     "lastUpdated": "2020-07-07T13:26:22.0314215+00:00",
     "profile": [
-      "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Endpoint"
+      "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Endpoint"
     ]
   },
   "language": "en-US",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"etKzBJvzbeHDZi7Gd\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Endpoint</code></p></div><p><b>status</b>: active</p><p><b>connectionType</b>: rest-non-fhir (Details: http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS code rest-non-fhir = 'rest-non-fhir', stated as 'null')</p><p><b>name</b>: Endpoint for St James Hospital</p><p><b>payloadType</b>: NA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (EndpointPayloadTypeCS#NA)</span></p><p><b>address</b>: <a href=\"https://urlofportal.stjameshospital.com\">https://urlofportal.stjameshospital.com</a></p></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en-US\" lang=\"en-US\"><p><b>Generated Narrative</b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource \"etKzBJvzbeHDZi7Gd\" Updated \"2020-07-07 01:26:22+0000\"  (Language \"en-US\") </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-NatlDirAttest-Endpoint.html\">NatDir Endpoint</a></p></div><p><b>status</b>: active</p><p><b>connectionType</b>: rest-non-fhir (Details: http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS code rest-non-fhir = 'rest-non-fhir', stated as 'null')</p><p><b>name</b>: Endpoint for St James Hospital</p><p><b>payloadType</b>: NA <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (EndpointPayloadTypeCS#NA)</span></p><p><b>address</b>: <a href=\"https://urlofportal.stjameshospital.com\">https://urlofportal.stjameshospital.com</a></p></div>"
   },
   "extension": [
     {

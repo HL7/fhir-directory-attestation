@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "ONCFASTNationalDirectory"];
   fhir:ImplementationGuide.title [ fhir:value "National Directory"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-07-15T12:22:10-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-07-15T15:24:32-04:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 Patient Administration Working Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -1177,7 +1177,10 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Endpoint/etKzBJvzbeHDZi7Gd" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Endpoint - St. James Hospital" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Endpoint";
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Endpoint>
+       ]
      ], [
        fhir:index 59;
        fhir:Element.extension [
@@ -1541,7 +1544,10 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/o3XMGtrjTrN7mcctj" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ACME Preferred" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization";
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization>
+       ]
      ], [
        fhir:index 85;
        fhir:Element.extension [
@@ -1555,7 +1561,10 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization/oGaKCfZSaoxLrDPbA" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ACME of Conneticut" ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "true"^^xsd:boolean ]
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization";
+         fhir:link <http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization>
+       ]
      ], [
        fhir:index 86;
        fhir:Element.extension [
