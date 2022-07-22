@@ -1,3 +1,4 @@
 == Suppressed Messages ==
+
 # No ExampleScenario.name, Should not throw a warning. Malformed Invariant.
 esc-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
