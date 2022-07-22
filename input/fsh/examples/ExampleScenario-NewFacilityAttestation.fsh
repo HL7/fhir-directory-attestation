@@ -2,7 +2,7 @@ Instance: AttestationScenario
 InstanceOf: ExampleScenario
 Title: "New Facility Attestation"
 Description: "Scenario - New Facility Attestation"
-Usage: #definition
+Usage: #example
 * id = "PAsijcfHEKD9siu4h"
 * status = #active
 

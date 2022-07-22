@@ -2,7 +2,7 @@ Instance: VerificationScenario
 InstanceOf: ExampleScenario
 Title: "Verify Practitioner Credentials"
 Description: "Scenario - Verify Practitioner Credentials"
-Usage: #definition
+Usage: #example
 * id = "DX6RLSCje9KkEcHRt"
 * status = #active
 

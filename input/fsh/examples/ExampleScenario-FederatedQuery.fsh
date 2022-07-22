@@ -2,7 +2,7 @@ Instance: FederatedQueryScenario
 InstanceOf: ExampleScenario
 Title: "Federated Endpoint Query"
 Description: "Scenario - Federated Endpoint Query"
-Usage: #definition
+Usage: #example
 * id = "N4qis3v6pkhtJrPFK"
 * status = #active
 
