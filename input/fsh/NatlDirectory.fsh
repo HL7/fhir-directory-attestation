@@ -55,6 +55,7 @@ Id:             NatlDirAttest-Organization
 Title:          "NatDir Organization"
 Description:    "An organization is a formal or informal grouping of people or organizations with a common purpose, such as a company, institution, corporation, community group, or healthcare practice.
 Guidance:   When the contact is a department name, rather than a human (e.g., patient help line), include a blank family and given name, and provide the department name in contact.name.text"
+//* partOf only Reference(NatlDirAttestOrganization)
 
 Profile:        NatlDirAttestOrganizationAfflication
 Parent:         $NatlDirectoryOrganizationAfflication
@@ -207,7 +208,7 @@ Description: "Describes validation requirements, source(s), status and dates for
 Profile:  NatlDirAttestUsageRestriction
 Parent: Consent
 Id:  NatlDirEx-restriction
-Title: " NatlDirEx Restriction"
+Title: "NatlDirEx Restriction"
 Description: "Restriction on use/release of exchanged information"
 * ^status = #active
 * ^date = "2017-12-15T01:01:31.325+11:00"

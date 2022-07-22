@@ -1,5 +1,5 @@
 Instance: OrganizationAcme
-InstanceOf: Organization
+InstanceOf: NatlDirAttestOrganization
 Title: "Organization/oGaKCfZSaoxLrDPbA"
 Description: "ACME of Conneticut"
 Usage: #example

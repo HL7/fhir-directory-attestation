@@ -8,7 +8,7 @@ Usage: #example
 * language = #en-US
 * id = "o4gQrsHZfpYNoohzD"
 * extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/location-reference"
-* extension.valueReference = Reference(LocationStateOfCTLocation)
+* extension.valueReference = Reference(http://hl7.org/fhir/us/davinci-pdex-plan-net/Location/StateOfCTLocation)
 * active = true
 * type = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS#ntwk "Network"
 * name = "ACME CT Premium Preferred Provider Network"

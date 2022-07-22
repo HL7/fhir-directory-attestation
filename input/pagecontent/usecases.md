@@ -4,7 +4,7 @@
 #### Directory Look Up
 
 *Use Case*
-> [St. James](file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Organization-m6AJtyEk6sSsHWLjt.html) is a hospital network in Connecticut.  They are opening a new infirmary on [456 Main Street](file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Location-l4bjaZGQfeNfhAEpb.html), and hiring [Dr. Allison Camron](file:///Users/awatson/Code/implementation-guides/fhir-directory-attestation/output/Practitioner-fZzusFYr3PBYyRnot.html) to operate it.  As part of setting up their facilities, they first check the directory to see if the facility is already registered, and whether Dr. Camron is licensed by Connecticut yet.  
+> [St. James](Organization-o6AJtyEk6sSsHWLjt.html) is a hospital network in Connecticut.  They are opening a new infirmary on [456 Main Street](Location-lYG8WxBHX4HRoewaM.html), and hiring [Dr. Allison Camron](Practitioner-pZzusFYr3PBYyRnot.html) to operate it.  As part of setting up their facilities, they first check the directory to see if the facility is already registered, and whether Dr. Camron is licensed by Connecticut yet.  
 
 *Scenario Workflow*
 
