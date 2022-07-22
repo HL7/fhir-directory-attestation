@@ -1,8 +1,8 @@
 Instance: SubscriptionsScenario
 InstanceOf: ExampleScenario
-Title: "Subscriptions"
+Title: "ExampleScenario/4D7XtHwNtteDczynb"
 Description: "Scenario - Subscriptions between National and Federated directories"
-Usage: #definition
+Usage: #example
 * id = "4D7XtHwNtteDczynb"
 * status = #active
 

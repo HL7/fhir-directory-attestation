@@ -30,8 +30,10 @@ dependencies:
     id: nationalDirectoryExchange
     uri: http://hl7.org/fhir/us/fhir-directory-exchange
     version: current
+  hl7.fhir.us.davinci-pdex-plan-net: 1.1.0
 parameters:
   show-inherited-invariants: false
+  path-expansion-params: '../../exp-params.json'  #path is relative to [base]/fsh-generated/resources
   
 copyrightYear: 2021+
 releaseLabel: draft

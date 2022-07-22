@@ -2,7 +2,7 @@ Instance: WomensShelterScenario
 InstanceOf: ExampleScenario
 Title: "Protected Womens' Shelters"
 Description: "Scenario - Restricted Womens' Shelter Access"
-Usage: #definition
+Usage: #example
 * id = "5psortwYNqr2vLNwQ"
 * status = #active
 
@@ -29,5 +29,5 @@ Usage: #definition
 * instance[=].name = "Social worker Consent for accessing women's shelter"
 * instance[+].resourceId = "htvgKJ4Huue7f5Fqz"
 * instance[=].resourceType = #Practitioner
-* instance[=].name = " Susie Song, Social Worker"
+* instance[=].name = "Susie Song, Social Worker"
 

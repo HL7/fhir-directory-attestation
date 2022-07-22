@@ -5,7 +5,7 @@ Description: "National Directory - Capability Statement"
 
 Usage: #definition
 * url = "https://vhdir.meteorapp.com/baseR4"
-* name = "National Care Directory"
+* name = "NationalCareDirectory"
 * version = "0.1.0"
 * status = #draft
 * experimental = true

@@ -2,7 +2,7 @@ Instance: DynamicClientRegistrationScenario
 InstanceOf: ExampleScenario
 Title: "Dynamic Client Registration"
 Description: "Scenario - Dynamic Client Registration"
-Usage: #definition
+Usage: #example
 * id = "RsW5oCHfnQejTw9Jd"
 * status = #active
 

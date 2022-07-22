@@ -2,7 +2,7 @@ Instance: FederatedQueryScenario
 InstanceOf: ExampleScenario
 Title: "Federated Endpoint Query"
 Description: "Scenario - Federated Endpoint Query"
-Usage: #definition
+Usage: #example
 * id = "N4qis3v6pkhtJrPFK"
 * status = #active
 
@@ -19,7 +19,7 @@ Usage: #definition
 
 * instance[+].resourceId = "hsEk35Ayonz755t6u"
 * instance[=].resourceType = #HealthcareService
-* instance[=].name = "Emergency Medicine "
+* instance[=].name = "Emergency Medicine"
 
 * instance[+].resourceId = "etKzBJvzbeHDZi7Gd"
 * instance[=].resourceType = #Endpoint
