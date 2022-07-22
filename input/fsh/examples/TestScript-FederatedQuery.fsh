@@ -22,7 +22,7 @@ Usage: #definition
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[+].resource.type = "HealthcareService"
-* fixture[=].resource = Reference(ServiceHospER) "Emergency Medicine "
+* fixture[=].resource = Reference(ServiceHospER) "Emergency Medicine"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[+].resource.type = "Endpoint"

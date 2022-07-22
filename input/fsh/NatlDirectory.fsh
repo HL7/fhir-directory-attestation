@@ -208,7 +208,7 @@ Description: "Describes validation requirements, source(s), status and dates for
 Profile:  NatlDirAttestUsageRestriction
 Parent: Consent
 Id:  NatlDirEx-restriction
-Title: " NatlDirEx Restriction"
+Title: "NatlDirEx Restriction"
 Description: "Restriction on use/release of exchanged information"
 * ^status = #active
 * ^date = "2017-12-15T01:01:31.325+11:00"

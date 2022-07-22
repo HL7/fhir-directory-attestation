@@ -19,7 +19,7 @@ Usage: #example
 
 * instance[+].resourceId = "hsEk35Ayonz755t6u"
 * instance[=].resourceType = #HealthcareService
-* instance[=].name = "Emergency Medicine "
+* instance[=].name = "Emergency Medicine"
 
 * instance[+].resourceId = "etKzBJvzbeHDZi7Gd"
 * instance[=].resourceType = #Endpoint

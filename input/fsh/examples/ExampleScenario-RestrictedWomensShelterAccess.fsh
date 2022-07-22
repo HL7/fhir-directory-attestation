@@ -29,5 +29,5 @@ Usage: #example
 * instance[=].name = "Social worker Consent for accessing women's shelter"
 * instance[+].resourceId = "htvgKJ4Huue7f5Fqz"
 * instance[=].resourceType = #Practitioner
-* instance[=].name = " Susie Song, Social Worker"
+* instance[=].name = "Susie Song, Social Worker"
 
