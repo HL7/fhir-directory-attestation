@@ -217,8 +217,4 @@ Usage: #definition
 * rest.security.extension.extension[=].valueUri = "https://vhdir.meteorapp.com/oauth/registration"
 * rest.security.extension.extension[+].url = "manage"
 * rest.security.extension.extension[=].valueUri = "https://vhdir.meteorapp.com/authorizations/manage"
-* rest.security.extension.extension[+].url = "introspect"
-* rest.security.extension.extension[=].valueUri = "https://vhdir.meteorapp.com/authorizations/introspect"
-* rest.security.extension.extension[+].url = "revoke"
-* rest.security.extension.extension[=].valueUri = "https://vhdir.meteorapp.com/authorizations/revoke"
 * rest.security.extension.url = "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"

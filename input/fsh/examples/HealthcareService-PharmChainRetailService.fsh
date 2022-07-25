@@ -18,7 +18,7 @@ Usage: #example
 * active = true
 * providedBy = Reference(OrganizationPharmChain)
 * category = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS#pharm "Pharmacy"
-* specialty = http://nucc.org/provider-taxonomy#3336C0003X "Community/Retail Pharmacy"
+// * specialty = http://nucc.org/provider-taxonomy#3336C0003X "Community/Retail Pharmacy"
 * location[0] = Reference(PharmLoc1)
 * location[+] = Reference(PharmLoc2)
 * location[+] = Reference(PharmLoc3)

@@ -20,7 +20,7 @@ Title: "IG Type"
 Description: "IG Type"
 * #FHIR	"FHIR"
 * #direct	"Direct"
-* ^caseSensitive = false
+* ^caseSensitive = false  
 
 CodeSystem: EndpointTypeCS
 Title: "IG Type"

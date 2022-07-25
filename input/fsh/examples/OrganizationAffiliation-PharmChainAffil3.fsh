@@ -11,5 +11,5 @@ Usage: #example
 * participatingOrganization = Reference(OrganizationPharmChain)
 * network = Reference(OrganizationAcmeofCTStdNet)
 * code = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrganizationAffiliationRoleCS#pharmacy
-* specialty = http://nucc.org/provider-taxonomy#3336M0002X "Mail Order Pharmacy"
+// * specialty = http://nucc.org/provider-taxonomy#3336M0002X "Mail Order Pharmacy"
 * healthcareService = Reference(ServicePharmChainMail)

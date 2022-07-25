@@ -13,5 +13,5 @@ Usage: #example
 * active = true
 * providedBy = Reference(OrganizationHospital)
 * category = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS#emerg
-* specialty = http://nucc.org/provider-taxonomy#207P00000X "Emergency Medicine Physician"
+// * specialty = http://nucc.org/provider-taxonomy#207P00000X "Emergency Medicine Physician"
 * location = Reference(HospLoc1)

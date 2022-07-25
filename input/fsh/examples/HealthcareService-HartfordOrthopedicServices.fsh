@@ -13,6 +13,6 @@ Usage: #example
 * active = true
 * providedBy = Reference(OrganizationHartfordOrthopedics)
 * category = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS#prov
-* specialty = http://nucc.org/provider-taxonomy#207X00000X "Orthopaedic Surgery Physician"
+// * specialty = http://nucc.org/provider-taxonomy#207X00000X "Orthopaedic Surgery Physician"
 * location[0] = Reference(HospLoc1)
 * location[+] = Reference(HospLoc2)

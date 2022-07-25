@@ -7,8 +7,8 @@ Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Organization"
 * language = #en-US
 * id = "o4aKCfZSaoxLrDPbA"
-* extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/org-description"
-* extension.valueString = "Acme of CT is a leading provider of health and other insurance products."
+// * extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/org-description"
+// * extension.valueString = "Acme of CT is a leading provider of health and other insurance products."
 * active = true
 * type = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS#payer "Payer"
 * name = "Acme of CT"

@@ -13,5 +13,5 @@ Usage: #example
 * active = true
 * providedBy = Reference(OrganizationHamiltonClinic)
 * category = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS#outpat
-* specialty = http://nucc.org/provider-taxonomy#207Q00000X "Family Medicine Physician"
+// * specialty = http://nucc.org/provider-taxonomy#207Q00000X "Family Medicine Physician"
 * location = Reference(HospLoc1)

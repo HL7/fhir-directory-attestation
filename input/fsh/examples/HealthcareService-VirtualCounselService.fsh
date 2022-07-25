@@ -20,4 +20,4 @@ Usage: #example
 * extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/delivery-method"
 * active = true
 * category = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS#prov "Medical Provider"
-* specialty = http://nucc.org/provider-taxonomy#101YP2500X "Professional Counselor"
+// * specialty = http://nucc.org/provider-taxonomy#101YP2500X "Professional Counselor"
