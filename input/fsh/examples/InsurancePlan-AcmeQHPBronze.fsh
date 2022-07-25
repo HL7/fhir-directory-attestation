@@ -13,6 +13,7 @@ Usage: #example
 * ownedBy = Reference(OrganizationAcme)
 * administeredBy = Reference(OrganizationAcme)
 * coverageArea = Reference(StateOfCTLocation)
-* endpoint = Reference(EndpointStJames)
+* endpoint = Reference(Endpoint/EndpointStJames)
 * network = Reference(OrganizationAcmeofCTStdNet)
 * plan.type = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/InsurancePlanTypeCS#bronze "Bronze-QHP"
+

@@ -47,8 +47,6 @@ Id:             NatlDirAttest-Network
 Title:          "NatDir Network"
 Description:    "A Network refers to a healthcare provider insurance network. A healthcare provider insurance network is an aggregation of organizations and individuals that deliver a set of services across a geography through health insurance products/plans. A network is typically owned by a payer."
 
-
-
 Profile:        NatlDirAttestOrganization
 Parent:         $NatlDirectoryOrganization
 Id:             NatlDirAttest-Organization
