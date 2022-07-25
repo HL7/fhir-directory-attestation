@@ -21,7 +21,7 @@ Usage: #example
 * active = true
 * providedBy = Reference(OrganizationPharmChain)
 * category = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS#pharm "Pharmacy"
-* specialty = http://nucc.org/provider-taxonomy#3336M0002X "Mail Order Pharmacy"
+// * specialty = http://nucc.org/provider-taxonomy#3336M0002X "Mail Order Pharmacy"
 * name = "Mail Order Pharmacy by OrgA"
 * telecom[0].system = #phone
 * telecom[=].value = "(111)-222-3333"

@@ -23,7 +23,7 @@
         "json"
     ],
     "implementationGuide": [
-        "http://http://hl7.org/fhir/us/fhir-directory-exchange/ImplementationGuide/http://hl7.org/fhir/us/fhir-directory-exchange"
+        "http://http://hl7.org/fhir/us/fhir-directory-attestation/ImplementationGuide/http://hl7.org/fhir/us/fhir-directory-attestation"
     ],
     "jurisdiction": [
         {
@@ -96,7 +96,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/endpoint-organization",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/endpoint-organization",
                             "name": "organization",
                             "type": "reference"
                         },
@@ -124,7 +124,7 @@
                         }
                     ],
                     "supportedProfile": [
-                        "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirAttest-Endpoint"
+                        "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Endpoint"
                     ],
                     "type": "Endpoint"
                 },
@@ -181,7 +181,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/healthcareservice-location",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/healthcareservice-location",
                             "name": "location",
                             "type": "reference"
                         },
@@ -192,7 +192,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/healthcareservice-coverage-area",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/healthcareservice-coverage-area",
                             "name": "coverage-area",
                             "type": "reference"
                         },
@@ -203,7 +203,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/healthcareservice-organization",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/healthcareservice-organization",
                             "name": "organization",
                             "type": "reference"
                         },
@@ -214,7 +214,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/healthcareservice-endpoint",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/healthcareservice-endpoint",
                             "name": "endpoint",
                             "type": "reference"
                         },
@@ -225,7 +225,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/healthcareservice-name",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/healthcareservice-name",
                             "name": "name",
                             "type": "string"
                         },
@@ -236,7 +236,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/healthcareservice-service-category",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/healthcareservice-service-category",
                             "name": "service-category",
                             "type": "token"
                         },
@@ -247,7 +247,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/healthcareservice-service-type",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/healthcareservice-service-type",
                             "name": "service-type",
                             "type": "token"
                         },
@@ -258,7 +258,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/healthcareservice-specialty",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/healthcareservice-specialty",
                             "name": "specialty",
                             "type": "token"
                         },
@@ -290,7 +290,7 @@
                         "OrganizationAffiliation:service"
                     ],
                     "supportedProfile": [
-                        "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirAttest-HealthcareService"
+                        "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-HealthcareService"
                     ],
                     "type": "HealthcareService"
                 },
@@ -346,7 +346,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/insuranceplan-administered-by",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/insuranceplan-administered-by",
                             "name": "administered-by",
                             "type": "reference"
                         },
@@ -357,7 +357,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/insuranceplan-owned-by",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/insuranceplan-owned-by",
                             "name": "owned-by",
                             "type": "reference"
                         },
@@ -368,7 +368,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/insuranceplan-coverage-area",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/insuranceplan-coverage-area",
                             "name": "coverage-area",
                             "type": "reference"
                         },
@@ -379,7 +379,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/insuranceplan-name",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/insuranceplan-name",
                             "name": "name",
                             "type": "string"
                         },
@@ -390,7 +390,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/insuranceplan-plan-type",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/insuranceplan-plan-type",
                             "name": "plan-type",
                             "type": "token"
                         },
@@ -401,7 +401,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/insuranceplan-identifier",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/insuranceplan-identifier",
                             "name": "identifier",
                             "type": "token"
                         },
@@ -434,13 +434,13 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/insuranceplan-type",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/insuranceplan-type",
                             "name": "type",
                             "type": "token"
                         }
                     ],
                     "supportedProfile": [
-                        "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirAttest-InsurancePlan"
+                        "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-InsurancePlan"
                     ],
                     "type": "InsurancePlan"
                 },
@@ -496,7 +496,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/location-partof",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/location-partof",
                             "name": "partof",
                             "type": "reference"
                         },
@@ -507,7 +507,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/location-organization",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/location-organization",
                             "name": "organization",
                             "type": "reference"
                         },
@@ -518,7 +518,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/location-endpoint",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/location-endpoint",
                             "name": "endpoint",
                             "type": "reference"
                         },
@@ -529,7 +529,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/location-address-city",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/location-address-city",
                             "name": "address-city",
                             "type": "string"
                         },
@@ -540,7 +540,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/location-address-state",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/location-address-state",
                             "name": "address-state",
                             "type": "string"
                         },
@@ -551,7 +551,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/location-address-postalcode",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/location-address-postalcode",
                             "name": "address-postalcode",
                             "type": "string"
                         },
@@ -562,7 +562,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/location-address",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/location-address",
                             "name": "address",
                             "type": "string"
                         },
@@ -573,7 +573,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/location-type",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/location-type",
                             "name": "type",
                             "type": "token"
                         },
@@ -607,7 +607,7 @@
                         "PractitionerRole:location"
                     ],
                     "supportedProfile": [
-                        "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirAttest-Location"
+                        "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Location"
                     ],
                     "type": "Location"
                 },
@@ -663,7 +663,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organization-partof",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organization-partof",
                             "name": "partof",
                             "type": "reference"
                         },
@@ -674,7 +674,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organization-endpoint",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organization-endpoint",
                             "name": "endpoint",
                             "type": "reference"
                         },
@@ -685,7 +685,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organization-address",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organization-address",
                             "name": "address",
                             "type": "string"
                         },
@@ -696,7 +696,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organization-name",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organization-name",
                             "name": "name",
                             "type": "string"
                         },
@@ -729,7 +729,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organization-type",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organization-type",
                             "name": "type",
                             "type": "token"
                         },
@@ -740,7 +740,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organization-coverage-area",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organization-coverage-area",
                             "name": "coverage-area",
                             "type": "reference"
                         }
@@ -756,8 +756,8 @@
                         "OrganizationAffiliation:participating-organization"
                     ],
                     "supportedProfile": [
-                        "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirAttest-Network",
-                        "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirAttest-Organization"
+                        "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Network",
+                        "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Organization"
                     ],
                     "type": "Organization"
                 },
@@ -816,7 +816,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organizationaffiliation-primary-organization",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organizationaffiliation-primary-organization",
                             "name": "primary-organization",
                             "type": "reference"
                         },
@@ -827,7 +827,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organizationaffiliation-participating-organization",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organizationaffiliation-participating-organization",
                             "name": "participating-organization",
                             "type": "reference"
                         },
@@ -838,7 +838,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organizationaffiliation-location",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organizationaffiliation-location",
                             "name": "location",
                             "type": "reference"
                         },
@@ -849,7 +849,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organizationaffiliation-service",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organizationaffiliation-service",
                             "name": "service",
                             "type": "reference"
                         },
@@ -860,7 +860,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organizationaffiliation-network",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organizationaffiliation-network",
                             "name": "network",
                             "type": "reference"
                         },
@@ -871,7 +871,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organizationaffiliation-endpoint",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organizationaffiliation-endpoint",
                             "name": "endpoint",
                             "type": "reference"
                         },
@@ -882,7 +882,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organizationaffiliation-role",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organizationaffiliation-role",
                             "name": "role",
                             "type": "token"
                         },
@@ -893,7 +893,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/organizationaffiliation-specialty",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organizationaffiliation-specialty",
                             "name": "specialty",
                             "type": "token"
                         },
@@ -921,7 +921,7 @@
                         }
                     ],
                     "supportedProfile": [
-                        "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirAttest-OrganizationAffiliation"
+                        "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-OrganizationAffiliation"
                     ],
                     "type": "OrganizationAffiliation"
                 },
@@ -972,7 +972,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/practitioner-name",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitioner-name",
                             "name": "name",
                             "type": "string"
                         },
@@ -1005,7 +1005,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/practitioner-family-name",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitioner-family-name",
                             "name": "family",
                             "type": "string"
                         },
@@ -1016,7 +1016,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/practitioner-given-name",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitioner-given-name",
                             "name": "given",
                             "type": "string"
                         }
@@ -1025,7 +1025,7 @@
                         "PractitionerRole:practitioner"
                     ],
                     "supportedProfile": [
-                        "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirAttest-Practitioner"
+                        "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-Practitioner"
                     ],
                     "type": "Practitioner"
                 },
@@ -1084,7 +1084,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/practitionerrole-practitioner",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitionerrole-practitioner",
                             "name": "practitioner",
                             "type": "reference"
                         },
@@ -1095,7 +1095,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/practitionerrole-organization",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitionerrole-organization",
                             "name": "organization",
                             "type": "reference"
                         },
@@ -1106,7 +1106,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/practitionerrole-location",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitionerrole-location",
                             "name": "location",
                             "type": "reference"
                         },
@@ -1117,7 +1117,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/practitionerrole-service",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitionerrole-service",
                             "name": "service",
                             "type": "reference"
                         },
@@ -1128,7 +1128,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/practitionerrole-network",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitionerrole-network",
                             "name": "network",
                             "type": "reference"
                         },
@@ -1139,7 +1139,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/practitionerrole-endpoint",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitionerrole-endpoint",
                             "name": "endpoint",
                             "type": "reference"
                         },
@@ -1150,7 +1150,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/practitionerrole-role",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitionerrole-role",
                             "name": "role",
                             "type": "token"
                         },
@@ -1161,7 +1161,7 @@
                                     "valueCode": "SHALL"
                                 }
                             ],
-                            "definition": "http://hl7.org/fhir/us/fhir-directory-exchange/SearchParameter/practitionerrole-specialty",
+                            "definition": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitionerrole-specialty",
                             "name": "specialty",
                             "type": "token"
                         },
@@ -1189,7 +1189,7 @@
                         }
                     ],
                     "supportedProfile": [
-                        "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirAttest-PractitionerRole"
+                        "http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-PractitionerRole"
                     ],
                     "type": "PractitionerRole"
                 }
@@ -1201,7 +1201,7 @@
     ],
     "status": "active",
     "title": "NatlDir CapabilityStatement",
-    "url": "http://hl7.org/fhir/us/fhir-directory-exchange/CapabilityStatement/NatlDir",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/CapabilityStatement/NatlDir",
     "version": "1.0.0",
     "resourceType": "CapabilityStatement"
 }

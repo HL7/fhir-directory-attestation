@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "organizationaffiliation-role",
-  "url": "http://hl7.org/fhir/us/davinci-pdex-NatlDir/SearchParameter/organizationaffiliation-role",
+  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organizationaffiliation-role",
   "version": "0.2.0",
   "name": "NatlDir_sp_organizationaffiliation_role",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/OrganizationAffiliation-role",

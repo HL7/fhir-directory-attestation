@@ -13,8 +13,8 @@ Usage: #example
 * active = true
 * providedBy = Reference(OrganizationPharmChain)
 * category = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS#pharm "Pharmacy"
-* specialty = http://nucc.org/provider-taxonomy#3336C0004X "Compounding Pharmacy"
-* specialty.text = "Compounding Pharmacy"
+// * specialty = http://nucc.org/provider-taxonomy#3336C0004X "Compounding Pharmacy"
+// * specialty.text = "Compounding Pharmacy"
 * location = Reference(PharmLoc1)
 * name = "Compounding Pharmacy by OrgA"
 * telecom.extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/via-intermediary"

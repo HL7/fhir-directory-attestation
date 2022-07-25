@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "organization-coverage-area",
-  "url": "http://hl7.org/fhir/us/davinci-pdex-NatlDir/SearchParameter/organization-coverage-area",
+  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organization-coverage-area",
   "version": "0.2.0",
   "name": "NatlDir_sp_network_coverage_area",
   "status": "active",
@@ -23,7 +23,7 @@
     "Organization"
   ],
   "type": "reference",
-  "expression": "Organization.extension.where(url='http://hl7.org/fhir/us/davinci-pdex-NatlDir/StructureDefinition/location-reference')",
+  "expression": "Organization.extension.where(url='http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/location-reference')",
   "target": [
     "Location"
   ],

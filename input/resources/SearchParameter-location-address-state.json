@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "location-address-state",
-  "url": "http://hl7.org/fhir/us/davinci-pdex-NatlDir/SearchParameter/location-address-state",
+  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/location-address-state",
   "version": "0.2.0",
   "name": "NatlDir_sp_location_address_state",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/Location-address-state",

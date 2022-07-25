@@ -7,7 +7,6 @@ Parent: $NatlDirectoryCareTeam
 Id: NatlDirAttest-CareTeam
 Title: "NatDir Care Team"
 Description: "Defines the basic constraints and extensions on the CareTeam resource for use in a Validated Healthcare Directory"
-
 * identifier.use 0..1
 * extension[restriction] ^short = "Restriction"
 * extension[restriction] ^definition = "Identifies and conveys information about restrictions on the use or release of exchanged information, e.g. information that can only be shared under particular condition, such as a signed data use agreement between parties"
@@ -46,8 +45,6 @@ Parent:         $NatlDirectoryNetwork    //Organization
 Id:             NatlDirAttest-Network
 Title:          "NatDir Network"
 Description:    "A Network refers to a healthcare provider insurance network. A healthcare provider insurance network is an aggregation of organizations and individuals that deliver a set of services across a geography through health insurance products/plans. A network is typically owned by a payer."
-
-
 
 Profile:        NatlDirAttestOrganization
 Parent:         $NatlDirectoryOrganization
@@ -143,6 +140,7 @@ Description: "Restriction on use/release of exchanged information"
 * provision.data.meaning MS
 * provision.data.reference MS
 * provision.provision ..0 MS
+
 
 Profile: NatlDirAttestValidation
 Parent: VerificationResult

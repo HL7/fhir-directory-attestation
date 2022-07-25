@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "organization-address",
-  "url": "http://hl7.org/fhir/us/davinci-pdex-NatlDir/SearchParameter/organization-address",
+  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organization-address",
   "version": "0.2.0",
   "name": "NatlDir_sp_organization_address",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/Organization-address",

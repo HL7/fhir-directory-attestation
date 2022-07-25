@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "practitionerrole-period",
-  "url": "http://hl7.org/fhir/us/davinci-pdex-NatlDir/SearchParameter/practitionerrole-period",
+  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitionerrole-period",
   "version": "0.2.0",
   "name": "NatlDir_sp_practitionerrole_period",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/PractitionerRole-location",
@@ -25,9 +25,6 @@
   ],
   "type": "reference",
   "expression": "PractitionerRole.period",
-  "target": [
-    "Period"
-  ],
   "multipleOr": true,
   "multipleAnd": true
 }

@@ -31,7 +31,7 @@ Usage: #definition
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[=].resource.type = "Endpoint"
-* fixture[=].resource = Reference(EndpointStJames) "Endpoint for St James Hospital"
+* fixture[=].resource = Reference(AcmeOfCTPortalEndpoint) "Endpoint for St James Hospital"
 * fixture[+].id = "523c5dcd-978d-5769-8a5b-835832af9dca"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
