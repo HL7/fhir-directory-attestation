@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "healthcareservice-location",
-  "url": "http://hl7.org/fhir/us/davinci-pdex-NatlDir/SearchParameter/healthcareservice-location",
+  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/healthcareservice-location",
   "version": "0.2.0",
   "name": "NatlDir_sp_healthcareservice_location",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/HealthcareService-location",

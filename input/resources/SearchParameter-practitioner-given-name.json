@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "practitioner-given-name",
-  "url": "http://hl7.org/fhir/us/davinci-pdex-NatlDir/SearchParameter/practitioner-given-name",
+  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitioner-given-name",
   "version": "0.2.0",
   "name": "NatlDir_sp_practitioner_given_name",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/individual-given",

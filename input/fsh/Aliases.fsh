@@ -57,8 +57,11 @@ Alias: $QualificationStatusCS = http://hl7.org/fhir/us/davinci-pdex-NatlDir/Code
 Alias: $MinEndpointConnectionTypeVS = https://hl7.org/fhir/us/davinci-pdex-plan-net/ValueSet/MinEndpointConnectionTypeVS
 Alias: $QualificationStatusCS = http://hl7.org/fhir/us/davinci-pdex-NatlDir/CodeSystem/QualificationStatusCS
 Alias: $IgFormatCodeVS = http://hl7.org/fhir/ValueSet/formatcodes
-/*
 
+
+
+
+/*
 Alias: $NatlDirEndpointQryEndpoint =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirEx-Endpoint
 Alias: $NatlDirEndpointQryHealthcareService =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirEx-HealthcareService
 Alias: $NatlDirEndpointQryInsurancePlan = http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirEx-InsurancePlan
@@ -70,8 +73,9 @@ Alias: $NatlDirEndpointQryOrganizationAffiliation =	http://hl7.org/fhir/us/fhir-
 Alias: $NatlDirEndpointQryPractitioner =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirEx-Practitioner
 */
 
-Alias: $NatlDirectoryCareTeam =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirEx-CareTeam
 Alias: $NatlDirectoryEndPoint =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirEx-Endpoint
+
+Alias: $NatlDirectoryCareTeam =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirEx-CareTeam
 Alias: $NatlDirectoryHealthCareService =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirEx-HealthcareService
 Alias: $NatlDirectoryInsurancePlan = http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirEx-InsurancePlan
 Alias: $NatlDirectoryLocation =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirEx-Location

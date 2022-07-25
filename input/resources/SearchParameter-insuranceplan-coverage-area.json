@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "insuranceplan-coverage-area",
-  "url": "http://hl7.org/fhir/us/davinci-pdex-NatlDir/SearchParameter/insuranceplan-coverage-area",
+  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/insuranceplan-coverage-area",
   "version": "0.2.0",
   "name": "NatlDir_sp_insuranceplan_coverage_area",
   "status": "active",

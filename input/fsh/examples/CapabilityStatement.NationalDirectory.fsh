@@ -1,10 +1,10 @@
 Instance: NationalDirectoryCapabilityStatement
 InstanceOf: CapabilityStatement
-Title: "vhdir.meteorapp.com/metadata"
+Title: "national-directory.meteorapp.com/metadata"
 Description: "National Directory - Capability Statement"
 
 Usage: #definition
-* url = "https://vhdir.meteorapp.com/baseR4"
+* url = "https://national-directory.meteorapp.com/baseR4"
 * name = "NationalCareDirectory"
 * version = "0.1.0"
 * status = #draft
@@ -210,11 +210,11 @@ Usage: #definition
 * rest.security.service[+] = http://fhir.udap.org/CodeSystem/capability-rest-security-service#UDAP
 * rest.security.service[=].text = "OAuth 2 using UDAP profile (see http://www.udap.org)"
 * rest.security.extension.extension[0].url = "token"
-* rest.security.extension.extension[=].valueUri = "https://vhdir.meteorapp.com/oauth/token"
+* rest.security.extension.extension[=].valueUri = "https://national-directory.meteorapp.com/oauth/token"
 * rest.security.extension.extension[+].url = "authorize"
-* rest.security.extension.extension[=].valueUri = "https://vhdir.meteorapp.com/oauth/authorize"
+* rest.security.extension.extension[=].valueUri = "https://national-directory.meteorapp.com/oauth/authorize"
 * rest.security.extension.extension[+].url = "register"
-* rest.security.extension.extension[=].valueUri = "https://vhdir.meteorapp.com/oauth/registration"
+* rest.security.extension.extension[=].valueUri = "https://national-directory.meteorapp.com/oauth/registration"
 * rest.security.extension.extension[+].url = "manage"
-* rest.security.extension.extension[=].valueUri = "https://vhdir.meteorapp.com/authorizations/manage"
+* rest.security.extension.extension[=].valueUri = "https://national-directory.meteorapp.com/authorizations/manage"
 * rest.security.extension.url = "http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris"

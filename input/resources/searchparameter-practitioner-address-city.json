@@ -1,10 +1,10 @@
 {
     "resourceType": "SearchParameter",
     "id": "practitioner-address-city",
-    "url": "http://hl7.org/fhir/uv/vhdir/SearchParameter/practitioner-address-city",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitioner-address-city",
     "version": "0.1.4",
     "name": "NatDir_practitioner_address_city",
-    "derivedFrom": "http://hl7.org/fhir/SearchParameter/practitioner-address-city",
+    "derivedFrom": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitioner-address-city",
     "status": "draft",
     "publisher": "FHIR At Scale Taskforce",
     "contact": [

@@ -14,8 +14,7 @@
         "telecom": [
           {
             "system": "email",
-            "value": "awatson@mitre.org",
-            "resourceType": "ContactPoint"
+            "value": "awatson@mitre.org"
           }
         ]
       }

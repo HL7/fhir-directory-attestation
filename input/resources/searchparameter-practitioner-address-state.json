@@ -1,10 +1,10 @@
 {
     "resourceType": "SearchParameter",
     "id": "practitioner-address-state",
-    "url": "http://hl7.org/fhir/uv/vhdir/SearchParameter/practitioner-address-state",
+    "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitioner-address-state",
     "version": "0.1.4",
     "name": "NatDir_practitioner_address_state",
-    "derivedFrom": "http://hl7.org/fhir/SearchParameter/practitioner-address-state",
+    "derivedFrom": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitioner-address-state",
     "status": "draft",
     "publisher": "FHIR At Scale Taskforce",
     "contact": [

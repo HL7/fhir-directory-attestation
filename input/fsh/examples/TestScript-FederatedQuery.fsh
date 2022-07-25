@@ -6,7 +6,7 @@ Usage: #definition
 * id = "fquA2atodHs6n3cYs"
 * url = "http://example.org/ExampleScenario/FederatedQuery"
 * status = #active
-* name = ""
+* name = "Federated Query"
 * title = ""
 * date = "2022-06-03T18:08:03.756Z"
 * publisher = ""
@@ -26,7 +26,7 @@ Usage: #definition
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[+].resource.type = "Endpoint"
-* fixture[=].resource = Reference(EndpointStJames) "St. James Portal"
+* fixture[=].resource = Reference(AcmeOfCTPortalEndpoint) "St. James Portal"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
 * fixture[+].resource.type = "Device"

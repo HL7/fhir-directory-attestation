@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "practitionerrole-service",
-  "url": "http://hl7.org/fhir/us/davinci-pdex-NatlDir/SearchParameter/practitionerrole-service",
+  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitionerrole-service",
   "version": "0.2.0",
   "name": "NatlDir_sp_practitionerrole_service",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/PractitionerRole-service",

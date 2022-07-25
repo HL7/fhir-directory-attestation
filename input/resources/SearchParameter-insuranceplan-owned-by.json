@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "insuranceplan-owned-by",
-  "url": "http://hl7.org/fhir/us/davinci-pdex-NatlDir/SearchParameter/insuranceplan-owned-by",
+  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/insuranceplan-owned-by",
   "version": "0.2.0",
   "name": "NatlDir_sp_insuranceplan_owned_by",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/InsurancePlan-owned-by",

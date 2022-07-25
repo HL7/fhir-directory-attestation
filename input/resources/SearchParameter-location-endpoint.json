@@ -1,7 +1,7 @@
 {
   "resourceType" : "SearchParameter",
   "id" : "location-endpoint",
-  "url" : "http://hl7.org/fhir/us/davinci-pdex-NatlDir/SearchParameter/location-endpoint",
+  "url" : "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/location-endpoint",
   "version" : "0.2.0",
   "name" : "NatlDir_sp_location_endpoint",
   "derivedFrom" : "http://hl7.org/fhir/SearchParameter/Location-endpoint",

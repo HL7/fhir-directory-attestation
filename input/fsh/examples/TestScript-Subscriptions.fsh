@@ -55,7 +55,7 @@ Usage: #definition
 * test[=].action[=].operation.accept = #json
 * test[=].action[=].operation.encodeRequestUrl = true
 * test[=].action[=].operation.url = "{{hostname}}/baseR4/Subscription/s7aTc2yk4YQyBRify"
-* test[=].action[=].operation.type = http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove
+* test[=].action[=].operation.type = http://terminology.hl7.org/CodeSystem/testscript-operation-codes#delete
 * test[=].action[+].assert.description = "Confirm that the returned HTTP status is 204(Gone)."
 * test[=].action[=].assert.response = #noContent
 * test[=].action[=].assert.warningOnly = false
@@ -80,7 +80,7 @@ Usage: #definition
 * test[=].action[=].operation.accept = #json
 * test[=].action[=].operation.encodeRequestUrl = true
 * test[=].action[=].operation.url = "{{hostname}}/baseR4/Organization/o6AJtyEk6sSsHWLjt"
-* test[=].action[=].operation.type = http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove
+* test[=].action[=].operation.type = http://terminology.hl7.org/CodeSystem/testscript-operation-codes#delete
 * test[=].action[=].operation.resource = #Organization
 * test[=].action[+].assert.description = "Confirm that the returned HTTP status is 204(Gone)."
 * test[=].action[=].assert.response = #noContent
@@ -106,7 +106,7 @@ Usage: #definition
 * test[=].action[=].operation.accept = #json
 * test[=].action[=].operation.encodeRequestUrl = true
 * test[=].action[=].operation.url = "{{hostname}}/baseR4/Practitioner/fZzusFYr3PBYyRnot"
-* test[=].action[=].operation.type = http://terminology.hl7.org/CodeSystem/testscript-operation-codes#remove
+* test[=].action[=].operation.type = http://terminology.hl7.org/CodeSystem/testscript-operation-codes#delete
 * test[=].action[=].operation.resource = #Practitioner
 * test[=].action[+].assert.description = "Confirm that the returned HTTP status is 204(Gone)."
 * test[=].action[=].assert.response = #noContent

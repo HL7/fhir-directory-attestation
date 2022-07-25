@@ -1,7 +1,7 @@
 {
   "resourceType" : "SearchParameter",
   "id" : "organizationaffiliation-endpoint",
-  "url" : "http://hl7.org/fhir/us/davinci-pdex-NatlDir/SearchParameter/organizationaffiliation-endpoint",
+  "url" : "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/organizationaffiliation-endpoint",
   "version" : "0.2.0",
   "name" : "NatlDir_sp_organizationaffiliation_endpoint",
   "derivedFrom" : "http://hl7.org/fhir/SearchParameter/OrganizationAffiliation-endpoint",

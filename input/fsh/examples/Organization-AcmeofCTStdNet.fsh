@@ -8,7 +8,8 @@ Usage: #example
 * language = #en-US
 * id = "o4XMGtrjTrN7mcctj"
 * active = true
-* type = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS#ntwk "Network"
+* type = http://hl7.org/fhir/us/fhir-directory-query/CodeSystem/OrgTypeCS#ntwk "Network"
+// http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS
 * name = "ACME CT Preferred Provider Network"
 * partOf = Reference(http://hl7.org/fhir/us/davinci-pdex-plan-net/Organization/Acme)
 * contact.name.family = "Kawasaki"
