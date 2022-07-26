@@ -6,7 +6,7 @@ Usage: #definition
 * id = "XA9eSGbRZR7Nrz2Gd"
 * url = "http://"
 * status = #draft
-* name = "Tiered OAuth Restricted Data"
+* name = "Tiered_OAuth_Restricted_Data"
 * title = "Tiered OAuth - Restricted Access to Womens Shelters"
 * date = "2022-06-14T23:19:30.696Z"
 * publisher = "FHIR at Scale Taskforce (FAST) && FHIR Foundry"
@@ -20,7 +20,7 @@ Usage: #definition
 * fixture[+].id = "43552bb8-5e5e-58e2-b233-36727b1d9d87"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
-* fixture[=].resource.type = "Consent"
+* fixture[=].resource.type = "ExampleScenario"
 * fixture[=].resource = Reference(WomensShelterScenario)
 * test[0].id = "4222467a-7bc0-54e4-9879-88fa0c05c412"
 * test[=].name = "Social Worker - Access Role"

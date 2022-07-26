@@ -20,7 +20,7 @@ Usage: #definition
 * fixture[+].id = "f40d0e54-38c6-536e-bb0c-bb1077096f43"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
-* fixture[=].resource.type = "Location"
+* fixture[=].resource.type = "Organization"
 * fixture[=].resource = Reference(OrganizationHamiltonClinic) "Cancer Clinic" 
 * fixture[+].id = "1419369a-4b9e-5efc-bb5c-75d4612b8d0d"
 * fixture[=].autocreate = true
