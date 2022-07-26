@@ -54,8 +54,8 @@ Description:    "An organization is a formal or informal grouping of people or o
 Guidance:   When the contact is a department name, rather than a human (e.g., patient help line), include a blank family and given name, and provide the department name in contact.name.text"
 //* partOf only Reference(NatlDirAttestOrganization)
 
-Profile:        NatlDirAttestOrganizationAfflication
-Parent:         $NatlDirectoryOrganizationAfflication
+Profile:        NatlDirAttestOrganizationAffiliation
+Parent:         $NatlDirectoryOrganizationAffiliation
 Id:             NatlDirAttest-OrganizationAffiliation
 Title:          "NatDir OrganizationAffiliation"
 Description:    "The OrganizationAffiliation resource describes relationships between two or more organizations, including the services one organization provides another, the location(s) where they provide services, the availability of those services, electronic endpoints, and other relevant information."

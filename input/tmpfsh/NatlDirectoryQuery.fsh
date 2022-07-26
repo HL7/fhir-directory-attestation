@@ -50,7 +50,7 @@
 
 
 // Profile:        NatlDirEndpointQryOrganizationAffiliation
-// Parent:         $NatlDirectoryOrganizationAfflication
+// Parent:         $NatlDirectoryOrganizationAffiliation
 // Id:             NatlDirEndpointQry-OrganizationAffiliation
 // Title:          "National Directory Endpoint Query OrganizationAffiliation"
 // Description:    "The OrganizationAffiliation resource describes relationships between two or more organizations, including the services one organization provides another, the location(s) where they provide services, the availability of those services, electronic endpoints, and other relevant information."
