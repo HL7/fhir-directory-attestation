@@ -27,3 +27,4 @@ Description: "Value Set for Organization Affiliation Roles"
 * codes from system $HL7OrganizationRoleCS 
 * exclude  $HL7OrganizationRoleCS#member  // replaced by OrganizationAffiliationRoleCS#memberof
 * codes from system OrganizationAffiliationRoleCS
+* ^caseSensitive = true
