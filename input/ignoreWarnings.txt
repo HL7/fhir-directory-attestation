@@ -11,6 +11,7 @@ WARNING: The code 342000000X  is not valid in the system http://nucc.org/provide
 # We are not using US careteam profile
 WARNING:US FHIR Usage rules require that all profiles on CareTeam derive from the core US profile. Comparison with US Core CareTeam Profile
 
-# This is an error with IG publisher, it appears whenever the consent resource is used without any changes.
-error: if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
+
+# UDAP defined code system provided here https://www.udap.org/udap-ig-consumer-facing-health-apps
+INFORMATION: CapabilityStatement/NationalDirectoryCapabilityStatement: CapabilityStatement.rest[0].security.service[1].coding[0]: Code System URI 'http://fhir.udap.org/CodeSystem/capability-rest-security-service' is unknown so the code cannot be validated
 

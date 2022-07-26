@@ -2,7 +2,6 @@ ValueSet: HealthcareProviderTaxonomy
 Title: "Healthcare Provider Taxonomy" 
 Description: "NPPI Healthcare Provider Taxonomy" 
 //* ^id = "2.16.840.1.114222.4.11.1066"
-* ^name = "Healthcare Provider Taxonomy"
 * ^meta.versionId = "14"
 * ^meta.lastUpdated = "2020-05-27T10:18:19.000-04:00"
 * ^version = "20190521"

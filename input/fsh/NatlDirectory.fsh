@@ -161,7 +161,8 @@ Description: "Describes validation requirements, source(s), status and dates for
 * validationType ^short = "nothing|single|multiple"
 * validationType ^definition = "What the target is validated against (nothing|single source|multiple sources)"
 * validationProcess 1..* MS
-* validationProcess from $validationprocess (example)
+// This introduces a dependency to vhdir that is not in sushi-config. This is only an example binding
+// * validationProcess from $validationprocess (example)
 * validationProcess ^short = "The process(es) by which the target is validated"
 * validationProcess ^definition = "The process(es) by which the target is validated"
 * frequency MS
@@ -217,7 +218,8 @@ Description: "Restriction on use/release of exchanged information"
 * status ^short = "Indicates the current state of this restriction"
 * status ^comment = "This element is labeled as a modifier because the status contains the codes rejected and entered-in-error that mark the restriction as not currently valid."
 * scope MS
-* scope from $consent (extensible)
+// Creates a dependency on an old specification that was never officially published
+//* scope from $consent (extensible)
 * scope ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
 * scope ^binding.extension.valueString = "ConsentScope"
 * category MS

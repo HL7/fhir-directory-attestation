@@ -1,5 +1,6 @@
 Instance: AcmeOfCTPortalEndpoint
 InstanceOf: Endpoint
+Description: "Endpoint for Acme of CT Portal"
 Usage: #example
 * meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
 * meta.profile = "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-Endpoint"
