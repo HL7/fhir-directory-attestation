@@ -66,6 +66,6 @@ Alias: $NatlDirectoryInsurancePlan = http://hl7.org/fhir/us/fhir-directory-excha
 Alias: $NatlDirectoryLocation =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-Location
 Alias: $NatlDirectoryNetwork =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-Network
 Alias: $NatlDirectoryOrganization =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-Organization
-Alias: $NatlDirectoryOrganizationAfflication =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-OrganizationAffiliation
+Alias: $NatlDirectoryOrganizationAffiliation =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-OrganizationAffiliation
 Alias: $NatlDirectoryPractitioner =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-Practitioner
 Alias: $NatlDirectoryPractitionerRole =	http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDir-PractitionerRole

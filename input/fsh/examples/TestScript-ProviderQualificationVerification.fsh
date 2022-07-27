@@ -5,5 +5,5 @@ Description: "TestScript - Verification of provider qualifications"
 Usage: #definition
 * id = "mqrNfC6BttERhMEZ9"
 * status = #active
-* name = "Provider Qualification Verification"
+* name = "Provider_Qualification_Verification"
 * url = "http://"

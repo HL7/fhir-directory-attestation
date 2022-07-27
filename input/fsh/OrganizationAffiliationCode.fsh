@@ -19,6 +19,7 @@ Description: "Codes For Organization Affiliation Role"
 * #residential "Residential Treatment Facility" "Residential Treatment Facility"
 * #respite "Respite Care Facility" "Respite Care Facility"
 * #retail	"Retail Health Center"	"Retail Health Center"
+* ^caseSensitive = true
 
 
 ValueSet: OrganizationAffiliationRoleVS
@@ -27,3 +28,4 @@ Description: "Value Set for Organization Affiliation Roles"
 * codes from system $HL7OrganizationRoleCS 
 * exclude  $HL7OrganizationRoleCS#member  // replaced by OrganizationAffiliationRoleCS#memberof
 * codes from system OrganizationAffiliationRoleCS
+

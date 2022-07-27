@@ -6,7 +6,7 @@ Usage: #definition
 * id = "fquA2atodHs6n3cYs"
 * url = "http://example.org/ExampleScenario/FederatedQuery"
 * status = #active
-* name = "Federated Query"
+* name = "Federated_Query"
 * title = ""
 * date = "2022-06-03T18:08:03.756Z"
 * publisher = ""
@@ -17,7 +17,7 @@ Usage: #definition
 * fixture[+].resource = Reference(PractitionerAllisonCamron) "Allison Camron, MD"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true
-* fixture[+].resource.type = "Location"
+* fixture[+].resource.type = "Organization"
 * fixture[=].resource = Reference(OrganizationHamiltonClinic) "456 Main Street Anytown CT 00014-1234"
 * fixture[=].autocreate = true
 * fixture[=].autodelete = true

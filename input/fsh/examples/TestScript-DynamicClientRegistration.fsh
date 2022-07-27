@@ -6,7 +6,7 @@ Usage: #definition
 * id = "gszMyXpwsdoAjJZeh"
 * url = "http://"
 * status = #draft
-* name = "UDAP Dynamic Client Registration"
+* name = "UDAP_Dynamic_Client_Registration"
 * title = "UDAP Dynamic Client Registration"
 * date = "2022-06-14T23:24:46.024Z"
 * publisher = "FHIR at Scale Taskforce (FAST) && FHIR Foundry"
