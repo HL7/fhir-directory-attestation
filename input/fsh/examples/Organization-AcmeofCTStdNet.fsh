@@ -1,5 +1,5 @@
 Instance: OrganizationAcmeofCTStdNet
-InstanceOf: NatlDirAttestOrganization
+InstanceOf: NatlDirEndpointQryOrganization
 Title: "Organization/o3XMGtrjTrN7mcctj"
 Description: "ACME Preferred"
 Usage: #example
@@ -9,9 +9,9 @@ Usage: #example
 * id = "o4XMGtrjTrN7mcctj"
 * active = true
 * type = http://hl7.org/fhir/us/fhir-directory-query/CodeSystem/OrgTypeCS#ntwk "Network"
-// http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS
+// http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/OrgTypeCS 
 * name = "ACME CT Preferred Provider Network"
-* partOf = Reference(http://hl7.org/fhir/us/davinci-pdex-plan-net/Organization/Acme)
+* partOf = Reference(OrganizationAcme)
 * contact.name.family = "Kawasaki"
 * contact.name.given = "Jane"
 

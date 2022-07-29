@@ -1,5 +1,5 @@
 Instance: OrganizationBurrClinic
-InstanceOf: Organization
+InstanceOf: NatlDirEndpointQryOrganization
 Title: "Organization/ooq79rZWvYNLtPK8D"
 Description: "Burr Clinic"
 Usage: #example

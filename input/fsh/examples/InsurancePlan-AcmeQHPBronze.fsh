@@ -1,5 +1,5 @@
 Instance: AcmeQHPBronze
-InstanceOf: InsurancePlan
+InstanceOf: NatlDirAttestInsurancePlan
 Title: "InsurancePlan/ipZFESpMpTshnEMrD"
 Description: "Acme of Conneticut - Bronze Plan"
 Usage: #example

@@ -1,5 +1,5 @@
 Instance: HansSoloClinic
-InstanceOf: Location
+InstanceOf: NatlDirEndpointQryLocation
 Title: "Location/lDj6WzsPaCdZsCyrP"
 Description: "123 Main Street, Anytown, CT, 00014"
 Usage: #example

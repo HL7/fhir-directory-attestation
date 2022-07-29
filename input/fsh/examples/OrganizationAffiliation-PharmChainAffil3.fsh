@@ -1,5 +1,5 @@
 Instance: PharmChainAffil3
-InstanceOf: OrganizationAffiliation
+InstanceOf: NatlDirAttestOrganizationAffiliation
 Title: "OrganizationAffiliation/oaPTusDv4SHhKWHJG"
 Description: "GoodRx Mail Order Network"
 Usage: #example

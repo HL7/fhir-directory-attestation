@@ -1,5 +1,5 @@
 Instance: StateOfCTLocation
-InstanceOf: Location
+InstanceOf: NatlDirEndpointQryLocation
 Title: "Location/l3ParyXfseYrfcpJN"
 Description: "State of Conneticut - Geographical Area"
 Usage: #example
