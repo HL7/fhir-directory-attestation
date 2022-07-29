@@ -2,7 +2,7 @@
 /**/
 
 
-Profile: NatlDirAttestCareTeam
+Profile: NatlDirAttestCareTeam 
 Parent: $NatlDirectoryCareTeam
 Id: NatlDirAttest-CareTeam
 Title: "NatDir Care Team"
@@ -21,8 +21,18 @@ Description:    "The technical details of an endpoint that can be used for elect
 Profile:        NatlDirAttestHealthCareService
 Parent:         $NatlDirectoryHealthCareService
 Id:             NatlDirAttest-HealthcareService
-Title:          "NatDir HealthcareService"
+Title:          "National Directory HealthcareService"
 Description:    "The HealthCareService resource typically describes services offered by an organization/practitioner at a location. The resource may be used to encompass a variety of services covering the entire healthcare spectrum, including promotion, prevention, diagnostics, pharmacy, hospital and ambulatory care, home care, long-term care, and other health-related and community services."
+* extension[newpatients] MS
+* identifier MS
+* serviceProvisionCode MS
+* eligibility MS
+* program MS 
+* communication MS
+* referralMethod MS
+* characteristic MS
+* communication MS
+* referralMethod MS
 
 
 Profile:        NatlDirAttestInsurancePlan
@@ -75,71 +85,6 @@ Title:          "NatDir PractitionerRole"
 Description:    "PractionerRole describes details about a provider, which can be a practitioner or an organization. When the provider is a practitioner, 
 there may be a relationship to an organization. A provider renders services to patients at a location. When the provider is a practitioner, there may also 
 be a relationship to an organization. Practitioner participation in healthcare provider insurance networks may be direct or through their role at an organization."
-
-
-Profile: NatlDirAttestRestriction
-Parent: Consent
-Id: NatlDir-Restriction
-Title: "NatlDir Restriction"
-Description: "Restriction on use/release of exchanged information"
-* ^status = #active
-* ^date = "2017-12-15T01:01:31.325+11:00"
-* . ^short = "A policy may permit or deny recipients or roles to perform actions for specific purposes and periods of time"
-* . ^alias = "Restriction"
-* identifier ..0 MS
-* status MS
-* status ^short = "Indicates the current state of this restriction"
-* status ^comment = "This element is labeled as a modifier because the status contains the codes rejected and entered-in-error that mark the restriction as not currently valid."
-* scope MS
-* scope from ConsentVS (extensible)
-* scope ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
-* scope ^binding.extension.valueString = "ConsentScope"
-* category MS
-* category ^label = "Type"
-* category ^short = "Type of restriction"
-* category ^definition = "Type of restriction (conditional release (per DUA); requires flowdown agreement (for redisclosure); internal use only; release defined by access rights (as specified by the national source))"
-* patient ..0 MS
-* dateTime MS
-* dateTime ^label = "last updated"
-* dateTime ^short = "date/time of last update for this restriction"
-* dateTime ^definition = "When this Restriction was issued / created / indexed."
-* performer ..0 MS
-* organization ..0 MS
-* source[x] ..0 MS
-* policy MS
-* policy.authority ..0 MS
-* policy.uri MS
-* policy.uri ^short = "Specific policy covered by this restriction"
-* policyRule ..0 MS
-* verification ..0 MS
-* verification.verified MS
-* verification.verifiedWith MS
-* verification.verificationDate MS
-* provision MS
-* provision ^short = "Access rights"
-* provision.type = #permit (exactly)
-* provision.type MS
-* provision.period ..0 MS
-* provision.actor 1.. MS
-* provision.actor.role MS
-//* provision.actor.reference only Reference(NatlDirOrganization or NatlDirCareTeam or NatlDirPractitioner)
-* provision.actor.reference MS
-* provision.actor.reference ^short = "definedUserOrGroup"
-* provision.action ..1 MS
-* provision.action ^short = "reasonType"
-* provision.action ^definition = "Describes how the reference is related to the restriction (contributes to; reason for; existance of; specific value)"
-* provision.securityLabel MS
-* provision.securityLabel ^short = "userType"
-* provision.purpose MS
-* provision.purpose ^short = "reasonName"
-* provision.purpose ^definition = "Name assigned to the restriction condition"
-* provision.class ..0 MS
-* provision.code ..0 MS
-* provision.dataPeriod ..0 MS
-* provision.data ..0 MS
-* provision.data.meaning MS
-* provision.data.reference MS
-* provision.provision ..0 MS
 
 
 Profile: NatlDirAttestValidation

@@ -1,5 +1,5 @@
-Instance: AnonRole
-InstanceOf: PractitionerRole
+Instance: AnonRole 
+InstanceOf: NatlDirAttestPractitionerRole
 Title: "PractitionerRole/rALFxTbdo6nEq5za6"
 Description: "Role - Anonymous users not registered with the system"
 Usage: #example
@@ -15,3 +15,4 @@ Usage: #example
 * specialty = http://nucc.org/provider-taxonomy#207R00000X "Internal Medicine Physician"
 * location = Reference(HospLoc2)
 * healthcareService = Reference(ServiceBurrClinic)
+* practitioner = Reference(PractitionerHansSolo)
