@@ -7,7 +7,7 @@ Usage: #example
 * status  = $ConsentCS#active
 * scope = $NatlDirectoryConsentScopeCS#patient-privacy
 * category = $loinc#59284-0 
-//* policyRule =  $ConsentPolicyCS#cric
+* policyRule =  $ConsentPolicyCS#cric
 
 Instance: ProviderAttestation
 InstanceOf: NatlDirAttestValidation
