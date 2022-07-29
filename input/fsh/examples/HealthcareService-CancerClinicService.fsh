@@ -1,5 +1,5 @@
 Instance: ServiceCancerClinic
-InstanceOf: HealthcareService
+InstanceOf: NatlDirAttestHealthCareService
 Title: "HealthcareService/hsutdKbC5QCe7Xtfn"
 Description: "HealthcareService - Medical Oncology"
 Usage: #example

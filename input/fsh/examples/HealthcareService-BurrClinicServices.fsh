@@ -1,5 +1,5 @@
 Instance: ServiceBurrClinic
-InstanceOf: HealthcareService
+InstanceOf: NatlDirAttestHealthCareService
 Title: "HealthcareService/hsMPDyHBr9gABHb2n"
 Description: "HealthcareService - Family Medicine"
 Usage: #example
