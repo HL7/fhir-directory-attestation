@@ -14,10 +14,10 @@
       "version": "0.1.0",     
       "date": "2021-10-13",
       "desc": "National Directory",
-      "path": "http://hl7.org/fhir/fhir-directory-attestation",
-      "status": "Draft",
+      "path": "http://hl7.org/fhir/us/fhir-directory-attestation",
+      "status": "ballot",
       "sequence": "STU 1",
-      "fhirversion": "4.0.0"
+      "fhirversion": "4.0.1"
     }
   ],
   "category": "Administration"
