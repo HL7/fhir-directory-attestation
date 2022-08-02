@@ -7,8 +7,8 @@ esc-0: 'Name should be usable as an identifier for the module by machine process
 INFORMATION: CapabilityStatement/NationalDirectoryCapabilityStatement: CapabilityStatement.rest[0].security.service[1].coding[0]: Code System URI 'http://fhir.udap.org/CodeSystem/capability-rest-security-service' is unknown so the code cannot be validated
 
 # We are using the Plan Net profile instead of US core for Practitioner Role and CareTeam. Variance Request ticket - https://jira.hl7.org/browse/FHIR-37832?filter=12641
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-CareTeam').baseDefinition: US FHIR Usage rules require that all profiles on CareTeam derive from the core US profile
-WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/NatlDirEndpointQry-PractitionerRole').baseDefinition: US FHIR Usage rules require that all profiles on PractitionerRole derive from the core US profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-CareTeam').baseDefinition: US FHIR Usage rules require that all profiles on CareTeam derive from the core US profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/fhir-directory-attestation/StructureDefinition/NatlDirAttest-PractitionerRole').baseDefinition: US FHIR Usage rules require that all profiles on PractitionerRole derive from the core US profile
 
 # error: if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme) is an error with underlying spec.
 error: if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
