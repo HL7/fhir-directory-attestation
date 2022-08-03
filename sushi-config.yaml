@@ -12,13 +12,13 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.fhir.us.fhir-directory-attestation
 canonical: http://hl7.org/fhir/us/fhir-directory-attestation
-version: 0.1.0
+version: 1.0.0-ballot
 name: NationalHealthcareDirectoryAttestationAndVerification
 title: National Healthcare Directory Attestation and Verification
 status: active
 publisher:
   name: HL7 Patient Administration Working Group
-  url: https://www.hl7.org/Special/committees/pafm/index.cfm
+  url: https://www.hl7.org/Special/committees/pafm
   email: pafm@lists.HL7.org
 description: National Directory
 jurisdiction: urn:iso:std:iso:3166#US

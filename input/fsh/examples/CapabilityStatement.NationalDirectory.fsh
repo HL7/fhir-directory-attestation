@@ -205,10 +205,6 @@ Usage: #definition
 * rest.resource[=].interaction[+].code = #history-instance
 * rest.resource[=].interaction[+].code = #vread
 * rest.resource[=].versioning = #versioned
-* rest.security.service[0] = http://terminology.hl7.org/CodeSystem/restful-security-service#SMART-on-FHIR
-* rest.security.service[=].text = "OAuth2 using SMART-on-FHIR profile (see http://docs.smarthealthit.org)"
-* rest.security.service[+] = http://fhir.udap.org/CodeSystem/capability-rest-security-service#UDAP
-* rest.security.service[=].text = "OAuth 2 using UDAP profile (see http://www.udap.org)"
 * rest.security.extension.extension[0].url = "token"
 * rest.security.extension.extension[=].valueUri = "https://national-directory.meteorapp.com/oauth/token"
 * rest.security.extension.extension[+].url = "authorize"
