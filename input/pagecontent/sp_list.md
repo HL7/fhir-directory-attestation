@@ -28,7 +28,6 @@
 
 **HealthcareService**
 
-- active `http://hl7.org/fhir/SearchParameter/HealthcareService-active`
 - [service-category](SearchParameter-healthcareservice-service-category.html)
 - [characteristic](SearchParameter-healthcareservice-characteristic.html)
 - [coverage-area](SearchParameter-healthcareservice-coverage-area.html)
@@ -64,8 +63,6 @@
 
 **Organization**
 
-- active `http://hl7.org/fhir/SearchParameter/Organization-active`
-- address-use `http://hl7.org/fhir/SearchParameter/Organization-address-use`
 - [address](SearchParameter-organization-address.html)
 - [address-city](SearchParameter-organization-address-city.html)
 - [address-country](SearchParameter-organization-address-country.html)
@@ -85,8 +82,6 @@
 
 **Network**
 
-- active `http://hl7.org/fhir/SearchParameter/Organization-active`
-- address-use `http://hl7.org/fhir/SearchParameter/Organization-address-use`
 - [coverage-area](SearchParameter-organization-coverage-area.html)
 - [address](SearchParameter-organization-address.html)
 - [address-city](SearchParameter-organization-address-city.html)
@@ -102,7 +97,6 @@
 
 **OrganizationAffiliation**
 
-- active `http://hl7.org/fhir/SearchParameter/OrganizationAffiliation-active`
 - [endpoint](SearchParameter-organizationaffiliation-endpoint.html)
 - [identifier](SearchParameter-organizationaffiliation-identifier.html)
 - [identifier-assigner](SearchParameter-organizationaffiliation-identifier-assigner.html)
@@ -117,7 +111,6 @@
 
 **Practitioner**
 
-- active `http://hl7.org/fhir/SearchParameter/Practitioner-active`
 - [endpoint](SearchParameter-practitioner-endpoint.html)
 - [name](SearchParameter-practitioner-name.html)
 - [family](SearchParameter-practitioner-family-name.html)
@@ -135,7 +128,6 @@
 
 **PractitionerRole**
 
-- active `http://hl7.org/fhir/SearchParameter/PractitionerRole-active`
 - [endpoint](SearchParameter-practitionerrole-endpoint.html)
 - [identifier](SearchParameter-practitionerrole-identifier.html)
 - [identifier-assigner](SearchParameter-practitionerrole-identifier-assigner.html)

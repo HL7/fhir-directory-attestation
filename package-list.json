@@ -1,6 +1,6 @@
 {
   "package-id": "hl7.fhir.us.fhir-directory-attestation",
-  "title": "ONC FAST National Healthcare Directory",
+  "title": "National Healthcare Directory Attestation",
   "canonical": "http://hl7.org/fhir/us/fhir-directory-attestation",
   "list": [
     {
