@@ -20,5 +20,5 @@ Usage: #example
 * practitioner = Reference(PractitionerHansSolo)
 * code = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/ProviderRoleCS#ph
 * specialty = http://nucc.org/provider-taxonomy#207R00000X "Internal Medicine Physician"
-* location = Reference(HansSoloClinic)
+* location = Reference(HospLoc1)
 * healthcareService = Reference(ServiceHansSolo)

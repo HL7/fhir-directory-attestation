@@ -1,5 +1,5 @@
 Instance: PractitionerAllisonCamron 
-InstanceOf: NatlDirAttestPractitioner
+InstanceOf: Practitioner
 Title: "Practitioner/pZzusFYr3PBYyRnot"
 Description: "Practitioner - Allison Camron"
 Usage: #example
@@ -12,27 +12,10 @@ Usage: #example
 * name.text = "Allison Camron, MD"
 * name.family = "Camron"
 * name.given = "Allison"
-* qualification[0].extension.extension[0].url = "status"
-* qualification[=].extension.extension[=].valueCode = #active
-* qualification[=].extension.extension[+].url = "whereValid"
-* qualification[=].extension.extension[=].valueCodeableConcept = https://www.usps.com/#IL
-* qualification[=].extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification"
-* qualification[=].code = http://terminology.hl7.org/CodeSystem/v2-0360#MD
-* qualification[=].code.text = "MD"
-* qualification[=].issuer.display = "State of Illinois"
-* qualification[+].extension.extension[0].url = "status"
-* qualification[=].extension.extension[=].valueCode = #active
-* qualification[=].extension.extension[+].url = "whereValid"
-* qualification[=].extension.extension[=].valueCodeableConcept = https://www.usps.com/#IL
-* qualification[=].extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification"
-* qualification[=].code = http://nucc.org/provider-taxonomy#207R00000X "Internal Medicine Physician"
-* qualification[=].code.text = "Board Certified Internal Medicine"
-* qualification[=].issuer.display = "American Board of Internal Medicine"
-* qualification[+].extension.extension[0].url = "status"
-* qualification[=].extension.extension[=].valueCode = #active
-* qualification[=].extension.extension[+].url = "whereValid"
-* qualification[=].extension.extension[=].valueCodeableConcept = https://www.usps.com/#IL
-* qualification[=].extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification"
-* qualification[=].code = http://nucc.org/provider-taxonomy#207RC0000X "Cardiovascular Disease Physician"
-* qualification[=].code.text = "Board Certified Cardiovascular Disease"
-* qualification[=].issuer.display = "American Board of Internal Medicine"
+* qualification[0].code.coding.display = "LPC"
+* qualification[0].code.text = "LPC"
+* qualification[0].issuer.display = "State of Illinois"
+* qualification[0].code.text = "IL"
+* qualification[0].extension[practitioner-qualification].extension[status].valueCode = $NatlDirectoryQualStatusCS#active 
+* qualification[0].extension[practitioner-qualification].extension[whereValid].valueCodeableConcept = $USPSStateCS#IL 
+//* extension[communication-proficiency].valueCodeableConcept = $NatlDirectoryLangProfCS#30

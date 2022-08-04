@@ -1,39 +1,32 @@
 Instance: PractitionerJoeSmith
-InstanceOf: Practitioner
+InstanceOf: NatlDirAttestPractitioner
 Title: "Practitioner/pFhDpHhMzBsSvmLb9"
 Description: "Practitioner - Joe Smith"
 Usage: #example
 * meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
-* meta.profile = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner"
 * language = #en-US
-* id = "pFhDpHhMzBsSvmLb9"
-* identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "NPI323"
 * active = true
+* identifier[NPI].value = "NPI323"
+* identifier[NPI].system = $NPICS
 * name.text = "Joe Smith, MD"
 * name.family = "Smith"
-* name.given = "Joe"
-* qualification[0].extension.extension[0].url = "status"
-* qualification[=].extension.extension[=].valueCode = #active
-* qualification[=].extension.extension[+].url = "whereValid"
-* qualification[=].extension.extension[=].valueCodeableConcept = https://www.usps.com/#IL
-* qualification[=].extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification"
-* qualification[=].code = http://terminology.hl7.org/CodeSystem/v2-0360#MD
-* qualification[=].code.text = "MD"
-* qualification[=].issuer.display = "State of Illinois"
-* qualification[+].extension.extension[0].url = "status"
-* qualification[=].extension.extension[=].valueCode = #active
-* qualification[=].extension.extension[+].url = "whereValid"
-* qualification[=].extension.extension[=].valueCodeableConcept = https://www.usps.com/#IL
-* qualification[=].extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification"
-* qualification[=].code = http://nucc.org/provider-taxonomy#207R00000X "Internal Medicine Physician"
-* qualification[=].code.text = "Board Certified Internal Medicine"
-* qualification[=].issuer.display = "American Board of Internal Medicine"
-* qualification[+].extension.extension[0].url = "status"
-* qualification[=].extension.extension[=].valueCode = #active
-* qualification[=].extension.extension[+].url = "whereValid"
-* qualification[=].extension.extension[=].valueCodeableConcept = https://www.usps.com/#IL
-* qualification[=].extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification"
-* qualification[=].code = http://nucc.org/provider-taxonomy#207RC0000X "Cardiovascular Disease Physician"
-* qualification[=].code.text = "Board Certified Cardiovascular Disease"
-* qualification[=].issuer.display = "American Board of Internal Medicine"
+* name.given[0] = "Joe"
+* qualification[0].code = $V2table0360CS#MD
+* qualification[0].issuer.display = "State of Illinois"
+* qualification[0].code.text = "MD"
+* qualification[0].extension[practitioner-qualification].extension[status].valueCode = QualificationStatusCS#active 
+* qualification[0].extension[practitioner-qualification].extension[whereValid].valueCodeableConcept = $USPSStateCS#IL 
+* qualification[1].code = $NUCCProviderTaxonomy#207R00000X "Internal Medicine Physician"
+* qualification[1].issuer.display = "American Board of Internal Medicine"
+* qualification[1].code.text = "Board Certified Internal Medicine"
+* qualification[1].extension[practitioner-qualification].extension[status].valueCode = QualificationStatusCS#active 
+* qualification[1].extension[practitioner-qualification].extension[whereValid].valueCodeableConcept = $USPSStateCS#IL 
+* qualification[2].code = $NUCCProviderTaxonomy#207RC0000X "Cardiovascular Disease Physician"
+* qualification[2].issuer.display = "American Board of Internal Medicine"
+* qualification[2].code.text = "Board Certified Cardiovascular Disease"
+* qualification[2].extension[practitioner-qualification].extension[status].valueCode = QualificationStatusCS#active 
+* qualification[2].extension[practitioner-qualification].extension[whereValid].valueCodeableConcept = $USPSStateCS#IL 
+//* rating.type = "5"
+//* rating[0].value.text = "5"
+* extension[rating].extension[ratingType].valueCodeableConcept = $USPSStateCS#IL 
+* extension[rating].extension[ratingValue].valueString = "5"

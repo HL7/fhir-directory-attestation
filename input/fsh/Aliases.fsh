@@ -52,7 +52,6 @@ Alias:  $yesNoVS = http://terminology.hl7.org/ValueSet/v2-0136
 
 // NatlDir defined CS that mimic VHDir CodeSystems
 
-Alias: $LanguageProficiency = http://hl7.org/fhir/us/davinci-pdex-NatlDir/CodeSystem/LanguageProficiencyCS
 Alias: $QualificationStatusCS = http://hl7.org/fhir/us/davinci-pdex-NatlDir/CodeSystem/QualificationStatusCS
 Alias: $MinEndpointConnectionTypeVS = https://hl7.org/fhir/us/davinci-pdex-plan-net/ValueSet/MinEndpointConnectionTypeVS
 Alias: $QualificationStatusCS = http://hl7.org/fhir/us/davinci-pdex-NatlDir/CodeSystem/QualificationStatusCS
