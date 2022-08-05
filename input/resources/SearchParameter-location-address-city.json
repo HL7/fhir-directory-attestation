@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "location-address-city",
-  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/location-address-city",
+  "url": "http://hl7.org/fhir/us/directory-attestation/SearchParameter/location-address-city",
   "version": "0.2.0",
   "name": "NatlDir_sp_location_address_city",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/Location-address-city",

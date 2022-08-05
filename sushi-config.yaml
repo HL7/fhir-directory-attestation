@@ -10,8 +10,8 @@
 # │  supported properties, see:                                                                    │
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: hl7.fhir.us.fhir-directory-attestation
-canonical: http://hl7.org/fhir/us/fhir-directory-attestation
+id: hl7.fhir.us.directory-attestation
+canonical: http://hl7.org/fhir/us/directory-attestation
 version: 1.0.0-ballot
 name: NationalHealthcareDirectoryAttestationAndVerification
 title: National Healthcare Directory Attestation and Verification
@@ -26,8 +26,8 @@ license: CC0-1.0
 fhirVersion: 4.0.1
 dependencies:
   hl7.fhir.us.core: 4.0.0
-  hl7.fhir.us.fhir-directory-exchange: current
-  hl7.fhir.us.fhir-directory-query: current
+  hl7.fhir.us.directory-exchange: current
+  hl7.fhir.us.directory-query: current
   hl7.fhir.us.davinci-pdex-plan-net: 1.1.0
  # hl7.fhir.uv.vhdir: current
 parameters:

@@ -1,12 +1,12 @@
 {
-  "package-id": "hl7.fhir.us.fhir-directory-attestation",
+  "package-id": "hl7.fhir.us.directory-attestation",
   "title": "National Healthcare Directory Attestation",
-  "canonical": "http://hl7.org/fhir/us/fhir-directory-attestation",
+  "canonical": "http://hl7.org/fhir/us/directory-attestation",
   "list": [
     {
       "version": "current",
       "desc": "Continuous Integration Build (latest in version control)",
-      "path": "http://build.fhir.org/ig/HL7/fhir-directory-attestation",
+      "path": "http://build.fhir.org/ig/HL7/directory-attestation",
       "status": "ci-build",
       "current": true
     },
@@ -14,7 +14,7 @@
       "version": "1.0.0-ballot",     
       "date": "2021-10-13",
       "desc": "National Directory",
-      "path": "http://hl7.org/fhir/us/fhir-directory-attestation/2022Sep",
+      "path": "http://hl7.org/fhir/us/directory-attestation/2022Sep",
       "status": "ballot",
       "sequence": "STU 1",
       "fhirversion": "4.0.1"

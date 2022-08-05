@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "insuranceplan-identifier",
-  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/insuranceplan-identifier",
+  "url": "http://hl7.org/fhir/us/directory-attestation/SearchParameter/insuranceplan-identifier",
   "version": "0.2.0",
   "name": "NatlDir_sp_insuranceplan_identifier",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/InsurancePlan-identifier",

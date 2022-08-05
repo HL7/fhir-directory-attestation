@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "practitioner-name",
-  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/practitioner-name",
+  "url": "http://hl7.org/fhir/us/directory-attestation/SearchParameter/practitioner-name",
   "version": "0.2.0",
   "name": "NatlDir_sp_practitioner_name",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/Practitioner-name",

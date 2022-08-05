@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "endpoint-organization",
-  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/endpoint-organization",
+  "url": "http://hl7.org/fhir/us/directory-attestation/SearchParameter/endpoint-organization",
   "version": "0.2.0",
   "name": "NatlDir_sp_endpoint_organization",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/Endpoint-organization",

@@ -4,7 +4,7 @@ Title: "Organization/oGaKCfZSaoxLrDPbA"
 Description: "ACME of Conneticut"
 Usage: #example
 * meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
-* meta.profile = "http://hl7.org/fhir/us/fhir-directory-exchange/StructureDefinition/NatlDirEx-Organization"
+* meta.profile = "http://hl7.org/fhir/us/directory-exchange/StructureDefinition/NatlDirEx-Organization"
 * language = #en-US
 * id = "o4aKCfZSaoxLrDPbA"
 // * extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/org-description"
@@ -26,7 +26,7 @@ Usage: #example
 * telecom[=].extension.extension[=].valueTime = "08:00:00"
 * telecom[=].extension.extension[+].url = "availableEndTime"
 * telecom[=].extension.extension[=].valueTime = "17:00:00"
-* telecom[=].extension.url = "http://hl7.org/fhir/us/fhir-directory-query/StructureDefinition/contactpoint-availabletime"
+* telecom[=].extension.url = "http://hl7.org/fhir/us/directory-query/StructureDefinition/contactpoint-availabletime"
 * telecom[=].system = #phone
 * telecom[=].value = "(111)-222-3333"
 * telecom[=].rank = 2
