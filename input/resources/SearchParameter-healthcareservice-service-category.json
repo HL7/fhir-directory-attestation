@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "healthcareservice-service-category",
-  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/healthcareservice-service-category",
+  "url": "http://hl7.org/fhir/us/directory-attestation/SearchParameter/healthcareservice-service-category",
   "version": "0.2.0",
   "name": "NatlDir_sp_healthcareservice_category",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/HealthcareService-service-category",

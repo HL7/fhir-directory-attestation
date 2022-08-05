@@ -1,4 +1,4 @@
-# fhir-directory-attestation
+# directory-attestation
 FAST directory attestation FHIR implementation guide
 
 
@@ -6,8 +6,8 @@ FAST directory attestation FHIR implementation guide
 
 ```shell
 # get a copy of the source code
-git clone https://github.com/HL7/fhir-directory-attestation 
-cd fhir-directory-attestation
+git clone https://github.com/HL7/directory-attestation 
+cd directory-attestation
 
 # create a new branch
 git checkout -b new-branch
@@ -19,5 +19,5 @@ git push origin new-branch
 
 The changes should be available at:  
 
-https://build.fhir.org/ig/HL7/fhir-directory-attestation  
+https://build.fhir.org/ig/HL7/directory-attestation  
 

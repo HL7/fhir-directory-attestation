@@ -1,7 +1,7 @@
 {
   "resourceType": "SearchParameter",
   "id": "location-organization",
-  "url": "http://hl7.org/fhir/us/fhir-directory-attestation/SearchParameter/location-organization",
+  "url": "http://hl7.org/fhir/us/directory-attestation/SearchParameter/location-organization",
   "version": "0.2.0",
   "name": "NatlDir_sp_location_organization",
   "derivedFrom": "http://hl7.org/fhir/SearchParameter/Location-organization",
