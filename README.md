@@ -1,5 +1,13 @@
-# directory-attestation
-FAST directory attestation FHIR implementation guide
+# FAST National Directory Attestation Implementation Guide
+Implementation guide for writing data into the FAST National Directory.  
+
+- [Current Build](https://build.fhir.org/ig/HL7/fhir-directory-attestation)
+- [Development Branches](https://build.fhir.org/ig/HL7/fhir-directory-attestation/branches)
+
+#### Reference Implementation
+
+For reference implementation source code, please see:
+https://github.com/HL7-FAST/national-directory
 
 
 #### Contributing  
@@ -17,7 +25,5 @@ git commit -a -m 'descriptive message'
 git push origin new-branch
 ```
 
-The changes should be available at:  
-
-https://build.fhir.org/ig/HL7/directory-attestation  
-
+#### Copyright
+- © 2021+ HL7 Patient Administration Working Group
