@@ -15,7 +15,7 @@ https://github.com/HL7-FAST/national-directory
 ```shell
 # get a copy of the source code
 git clone https://github.com/HL7/fhir-directory-attestation 
-cd directory-attestation
+cd fhir-directory-attestation
 
 # create a new branch
 git checkout -b new-branch
