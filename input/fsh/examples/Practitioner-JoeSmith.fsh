@@ -4,6 +4,7 @@ Title: "Practitioner/pFhDpHhMzBsSvmLb9"
 Description: "Practitioner - Joe Smith"
 Usage: #example
 * meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
+* meta.security = #N "normal"
 * language = #en-US
 * active = true
 * identifier[NPI].value = "NPI323"

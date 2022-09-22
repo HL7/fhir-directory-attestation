@@ -5,3 +5,4 @@ Description: "Fast Scan Radiology"
 Usage: #example
 * id = "o9ZkiSX6abYLhWWGo"
 * name = "Fast Scan Radiology"
+* meta.security = #N "normal"

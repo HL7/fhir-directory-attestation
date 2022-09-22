@@ -5,3 +5,4 @@ Description: "US Post Office"
 Usage: #example
 * id = "ow7KqRFWWHrxKQW34"
 * name = "United States Post Office"
+* meta.security = #N "normal"
