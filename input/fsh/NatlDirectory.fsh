@@ -48,7 +48,7 @@ Id:             NatlDirAttest-Location
 Title:          "NatDir Location"
 Description:    "A Location is the physical place where healthcare services are provided, practitioners are employed, 
                  organizations are based, etc. Locations can range in scope from a room in a building to a geographic region/area."
-
+* meta.security 1..*
 
 Profile:        NatlDirAttestNetwork
 Parent:         $NatlDirectoryNetwork    //Organization 
@@ -63,6 +63,7 @@ Title:          "NatDir Organization"
 Description:    "An organization is a formal or informal grouping of people or organizations with a common purpose, such as a company, institution, corporation, community group, or healthcare practice.
 Guidance:   When the contact is a department name, rather than a human (e.g., patient help line), include a blank family and given name, and provide the department name in contact.name.text"
 //* partOf only Reference(NatlDirAttestOrganization)
+* meta.security 1..*
 
 Profile:        NatlDirAttestOrganizationAffiliation
 Parent:         $NatlDirectoryOrganizationAffiliation
@@ -76,7 +77,7 @@ Parent:         $NatlDirectoryPractitioner
 Id:             NatlDirAttest-Practitioner
 Title:          "NatDir Practitioner"
 Description:    "Practitioner is a person who is directly or indirectly involved in the provisioning of healthcare."
-
+* meta.security 1..*
 
 Profile:        NatlDirAttestPractitionerRole
 Parent:         $NatlDirectoryPractitionerRole

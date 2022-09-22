@@ -4,6 +4,7 @@ Title: "Practitioner/pZzusFYr3PBYyRnot"
 Description: "Practitioner - Allison Camron"
 Usage: #example
 * meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
+* meta.security = #N "normal"
 * language = #en-US
 * id = "pZzusFYr3PBYyRnot"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"

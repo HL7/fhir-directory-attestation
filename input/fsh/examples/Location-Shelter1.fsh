@@ -5,6 +5,7 @@ Description: "Women's Shelter - 345 Main Street, Nowheresville, CT, 00014"
 Usage: #example
 * meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
 * meta.profile = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location"
+* meta.security = #R "restricted"
 * language = #en-US
 * extension[0].extension[0].url = "acceptingPatients"
 * extension[=].extension[=].valueCodeableConcept = http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AcceptingPatientsCS#existptonly
