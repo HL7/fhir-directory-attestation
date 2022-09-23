@@ -9,8 +9,13 @@
 <artifact id="CodeSystem/AccessibilityCS" key="CodeSystem-AccessibilityCS" name="Accessibility Code System"/>
 <artifact id="Endpoint/AcmeOfCTPortalEndpoint" key="Endpoint-AcmeOfCTPortalEndpoint" name="AcmeOfCTPortalEndpoint"/>
 <artifact id="TestScript/48twF7WfuXkxdnHkh" key="TestScript-48twF7WfuXkxdnHkh" name="Attestation"/>
-<artifact id="CareTeam/CareTeam1" key="CareTeam-CareTeam1" name="CareTeam1"/>
+<artifact deprecated="true" id="CareTeam/CareTeam1" key="CareTeam-CareTeam1" name="CareTeam1"/>
 <artifact id="Consent/cotkDnGQjpHijDsRR" key="Consent-cotkDnGQjpHijDsRR" name="Consent/cotkDnGQjpHijDsRR"/>
+<artifact id="Consent/ConsentAnonLoc" key="Consent-ConsentAnonLoc" name="ConsentAnonLoc"/>
+<artifact id="Consent/ConsentAnonOrg" key="Consent-ConsentAnonOrg" name="ConsentAnonOrg"/>
+<artifact id="Consent/ConsentAnonPrac" key="Consent-ConsentAnonPrac" name="ConsentAnonPrac"/>
+<artifact id="Consent/ConsentClinicianLoc" key="Consent-ConsentClinicianLoc" name="ConsentClinicianLoc"/>
+<artifact id="Consent/ConsentClinicianOrg" key="Consent-ConsentClinicianOrg" name="ConsentClinicianOrg"/>
 <artifact id="CodeSystem/DeliveryMethodCS" key="CodeSystem-DeliveryMethodCS" name="Delivery Methods Code System"/>
 <artifact id="Device/dTixApQCHxxheiLX3" key="Device-dTixApQCHxxheiLX3" name="Device/dTixApQCHxxheiLX3"/>
 <artifact id="Device/dXuinjribcN2ARYXv" key="Device-dXuinjribcN2ARYXv" name="Device/dXuinjribcN2ARYXv"/>
@@ -146,7 +151,7 @@
 <artifact id="OrganizationAffiliation/oamEcy7YASttYnaxK" key="OrganizationAffiliation-oamEcy7YASttYnaxK" name="OrganizationAffiliation/oamEcy7YASttYnaxK"/>
 <artifact id="OrganizationAffiliation/oaqirA9KjALpeDBjs" key="OrganizationAffiliation-oaqirA9KjALpeDBjs" name="OrganizationAffiliation/oaqirA9KjALpeDBjs"/>
 <artifact id="OrganizationAffiliation/oareedAzJMQsamimk" key="OrganizationAffiliation-oareedAzJMQsamimk" name="OrganizationAffiliation/oareedAzJMQsamimk"/>
-<artifact id="Consent/PatientConsent" key="Consent-PatientConsent" name="PatientConsent"/>
+<artifact deprecated="true" id="Consent/PatientConsent" key="Consent-PatientConsent" name="PatientConsent"/>
 <artifact id="Practitioner/p6x5NWQPoKgyTKjAk" key="Practitioner-p6x5NWQPoKgyTKjAk" name="Practitioner/p6x5NWQPoKgyTKjAk"/>
 <artifact id="Practitioner/pBvMREMS3HpzyJgwa" key="Practitioner-pBvMREMS3HpzyJgwa" name="Practitioner/pBvMREMS3HpzyJgwa"/>
 <artifact id="Practitioner/PractitionerJoeSmith" key="Practitioner-PractitionerJoeSmith" name="Practitioner/pFhDpHhMzBsSvmLb9"/>
@@ -159,7 +164,7 @@
 <artifact id="PractitionerRole/rtaTdfxSNTmqqnDeJ" key="PractitionerRole-rtaTdfxSNTmqqnDeJ" name="PractitionerRole/rtaTdfxSNTmqqnDeJ"/>
 <artifact id="ExampleScenario/5psortwYNqr2vLNwQ" key="ExampleScenario-5psortwYNqr2vLNwQ" name="Protected Womens' Shelters"/>
 <artifact id="CodeSystem/ProviderRoleCS" key="CodeSystem-ProviderRoleCS" name="Provider Role Code System"/>
-<artifact id="VerificationResult/ProviderAttestation" key="VerificationResult-ProviderAttestation" name="ProviderAttestation"/>
+<artifact deprecated="true" id="VerificationResult/ProviderAttestation" key="VerificationResult-ProviderAttestation" name="ProviderAttestation"/>
 <artifact id="CodeSystem/QualificationStatusCS" key="CodeSystem-QualificationStatusCS" name="Qualification Status Code System"/>
 <artifact id="TestScript/XA9eSGbRZR7Nrz2Gd" key="TestScript-XA9eSGbRZR7Nrz2Gd" name="Restricted Access"/>
 <artifact id="HealthcareService/hsMPDyHBr9gABHb2n" key="HealthcareService-hsMPDyHBr9gABHb2n" name="ServiceBurrClinic"/>
