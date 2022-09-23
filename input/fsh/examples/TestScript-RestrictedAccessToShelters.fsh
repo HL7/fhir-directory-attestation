@@ -4,7 +4,7 @@ Title: "Restricted Access"
 Description: "TestScript - Restricted access to women's shelters."
 Usage: #definition
 * id = "XA9eSGbRZR7Nrz2Gd"
-* url = "http://"
+* url = "http://RestrictedDataTestScript"
 * status = #draft
 * name = "Tiered_OAuth_Restricted_Data"
 * title = "Tiered OAuth - Restricted Access to Womens Shelters"

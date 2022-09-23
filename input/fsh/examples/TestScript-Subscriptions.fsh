@@ -4,7 +4,7 @@ Title: "Subscriptions"
 Description: "TestScript - PUSH messaging via Subscriptions from National Directory to Federated instances."
 Usage: #definition
 * id = "odYxqzPToJTN3A8GN"
-* url = "http://"
+* url = "http://SubscriptionTestScript"
 * status = #draft
 * name = "Subscriptions"
 * title = "Subscriptions"

@@ -4,7 +4,7 @@ Title: "Dynamic Client Registration"
 Description: "TestScript - Dynamic Client Registration"
 Usage: #definition
 * id = "gszMyXpwsdoAjJZeh"
-* url = "http://"
+* url = "http://DynamicClientRegistrationTestScript"
 * status = #draft
 * name = "UDAP_Dynamic_Client_Registration"
 * title = "UDAP Dynamic Client Registration"
