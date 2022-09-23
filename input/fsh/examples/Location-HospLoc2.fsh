@@ -4,6 +4,7 @@ Title: "Location/lNxvHyHMFya5Bym6r"
 Description: "123 Main Street, Anytown, CT, 00014"
 Usage: #example
 * meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
+* meta.security = #N "normal"
 * meta.profile = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location"
 * language = #en-US
 * extension[0].url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility"

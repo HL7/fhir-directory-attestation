@@ -5,6 +5,7 @@ Description: "Role - Conselor or therapist"
 Usage: #example
 * meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
 * meta.profile = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-PractitionerRole"
+* meta.security = #N "normal"
 * language = #en-US
 * id = "rCY6ePpLywTbfx3yp"
 * extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/network-reference"

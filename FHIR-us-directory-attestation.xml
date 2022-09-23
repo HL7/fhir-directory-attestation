@@ -53,6 +53,7 @@
 <artifact id="Location/lYG8WxBHX4HRoewaM" key="Location-lYG8WxBHX4HRoewaM" name="Location/lYG8WxBHX4HRoewaM"/>
 <artifact id="Location/lsH38uL5J3eYEQ5hJ" key="Location-lsH38uL5J3eYEQ5hJ" name="Location/lsH38uL5J3eYEQ5hJ"/>
 <artifact id="Location/lyW5mPW2nf3DHC7h6" key="Location-lyW5mPW2nf3DHC7h6" name="Location/lyW5mPW2nf3DHC7h6"/>
+<artifact id="Organization/MHs6oCtnGZekLHe7Q" key="Organization-MHs6oCtnGZekLHe7Q" name="MHs6oCtnGZekLHe7Q"/>
 <artifact id="StructureDefinition/NatlDirAttest-CareTeam" key="StructureDefinition-NatlDirAttest-CareTeam" name="NatDir Care Team"/>
 <artifact id="CodeSystem/ConsentCS" key="CodeSystem-ConsentCS" name="NatDir Consent Code System"/>
 <artifact id="ValueSet/ConsentVS" key="ValueSet-ConsentVS" name="NatDir Consent Scopes Valueset"/>

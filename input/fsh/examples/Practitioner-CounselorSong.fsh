@@ -5,6 +5,7 @@ Description: "Practitioner - Susie Song, Social Worker"
 Usage: #example
 * meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
 * meta.profile = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner"
+* meta.security = #N "normal"
 * language = #en-US
 * id = "pBvMREMS3HpzyJgwa"
 * extension.url = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/communication-proficiency"

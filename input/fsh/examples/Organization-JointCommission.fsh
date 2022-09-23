@@ -5,3 +5,4 @@ Description: "The Joint Commission on the Accreditation of Healthcare Organizati
 Usage: #example
 * id = "oPxE9d7Wtqjy9WEZx"
 * name = "The Joint Commission"
+* meta.security = #N "normal"
