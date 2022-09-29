@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "193a2551-7342-4279-9e3b-7c36abe96d83",
+		"name": "Attestation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "St. James Infirmary",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "resourceType",
+						"value": "Organization",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"resourceType\" : \"Organization\",\n  \"id\" : \"o6AJtyEk6sSsHWLjt\",\n  \"name\" : \"St. James Infirmary\",\n  \"address\": {\n        \"line\": [\n            \"456 Main Street\"\n        ],\n        \"city\": \"Anytown\",\n        \"state\": \"CT\",\n        \"postalCode\": \"00014-1234\"\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{hostname}}/baseR4/Organization/o6AJtyEk6sSsHWLjt",
+					"host": [
+						"{{hostname}}"
+					],
+					"path": [
+						"baseR4",
+						"Organization",
+						"o6AJtyEk6sSsHWLjt"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "456 Main Street",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "resourceType",
+						"value": "Location",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"resourceType\" : \"Location\",\n  \"id\" : \"l4bjaZGQfeNfhAEpb\",\n  \"language\" : \"en-US\",\n  \"extension\" : [\n    {\n      \"url\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility\",\n      \"valueCodeableConcept\" : {\n        \"coding\" : [\n          {\n            \"system\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AccessibilityCS\",\n            \"code\" : \"adacomp\"\n          }\n        ]\n      }\n    },\n    {\n      \"url\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/accessibility\",\n      \"valueCodeableConcept\" : {\n        \"coding\" : [\n          {\n            \"system\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/AccessibilityCS\",\n            \"code\" : \"pubtrans\"\n          }\n        ]\n      }\n    }\n  ],\n  \"status\" : \"active\",\n  \"name\" : \"Cancer Clinic\",\n  \"type\" : [\n    {\n      \"coding\" : [\n        {\n          \"system\" : \"http://terminology.hl7.org/CodeSystem/v3-RoleCode\",\n          \"code\" : \"HOSP\"\n        }\n      ]\n    }\n  ],\n  \"telecom\" : [\n    {\n      \"extension\" : [\n        {\n          \"extension\" : [\n            {\n              \"url\" : \"daysOfWeek\",\n              \"valueCode\" : \"mon\"\n            },\n            {\n              \"url\" : \"daysOfWeek\",\n              \"valueCode\" : \"tue\"\n            },\n            {\n              \"url\" : \"daysOfWeek\",\n              \"valueCode\" : \"wed\"\n            },\n            {\n              \"url\" : \"daysOfWeek\",\n              \"valueCode\" : \"thu\"\n            },\n            {\n              \"url\" : \"daysOfWeek\",\n              \"valueCode\" : \"fri\"\n            },\n            {\n              \"url\" : \"allDay\",\n              \"valueBoolean\" : true\n            }\n          ],\n          \"url\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/contactpoint-availabletime\"\n        }\n      ],\n      \"system\" : \"phone\",\n      \"value\" : \"(111)-222-3333\",\n      \"rank\" : 2\n    },\n    {\n      \"system\" : \"url\",\n      \"value\" : \"https://www.hgh.com\",\n      \"rank\" : 1\n    }\n  ],\n  \"address\" : {\n    \"line\" : [\n      \"456 Main Street\"\n    ],\n    \"city\" : \"Anytown\",\n    \"state\" : \"CT\",\n    \"postalCode\" : \"00014-1234\"\n  },\n  \"position\" : {\n    \"longitude\" : 3,\n    \"latitude\" : 15\n  },\n  \"managingOrganization\" : {\n    \"reference\" : \"Organization/CancerClinic\"\n  },\n  \"hoursOfOperation\" : [\n    {\n      \"daysOfWeek\" : [\n        \"mon\",\n        \"tue\",\n        \"wed\",\n        \"thu\",\n        \"fri\"\n      ]\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{hostname}}/baseR4/Location/l4bjaZGQfeNfhAEpb",
+					"host": [
+						"{{hostname}}"
+					],
+					"path": [
+						"baseR4",
+						"Location",
+						"l4bjaZGQfeNfhAEpb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Emergency Medical Services",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "resourceType",
+						"value": "HealthcareService",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"resourceType\" : \"HealthcareService\",\n  \"id\" : \"hsEk35Ayonz755t6u\",\n  \"meta\" : {\n    \"lastUpdated\" : \"2020-07-07T13:26:22.0314215+00:00\",\n    \"profile\" : [\n      \"http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService\"\n    ]\n  },\n  \"language\" : \"en-US\",\n  \"text\" : {\n    \"status\" : \"generated\",\n    \"div\" : \"<div xmlns=\\\"http://www.w3.org/1999/xhtml\\\" xml:lang=\\\"en-US\\\" lang=\\\"en-US\\\"><p><b>Generated Narrative</b></p><div style=\\\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\\\"><p style=\\\"margin-bottom: 0px\\\">Resource \\\"hsEk35Ayonz755t6u\\\" Updated \\\"2020-07-07 01:26:22+0000\\\"  (Language \\\"en-US\\\") </p><p style=\\\"margin-bottom: 0px\\\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-HealthcareService</code></p></div><p><b>active</b>: true</p><p><b>providedBy</b>: <a href=\\\"Organization-o68Sau8tELE3GDnqR.html\\\">Organization/o68Sau8tELE3GDnqR</a> \\\"Hartford General Hospital\\\"</p><p><b>category</b>: emerg <span style=\\\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\\\"> (HealthcareServiceCategoryCS#emerg)</span></p><p><b>specialty</b>: Emergency Medicine Physician <span style=\\\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\\\"> (provider-taxonomy#207P00000X)</span></p><p><b>location</b>: <a href=\\\"Location-HospLoc1.html\\\">Location/HospLoc1</a></p></div>\"\n  },\n  \"extension\" : [\n    {\n      \"extension\" : [\n        {\n          \"url\" : \"type\",\n          \"valueCodeableConcept\" : {\n            \"coding\" : [\n              {\n                \"system\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/DeliveryMethodCS\",\n                \"code\" : \"physical\"\n              }\n            ]\n          }\n        }\n      ],\n      \"url\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/delivery-method\"\n    }\n  ],\n  \"active\" : true,\n  \"providedBy\" : {\n    \"reference\" : \"Organization/o68Sau8tELE3GDnqR\"\n  },\n  \"category\" : [\n    {\n      \"coding\" : [\n        {\n          \"system\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/HealthcareServiceCategoryCS\",\n          \"code\" : \"emerg\"\n        }\n      ]\n    }\n  ],\n  \"specialty\" : [\n    {\n      \"coding\" : [\n        {\n          \"system\" : \"http://nucc.org/provider-taxonomy\",\n          \"code\" : \"207P00000X\",\n          \"display\" : \"Emergency Medicine Physician\"\n        }\n      ]\n    }\n  ],\n  \"location\" : [\n    {\n      \"reference\" : \"Location/HospLoc1\"\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{hostname}}/baseR4/HealthcareService/hsEk35Ayonz755t6u",
+					"host": [
+						"{{hostname}}"
+					],
+					"path": [
+						"baseR4",
+						"HealthcareService",
+						"hsEk35Ayonz755t6u"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "St. James Infirmary - Patient Portal",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"resourceType\" : \"Endpoint\",\n  \"id\" : \"etKzBJvzbeHDZi7Gd\",\n  \"meta\" : {\n    \"lastUpdated\" : \"2020-07-07T13:26:22.0314215+00:00\",\n    \"profile\" : [\n      \"http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Endpoint\"\n    ]\n  },\n  \"language\" : \"en-US\",\n  \"text\" : {\n    \"status\" : \"generated\",\n    \"div\" : \"<div xmlns=\\\"http://www.w3.org/1999/xhtml\\\" xml:lang=\\\"en-US\\\" lang=\\\"en-US\\\"><p><b>Generated Narrative</b></p><div style=\\\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\\\"><p style=\\\"margin-bottom: 0px\\\">Resource \\\"etKzBJvzbeHDZi7Gd\\\" Updated \\\"2020-07-07 01:26:22+0000\\\"  (Language \\\"en-US\\\") </p><p style=\\\"margin-bottom: 0px\\\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Endpoint</code></p></div><p><b>status</b>: active</p><p><b>connectionType</b>: rest-non-fhir (Details: http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS code rest-non-fhir = 'rest-non-fhir', stated as 'null')</p><p><b>name</b>: Endpoint for St James Hospital</p><p><b>payloadType</b>: NA <span style=\\\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\\\"> (EndpointPayloadTypeCS#NA)</span></p><p><b>address</b>: <a href=\\\"https://urlofportal.stjameshospital.com\\\">https://urlofportal.stjameshospital.com</a></p></div>\"\n  },\n  \"extension\" : [\n    {\n      \"extension\" : [\n        {\n          \"url\" : \"type\",\n          \"valueCodeableConcept\" : {\n            \"coding\" : [\n              {\n                \"system\" : \"http://terminology.hl7.org/CodeSystem/v3-ActReason\",\n                \"code\" : \"HOPERAT\"\n              }\n            ]\n          }\n        }\n      ],\n      \"url\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/endpoint-usecase\"\n    }\n  ],\n  \"status\" : \"active\",\n  \"connectionType\" : {\n    \"system\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointConnectionTypeCS\",\n    \"code\" : \"rest-non-fhir\"\n  },\n  \"name\" : \"Endpoint for St James Hospital\",\n  \"payloadType\" : [\n    {\n      \"coding\" : [\n        {\n          \"system\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/CodeSystem/EndpointPayloadTypeCS\",\n          \"code\" : \"NA\"\n        }\n      ]\n    }\n  ],\n  \"address\" : \"https://urlofportal.stjameshospital.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{hostname}}/baseR4/Endpoint/etKzBJvzbeHDZi7Gd?resourceType=Endpoint",
+					"host": [
+						"{{hostname}}"
+					],
+					"path": [
+						"baseR4",
+						"Endpoint",
+						"etKzBJvzbeHDZi7Gd"
+					],
+					"query": [
+						{
+							"key": "resourceType",
+							"value": "Endpoint"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Dr. Allison Camron",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"resourceType\" : \"Practitioner\",\n  \"id\" : \"pZzusFYr3PBYyRnot\",\n  \"meta\" : {\n    \"lastUpdated\" : \"2020-07-07T13:26:22.0314215+00:00\",\n    \"profile\" : [\n      \"http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner\"\n    ]\n  },\n  \"language\" : \"en-US\",\n  \"text\" : {\n    \"status\" : \"generated\",\n    \"div\" : \"<div xmlns=\\\"http://www.w3.org/1999/xhtml\\\" xml:lang=\\\"en-US\\\" lang=\\\"en-US\\\"><p><b>Generated Narrative</b></p><div style=\\\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\\\"><p style=\\\"margin-bottom: 0px\\\">Resource \\\"pZzusFYr3PBYyRnot\\\" Updated \\\"2020-07-07 01:26:22+0000\\\"  (Language \\\"en-US\\\") </p><p style=\\\"margin-bottom: 0px\\\">Profile: <code>http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Practitioner</code></p></div><p><b>identifier</b>: id: NPI323</p><p><b>active</b>: true</p><p><b>name</b>: Allison Camron, MD</p><blockquote><p><b>qualification</b></p><p><b>code</b>: MD <span style=\\\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\\\"> (<a href=\\\"http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html\\\">degreeLicenseCertificate</a>#MD)</span></p><p><b>issuer</b>: <span>: State of Illinois</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: Board Certified Internal Medicine <span style=\\\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\\\"> (provider-taxonomy#207R00000X \\\"Internal Medicine Physician\\\")</span></p><p><b>issuer</b>: <span>: American Board of Internal Medicine</span></p></blockquote><blockquote><p><b>qualification</b></p><p><b>code</b>: Board Certified Cardiovascular Disease <span style=\\\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\\\"> (provider-taxonomy#207RC0000X \\\"Cardiovascular Disease Physician\\\")</span></p><p><b>issuer</b>: <span>: American Board of Internal Medicine</span></p></blockquote></div>\"\n  },\n  \"identifier\" : [\n    {\n      \"system\" : \"http://hl7.org/fhir/sid/us-npi\",\n      \"value\" : \"NPI323\"\n    }\n  ],\n  \"active\" : true,\n  \"name\" : [\n    {\n      \"text\" : \"Allison Camron, MD\",\n      \"family\" : \"Camron\",\n      \"given\" : [\n        \"Allison\"\n      ]\n    }\n  ],\n  \"qualification\" : [\n    {\n      \"extension\" : [\n        {\n          \"extension\" : [\n            {\n              \"url\" : \"status\",\n              \"valueCode\" : \"active\"\n            },\n            {\n              \"url\" : \"whereValid\",\n              \"valueCodeableConcept\" : {\n                \"coding\" : [\n                  {\n                    \"system\" : \"https://www.usps.com/\",\n                    \"code\" : \"IL\"\n                  }\n                ]\n              }\n            }\n          ],\n          \"url\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification\"\n        }\n      ],\n      \"code\" : {\n        \"coding\" : [\n          {\n            \"system\" : \"http://terminology.hl7.org/CodeSystem/v2-0360\",\n            \"code\" : \"MD\"\n          }\n        ],\n        \"text\" : \"MD\"\n      },\n      \"issuer\" : {\n        \"display\" : \"State of Illinois\"\n      }\n    },\n    {\n      \"extension\" : [\n        {\n          \"extension\" : [\n            {\n              \"url\" : \"status\",\n              \"valueCode\" : \"active\"\n            },\n            {\n              \"url\" : \"whereValid\",\n              \"valueCodeableConcept\" : {\n                \"coding\" : [\n                  {\n                    \"system\" : \"https://www.usps.com/\",\n                    \"code\" : \"IL\"\n                  }\n                ]\n              }\n            }\n          ],\n          \"url\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification\"\n        }\n      ],\n      \"code\" : {\n        \"coding\" : [\n          {\n            \"system\" : \"http://nucc.org/provider-taxonomy\",\n            \"code\" : \"207R00000X\",\n            \"display\" : \"Internal Medicine Physician\"\n          }\n        ],\n        \"text\" : \"Board Certified Internal Medicine\"\n      },\n      \"issuer\" : {\n        \"display\" : \"American Board of Internal Medicine\"\n      }\n    },\n    {\n      \"extension\" : [\n        {\n          \"extension\" : [\n            {\n              \"url\" : \"status\",\n              \"valueCode\" : \"active\"\n            },\n            {\n              \"url\" : \"whereValid\",\n              \"valueCodeableConcept\" : {\n                \"coding\" : [\n                  {\n                    \"system\" : \"https://www.usps.com/\",\n                    \"code\" : \"IL\"\n                  }\n                ]\n              }\n            }\n          ],\n          \"url\" : \"http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/practitioner-qualification\"\n        }\n      ],\n      \"code\" : {\n        \"coding\" : [\n          {\n            \"system\" : \"http://nucc.org/provider-taxonomy\",\n            \"code\" : \"207RC0000X\",\n            \"display\" : \"Cardiovascular Disease Physician\"\n          }\n        ],\n        \"text\" : \"Board Certified Cardiovascular Disease\"\n      },\n      \"issuer\" : {\n        \"display\" : \"American Board of Internal Medicine\"\n      }\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{hostname}}/baseR4/Practitioner/pZzusFYr3PBYyRnot?resourceType=Practitioner",
+					"host": [
+						"{{hostname}}"
+					],
+					"path": [
+						"baseR4",
+						"Practitioner",
+						"pZzusFYr3PBYyRnot"
+					],
+					"query": [
+						{
+							"key": "resourceType",
+							"value": "Practitioner"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
