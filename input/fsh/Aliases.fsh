@@ -89,7 +89,7 @@ Alias: $consent = https://hl7.org/fhir/uv/vhdir/2018Sep/vhdir/ValueSet/consent
 
 Alias: $NatlDirExOrganizationAffiliation =	http://hl7.org/fhir/us/directory-query/StructureDefinition/NatlDirEndpointQry-OrganizationAffiliation
 Alias: $NatlDirEndpointQryPractitionerRoleCode = http://hl7.org/fhir/us/directory-query/CodeSystem/ProviderRoleCS
-Alias: $NatlDirectoryRestriction  =	    http://hl7.org/fhir/us/directory-query/StructureDefinition/NatlDir-Restriction
+Alias: $NatlDirectoryRestriction  =	    http://hl7.org/fhir/us/directory-query/StructureDefinition/NatlDir-Consent
 Alias: $NatlDirectoryValidation  =	    http://hl7.org/fhir/us/directory-query/StructureDefinition/NatlDir-Verification
 Alias: $NatlDirectoryEndpointTypeCS  =	    http://hl7.org/fhir/us/directory-query/CodeSystem/EndpointTypeCS
 Alias: $NatlDirectoryHealthcareServiceDeliveryMthdCS  =	    http://hl7.org/fhir/us/directory-query/CodeSystem/DeliveryMethodCS

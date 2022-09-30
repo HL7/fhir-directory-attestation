@@ -1,8 +1,8 @@
 Instance: PatientConsent
-InstanceOf: NatlDirAttestUsageRestriction
+InstanceOf: NatlDirAttestUsageConsent
 Description: "Patient that gives consent"
 Usage: #example 
-* meta.profile = Canonical(NatlDirAttestUsageRestriction) 
+* meta.profile = Canonical(NatlDirAttestUsageConsent) 
 * meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
 * status  = $ConsentCS#active
 * scope = $NatlDirectoryConsentScopeCS#patient-privacy
