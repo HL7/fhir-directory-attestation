@@ -66,7 +66,7 @@
 <artifact id="StructureDefinition/NatlDirAttest-HealthcareService" key="StructureDefinition-NatlDirAttest-HealthcareService" name="National Directory HealthcareService"/>
 <artifact id="CapabilityStatement/NatlDir" key="CapabilityStatement-NatlDir" name="NatlDir CapabilityStatement"/>
 <artifact id="StructureDefinition/NatlDir-Validation" key="StructureDefinition-NatlDir-Validation" name="NatlDir Validation"/>
-<artifact id="StructureDefinition/NatlDirEx-restriction" key="StructureDefinition-NatlDirEx-restriction" name="NatlDirEx Restriction"/>
+<artifact id="StructureDefinition/NatlDirEx-consent" key="StructureDefinition-NatlDirEx-consent" name="NatlDirEx Consent"/>
 <artifact id="SearchParameter/endpoint-organization" key="SearchParameter-endpoint-organization" name="NatlDir_sp_endpoint_organization"/>
 <artifact id="SearchParameter/healthcareservice-service-category" key="SearchParameter-healthcareservice-service-category" name="NatlDir_sp_healthcareservice_category"/>
 <artifact id="SearchParameter/healthcareservice-coverage-area" key="SearchParameter-healthcareservice-coverage-area" name="NatlDir_sp_healthcareservice_coverage_area"/>
