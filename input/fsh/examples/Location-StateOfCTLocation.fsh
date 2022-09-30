@@ -5,6 +5,7 @@ Description: "State of Conneticut - Geographical Area"
 Usage: #example
 * meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
 * meta.profile = "http://hl7.org/fhir/us/davinci-pdex-plan-net/StructureDefinition/plannet-Location"
+* meta.security = #N "normal"
 * language = #en-US
 * id = "l3ParyXfseYrfcpJN"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/location-boundary-geojson"

@@ -6,7 +6,7 @@ Description: "NPPI Healthcare Provider Taxonomy"
 * ^meta.lastUpdated = "2020-05-27T10:18:19.000-04:00"
 * ^version = "20190521"
 * ^status = #active
-* ^url = "http://"
+* ^url = "http://HealthcareProviderTaxonomy"
 * ^date = "2020-05-26T18:25:55-04:00"
 * ^publisher = "HL7 Terminology"
 * ^expansion.identifier = "urn:uuid:14041323-9260-4b5e-bae1-0f1fa4efd85c"

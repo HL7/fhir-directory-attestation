@@ -6,6 +6,7 @@ Description: "Role - Anonymous users not registered with the system"
 Usage: #example
 * meta.profile = Canonical(NatlDirExPractitionerRole)
 * meta.lastUpdated = "2020-07-07T13:26:22.0314215+00:00"
+* meta.security = #N "normal"
 * language = #en-US
 * id = "rALFxTbdo6nEq5za6"
 * active = true

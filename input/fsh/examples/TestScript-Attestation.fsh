@@ -4,7 +4,7 @@ Title: "Attestation"
 Description: "TestScript - Attestation of new clinic information."
 Usage: #definition
 * id = "48twF7WfuXkxdnHkh"
-* url = "http://"
+* url = "http://attestation"
 * status = #draft
 * name = "Attestation"
 * title = "Attestation"

@@ -48,7 +48,7 @@ Id:             NatlDirAttest-Location
 Title:          "NatDir Location"
 Description:    "A Location is the physical place where healthcare services are provided, practitioners are employed, 
                  organizations are based, etc. Locations can range in scope from a room in a building to a geographic region/area."
-
+* meta.security 1..*
 
 Profile:        NatlDirAttestNetwork
 Parent:         $NatlDirectoryNetwork    //Organization 
@@ -63,6 +63,7 @@ Title:          "NatDir Organization"
 Description:    "An organization is a formal or informal grouping of people or organizations with a common purpose, such as a company, institution, corporation, community group, or healthcare practice.
 Guidance:   When the contact is a department name, rather than a human (e.g., patient help line), include a blank family and given name, and provide the department name in contact.name.text"
 //* partOf only Reference(NatlDirAttestOrganization)
+* meta.security 1..*
 
 Profile:        NatlDirAttestOrganizationAffiliation
 Parent:         $NatlDirectoryOrganizationAffiliation
@@ -76,7 +77,7 @@ Parent:         $NatlDirectoryPractitioner
 Id:             NatlDirAttest-Practitioner
 Title:          "NatDir Practitioner"
 Description:    "Practitioner is a person who is directly or indirectly involved in the provisioning of healthcare."
-
+* meta.security 1..*
 
 Profile:        NatlDirAttestPractitionerRole
 Parent:         $NatlDirectoryPractitionerRole
@@ -157,71 +158,38 @@ Description: "Restriction on use/release of exchanged information"
 * ^status = #active
 * ^date = "2017-12-15T01:01:31.325+11:00"
 * . ^short = "A policy may permit or deny recipients or roles to perform actions for specific purposes and periods of time"
-* . ^alias = "Restriction"
-* identifier ..0 MS
 * status MS
 * status ^short = "Indicates the current state of this restriction"
 * status ^comment = "This element is labeled as a modifier because the status contains the codes rejected and entered-in-error that mark the restriction as not currently valid."
-* scope MS
-// Creates a dependency on an old specification that was never officially published
-//* scope from $consent (extensible)
-* scope ^binding.extension.url = "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName"
-* scope ^binding.extension.valueString = "ConsentScope"
 * category MS
 * category ^label = "Type"
 * category ^short = "Type of restriction"
 * category ^definition = "Type of restriction (conditional release (per DUA); requires flowdown agreement (for redisclosure); internal use only; release defined by access rights (as specified by the national source))"
-* patient ..0 MS
 * dateTime MS
 * dateTime ^label = "last updated"
 * dateTime ^short = "date/time of last update for this restriction"
 * dateTime ^definition = "When this Restriction was issued / created / indexed."
-* performer ..0 MS
-* organization ..0 MS
-* source[x] ..0 MS
 * policy MS
 * policy.authority ..0 MS
 * policy.uri MS
 * policy.uri ^short = "Specific policy covered by this restriction"
-//* policyRule ..0 MS
-* verification ..0 MS
-* verification.verified MS
-* verification.verifiedWith MS
-* verification.verificationDate MS
 * provision MS
 * provision ^short = "Access rights"
-* provision.type = #permit (exactly)
-* provision.type MS
-* provision.period ..0 MS
-* provision.actor 1.. MS
-* provision.actor.role MS
-* provision.actor.reference only Reference( Organization or  CareTeam or  Practitioner)
-* provision.actor.reference MS
-* provision.actor.reference ^short = "definedUserOrGroup"
-* provision.action ..1 MS
-* provision.action ^short = "reasonType"
-* provision.action ^definition = "Describes how the reference is related to the restriction (contributes to; reason for; existance of; specific value)"
-* provision.securityLabel MS
-* provision.securityLabel ^short = "userType"
-* provision.purpose MS
-* provision.purpose ^short = "reasonName"
-* provision.purpose ^definition = "Name assigned to the restriction condition"
-* provision.class ..0 MS
-* provision.code ..0 MS
-* provision.dataPeriod ..0 MS
-* provision.data ..0 MS
-* provision.data.meaning MS
-* provision.data.reference MS
-* provision.provision ..0 MS
-
+* provision.type = #deny (exactly) 
+* provision.provision.type = #permit (exactly)
+* provision.provision.type MS
+* provision.provision.actor 1..* MS
+* provision.provision.actor.role 1..1 MS
+* provision.provision.securityLabel 1..* MS
+* provision.provision.class 1..* 
 
 
 Extension: NatlDirAttestUsageRestriction
 Id: natlDirAtt-usage-restriction
 Title: "NatlDirExr Usage Restriction"
-Description: """The FHIR specification contains a security meta tag which can be used to inform systems of the sensitivity of resources, as well as by access control mechanisms to ensure content isn't exposed that shouldn't be.
+Description: "The FHIR specification contains a security meta tag which can be used to inform systems of the sensitivity of resources, as well as by access control mechanisms to ensure content isn't exposed that shouldn't be.
 This mechanism only goes to the resource level, this reference to a usage-restriction (consent) extends this further into the resource, and can be applied to any element, and may apply to all properties beneath the element (e.g. If applied to an identifier on a practitioner, then all the properties of the identifier should not be exposed unless it is understood)
-This will be expected to be used as a modifier extension."""
+This will be expected to be used as a modifier extension."
 * ^context.type = #fhirpath
 * ^context.expression = "descendants()"
 * ^date = "2017-10-20T10:59:36.931+11:00"

@@ -5,3 +5,4 @@ Description: "CT Department of Public Health"
 Usage: #example
 * id = "ocb4z5LvCufWTr472"
 * name = "State of Connecticut Department of Public Health"
+* meta.security = #N "normal"
