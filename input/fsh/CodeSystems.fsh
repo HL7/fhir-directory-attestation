@@ -2,12 +2,14 @@
 CodeSystem: ConsentCS
 Title: "NatDir Consent Code System"
 Description:  "Codes for use in defining access levels for sharing subsets of constrained content (as an example)"
+* ^experimental = false
 * #protect "Protect" "The data (or subset of data) provided should be only made available to the people, or types of people explicitly declared in the consent."
 * ^caseSensitive = true
 
 CodeSystem: ConsentScopeCS
 Title: "NatDir ConsentScopeCodes Code System"
 Description:  "This value set includes the four Consent scope codes."
+* ^experimental = false
 * #adr "Advanced Care Directive" "Actions to be taken if they are no longer able to make decisions for themselves."
 * #research "Research" "Consent to participate in research protocol and information sharing required."
 * #patient-privacy "Privacy Consent" "Agreement to collect, access, use or disclose (share) information."
@@ -18,6 +20,7 @@ Description:  "This value set includes the four Consent scope codes."
 CodeSystem: IgTypeCS
 Title: "IG Type Code System"
 Description: "IG Type Code System"
+* ^experimental = false
 * #FHIR	"FHIR"
 * #direct	"Direct"
 * ^caseSensitive = false  
@@ -25,6 +28,7 @@ Description: "IG Type Code System"
 CodeSystem: EndpointTypeCS
 Title: "Endpoint Type"
 Description: "Endpoint Type Code System"
+* ^experimental = false
 * #FHIR	"FHIR Server"
 * #OpEndpoint	"Operation Endpoint"
 * #CDS	"CDS Hooks"
@@ -33,6 +37,7 @@ Description: "Endpoint Type Code System"
 CodeSystem: TrustFrameworkTypeCS
 Title: "Trust FrameworkType Code System"
 Description: "Trust Framework Type"
+* ^experimental = false
 * #DirectTrust	"Direct Trust"
 * #CareQuality	"Carequality"
 * #Commonwell	"Commonwell"
@@ -45,6 +50,8 @@ Description: "Trust Framework Type"
 CodeSystem: AcceptingPatientsCS
 Title: "Accepting Patients Code System"
 Description: "Codes to identify if the practice is accepting new patients"
+* ^experimental = false
+* ^experimental = false
 * #nopt	"Not Accepting" "Not accepting patients"
 * #newpt	"Accepting" "Accepting patients"
 * #existptonly	"Accepting existing patients" "Accepting existing patients"
@@ -54,6 +61,7 @@ Description: "Codes to identify if the practice is accepting new patients"
 CodeSystem: AccessibilityCS
 Title: "Accessibility Code System"
 Description: "General categories of accommodations available."
+* ^experimental = false
 * #cultcomp	"Cultural competence"	"Provides services that meet the social, cultural, and linguistic needs of persons."
 * #handiaccess	"handicap accessible"	"Provides access to persons with disabilities."
 * #adacomp	"ADA compliant"	"Provides access which complies with the Americans with Disabilities Act and/or amendments."
@@ -66,6 +74,7 @@ Description: "General categories of accommodations available."
 CodeSystem: DeliveryMethodCS
 Title: "Delivery Methods Code System"
 Description: "Categories of healthcare service delivery methods."
+* ^experimental = false
 * #virtual	"Virtual" "Delivery not requiring provider and patient to be physically co-located, such as tele-medicine"
 * #physical	"Physical" "Traditional delivery requiring provider and patient to be physically co-located."
 * ^caseSensitive = false
@@ -73,6 +82,7 @@ Description: "Categories of healthcare service delivery methods."
 CodeSystem: VirtualModalitiesCS
 Title: "Virtual Modalities Code System"
 Description: "Categories of virtual service delivery modalities."
+* ^experimental = false
 * #phone	"phone" "Voice Telephone"
 * #video	"video chat" "Video Chat"
 * #tdd	"TDD" "Telecommunications Device for the Deaf"
@@ -84,6 +94,7 @@ Description: "Categories of virtual service delivery modalities."
 CodeSystem:  EndpointConnectionTypeCS
   Title: "Endpoint Connection Types Code System"
   Description:  "Extension codes for http://terminology.hl7.org/CodeSystem/endpoint-connection-type"
+* ^experimental = false
 * #hl7-fhir-opn "HL7 FHIR Operation" "Interact with a FHIR server interface using FHIR's RESTful interface using an operation other than messaging. For details on its version/capabilities you should connect the value in Endpoint.address and retrieve the FHIR CapabilityStatement."
 * #rest-non-fhir "REST (not FHIR)" "Interact with a server using HTTP/REST but not FHIR.  Should be used for web portals."
 * ^caseSensitive = false 
@@ -91,12 +102,14 @@ CodeSystem:  EndpointConnectionTypeCS
 CodeSystem:  EndpointPayloadTypeCS
   Title: "Endpoint Payload Types Code System"
   Description:  "Endpoint Payload Types are constrained to NA (Not Applicable) as part of this IG"
+* ^experimental = false
 * #NA "Not Applicable" "Not Applicable"
 * ^caseSensitive = false
 
  CodeSystem: HealthcareServiceCategoryCS
  Title: "Healthcare Service Category Code System"
  Description: "Broad categories of healthcare services being performed or delivered"
+* ^experimental = false
 * #behav "Behavioral Health" "Services related to the promotion of mental health, resilience and wellbeing; the treatment of mental and substance use disorders; and the support of those who experience and/or are in recovery from these conditions, along with their families and communities."
 * #dent "Dental" "Services related to the study, diagnosis, prevention, and treatment of diseases, disorders, and conditions of the mouth."
 * #dme "DME/Medical Supplies" "Health care consumables or equipments supplied to patients"
@@ -117,6 +130,7 @@ CodeSystem:  EndpointPayloadTypeCS
 CodeSystem: InsuranceProductTypeCS
 Title: "Insurance Product Type Code System"
 Description:  "A distinct package of health insurance coverage benefits that are offered using a particular product network type."
+* ^experimental = false
 * #commppo "Commercial PPO"  "Health insurance provided through a Preferred Provider Organization (PPO)."
 * #commhdhp "Commercial HDHP" "Health insurance provided through a High Deductible Health Plan (HDHP)."
 * #commpos "Commercial POS" "Health insurance provided through a Point-of-Service (POS) Plan."
@@ -144,6 +158,7 @@ Description:  "A distinct package of health insurance coverage benefits that are
 CodeSystem: InsurancePlanTypeCS
 Title: "Insurance Plan Type Code System"
 Description:  "Categories of cost-sharing used by plans"
+* ^experimental = false
 * #platinum "Platinum-QHP" "Plan with highest monthly premium and lowest costs when you need care	A Qualified Health Plan with the highest monthly premiums and smallest out-of-pocket costs for the member in comparison to other metal-category plans"
 * #gold "Gold-QHP" "Plan with high monthly premium and low costs when you need care	A Qualified Health Plan with the higher monthly premiums and smaller out-of-pocket costs for the member in comparison to other metal-category plans"
 * #silver "Silver-QHP" "Plan with moderate monthly premium and moderate costs when you need care	A Qualified Health Plan with the lower monthly premiums and larger out-of-pocket costs for the member in comparison to other metal-category plans"
@@ -157,6 +172,7 @@ Description:  "Categories of cost-sharing used by plans"
 CodeSystem:  OrgTypeCS
   Title: "Organization Type Code System"
   Description:  "Categories of organizations based on criteria in provider directories."
+* ^experimental = false
 * #fac "Facility" "A physical healthcare facility."
 * #prvgrp "Provider Group" "A healthcare provider entity"
 * #payer "Payer" "A healthcare payer."
@@ -168,6 +184,7 @@ CodeSystem:  OrgTypeCS
 CodeSystem: QualificationStatusCS
 Title: "Qualification Status Code System"
 Description: "The state indicating if a qualification is currently valid."
+* ^experimental = false
 * #active "active" "The credential may be considered valid for use."
 * #inactive "inactive" "The credential may not be considered valid for use."
 * #issiner "issued in error" "The credential was mistakenly assigned and should not be considered valid for use."
@@ -179,6 +196,7 @@ Description: "The state indicating if a qualification is currently valid."
 CodeSystem: ProviderRoleCS
 Title: "Provider Role Code System"
 Description: "A capability that an individual, group, or organization is acknowledged to have in a payer network."
+* ^experimental = false
 // These are Payer Roles from Gail
 * #ap "Admitting Privileges" "Practitioner has admitting privileges at hospital (organization)"
 * #apn "Advanced Practice Nursing Providers" "Advanced Practice Nursing Providers"
@@ -228,6 +246,8 @@ Description: "A capability that an individual, group, or organization is acknowl
 CodeSystem:  LanguageProficiencyCS
 Title: "Language Proficiency Code System"
 Description: "Codes for documenting spoken language proficiency based on the Interagency Language Roundtable scale."
+* ^experimental = false
+* ^experimental = false
 * #00	"No proficiency"	"Unable to function in the spoken language."
 //* #06	"Memorized proficiency"	"Able to satisfy immediate needs using rehearsed utterances. Shows little real autonomy of expression, flexibility or spontaneity."
 * #10	"Elementary proficiency"	"Able to satisfy minimum courtesy requirements and maintain very simple face-to-face conversations on familiar topics. A native speaker must often use slowed speech, repetition, paraphrase, or a combination of these to be understood by this individual."
